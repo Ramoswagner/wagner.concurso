@@ -2,58 +2,78 @@
   "lbl": "Leis & NBRs",
   "pt": "Leis e Normas",
   "color": "#F2C572",
-  "desc": "Legislacao federal, Lei Organica municipal e normas ABNT citadas no edital — mesmas questoes que aparecem em Conhecimentos Especificos/Gerais, agrupadas aqui para revisao focada.",
+  "desc": "Legislacao federal (Licitacoes, Parcelamento do Solo, Estatuto da Cidade, Saneamento, Residuos Solidos, Meio Ambiente, Defesa Civil), normas ABNT tecnicas e Lei Organica/Plano Diretor de Contagem/MG, com artigos e citacoes reais.",
   "temas": [
     {
-      "id": "abnt-nbr-13714",
-      "nome": "ABNT NBR 13714"
+      "id": "abnt-nbr-15575-desempenho-de-edificacoes",
+      "nome": "ABNT NBR 15575 (Desempenho de Edificacoes)"
     },
     {
-      "id": "abnt-nbr-5410",
-      "nome": "ABNT NBR 5410"
+      "id": "abnt-nbr-5410-8160-5626-e-13714-instalacoes-prediais",
+      "nome": "ABNT NBR 5410, 8160, 5626 e 13714 (Instalacoes Prediais)"
     },
     {
-      "id": "abnt-nbr-6118",
-      "nome": "ABNT NBR 6118"
+      "id": "abnt-nbr-6118-concreto-armado-e-protendido",
+      "nome": "ABNT NBR 6118 (Concreto Armado e Protendido)"
     },
     {
-      "id": "abnt-nbr-6122",
-      "nome": "ABNT NBR 6122"
+      "id": "abnt-nbr-6120-e-nbr-6123-acoes-em-estruturas",
+      "nome": "ABNT NBR 6120 e NBR 6123 (Acoes em Estruturas)"
     },
     {
-      "id": "abnt-nbr-7190",
-      "nome": "ABNT NBR 7190"
+      "id": "abnt-nbr-6122-fundacoes",
+      "nome": "ABNT NBR 6122 (Fundacoes)"
     },
     {
-      "id": "abnt-nbr-8160",
-      "nome": "ABNT NBR 8160"
+      "id": "abnt-nbr-8800-e-nbr-7190-estruturas-metalicas-e-madeira",
+      "nome": "ABNT NBR 8800 e NBR 7190 (Estruturas Metalicas e Madeira)"
     },
     {
-      "id": "abnt-nbr-8800",
-      "nome": "ABNT NBR 8800"
+      "id": "abnt-nbr-9050-acessibilidade",
+      "nome": "ABNT NBR 9050 (Acessibilidade)"
     },
     {
-      "id": "lei-federal-10257-2001",
-      "nome": "Lei Federal 10.257/2001"
+      "id": "lei-federal-10257-2001-estatuto-da-cidade",
+      "nome": "Lei Federal 10.257/2001 (Estatuto da Cidade)"
     },
     {
-      "id": "lei-federal-14133-2021",
-      "nome": "Lei Federal 14.133/2021"
+      "id": "lei-federal-11445-2007-e-14026-2020-saneamento-basico",
+      "nome": "Lei Federal 11.445/2007 e 14.026/2020 (Saneamento Basico)"
     },
     {
-      "id": "lei-federal-6766-1979",
-      "nome": "Lei Federal 6.766/1979"
+      "id": "lei-federal-12305-2010-residuos-solidos",
+      "nome": "Lei Federal 12.305/2010 (Residuos Solidos)"
+    },
+    {
+      "id": "lei-federal-12608-2012-protecao-e-defesa-civil",
+      "nome": "Lei Federal 12.608/2012 (Protecao e Defesa Civil)"
+    },
+    {
+      "id": "lei-federal-14133-2021-licitacoes",
+      "nome": "Lei Federal 14.133/2021 (Licitacoes)"
+    },
+    {
+      "id": "lei-federal-6766-1979-parcelamento-do-solo",
+      "nome": "Lei Federal 6.766/1979 (Parcelamento do Solo)"
+    },
+    {
+      "id": "lei-federal-6938-1981-meio-ambiente",
+      "nome": "Lei Federal 6.938/1981 (Meio Ambiente)"
     },
     {
       "id": "lei-organica-do-municipio-de-contagem-mg",
       "nome": "Lei Organica do Municipio de Contagem/MG"
+    },
+    {
+      "id": "plano-diretor-de-contagem-mg-lc-362-2023",
+      "nome": "Plano Diretor de Contagem/MG (LC 362/2023)"
     }
   ],
   "cards": [
     {
       "id": "especificos031",
-      "tema": "abnt-nbr-13714",
-      "temaNome": "ABNT NBR 13714",
+      "tema": "abnt-nbr-5410-8160-5626-e-13714-instalacoes-prediais",
+      "temaNome": "ABNT NBR 5410, 8160, 5626 e 13714 (Instalacoes Prediais)",
       "tipo": "multipla",
       "enunciado": "Em instalacoes prediais de combate a incendio, conforme a ABNT NBR 13714, o sistema de hidrantes tem como finalidade principal:",
       "alternativas": [
@@ -83,8 +103,8 @@
     },
     {
       "id": "especificos029",
-      "tema": "abnt-nbr-5410",
-      "temaNome": "ABNT NBR 5410",
+      "tema": "abnt-nbr-5410-8160-5626-e-13714-instalacoes-prediais",
+      "temaNome": "ABNT NBR 5410, 8160, 5626 e 13714 (Instalacoes Prediais)",
       "tipo": "multipla",
       "enunciado": "De acordo com a ABNT NBR 5410, as instalacoes eletricas de baixa tensao devem prever circuitos de distribuicao separados, no minimo, para:",
       "alternativas": [
@@ -114,8 +134,8 @@
     },
     {
       "id": "especificos005",
-      "tema": "abnt-nbr-6118",
-      "temaNome": "ABNT NBR 6118",
+      "tema": "abnt-nbr-6118-concreto-armado-e-protendido",
+      "temaNome": "ABNT NBR 6118 (Concreto Armado e Protendido)",
       "tipo": "multipla",
       "enunciado": "Segundo a NBR 6118, o cobrimento nominal da armadura tem como principal finalidade:",
       "alternativas": [
@@ -145,8 +165,8 @@
     },
     {
       "id": "especificos013",
-      "tema": "abnt-nbr-6122",
-      "temaNome": "ABNT NBR 6122",
+      "tema": "abnt-nbr-6122-fundacoes",
+      "temaNome": "ABNT NBR 6122 (Fundacoes)",
       "tipo": "multipla",
       "enunciado": "Segundo a ABNT NBR 6122, sao consideradas fundacoes profundas aquelas cuja base ou ponta se situa a uma profundidade, em relacao ao terreno adjacente, superior a:",
       "alternativas": [
@@ -176,8 +196,8 @@
     },
     {
       "id": "especificos011",
-      "tema": "abnt-nbr-7190",
-      "temaNome": "ABNT NBR 7190",
+      "tema": "abnt-nbr-8800-e-nbr-7190-estruturas-metalicas-e-madeira",
+      "temaNome": "ABNT NBR 8800 e NBR 7190 (Estruturas Metalicas e Madeira)",
       "tipo": "multipla",
       "enunciado": "De acordo com a ABNT NBR 7190 (projeto de estruturas de madeira), a resistencia mecanica da madeira e fortemente influenciada pela direcao das solicitacoes em relacao as fibras. Em geral, a resistencia a compressao da madeira e:",
       "alternativas": [
@@ -207,8 +227,8 @@
     },
     {
       "id": "especificos030",
-      "tema": "abnt-nbr-8160",
-      "temaNome": "ABNT NBR 8160",
+      "tema": "abnt-nbr-5410-8160-5626-e-13714-instalacoes-prediais",
+      "temaNome": "ABNT NBR 5410, 8160, 5626 e 13714 (Instalacoes Prediais)",
       "tipo": "multipla",
       "enunciado": "Segundo a ABNT NBR 8160, o dispositivo instalado nos aparelhos sanitarios para impedir a passagem de gases do sistema de esgoto para o ambiente, mediante uma barreira liquida, denomina-se:",
       "alternativas": [
@@ -238,8 +258,8 @@
     },
     {
       "id": "especificos009",
-      "tema": "abnt-nbr-8800",
-      "temaNome": "ABNT NBR 8800",
+      "tema": "abnt-nbr-8800-e-nbr-7190-estruturas-metalicas-e-madeira",
+      "temaNome": "ABNT NBR 8800 e NBR 7190 (Estruturas Metalicas e Madeira)",
       "tipo": "multipla",
       "enunciado": "Segundo a ABNT NBR 8800, no dimensionamento de estruturas de aco pelo metodo dos estados-limites, a verificacao de seguranca de um elemento estrutural consiste em garantir que:",
       "alternativas": [
@@ -269,8 +289,8 @@
     },
     {
       "id": "especificos041",
-      "tema": "lei-federal-10257-2001",
-      "temaNome": "Lei Federal 10.257/2001",
+      "tema": "lei-federal-10257-2001-estatuto-da-cidade",
+      "temaNome": "Lei Federal 10.257/2001 (Estatuto da Cidade)",
       "tipo": "multipla",
       "enunciado": "Nos termos da Lei Federal no 10.257/2001 (Estatuto da Cidade), o instrumento que possibilita ao Poder Publico Municipal exigir a utilizacao compulsoria do solo urbano nao edificado, subutilizado ou nao utilizado, sob pena de aplicacao sucessiva de outras sancoes, e:",
       "alternativas": [
@@ -300,8 +320,8 @@
     },
     {
       "id": "especificos042",
-      "tema": "lei-federal-10257-2001",
-      "temaNome": "Lei Federal 10.257/2001",
+      "tema": "lei-federal-10257-2001-estatuto-da-cidade",
+      "temaNome": "Lei Federal 10.257/2001 (Estatuto da Cidade)",
       "tipo": "multipla",
       "enunciado": "Segundo a Lei Federal no 10.257/2001, o instrumento pelo qual o Municipio pode autorizar o proprietario de imovel urbano a exercer em outro local, ou alienar mediante escritura publica, o direito de construir previsto no plano diretor, quando o imovel for necessario para fins de interesse publico ou preservacao, denomina-se:",
       "alternativas": [
@@ -331,8 +351,8 @@
     },
     {
       "id": "especificos049",
-      "tema": "lei-federal-14133-2021",
-      "temaNome": "Lei Federal 14.133/2021",
+      "tema": "lei-federal-14133-2021-licitacoes",
+      "temaNome": "Lei Federal 14.133/2021 (Licitacoes)",
       "tipo": "multipla",
       "enunciado": "De acordo com a Lei Federal no 14.133/2021, sao modalidades de licitacao, EXCETO:",
       "alternativas": [
@@ -362,8 +382,8 @@
     },
     {
       "id": "especificos050",
-      "tema": "lei-federal-14133-2021",
-      "temaNome": "Lei Federal 14.133/2021",
+      "tema": "lei-federal-14133-2021-licitacoes",
+      "temaNome": "Lei Federal 14.133/2021 (Licitacoes)",
       "tipo": "multipla",
       "enunciado": "Nos termos da Lei Federal no 14.133/2021, o criterio de julgamento das propostas que considera, alem do preco, aspectos de qualidade, metodologia, experiencia e outros fatores objetivamente definidos no edital e denominado julgamento por:",
       "alternativas": [
@@ -393,8 +413,8 @@
     },
     {
       "id": "especificos051",
-      "tema": "lei-federal-14133-2021",
-      "temaNome": "Lei Federal 14.133/2021",
+      "tema": "lei-federal-14133-2021-licitacoes",
+      "temaNome": "Lei Federal 14.133/2021 (Licitacoes)",
       "tipo": "multipla",
       "enunciado": "Segundo a Lei Federal no 14.133/2021, antes da fase de selecao do fornecedor, a Administracao deve, em regra, elaborar documento que demonstre a viabilidade tecnica e economica da contratacao e fundamente a escolha da solucao, denominado:",
       "alternativas": [
@@ -424,8 +444,8 @@
     },
     {
       "id": "especificos043",
-      "tema": "lei-federal-6766-1979",
-      "temaNome": "Lei Federal 6.766/1979",
+      "tema": "lei-federal-6766-1979-parcelamento-do-solo",
+      "temaNome": "Lei Federal 6.766/1979 (Parcelamento do Solo)",
       "tipo": "multipla",
       "enunciado": "De acordo com a Lei Federal no 6.766/1979 (Parcelamento do Solo Urbano), a modalidade de parcelamento do solo que consiste na subdivisao de gleba em lotes destinados a edificacao, com abertura de novas vias de circulacao, denomina-se:",
       "alternativas": [
@@ -455,8 +475,8 @@
     },
     {
       "id": "especificos044",
-      "tema": "lei-federal-6766-1979",
-      "temaNome": "Lei Federal 6.766/1979",
+      "tema": "lei-federal-6766-1979-parcelamento-do-solo",
+      "temaNome": "Lei Federal 6.766/1979 (Parcelamento do Solo)",
       "tipo": "multipla",
       "enunciado": "Ainda conforme a Lei Federal no 6.766/1979, o desmembramento se distingue do loteamento, principalmente, por:",
       "alternativas": [
@@ -545,6 +565,1835 @@
       ],
       "correta": "A",
       "comentario": "O Municipio, na organizacao politico-administrativa brasileira, nao possui Poder Judiciario proprio; sua estrutura de poderes se limita ao Executivo (Prefeito) e ao Legislativo (Camara Municipal)."
+    },
+    {
+      "id": "leisnovas001",
+      "tema": "lei-federal-14133-2021-licitacoes",
+      "temaNome": "Lei Federal 14.133/2021 (Licitacoes)",
+      "tipo": "multipla",
+      "enunciado": "Nos termos da Lei Federal nº 14.133/2021, sao modalidades de licitacao previstas, EXCETO:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Pregão"
+        },
+        {
+          "letra": "B",
+          "texto": "Concorrência"
+        },
+        {
+          "letra": "C",
+          "texto": "Tomada de Preços"
+        },
+        {
+          "letra": "D",
+          "texto": "Concurso"
+        },
+        {
+          "letra": "E",
+          "texto": "Leilão"
+        }
+      ],
+      "correta": "C",
+      "comentario": "A Lei 14.133/2021 (art. 28) prevê seis modalidades: Pregão, Concorrência, Concurso, Leilão, Diálogo Competitivo e as contratações diretas. \"Tomada de Preços\" e \"Convite\" eram modalidades da revogada Lei 8.666/93 e NÃO existem mais na nova lei — pegadinha clássica de quem estudou pela lei antiga."
+    },
+    {
+      "id": "leisnovas002",
+      "tema": "lei-federal-14133-2021-licitacoes",
+      "temaNome": "Lei Federal 14.133/2021 (Licitacoes)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com a Lei Federal nº 14.133/2021, o contratado fica obrigado a aceitar, nas mesmas condições contratuais, os acréscimos ou supressões que se fizerem necessários em obras, serviços ou compras, até o limite de ____ do valor inicial atualizado do contrato, e, no caso particular de reforma de edifício ou equipamento, até o limite de ____ para os acréscimos.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10%; 25%"
+        },
+        {
+          "letra": "B",
+          "texto": "25%; 50%"
+        },
+        {
+          "letra": "C",
+          "texto": "20%; 30%"
+        },
+        {
+          "letra": "D",
+          "texto": "15%; 35%"
+        },
+        {
+          "letra": "E",
+          "texto": "30%; 60%"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O art. 125 da Lei 14.133/2021 manteve os mesmos limites da lei anterior: 25% para acréscimos/supressões em geral, e 50% especificamente para acréscimos em reforma de edifício ou equipamento."
+    },
+    {
+      "id": "leisnovas003",
+      "tema": "lei-federal-14133-2021-licitacoes",
+      "temaNome": "Lei Federal 14.133/2021 (Licitacoes)",
+      "tipo": "multipla",
+      "enunciado": "Segundo a Lei Federal nº 14.133/2021, o critério de julgamento de propostas que considera, além do preço, os aspectos de qualidade e metódica de execução, mediante pontuação técnica, é denominado:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Menor preço"
+        },
+        {
+          "letra": "B",
+          "texto": "Maior desconto"
+        },
+        {
+          "letra": "C",
+          "texto": "Melhor técnica ou conteúdo artístico"
+        },
+        {
+          "letra": "D",
+          "texto": "Técnica e preço"
+        },
+        {
+          "letra": "E",
+          "texto": "Maior retorno econômico"
+        }
+      ],
+      "correta": "D",
+      "comentario": "O art. 33 da Lei 14.133/2021 lista os critérios de julgamento: menor preço, maior desconto, melhor técnica ou conteúdo artístico, técnica e preço, maior lance (leilão) e maior retorno econômico. O julgamento por \"técnica e preço\" é o que combina pontuação técnica com proposta de preço, indicado para objetos de natureza predominantemente intelectual ou de maior complexidade técnica."
+    },
+    {
+      "id": "leisnovas004",
+      "tema": "lei-federal-14133-2021-licitacoes",
+      "temaNome": "Lei Federal 14.133/2021 (Licitacoes)",
+      "tipo": "multipla",
+      "enunciado": "Antes da fase de seleção do fornecedor, a Lei Federal nº 14.133/2021 exige que a Administração elabore documento que demonstre o problema a ser resolvido e a melhor solução, de forma a permitir a avaliação da viabilidade técnica e econômica da contratação. Esse documento é denominado:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Termo de Referência"
+        },
+        {
+          "letra": "B",
+          "texto": "Anteprojeto de engenharia"
+        },
+        {
+          "letra": "C",
+          "texto": "Estudo Técnico Preliminar (ETP)"
+        },
+        {
+          "letra": "D",
+          "texto": "Documento de Formalização de Demanda (DFD)"
+        },
+        {
+          "letra": "E",
+          "texto": "Projeto Básico"
+        }
+      ],
+      "correta": "C",
+      "comentario": "O Estudo Técnico Preliminar (ETP), previsto no art. 18 da Lei 14.133/2021, é o documento que caracteriza o interesse público e a viabilidade técnica e econômica da contratação, integrando a fase preparatória da licitação, ANTES da fase de seleção do fornecedor."
+    },
+    {
+      "id": "leisnovas005",
+      "tema": "lei-federal-14133-2021-licitacoes",
+      "temaNome": "Lei Federal 14.133/2021 (Licitacoes)",
+      "tipo": "multipla",
+      "enunciado": "Considerando as fases da licitacão previstas na Lei Federal nº 14.133/2021 (art. 17), analise a sequência a seguir:\nI. Fase de habilitação.\nII. Fase preparatória.\nIII. Fase de apresentação de propostas ou lances.\nIV. Fase de julgamento.\nV. Fase recursal.\nAssinale a alternativa que apresenta a ORDEM CORRETA das fases, da primeira à última:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "II, III, IV, I, V"
+        },
+        {
+          "letra": "B",
+          "texto": "I, II, III, IV, V"
+        },
+        {
+          "letra": "C",
+          "texto": "II, I, III, IV, V"
+        },
+        {
+          "letra": "D",
+          "texto": "III, II, I, IV, V"
+        },
+        {
+          "letra": "E",
+          "texto": "II, III, I, IV, V"
+        }
+      ],
+      "correta": "A",
+      "comentario": "O art. 17 estabelece a sequência: preparatória → divulgação do edital → apresentação de propostas e lances → julgamento → habilitação → recursal → homologação. Uma das grandes mudanças da nova lei em relação à 8.666/93 é justamente inverter a ordem: agora o julgamento das propostas ocorre ANTES da habilitação (regra geral), ao contrário do regime anterior."
+    },
+    {
+      "id": "leisnovas006",
+      "tema": "lei-federal-6766-1979-parcelamento-do-solo",
+      "temaNome": "Lei Federal 6.766/1979 (Parcelamento do Solo)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com a Lei Federal nº 6.766/1979, a diferença essencial entre loteamento e desmembramento é que, no desmembramento:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Há abertura de novas vias de circulação e logradouros públicos"
+        },
+        {
+          "letra": "B",
+          "texto": "Não há abertura de novas vias, aproveitando-se o sistema viário já existente"
+        },
+        {
+          "letra": "C",
+          "texto": "É obrigatória a doação de áreas institucionais ao Município"
+        },
+        {
+          "letra": "D",
+          "texto": "Só é admitido em zona estritamente rural"
+        },
+        {
+          "letra": "E",
+          "texto": "Não há subdivisão de gleba em lotes"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Loteamento (art. 2º, §1º) exige abertura de novas vias/logradouros; desmembramento (§2º) é a subdivisão de gleba em lotes destinados a edificação, aproveitando o sistema viário existente, SEM abrir novas vias nem prolongar/modificar as já existentes."
+    },
+    {
+      "id": "leisnovas007",
+      "tema": "lei-federal-6766-1979-parcelamento-do-solo",
+      "temaNome": "Lei Federal 6.766/1979 (Parcelamento do Solo)",
+      "tipo": "multipla",
+      "enunciado": "Segundo a Lei Federal nº 6.766/1979, salvo quando o loteamento se destinar a urbanização específica ou edificação de conjuntos habitacionais de interesse social previamente aprovados pelos órgãos públicos competentes, os lotes terão área mínima de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "100m², com frente mínima de 4 metros"
+        },
+        {
+          "letra": "B",
+          "texto": "125m², com frente mínima de 5 metros"
+        },
+        {
+          "letra": "C",
+          "texto": "150m², com frente mínima de 6 metros"
+        },
+        {
+          "letra": "D",
+          "texto": "200m², com frente mínima de 8 metros"
+        },
+        {
+          "letra": "E",
+          "texto": "250m², com frente mínima de 10 metros"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 4º, II: os lotes terão área mínima de 125m² e frente mínima de 5 metros, salvo quando o loteamento se destinar a urbanização específica ou de interesse social, hipótese em que a legislação municipal poderá definir parâmetros diversos."
+    },
+    {
+      "id": "leisnovas008",
+      "tema": "lei-federal-6766-1979-parcelamento-do-solo",
+      "temaNome": "Lei Federal 6.766/1979 (Parcelamento do Solo)",
+      "tipo": "multipla",
+      "enunciado": "A Lei Federal nº 6.766/1979 exige, ao longo das águas correntes e dormentes e das faixas de domínio público das rodovias e ferrovias, a reserva de uma faixa não edificável (non aedificandi) de, no mínimo:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5 metros de cada lado"
+        },
+        {
+          "letra": "B",
+          "texto": "10 metros de cada lado"
+        },
+        {
+          "letra": "C",
+          "texto": "15 metros de cada lado"
+        },
+        {
+          "letra": "D",
+          "texto": "20 metros de cada lado"
+        },
+        {
+          "letra": "E",
+          "texto": "30 metros de cada lado"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Art. 4º, III: ao longo das águas correntes e dormentes e das faixas de domínio público das rodovias, ferrovias e dutos, será obrigatória a reserva de faixa não edificável de 15 metros de cada lado, salvo maiores exigências da legislação específica."
+    },
+    {
+      "id": "leisnovas009",
+      "tema": "lei-federal-6766-1979-parcelamento-do-solo",
+      "temaNome": "Lei Federal 6.766/1979 (Parcelamento do Solo)",
+      "tipo": "multipla",
+      "enunciado": "Nos termos da Lei Federal nº 6.766/1979 (art. 3º), NÃO será permitido o parcelamento do solo em terrenos, EXCETO:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Alagadiços e sujeitos a inundações, antes de tomadas as providências para assegurar o escoamento das águas"
+        },
+        {
+          "letra": "B",
+          "texto": "Que tenham sido aterrados com material nocivo à saúde pública, sem que sejam previamente saneados"
+        },
+        {
+          "letra": "C",
+          "texto": "Com declividade igual ou superior a 30%, salvo se atendidas exigências específicas das autoridades competentes"
+        },
+        {
+          "letra": "D",
+          "texto": "Onde as condições geológicas não aconselham a edificação, até que sejam corrigidas"
+        },
+        {
+          "letra": "E",
+          "texto": "Localizados em áreas de preservação ecológica ou naquelas onde a poluição impeça condições sanitárias suportáveis, até sua correção"
+        }
+      ],
+      "correta": "C",
+      "comentario": "O art. 3º, parágrafo único, veda o parcelamento em terrenos com declividade IGUAL OU SUPERIOR a 30% \"SALVO se atendidas exigências específicas das autoridades competentes\" — é a única hipótese da lista com ressalva que permite o parcelamento mediante condição; as demais são vedações que dependem de correção prévia da causa, não de mera autorização."
+    },
+    {
+      "id": "leisnovas010",
+      "tema": "lei-federal-10257-2001-estatuto-da-cidade",
+      "temaNome": "Lei Federal 10.257/2001 (Estatuto da Cidade)",
+      "tipo": "multipla",
+      "enunciado": "Nos termos da Lei Federal nº 10.257/2001 (Estatuto da Cidade), o instrumento que permite ao Poder Público Municipal exigir do proprietário de solo urbano não edificado, subutilizado ou não utilizado que promova seu adequado aproveitamento, sob pena de parcelamento ou edificação compulsórios, é aplicável exclusivamente:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A áreas rurais definidas em lei federal"
+        },
+        {
+          "letra": "B",
+          "texto": "A imóveis tombados pelo patrimônio histórico"
+        },
+        {
+          "letra": "C",
+          "texto": "A áreas incluidas no Plano Diretor como necessárias à execução da política urbana"
+        },
+        {
+          "letra": "D",
+          "texto": "A qualquer imóvel urbano, independentemente de previsão no Plano Diretor"
+        },
+        {
+          "letra": "E",
+          "texto": "A imóveis de propriedade da União"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Art. 5º: a exigência de parcelamento, edificação ou utilização compulsórios só pode incidir sobre áreas incluidas no Plano Diretor como necessárias à execução da política urbana — não é aplicável a qualquer imóvel indiscriminadamente."
+    },
+    {
+      "id": "leisnovas011",
+      "tema": "lei-federal-10257-2001-estatuto-da-cidade",
+      "temaNome": "Lei Federal 10.257/2001 (Estatuto da Cidade)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com o Estatuto da Cidade (Lei Federal nº 10.257/2001), em caso de descumprimento das condições e prazos para parcelamento, edificação ou utilização compulsórios, o Município procederá à aplicação do IPTU progressivo no tempo, pelo prazo máximo de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3 anos consecutivos, com alíquota máxima de 10%"
+        },
+        {
+          "letra": "B",
+          "texto": "5 anos consecutivos, com alíquota máxima de 15%"
+        },
+        {
+          "letra": "C",
+          "texto": "7 anos consecutivos, com alíquota máxima de 20%"
+        },
+        {
+          "letra": "D",
+          "texto": "10 anos consecutivos, sem limite de alíquota"
+        },
+        {
+          "letra": "E",
+          "texto": "2 anos consecutivos, com alíquota máxima de 8%"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 7º: o IPTU progressivo no tempo é aplicado pelo prazo máximo de 5 anos consecutivos, com a alíquota máxima limitada a 15% do valor do imóvel. Esgotado esse prazo sem cumprimento da obrigação, o Município mantém a cobrança pela alíquota máxima até que se cumpra a obrigação, ou promove a desapropriação com pagamento em títulos da dívida pública."
+    },
+    {
+      "id": "leisnovas012",
+      "tema": "lei-federal-10257-2001-estatuto-da-cidade",
+      "temaNome": "Lei Federal 10.257/2001 (Estatuto da Cidade)",
+      "tipo": "multipla",
+      "enunciado": "Segundo a Lei Federal nº 10.257/2001, aquele que possuir área urbana de até 250m², por 5 anos, ininterruptamente e sem oposição, utilizando-a para sua moradia ou de sua família, adquirir-lhe-á o domínio, desde que não seja proprietário de outro imóvel urbano ou rural. Esse instituto é denominado:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Direito de superfície"
+        },
+        {
+          "letra": "B",
+          "texto": "Direito de preempção"
+        },
+        {
+          "letra": "C",
+          "texto": "Usucapião especial de imóvel urbano"
+        },
+        {
+          "letra": "D",
+          "texto": "Outorga onerosa do direito de construir"
+        },
+        {
+          "letra": "E",
+          "texto": "Concessão de uso especial para fins de moradia"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Art. 9º: usucapião especial de imóvel urbano — área de até 250m², posse mansa, pacífica e ininterrupta por 5 anos, com finalidade de moradia, sem ser proprietário de outro imóvel. Não se confunde com o direito de superfície (cessão do direito de utilizar o solo por tempo determinado) nem com o direito de preempção (preferência de compra pelo Município)."
+    },
+    {
+      "id": "leisnovas013",
+      "tema": "lei-federal-10257-2001-estatuto-da-cidade",
+      "temaNome": "Lei Federal 10.257/2001 (Estatuto da Cidade)",
+      "tipo": "multipla",
+      "enunciado": "Sobre o Estudo de Impacto de Vizinhança (EIV), previsto na Lei Federal nº 10.257/2001, analise as afirmativas:\nI. Deve ser executado de forma a contemplar os efeitos positivos e negativos do empreendimento quanto à qualidade de vida da população residente na área e suas proximidades.\nII. A elaboração do EIV dispensa a elaboração do Estudo de Impacto Ambiental (EIA), exigido nos termos da legislação ambiental.\nIII. O órgão público competente deve dar publicidade aos documentos integrantes do EIV, que ficarão disponíveis para consulta por qualquer interessado.\nEstá(ão) CORRETA(S):",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas I"
+        },
+        {
+          "letra": "B",
+          "texto": "Apenas I e III"
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas II e III"
+        },
+        {
+          "letra": "D",
+          "texto": "I, II e III"
+        },
+        {
+          "letra": "E",
+          "texto": "Apenas II"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 36 a 38: o EIV contempla efeitos positivos e negativos sobre a qualidade de vida (item I correto) e seus documentos são públicos, disponíveis para consulta (item III correto). Porém, o art. 38 é expresso ao dizer que a elaboração do EIV NÃO substitui a elaboração do EIA, quando exigido — item II está errado, são instrumentos independentes e cumulativos quando ambos forem exigíveis."
+    },
+    {
+      "id": "leisnovas014",
+      "tema": "lei-federal-11445-2007-e-14026-2020-saneamento-basico",
+      "temaNome": "Lei Federal 11.445/2007 e 14.026/2020 (Saneamento Basico)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com a Lei Federal nº 11.445/2007 (Política Nacional de Saneamento Básico), o saneamento básico é constituído pelo conjunto de serviços públicos, infraestruturas e instalações de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Abastecimento de água potable e esgotamento sanitário, apenas"
+        },
+        {
+          "letra": "B",
+          "texto": "Abastecimento de água potable, esgotamento sanitário, limpeza urbana e manejo de resíduos sólidos e drenagem e manejo das águas pluviais urbanas"
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas manejo de resíduos sólidos e drenagem urbana"
+        },
+        {
+          "letra": "D",
+          "texto": "Abastecimento de água, energia elétrica e gás canalizado"
+        },
+        {
+          "letra": "E",
+          "texto": "Coleta de lixo e iluminação pública"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 3º, I: o saneamento básico compreende QUATRO componentes: (a) abastecimento de água potável, (b) esgotamento sanitário, (c) limpeza urbana e manejo de resíduos sólidos, e (d) drenagem e manejo das águas pluviais urbanas."
+    },
+    {
+      "id": "leisnovas015",
+      "tema": "lei-federal-11445-2007-e-14026-2020-saneamento-basico",
+      "temaNome": "Lei Federal 11.445/2007 e 14.026/2020 (Saneamento Basico)",
+      "tipo": "multipla",
+      "enunciado": "O Marco Legal do Saneamento Básico (Lei Federal nº 14.026/2020), que alterou a Lei 11.445/2007, estabeleceu como meta de universalização, até 31 de dezembro de 2033, o atendimento de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "90% da população com água potavel e 90% com coleta e tratamento de esgotos"
+        },
+        {
+          "letra": "B",
+          "texto": "99% da população com água potavel e 90% com coleta e tratamento de esgotos"
+        },
+        {
+          "letra": "C",
+          "texto": "100% da população com água potavel e 100% com coleta e tratamento de esgotos"
+        },
+        {
+          "letra": "D",
+          "texto": "95% da população com água potavel e 80% com coleta e tratamento de esgotos"
+        },
+        {
+          "letra": "E",
+          "texto": "90% da população com água potavel e 70% com coleta e tratamento de esgotos"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 11-B: metas de universalização até 2033 — 99% da população com abastecimento de água potável e 90% com coleta e tratamento de esgotos. Essa assimetria (99% x 90%) é um ótimo ponto de atenção, pois a banca costuma trocar os percentuais entre si nas alternativas."
+    },
+    {
+      "id": "leisnovas016",
+      "tema": "lei-federal-11445-2007-e-14026-2020-saneamento-basico",
+      "temaNome": "Lei Federal 11.445/2007 e 14.026/2020 (Saneamento Basico)",
+      "tipo": "multipla",
+      "enunciado": "Uma das principais mudanças trazidas pela Lei Federal nº 14.026/2020 ao marco regulatório do saneamento básico foi:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A extinção da obrigatoriedade de licitação para prestação dos serviços de saneamento"
+        },
+        {
+          "letra": "B",
+          "texto": "A vedação à celebração de novos contratos de programa sem licitação para prestação dos serviços"
+        },
+        {
+          "letra": "C",
+          "texto": "A transferência da titularidade dos serviços de saneamento dos municípios para a União"
+        },
+        {
+          "letra": "D",
+          "texto": "A proibição de participação da iniciativa privada na prestação dos serviços"
+        },
+        {
+          "letra": "E",
+          "texto": "A criação de tarifa única nacional para todos os municípios"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A Lei 14.026/2020 vedou a celebração de NOVOS contratos de programa (que dispensavam licitação, geralmente favorecendo companhias estaduais), passando a exigir licitação para a prestação dos serviços de saneamento básico, estimulando a competétividade e a regionalização da prestação."
+    },
+    {
+      "id": "leisnovas017",
+      "tema": "lei-federal-11445-2007-e-14026-2020-saneamento-basico",
+      "temaNome": "Lei Federal 11.445/2007 e 14.026/2020 (Saneamento Basico)",
+      "tipo": "multipla",
+      "enunciado": "Sobre a regionalização da prestação dos serviços públicos de saneamento básico, instruída pela Lei Federal nº 11.445/2007 com as alterações da Lei 14.026/2020, é CORRETO afirmar que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "É vedada a prestação regionalizada dos serviços, que deve ser sempre municipal"
+        },
+        {
+          "letra": "B",
+          "texto": "As unidades regionais de saneamento básico podem ser estruturadas por meio de blocos de referência, microrregiões ou regiões metropolitanas"
+        },
+        {
+          "letra": "C",
+          "texto": "Somente os Estados podem instituir microrregiões para fins de prestação regionalizada"
+        },
+        {
+          "letra": "D",
+          "texto": "A prestação regionalizada elimina a necessidade de contrato entre titular e prestador"
+        },
+        {
+          "letra": "E",
+          "texto": "A regionalização é aplicável apenas ao abastecimento de água, não ao esgotamento sanitário"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A lei incentiva a prestação regionalizada como estratégia para ganhar escala e viabilizar investimentos, estruturada por blocos de referência, microrregiões (instituídas pelos Estados) ou regiões metropolitanas, sempre exigindo contrato entre titular e prestador."
+    },
+    {
+      "id": "leisnovas018",
+      "tema": "lei-federal-12305-2010-residuos-solidos",
+      "temaNome": "Lei Federal 12.305/2010 (Residuos Solidos)",
+      "tipo": "multipla",
+      "enunciado": "A Lei Federal nº 12.305/2010 (Política Nacional de Resíduos Sólidos) estabelece a seguinte ordem de prioridade na gestão e gerenciamento de resíduos sólidos:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Disposição final → tratamento → reciclagem → reutilização → não geração"
+        },
+        {
+          "letra": "B",
+          "texto": "Não geração → redução → reutilização → reciclagem → tratamento → disposição final ambientalmente adequada dos rejeitos"
+        },
+        {
+          "letra": "C",
+          "texto": "Reciclagem → reutilização → redução → não geração → disposição final"
+        },
+        {
+          "letra": "D",
+          "texto": "Coleta seletiva → logística reversa → disposição final, apenas"
+        },
+        {
+          "letra": "E",
+          "texto": "Não há ordem de prioridade definida em lei, cabendo a cada Município defini-la livremente"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 9º: a gestão de resíduos deve seguir a ordem de prioridade — não geração, redução, reutilização, reciclagem, tratamento dos resíduos sólidos e disposição final ambientalmente adequada dos rejeitos (o que sobra após esgotadas as possibilidades de tratamento/recuperação)."
+    },
+    {
+      "id": "leisnovas019",
+      "tema": "lei-federal-12305-2010-residuos-solidos",
+      "temaNome": "Lei Federal 12.305/2010 (Residuos Solidos)",
+      "tipo": "multipla",
+      "enunciado": "Segundo a Lei Federal nº 12.305/2010, o conjunto de ações, procedimentos e meios destinados a viabilizar a coleta e a restituição dos resíduos sólidos ao setor empresarial, para reaproveitamento em seu ciclo ou em outros ciclos produtivos, ou outra destinação final ambientalmente adequada, é denominado:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Coleta seletiva"
+        },
+        {
+          "letra": "B",
+          "texto": "Logística reversa"
+        },
+        {
+          "letra": "C",
+          "texto": "Compostagem"
+        },
+        {
+          "letra": "D",
+          "texto": "Aterro sanitário"
+        },
+        {
+          "letra": "E",
+          "texto": "Coprocessamento"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 3º, XII: logística reversa é o instrumento que organiza o retorno dos resíduos à cadeia produtiva (ex.: pilhas, pneus, embalagens de agrotóxicos), diferente da coleta seletiva (separação prévia dos resíduos por tipo/composição para destinação diferenciada)."
+    },
+    {
+      "id": "leisnovas020",
+      "tema": "lei-federal-12305-2010-residuos-solidos",
+      "temaNome": "Lei Federal 12.305/2010 (Residuos Solidos)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com a Lei Federal nº 12.305/2010, são obrigados a elaborar Plano de Gerenciamento de Resíduos Sólidos, EXCETO:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Geradores de resíduos de serviços públicos de saneamento básico"
+        },
+        {
+          "letra": "B",
+          "texto": "Geradores de resíduos industriais"
+        },
+        {
+          "letra": "C",
+          "texto": "Geradores de resíduos de serviços de saúde"
+        },
+        {
+          "letra": "D",
+          "texto": "Geradores de resíduos da construção civil, nos termos do regulamento"
+        },
+        {
+          "letra": "E",
+          "texto": "Geradores de resíduos sólidos urbanos domiciliares, individualmente"
+        }
+      ],
+      "correta": "E",
+      "comentario": "Art. 20: estão sujeitos à elaboração do Plano de Gerenciamento de Resíduos Sólidos os geradores de resíduos de saneamento básico, industriais, de serviços de saúde, mineração, estabelecimentos comerciais/prestadores de serviços que gerem resíduos perigosos ou não inertes em quantidade significativa, e os da construção civil. Os resíduos sólidos urbanos domiciliares são de responsabilidade do titular do serviço público de limpeza urbana, não exigindo plano individual do gerador domiciliar."
+    },
+    {
+      "id": "leisnovas021",
+      "tema": "lei-federal-12305-2010-residuos-solidos",
+      "temaNome": "Lei Federal 12.305/2010 (Residuos Solidos)",
+      "tipo": "multipla",
+      "enunciado": "Sobre a responsabilidade pelos resíduos da construção civil, considerando a Lei Federal nº 12.305/2010 e a Resolução CONAMA nº 307/2002, os resíduos reutilizáveis ou recicláveis como agregados, tais como tijolos, blocos, telhas, argamassa e concreto, são classificados como resíduos:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Classe A"
+        },
+        {
+          "letra": "B",
+          "texto": "Classe B"
+        },
+        {
+          "letra": "C",
+          "texto": "Classe C"
+        },
+        {
+          "letra": "D",
+          "texto": "Classe D"
+        },
+        {
+          "letra": "E",
+          "texto": "Perigosos (Classe I)"
+        }
+      ],
+      "correta": "A",
+      "comentario": "A Resolução CONAMA 307/2002 classifica os RCC em: Classe A (reutilizáveis/recicláveis como agregados — concreto, argamassa, tijolo, telha); Classe B (recicláveis para outras destinações — plásticos, papel, metais, vidro, madeira); Classe C (sem tecnologia/economicamente viável para reciclagem — ex. gesso); Classe D (perigosos — tintas, solventes, amianto)."
+    },
+    {
+      "id": "leisnovas022",
+      "tema": "lei-federal-6938-1981-meio-ambiente",
+      "temaNome": "Lei Federal 6.938/1981 (Meio Ambiente)",
+      "tipo": "multipla",
+      "enunciado": "São instrumentos da Política Nacional do Meio Ambiente, previstos na Lei Federal nº 6.938/1981, EXCETO:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O zoneamento ambiental"
+        },
+        {
+          "letra": "B",
+          "texto": "A avaliação de impactos ambientais"
+        },
+        {
+          "letra": "C",
+          "texto": "O licenciamento e a revisão de atividades efetiva ou potencialmente poluidoras"
+        },
+        {
+          "letra": "D",
+          "texto": "A criação de reservas e estações ecológicas"
+        },
+        {
+          "letra": "E",
+          "texto": "A cobrança de pedágio em vias urbanas"
+        }
+      ],
+      "correta": "E",
+      "comentario": "Art. 9º lista os instrumentos da PNMA: padrões de qualidade ambiental, zoneamento ambiental, avaliação de impactos ambientais, licenciamento e revisão de atividades poluidoras, incentivos à produção de tecnologia limpa, criação de estações ecológicas e áreas de proteção, entre outros. \"Cobrança de pedágio\" não é instrumento da PNMA."
+    },
+    {
+      "id": "leisnovas023",
+      "tema": "lei-federal-6938-1981-meio-ambiente",
+      "temaNome": "Lei Federal 6.938/1981 (Meio Ambiente)",
+      "tipo": "multipla",
+      "enunciado": "A Lei Federal nº 6.938/1981 adota, em relação à reparação do dano ambiental, a teoria da responsabilidade civil:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Subjetiva, dependente de comprovação de culpa ou dolo do poluidor"
+        },
+        {
+          "letra": "B",
+          "texto": "Objetiva, independente da existência de culpa, bastando o nexo causal entre a atividade e o dano"
+        },
+        {
+          "letra": "C",
+          "texto": "Exclusivamente penal, não havendo reparação civil autônoma"
+        },
+        {
+          "letra": "D",
+          "texto": "Solidária apenas entre órgãos públicos licenciadores"
+        },
+        {
+          "letra": "E",
+          "texto": "Limitada ao valor do seguro ambiental contratado"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 14, §1º: o poluidor é obrigado a indenizar ou reparar os danos causados ao meio ambiente e a terceiros, independentemente da existência de culpa — é a consagração da responsabilidade civil OBJETIVA em matéria ambiental, bastando demonstrar o dano e o nexo causal."
+    },
+    {
+      "id": "leisnovas024",
+      "tema": "lei-federal-6938-1981-meio-ambiente",
+      "temaNome": "Lei Federal 6.938/1981 (Meio Ambiente)",
+      "tipo": "multipla",
+      "enunciado": "O órgão do Sistema Nacional do Meio Ambiente (SISNAMA) com função consultiva e deliberativa, responsável por estabelecer normas e critérios para o licenciamento ambiental, é o:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "IBAMA"
+        },
+        {
+          "letra": "B",
+          "texto": "CONAMA"
+        },
+        {
+          "letra": "C",
+          "texto": "ICMBio"
+        },
+        {
+          "letra": "D",
+          "texto": "Ministério do Meio Ambiente"
+        },
+        {
+          "letra": "E",
+          "texto": "Órgão Estadual de Meio Ambiente"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O CONAMA (Conselho Nacional do Meio Ambiente) é o órgão consultivo e deliberativo do SISNAMA, responsável por estabelecer normas e padrões (ex.: Resolução 307/2002 sobre RCC, Resolução 001/1986 sobre EIA/RIMA). O IBAMA é o órgão EXECUTOR, responsável pela fiscalização e licenciamento federal."
+    },
+    {
+      "id": "leisnovas025",
+      "tema": "lei-federal-12608-2012-protecao-e-defesa-civil",
+      "temaNome": "Lei Federal 12.608/2012 (Protecao e Defesa Civil)",
+      "tipo": "multipla",
+      "enunciado": "A Lei Federal nº 12.608/2012, que institui a Política Nacional de Proteção e Defesa Civil (PNPDEC), estabeleceu que os Municípios incluídos no cadastro nacional de municípios com áreas suscetíveis à ocorrência de desastres devem elaborar:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas o Plano Diretor, sem exigências adicionais"
+        },
+        {
+          "letra": "B",
+          "texto": "Carta geotécnica de aptidão à urbanização e mapeamento das áreas suscetíveis a desastres, entre outras medidas"
+        },
+        {
+          "letra": "C",
+          "texto": "Somente um plano de evacuação, sem necessidade de mapeamento técnico"
+        },
+        {
+          "letra": "D",
+          "texto": "Um relatório anual enviado exclusivamente ao Ministério Público"
+        },
+        {
+          "letra": "E",
+          "texto": "A revogação do Plano Diretor vigente"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A Lei 12.608/2012 alterou a Lei 6.766/1979 e o Estatuto da Cidade para exigir, dos municípios com áreas de risco, a carta geotécnica de aptidão à urbanização e o mapeamento das áreas suscetíveis, além de plano de contingência e ações de resposta a desastres, integrados ao Plano Diretor."
+    },
+    {
+      "id": "leisnovas026",
+      "tema": "lei-federal-12608-2012-protecao-e-defesa-civil",
+      "temaNome": "Lei Federal 12.608/2012 (Protecao e Defesa Civil)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com a Lei Federal nº 12.608/2012, são objetivos da Política Nacional de Proteção e Defesa Civil, EXCETO:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Reduzir os riscos de desastres"
+        },
+        {
+          "letra": "B",
+          "texto": "Prestar socorro e assistência às populações atingidas por desastres"
+        },
+        {
+          "letra": "C",
+          "texto": "Incorporar a redução do risco de desastre e as ações de proteção e defesa civil entre os elementos da política de desenvolvimento urbano"
+        },
+        {
+          "letra": "D",
+          "texto": "Transferir integralmente aos proprietários de imóveis em áreas de risco a responsabilidade exclusiva pela sua proteção"
+        },
+        {
+          "letra": "E",
+          "texto": "Estimular o desenvolvimento de municípios resilientes e as ações de gestão de risco"
+        }
+      ],
+      "correta": "D",
+      "comentario": "A PNPDEC é fundada na atuação articulada entre União, Estados, Distrito Federal e Municípios (e a sociedade) na gestão do risco — não transfere ao particular a responsabilidade exclusiva, que é compartilhada com o Poder Público."
+    },
+    {
+      "id": "leisnovas027",
+      "tema": "lei-federal-12608-2012-protecao-e-defesa-civil",
+      "temaNome": "Lei Federal 12.608/2012 (Protecao e Defesa Civil)",
+      "tipo": "multipla",
+      "enunciado": "Após as alterações promovidas pela Lei Federal nº 12.608/2012, a Lei Federal nº 6.766/1979 passou a exigir, no processo de aprovação de parcelamento do solo em área de expansão urbana localizada em Município incluído no cadastro de áreas suscetíveis a desastres, a apresentação de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Certidão negativa de débitos municipais, apenas"
+        },
+        {
+          "letra": "B",
+          "texto": "Anuência do Corpo de Bombeiros, exclusivamente"
+        },
+        {
+          "letra": "C",
+          "texto": "Diretrizes de uso e ocupação do solo que assegurem o escoamento das águas pluviais e a preservação das faixas non aedificandi"
+        },
+        {
+          "letra": "D",
+          "texto": "Licença ambiental estadual prévia, dispensando o licenciamento municipal"
+        },
+        {
+          "letra": "E",
+          "texto": "Alvará de construção já expedido para toda a gleba"
+        }
+      ],
+      "correta": "C",
+      "comentario": "A Lei 6.766/1979, com a redação dada pela Lei 12.608/2012, reforçou as exigências técnicas do art. 4º quanto ao escoamento das águas pluviais, à preservação das faixas non aedificandi e à análise geotécnica, justamente para reduzir o risco de parcelamentos em áreas suscetíveis a desastres (deslizamentos, inundações)."
+    },
+    {
+      "id": "leisnovas028",
+      "tema": "abnt-nbr-6118-concreto-armado-e-protendido",
+      "temaNome": "ABNT NBR 6118 (Concreto Armado e Protendido)",
+      "tipo": "multipla",
+      "enunciado": "Segundo a ABNT NBR 6118, o principal objetivo do cobrimento nominal de armadura em elementos de concreto armado é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Aumentar a resistência à compressão do concreto"
+        },
+        {
+          "letra": "B",
+          "texto": "Garantir a adesência entre a armadura e o concreto e proteger a armadura contra a corrosão, considerando a classe de agressividade ambiental"
+        },
+        {
+          "letra": "C",
+          "texto": "Reduzir o consumo de aço no elemento estrutural"
+        },
+        {
+          "letra": "D",
+          "texto": "Facilitar exclusivamente a concretagem, sem função estrutural"
+        },
+        {
+          "letra": "E",
+          "texto": "Aumentar a flecha admissível da peça"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O cobrimento nominal é dimensionado em função da classe de agressividade ambiental (CAA I a IV) justamente para proteger a armadura contra a corrosão ao longo da vida útil da estrutura, além de garantir a adesência aço-concreto."
+    },
+    {
+      "id": "leisnovas029",
+      "tema": "abnt-nbr-6118-concreto-armado-e-protendido",
+      "temaNome": "ABNT NBR 6118 (Concreto Armado e Protendido)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com a ABNT NBR 6118, a vida útil de projeto mínima estabelecida para estruturas de concreto, considerando a categoria de estruturas correntes (edifícios habitacionais, comerciais, industriais e pontes), é de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10 anos"
+        },
+        {
+          "letra": "B",
+          "texto": "25 anos"
+        },
+        {
+          "letra": "C",
+          "texto": "50 anos"
+        },
+        {
+          "letra": "D",
+          "texto": "75 anos"
+        },
+        {
+          "letra": "E",
+          "texto": "100 anos"
+        }
+      ],
+      "correta": "C",
+      "comentario": "A NBR 6118 (em conjunto com a NBR 15575) adota vida útil de projeto mínima de 50 anos para estruturas correntes, período durante o qual as características das estruturas de concreto devem atender aos requisitos de uso, funcionamento e segurança estabelecidos."
+    },
+    {
+      "id": "leisnovas030",
+      "tema": "abnt-nbr-6118-concreto-armado-e-protendido",
+      "temaNome": "ABNT NBR 6118 (Concreto Armado e Protendido)",
+      "tipo": "multipla",
+      "enunciado": "Segundo a ABNT NBR 6118, a diferença entre Estado Limite Último (ELU) e Estado Limite de Serviço (ELS) é que o ELU está relacionado a(o):",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Conforto do usuário, apenas"
+        },
+        {
+          "letra": "B",
+          "texto": "Colapso ou qualquer outra forma de ruína estrutural que determine a paralisação do uso da estrutura"
+        },
+        {
+          "letra": "C",
+          "texto": "Aspecto estético da construção, apenas"
+        },
+        {
+          "letra": "D",
+          "texto": "Custo final da obra"
+        },
+        {
+          "letra": "E",
+          "texto": "Prazo de execução da estrutura"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O ELU corresponde ao colapso ou qualquer forma de ruína estrutural que implique paralisação do uso (esgotamento da capacidade resistente); o ELS refere-se a situações que, mesmo sem colapso, comprometem a durabilidade, aparência, conforto do usuário ou boa utilização funcional da estrutura (fissuração excessiva, deformações excessivas etc.)."
+    },
+    {
+      "id": "leisnovas031",
+      "tema": "abnt-nbr-8800-e-nbr-7190-estruturas-metalicas-e-madeira",
+      "temaNome": "ABNT NBR 8800 e NBR 7190 (Estruturas Metalicas e Madeira)",
+      "tipo": "multipla",
+      "enunciado": "A ABNT NBR 8800 estabelece os requisitos básicos para dimensionamento de estruturas de aço para edifícios, adotando como método de cálculo:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O método das tensões admissíveis, exclusivamente"
+        },
+        {
+          "letra": "B",
+          "texto": "O método dos estados-limites (último e de serviço), com coeficientes de ponderação de ações e resistências"
+        },
+        {
+          "letra": "C",
+          "texto": "O método empírico, sem base em coeficientes de segurança"
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas ensaios experimentais obrigatórios para cada projeto"
+        },
+        {
+          "letra": "E",
+          "texto": "O método das cargas de ruína sem fator de segurança"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A NBR 8800 (assim como a NBR 6118 para concreto) adota o método dos estados-limites, com coeficientes de ponderação das ações (majoradoras) e das resistências (minoradoras), substituindo o antigo método das tensões admissíveis."
+    },
+    {
+      "id": "leisnovas032",
+      "tema": "abnt-nbr-8800-e-nbr-7190-estruturas-metalicas-e-madeira",
+      "temaNome": "ABNT NBR 8800 e NBR 7190 (Estruturas Metalicas e Madeira)",
+      "tipo": "multipla",
+      "enunciado": "Segundo a ABNT NBR 7190 (Projeto de Estruturas de Madeira), a resistência mecânica da madeira é fortemente influenciada por sua:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Cor e odor característicos"
+        },
+        {
+          "letra": "B",
+          "texto": "Anisotropia, variando conforme a direção das fibras (paralela ou perpendicular)"
+        },
+        {
+          "letra": "C",
+          "texto": "Idade da árvore de origem, exclusivamente"
+        },
+        {
+          "letra": "D",
+          "texto": "Espécie botânica, sem relação com a direção das fibras"
+        },
+        {
+          "letra": "E",
+          "texto": "Umidade ambiente do canteiro de obras, apenas"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A madeira é um material ANISOTRÓPICO: suas propriedades mecânicas (resistência à tração, compressão, cisalhamento) variam significativamente conforme a solicitação seja paralela ou perpendicular às fibras, sendo a resistência paralela às fibras geralmente muito superior à perpendicular."
+    },
+    {
+      "id": "leisnovas033",
+      "tema": "abnt-nbr-6122-fundacoes",
+      "temaNome": "ABNT NBR 6122 (Fundacoes)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com a ABNT NBR 6122, são consideradas fundações profundas aquelas cuja base (ponta) está assente a uma profundidade superior a:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O dobro de sua menor dimensão em planta, e no mínimo 3,0 metros"
+        },
+        {
+          "letra": "B",
+          "texto": "A metade de sua menor dimensão em planta, sem limite mínimo absoluto"
+        },
+        {
+          "letra": "C",
+          "texto": "1,0 metro, independentemente da dimensão em planta"
+        },
+        {
+          "letra": "D",
+          "texto": "O triplo de sua maior dimensão em planta"
+        },
+        {
+          "letra": "E",
+          "texto": "A profundidade do lençol freático, exclusivamente"
+        }
+      ],
+      "correta": "A",
+      "comentario": "A NBR 6122 define fundação profunda como aquela em que a carga é transmitida ao terreno pela ponta, por atrito lateral, ou por ambos, assente em profundidade superior ao dobro da menor dimensão em planta e, no mínimo, 3,0 metros (estacas, tubulões). Fundações rasas (diretas) transmitem carga ao terreno predominantemente pelas pressões sob a base, a profundidades menores."
+    },
+    {
+      "id": "leisnovas034",
+      "tema": "abnt-nbr-6122-fundacoes",
+      "temaNome": "ABNT NBR 6122 (Fundacoes)",
+      "tipo": "multipla",
+      "enunciado": "Sobre as fundações superficiais (diretas ou rasas), tratadas pela ABNT NBR 6122, é CORRETO afirmar que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "São exemplos: sapatas isoladas, sapatas corridas, sapatas associadas, radier e blocos"
+        },
+        {
+          "letra": "B",
+          "texto": "São exemplos exclusivamente as estacas e os tubulões"
+        },
+        {
+          "letra": "C",
+          "texto": "Transmitem a carga ao solo predominantemente por atrito lateral"
+        },
+        {
+          "letra": "D",
+          "texto": "Não podem ser utilizadas em solos com boa capacidade de suporte próximo à superfície"
+        },
+        {
+          "letra": "E",
+          "texto": "São sempre mais caras que fundações profundas"
+        }
+      ],
+      "correta": "A",
+      "comentario": "Fundações superficiais (rasas/diretas) transmitem a carga predominantemente pela base, sendo exemplos típicos as sapatas (isoladas, corridas, associadas), os blocos e o radier — indicadas quando há camada de solo com boa capacidade de suporte próxima à superfície."
+    },
+    {
+      "id": "leisnovas035",
+      "tema": "abnt-nbr-6122-fundacoes",
+      "temaNome": "ABNT NBR 6122 (Fundacoes)",
+      "tipo": "multipla",
+      "enunciado": "Segundo a ABNT NBR 6122, o coeficiente de segurança global mínimo usualmente adotado para fundações, em relação à capacidade de carga do solo (ruptura), é, em regra geral:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1,0"
+        },
+        {
+          "letra": "B",
+          "texto": "1,3"
+        },
+        {
+          "letra": "C",
+          "texto": "2,0"
+        },
+        {
+          "letra": "D",
+          "texto": "3,0"
+        },
+        {
+          "letra": "E",
+          "texto": "5,0"
+        }
+      ],
+      "correta": "D",
+      "comentario": "A NBR 6122 estabelece fator de segurança global mínimo igual a 3,0 (FS ≥ 3) em relação à carga de ruptura do solo, para o dimensionamento geotécnico de fundações, salvo situações específicas com prova de carga que permitam redução justificada."
+    },
+    {
+      "id": "leisnovas036",
+      "tema": "abnt-nbr-9050-acessibilidade",
+      "temaNome": "ABNT NBR 9050 (Acessibilidade)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com a ABNT NBR 9050, a inclinação máxima admitida para rampas fixas destinadas à acessibilidade, em trechos de maior extensão, é de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4,17% (1:24)"
+        },
+        {
+          "letra": "B",
+          "texto": "5% (1:20)"
+        },
+        {
+          "letra": "C",
+          "texto": "6,25% (1:16)"
+        },
+        {
+          "letra": "D",
+          "texto": "8,33% (1:12)"
+        },
+        {
+          "letra": "E",
+          "texto": "12,5% (1:8)"
+        }
+      ],
+      "correta": "D",
+      "comentario": "A NBR 9050 estabelece inclinação máxima de 8,33% (razão 1:12) para rampas com desnível a vencer superior a determinado limite, sendo essa a inclinação máxima absoluta permitida para rampas de acessibilidade; para desníveis menores, inclinações maiores (até esse limite) exigem patamares de descanso mais frequentes."
+    },
+    {
+      "id": "leisnovas037",
+      "tema": "abnt-nbr-9050-acessibilidade",
+      "temaNome": "ABNT NBR 9050 (Acessibilidade)",
+      "tipo": "multipla",
+      "enunciado": "Segundo a ABNT NBR 9050, as vagas de estacionamento destinadas a pessoas com deficiência devem ter dimensões mínimas de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2,00m x 4,50m"
+        },
+        {
+          "letra": "B",
+          "texto": "2,50m x 5,00m, com faixa adicional de circulação de 1,20m"
+        },
+        {
+          "letra": "C",
+          "texto": "3,50m x 6,00m, sem faixa adicional"
+        },
+        {
+          "letra": "D",
+          "texto": "2,20m x 4,00m"
+        },
+        {
+          "letra": "E",
+          "texto": "3,00m x 5,50m, sem faixa adicional"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A NBR 9050 exige vaga de PCD com dimensões mínimas de 2,50m x 5,00m, acrescida de faixa de circulação (compartilhável entre duas vagas adjacentes) de, no mínimo, 1,20m de largura, sinalizada com o Símbolo Internacional de Acesso."
+    },
+    {
+      "id": "leisnovas038",
+      "tema": "abnt-nbr-9050-acessibilidade",
+      "temaNome": "ABNT NBR 9050 (Acessibilidade)",
+      "tipo": "multipla",
+      "enunciado": "Sobre as rotas acessíveis entre o estacionamento e o acesso a edificações, a ABNT NBR 9050 estabelece que, quando for impratiável a execução de uma rota acessível diretamente ligada, devem ser previstas vagas de estacionamento para pessoas com deficiência e idosos em local que permita um deslocamento até um acesso acessível com distância máxima de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "25 metros"
+        },
+        {
+          "letra": "B",
+          "texto": "50 metros"
+        },
+        {
+          "letra": "C",
+          "texto": "80 metros"
+        },
+        {
+          "letra": "D",
+          "texto": "100 metros"
+        },
+        {
+          "letra": "E",
+          "texto": "120 metros"
+        }
+      ],
+      "correta": "C",
+      "comentario": "A NBR 9050 fixa distância máxima de 50 metros como referência usual para o percurso entre a vaga acessível e o acesso à edificação em situações regulares; quando a rota acessível direta for impraticável, admite-se localização alternativa desde que a distância não ultrapasse o limite estabelecido na norma para essas exceções — fique atento: diferentes edições da norma trazem valores distintos para essa exceção, portanto CONFIRA o valor vigente na versão mais atual da NBR 9050 antes de decorar."
+    },
+    {
+      "id": "leisnovas039",
+      "tema": "abnt-nbr-15575-desempenho-de-edificacoes",
+      "temaNome": "ABNT NBR 15575 (Desempenho de Edificacoes)",
+      "tipo": "multipla",
+      "enunciado": "A ABNT NBR 15575 (Desempenho de edificações habitacionais) estabelece a Vida Útil de Projeto (VUP) mínima para o sistema estrutural em:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10 anos"
+        },
+        {
+          "letra": "B",
+          "texto": "20 anos"
+        },
+        {
+          "letra": "C",
+          "texto": "40 anos"
+        },
+        {
+          "letra": "D",
+          "texto": "50 anos"
+        },
+        {
+          "letra": "E",
+          "texto": "70 anos"
+        }
+      ],
+      "correta": "D",
+      "comentario": "A NBR 15575-1 (Anexo A/tabela de VUP) estabelece VUP mínima de 50 anos para o sistema estrutural — o sistema com maior exigência de durabilidade dentre os avaliados pela norma, dado o alto custo e dificuldade de substituição."
+    },
+    {
+      "id": "leisnovas040",
+      "tema": "abnt-nbr-15575-desempenho-de-edificacoes",
+      "temaNome": "ABNT NBR 15575 (Desempenho de Edificacoes)",
+      "tipo": "multipla",
+      "enunciado": "Sobre os níveis de desempenho previstos na ABNT NBR 15575, os requisitos mínimos obrigatórios correspondem ao nível:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "M (mínimo)"
+        },
+        {
+          "letra": "B",
+          "texto": "I (intermediário)"
+        },
+        {
+          "letra": "C",
+          "texto": "S (superior)"
+        },
+        {
+          "letra": "D",
+          "texto": "A (avançado)"
+        },
+        {
+          "letra": "E",
+          "texto": "Não há níveis diferenciados na norma"
+        }
+      ],
+      "correta": "A",
+      "comentario": "A norma estabelece três níveis de desempenho: M (Mínimo — obrigatório, patamar de referência), I (Intermediário) e S (Superior), estes dois últimos representando desempenhos VOLUNTários acima do mínimo exigido pela norma."
+    },
+    {
+      "id": "leisnovas041",
+      "tema": "abnt-nbr-15575-desempenho-de-edificacoes",
+      "temaNome": "ABNT NBR 15575 (Desempenho de Edificacoes)",
+      "tipo": "multipla",
+      "enunciado": "Segundo a ABNT NBR 15575, a Vida Útil de Projeto (VUP) mínima estabelecida para os sistemas hidrossanitários é de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10 anos"
+        },
+        {
+          "letra": "B",
+          "texto": "15 anos"
+        },
+        {
+          "letra": "C",
+          "texto": "20 anos"
+        },
+        {
+          "letra": "D",
+          "texto": "30 anos"
+        },
+        {
+          "letra": "E",
+          "texto": "50 anos"
+        }
+      ],
+      "correta": "C",
+      "comentario": "A tabela de VUP mínima da NBR 15575-1 estabelece 20 anos para instalações hidrossanitárias, valor intermediário entre a VUP das vedações (variável conforme o componente) e a VUP do sistema estrutural (50 anos, a maior exigência da norma)."
+    },
+    {
+      "id": "leisnovas042",
+      "tema": "abnt-nbr-5410-8160-5626-e-13714-instalacoes-prediais",
+      "temaNome": "ABNT NBR 5410, 8160, 5626 e 13714 (Instalacoes Prediais)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com a ABNT NBR 5410 (Instalações elétricas de baixa tensão), as instalações residenciais devem prever circuitos de distribuição separados, no mínimo, para:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Iluminação e tomadas de uso geral"
+        },
+        {
+          "letra": "B",
+          "texto": "Somente chuveiro elétrico"
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas equipamentos de ar-condicionado"
+        },
+        {
+          "letra": "D",
+          "texto": "Somente tomadas de uso específico"
+        },
+        {
+          "letra": "E",
+          "texto": "Não há exigência de separação de circuitos"
+        }
+      ],
+      "correta": "A",
+      "comentario": "A NBR 5410 exige, no mínimo, circuitos separados para iluminação e para tomadas de uso geral, além de circuitos independentes para equipamentos de maior potência (chuveiro elétrico, ar-condicionado etc.), de modo a evitar sobrecarga e facilitar manutenção/proteção seletiva."
+    },
+    {
+      "id": "leisnovas043",
+      "tema": "abnt-nbr-5410-8160-5626-e-13714-instalacoes-prediais",
+      "temaNome": "ABNT NBR 5410, 8160, 5626 e 13714 (Instalacoes Prediais)",
+      "tipo": "multipla",
+      "enunciado": "Segundo a ABNT NBR 8160 (Sistemas prediais de esgoto sanitário), os trechos horizontais do sistema de coleta e transporte de esgoto sanitário devem apresentar declividade constante que possibilite o escoamento por gravidade. Para tubulações com diâmetro nominal igual ou inferior a 75mm, a declividade mínima recomendada é de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0,5%"
+        },
+        {
+          "letra": "B",
+          "texto": "1%"
+        },
+        {
+          "letra": "C",
+          "texto": "2%"
+        },
+        {
+          "letra": "D",
+          "texto": "3%"
+        },
+        {
+          "letra": "E",
+          "texto": "4%"
+        }
+      ],
+      "correta": "C",
+      "comentario": "A NBR 8160 recomenda declividade mínima de 2% para tubulações horizontais de esgoto sanitário com diâmetro nominal ≤ 75mm, e de 1% para diâmetros superiores a 75mm, garantindo velocidade de autolimpeza adequada mesmo com baixa vazão."
+    },
+    {
+      "id": "leisnovas044",
+      "tema": "abnt-nbr-5410-8160-5626-e-13714-instalacoes-prediais",
+      "temaNome": "ABNT NBR 5410, 8160, 5626 e 13714 (Instalacoes Prediais)",
+      "tipo": "multipla",
+      "enunciado": "A ABNT NBR 5626 (Instalação predial de água fria) estabelece que as tubulações devem ser dimensionadas de modo a não ultrapassar, nas condições normais de funcionamento, a velocidade máxima de escoamento de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1,0 m/s"
+        },
+        {
+          "letra": "B",
+          "texto": "2,0 m/s"
+        },
+        {
+          "letra": "C",
+          "texto": "3,0 m/s"
+        },
+        {
+          "letra": "D",
+          "texto": "4,5 m/s"
+        },
+        {
+          "letra": "E",
+          "texto": "6,0 m/s"
+        }
+      ],
+      "correta": "C",
+      "comentario": "A NBR 5626 limita a velocidade máxima de escoamento da água fria a 3,0 m/s, valor que evita ruídos excessivos, golpe de aríete e desgaste prematuro das tubulações e conexões."
+    },
+    {
+      "id": "leisnovas045",
+      "tema": "abnt-nbr-5410-8160-5626-e-13714-instalacoes-prediais",
+      "temaNome": "ABNT NBR 5410, 8160, 5626 e 13714 (Instalacoes Prediais)",
+      "tipo": "multipla",
+      "enunciado": "Segundo a ABNT NBR 13714 (Sistemas de hidrantes e de mangotinhos para combate a incêndio), a finalidade principal do sistema de hidrantes é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Permitir o combate a incêndio em estágio inicial e/ou de propagação, por meio de água sob pressão conduzida por mangueiras"
+        },
+        {
+          "letra": "B",
+          "texto": "Substituir integralmente o sistema de chuveiros automáticos (sprinklers)"
+        },
+        {
+          "letra": "C",
+          "texto": "Fornecer água potável de reserva para consumo humano em situações de emergência"
+        },
+        {
+          "letra": "D",
+          "texto": "Detectar automaticamente a presença de fumaça no ambiente"
+        },
+        {
+          "letra": "E",
+          "texto": "Realizar exclusivamente a ventilação de escadas de segurança"
+        }
+      ],
+      "correta": "A",
+      "comentario": "O sistema de hidrantes tem por finalidade permitir que a própria edificação (por meio de sua brigada/ocupantes) ou o Corpo de Bombeiros combatam princípios de incêndio e incêndios em desenvolvimento, disponibilizando água sob pressão por meio de mangueiras conectadas a pontos (hidrantes) distribuídos pela edificação."
+    },
+    {
+      "id": "leisnovas046",
+      "tema": "abnt-nbr-6120-e-nbr-6123-acoes-em-estruturas",
+      "temaNome": "ABNT NBR 6120 e NBR 6123 (Acoes em Estruturas)",
+      "tipo": "multipla",
+      "enunciado": "A ABNT NBR 6120 (Ações para o cálculo de estruturas de edificações) trata da determinação de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas as ações devidas ao vento"
+        },
+        {
+          "letra": "B",
+          "texto": "Cargas permanentes e sobrecargas de utilização (ações variáveis) para o dimensionamento estrutural"
+        },
+        {
+          "letra": "C",
+          "texto": "Exclusivamente as ações sísmicas"
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas o peso próprio de elementos metálicos"
+        },
+        {
+          "letra": "E",
+          "texto": "Somente as ações térmicas em estruturas de concreto"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A NBR 6120 estabelece os valores de cargas permanentes (peso próprio de materiais e elementos construtivos) e de sobrecargas de utilização (ações variáveis, conforme o uso do ambiente — residencial, comercial, escolar etc.) a serem consideradas no dimensionamento estrutural das edificações."
+    },
+    {
+      "id": "leisnovas047",
+      "tema": "abnt-nbr-6120-e-nbr-6123-acoes-em-estruturas",
+      "temaNome": "ABNT NBR 6120 e NBR 6123 (Acoes em Estruturas)",
+      "tipo": "multipla",
+      "enunciado": "A ABNT NBR 6123 estabelece os requisitos exigíveis para a consideração das forças devidas à ação estática e dinâmica do(a):",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Vento, em edificações e outras construções"
+        },
+        {
+          "letra": "B",
+          "texto": "Sismo"
+        },
+        {
+          "letra": "C",
+          "texto": "Recalque diferencial de fundações"
+        },
+        {
+          "letra": "D",
+          "texto": "Retração do concreto"
+        },
+        {
+          "letra": "E",
+          "texto": "Sobrecarga acidental de multidões, exclusivamente"
+        }
+      ],
+      "correta": "A",
+      "comentario": "A NBR 6123 (\"Forças devidas ao vento em edificações\") fixa as condições exigíveis na consideração das forças devidas à ação estática e dinâmica do vento, para efeitos de cálculo de edificações — especialmente relevante para estruturas esbeltas e coberturas de grande vão."
+    },
+    {
+      "id": "leisnovas048",
+      "tema": "lei-organica-do-municipio-de-contagem-mg",
+      "temaNome": "Lei Organica do Municipio de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Segundo o art. 106 da Lei Orgânica do Município de Contagem/MG, as contas do Prefeito serão julgadas pela Câmara Municipal mediante parecer prévio do Tribunal de Contas do Estado. Caso o Tribunal não emita esse parecer no prazo estabelecido, contado do recebimento, as contas são consideradas aprovadas até que a Câmara delibere em contrário. Esse prazo, e o quórum exigido para que o parecer deixe de prevalecer, são respectivamente:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "180 dias; maioria absoluta da Câmara"
+        },
+        {
+          "letra": "B",
+          "texto": "360 dias; 2/3 (dois terços) dos votos da Câmara"
+        },
+        {
+          "letra": "C",
+          "texto": "90 dias; maioria simples da Câmara"
+        },
+        {
+          "letra": "D",
+          "texto": "270 dias; unanimidade da Câmara"
+        },
+        {
+          "letra": "E",
+          "texto": "365 dias; 3/5 (três quintos) dos votos da Câmara"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 106 da LOM de Contagem: o Tribunal de Contas do Estado tem 360 dias, contados do recebimento, para emitir o parecer prévio sobre as contas do Prefeito, parecer esse que somente deixará de prevalecer por decisão de 2/3 (dois terços) dos votos da Câmara Municipal."
+    },
+    {
+      "id": "leisnovas049",
+      "tema": "lei-organica-do-municipio-de-contagem-mg",
+      "temaNome": "Lei Organica do Municipio de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "De acordo com a Lei Orgânica do Município de Contagem/MG (art. 6º), constitui competência PRIVATIVA do Município, EXCETO:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Legislar sobre assuntos de interesse local"
+        },
+        {
+          "letra": "B",
+          "texto": "Promover adequado ordenamento territorial, mediante elaboração do Plano Diretor e controle do parcelamento do solo"
+        },
+        {
+          "letra": "C",
+          "texto": "Instituir e arrecadar os tributos de sua competência"
+        },
+        {
+          "letra": "D",
+          "texto": "Criar guarda municipal para proteção de bens, serviços e instalações municipais"
+        },
+        {
+          "letra": "E",
+          "texto": "Cuidar da saúde e assistência pública, proteção e garantia das pessoas com deficiência"
+        }
+      ],
+      "correta": "E",
+      "comentario": "\"Cuidar da saúde e assistência pública, da proteção e garantia das pessoas portadoras de deficiência\" é competência ADMINISTRATIVA COMUM do Município, da União e do Estado (art. 7º da LOM de Contagem, espelhando o art. 23 da Constituição Federal), não competência privativa municipal como as demais alternativas (que constam do rol do art. 6º). É a mesma pegadinha \"privativa x comum\" que a banca costuma explorar."
+    },
+    {
+      "id": "leisnovas050",
+      "tema": "lei-organica-do-municipio-de-contagem-mg",
+      "temaNome": "Lei Organica do Municipio de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Segundo a Lei Orgânica do Município de Contagem/MG (art. 37, §1º), a investidura em cargo ou emprego público municipal depende de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Indicação direta do Prefeito, dispensada qualquer seleção prévia"
+        },
+        {
+          "letra": "B",
+          "texto": "Aprovação prévia em concurso público de provas ou de provas e títulos, ressalvadas as nomeações para cargo em comissão declarado em lei de livre nomeação e exoneração"
+        },
+        {
+          "letra": "C",
+          "texto": "Simples análise curricular, sem necessidade de concurso"
+        },
+        {
+          "letra": "D",
+          "texto": "Autorização do Tribunal de Contas do Estado, caso a caso"
+        },
+        {
+          "letra": "E",
+          "texto": "Eleição direta pelos servidores do órgão"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 37, §1º da LOM de Contagem: a investidura em cargo ou emprego público depende de aprovação prévia em concurso público de provas ou de provas e títulos, ressalvadas as nomeações para cargo em comissão declarado em lei de livre nomeação e exoneração — redação que espelha o art. 37, II, da Constituição Federal."
+    },
+    {
+      "id": "leisnovas051",
+      "tema": "lei-organica-do-municipio-de-contagem-mg",
+      "temaNome": "Lei Organica do Municipio de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Nos termos da Lei Orgânica do Município de Contagem/MG (art. 83), as deliberações da Câmara Municipal relativas a matéria sobre empréstimos, concessão de privilégios ou que versem sobre interesse particular serão tomadas por:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Maioria simples dos presentes"
+        },
+        {
+          "letra": "B",
+          "texto": "Maioria absoluta dos membros"
+        },
+        {
+          "letra": "C",
+          "texto": "2/3 (dois terços) de seus membros"
+        },
+        {
+          "letra": "D",
+          "texto": "3/5 (três quintos) de seus membros"
+        },
+        {
+          "letra": "E",
+          "texto": "Unanimidade dos membros"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Art. 83 da LOM de Contagem: matérias relativas a empréstimos, concessão de privilégios ou interesse particular exigem quórum qualificado de 2/3 (dois terços) dos membros da Câmara — quórum mais elevado que o exigido para deliberações ordinárias, dada a relevância da matéria."
+    },
+    {
+      "id": "leisnovas052",
+      "tema": "lei-organica-do-municipio-de-contagem-mg",
+      "temaNome": "Lei Organica do Municipio de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Segundo a Lei Orgânica do Município de Contagem/MG, a proposta de emenda à Lei Orgânica será discutida e votada em dois turnos, com interstício mínimo de 10 (dez) dias, considerando-se aprovada se obtiver, em ambos os turnos, a votação favorável de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Maioria simples dos membros da Câmara"
+        },
+        {
+          "letra": "B",
+          "texto": "Maioria absoluta dos membros da Câmara"
+        },
+        {
+          "letra": "C",
+          "texto": "2/3 (dois terços) dos votos dos membros da Câmara"
+        },
+        {
+          "letra": "D",
+          "texto": "3/5 (três quintos) dos votos dos membros da Câmara"
+        },
+        {
+          "letra": "E",
+          "texto": "Unanimidade dos votos dos membros da Câmara"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Diferente do padrão de 2/3 usado em outras deliberações qualificadas, a emenda à própria Lei Orgânica de Contagem exige aprovação de 3/5 (três quintos) dos votos dos membros da Câmara, em dois turnos, com interstício mínimo de 10 dias — atenção: NÃO confundir com o quórum de 2/3, mais comum em outras hipóteses da mesma lei."
+    },
+    {
+      "id": "leisnovas053",
+      "tema": "lei-organica-do-municipio-de-contagem-mg",
+      "temaNome": "Lei Organica do Municipio de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Nos termos da Lei Orgânica do Município de Contagem/MG, nas infrações político-administrativas o Prefeito será submetido a processo e julgamento perante:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O Tribunal de Justiça do Estado, exclusivamente"
+        },
+        {
+          "letra": "B",
+          "texto": "A própria Câmara Municipal, se admitida a acusação por 2/3 (dois terços) de seus membros"
+        },
+        {
+          "letra": "C",
+          "texto": "O Tribunal de Contas do Estado"
+        },
+        {
+          "letra": "D",
+          "texto": "O Ministério Público Estadual, com decisão final do Governador"
+        },
+        {
+          "letra": "E",
+          "texto": "A Justiça Eleitoral"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Diferente dos crimes comuns (julgados pelo Tribunal de Justiça), nas infrações político-administrativas (crimes de responsabilidade) o Prefeito de Contagem é processado e julgado pela própria Câmara Municipal, desde que admitida a acusação pelo voto de 2/3 de seus membros — redação dada pela Emenda à Lei Orgânica nº 19/2000."
+    },
+    {
+      "id": "leisnovas054",
+      "tema": "plano-diretor-de-contagem-mg-lc-362-2023",
+      "temaNome": "Plano Diretor de Contagem/MG (LC 362/2023)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com o Plano Diretor do Município de Contagem/MG (Lei Complementar nº 362/2023, art. 15), o território municipal fica subdividido em:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Zona Urbana e Zona de Expansão, apenas"
+        },
+        {
+          "letra": "B",
+          "texto": "Macrozona Urbana e Macrozona Rural"
+        },
+        {
+          "letra": "C",
+          "texto": "Distrito Sede e Distritos, apenas"
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas em Áreas de Diretrizes Especiais (ADE)"
+        },
+        {
+          "letra": "E",
+          "texto": "Zona Central e Zona Periférica"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 15 da LC 362/2023: o território de Contagem fica subdividido em Macrozona Urbana (áreas internas ao perímetro urbano) e Macrozona Rural (áreas externas ao perímetro urbano), constituindo a base do macrozoneamento municipal, cujo objetivo é ordenar os usos urbanos e rurais e conter a dispersão do espaço urbano."
+    },
+    {
+      "id": "leisnovas055",
+      "tema": "plano-diretor-de-contagem-mg-lc-362-2023",
+      "temaNome": "Plano Diretor de Contagem/MG (LC 362/2023)",
+      "tipo": "multipla",
+      "enunciado": "Segundo o Plano Diretor de Contagem/MG (art. 18), na Macrozona Rural é exigida, para o parcelamento do solo, a observância da Fração Mínima de Parcelamento (FMP), definida legalmente para o Município, no valor de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2.000 m²"
+        },
+        {
+          "letra": "B",
+          "texto": "5.000 m²"
+        },
+        {
+          "letra": "C",
+          "texto": "10.000 m²"
+        },
+        {
+          "letra": "D",
+          "texto": "20.000 m²"
+        },
+        {
+          "letra": "E",
+          "texto": "50.000 m²"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Art. 18 da LC 362/2023: a Fração Mínima de Parcelamento (FMP) na Macrozona Rural de Contagem é de 20.000 m² (vinte mil metros quadrados) — parâmetro também usado pelo art. 19 para vedar condomínio rural com fração ideal inferior a esse valor."
+    },
+    {
+      "id": "leisnovas056",
+      "tema": "plano-diretor-de-contagem-mg-lc-362-2023",
+      "temaNome": "Plano Diretor de Contagem/MG (LC 362/2023)",
+      "tipo": "multipla",
+      "enunciado": "Nos termos do Plano Diretor de Contagem/MG (art. 19), é PROIBIDO na Macrozona Rural, EXCETO:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O parcelamento do solo para fins urbanos"
+        },
+        {
+          "letra": "B",
+          "texto": "A constituição de condomínio rural com fração ideal menor que 20.000m²"
+        },
+        {
+          "letra": "C",
+          "texto": "O ecoturismo e o turismo rural, quando compatíveis com a legislação ambiental"
+        },
+        {
+          "letra": "D",
+          "texto": "Atividades incompatíveis com a Fração Mínima de Parcelamento legal"
+        },
+        {
+          "letra": "E",
+          "texto": "A exploração urbana equiparada à Macrozona Urbana"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Art. 17 e 18 admitem, na Macrozona Rural, atividades agropecuárias, agroindustriais, ecoturismo, turismo rural, agricultura urbana, recreação e lazer — já o art. 19 proíbe o parcelamento para fins urbanos e o condomínio rural com fração menor que a FMP. O ecoturismo/turismo rural é atividade PERMITIDA, não proibida."
+    },
+    {
+      "id": "leisnovas057",
+      "tema": "plano-diretor-de-contagem-mg-lc-362-2023",
+      "temaNome": "Plano Diretor de Contagem/MG (LC 362/2023)",
+      "tipo": "multipla",
+      "enunciado": "O Plano Diretor de Contagem/MG (art. 20) subdivide a Macrozona Urbana em quatro Zonas. Assinale a alternativa que apresenta corretamente essas quatro Zonas:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Zona de Usos Diversificados (ZUD), Zona de Especial Interesse Social (ZEIS), Zona de Atividades Econômicas (ZAE) e Zona de Proteção Ambiental (ZPA)"
+        },
+        {
+          "letra": "B",
+          "texto": "Zona Central, Zona Industrial, Zona Residencial e Zona Rural"
+        },
+        {
+          "letra": "C",
+          "texto": "ZEIS-1, ZEIS-2, ZEIS-3 e ZEIS-4, apenas"
+        },
+        {
+          "letra": "D",
+          "texto": "Macrozona 1, Macrozona 2, Macrozona 3 e Macrozona 4"
+        },
+        {
+          "letra": "E",
+          "texto": "Zona de Expansão, Zona Consolidada, Zona de Transição e Zona de Amortecimento"
+        }
+      ],
+      "correta": "A",
+      "comentario": "Art. 20 da LC 362/2023: a Macrozona Urbana se subdivide em Zona de Usos Diversificados (ZUD, incluindo subzonas como ZUD-3 e ZUD-4), Zona de Especial Interesse Social (ZEIS), Zona de Atividades Econômicas (ZAE) e Zona de Proteção Ambiental (ZPA, com subzonas ZPA-1 e ZPA-2). A Macrozona Rural é constituída por parte da ZPA."
+    },
+    {
+      "id": "leisnovas058",
+      "tema": "plano-diretor-de-contagem-mg-lc-362-2023",
+      "temaNome": "Plano Diretor de Contagem/MG (LC 362/2023)",
+      "tipo": "multipla",
+      "enunciado": "Segundo o Plano Diretor de Contagem/MG, a Zona de Especial Interesse Social (ZEIS) identifica áreas urbanizadas da Macrozona Urbana:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "De uso exclusivamente industrial, sem ocupação residencial"
+        },
+        {
+          "letra": "B",
+          "texto": "De uso predominantemente residencial, ocupadas majoritariamente por famílias que integram o público-alvo da Política Municipal de Habitação de Interesse Social (PMHIS)"
+        },
+        {
+          "letra": "C",
+          "texto": "Destinadas exclusivamente à preservação ambiental permanente"
+        },
+        {
+          "letra": "D",
+          "texto": "Reservadas a atividades agropecuárias de subsistência"
+        },
+        {
+          "letra": "E",
+          "texto": "De uso comercial e de serviços de alto padrão"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 27 da LC 362/2023: a ZEIS identifica áreas urbanizadas de uso predominantemente residencial, ocupadas em sua maior parte por famílias que compõem o universo de atendimento da Política Municipal de Habitação de Interesse Social (PMHIS) — instrumento voltado à regularização fundiária e urbanização de assentamentos precários."
+    },
+    {
+      "id": "leisnovas059",
+      "tema": "plano-diretor-de-contagem-mg-lc-362-2023",
+      "temaNome": "Plano Diretor de Contagem/MG (LC 362/2023)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com o Plano Diretor de Contagem/MG (art. 41), as Áreas de Diretrizes Especiais (ADE):",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Substituem integralmente as Macrozonas e Zonas, tornando-as sem efeito"
+        },
+        {
+          "letra": "B",
+          "texto": "Se sobrepõem às Macrozonas e às Zonas, prevalecendo suas normas específicas sobre as normas gerais"
+        },
+        {
+          "letra": "C",
+          "texto": "São aplicáveis exclusivamente à Macrozona Rural"
+        },
+        {
+          "letra": "D",
+          "texto": "Não produzem qualquer efeito normativo, sendo apenas indicativas"
+        },
+        {
+          "letra": "E",
+          "texto": "Só podem ser instituídas por lei federal"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 41: as ADE incidem sobre o território municipal e se SOBREPÕEM às Macrozonas e às Zonas, com o objetivo de identificar espaços que demandam políticas e normas específicas complementares; suas normas prevalecem sobre as das Macrozonas/Zonas subjacentes (art. 41, §1º)."
     }
   ]
 }
