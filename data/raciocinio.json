@@ -43,6 +43,30 @@
     {
       "id": "r10-analise-combinatoria-principio-fundamental-da-contagem-arranjos-permutacoes-combinacoes-e-probabilidade",
       "nome": "R10. Analise combinatoria (principio fundamental da contagem, arranjos, permutacoes, combinacoes) e probabilidade"
+    },
+    {
+      "id": "matrizes-logicas-3x3",
+      "nome": "Matrizes Logicas 3x3 (com imagem)"
+    },
+    {
+      "id": "sequencias-graficas-e-rotacoes",
+      "nome": "Sequencias Graficas e Rotacoes (com imagem)"
+    },
+    {
+      "id": "planificacao-e-raciocinio-3d",
+      "nome": "Planificacao de Solidos e Raciocinio 3D (com imagem)"
+    },
+    {
+      "id": "diagramas-de-venn-visuais",
+      "nome": "Diagramas Logicos de Euler-Venn (com imagem)"
+    },
+    {
+      "id": "engrenagens-relogios-e-espelhos",
+      "nome": "Engrenagens, Relogios e Espelhos (com imagem)"
+    },
+    {
+      "id": "geometria-cortes-e-circuitos",
+      "nome": "Geometria, Cortes e Circuitos Logicos (com imagem)"
     }
   ],
   "cards": [
@@ -1285,6 +1309,2634 @@
       ],
       "correta": "C",
       "comentario": "Probabilidade = casos favoraveis / casos possiveis = 4/10 = 0,4 = 40%."
+    },
+    {
+      "id": "rlmimg001",
+      "tema": "matrizes-logicas-3x3",
+      "temaNome": "Matrizes Logicas 3x3 (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q01_matriz_formas.png",
+      "enunciado": "A matriz 3x3 apresentada na figura a seguir segue um padrão lógico de ordenação geométrica tanto em suas linhas quanto em suas colunas. Observe a disposição das formas geométricas externas e a quantidade de pontos pretos no interior de cada uma delas. A figura que substitui corretamente o ponto de interrogação (?) é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Um Círculo contendo 3 pontos pretos."
+        },
+        {
+          "letra": "B",
+          "texto": "Um Quadrado contendo 3 pontos pretos."
+        },
+        {
+          "letra": "C",
+          "texto": "Um Triângulo contendo 2 pontos pretos."
+        },
+        {
+          "letra": "D",
+          "texto": "Um Quadrado contendo 1 ponto preto."
+        },
+        {
+          "letra": "E",
+          "texto": "Um Círculo contendo 2 pontos pretos."
+        }
+      ],
+      "correta": "B",
+      "comentario": "Tema Visual: Bloco 1 — Matrizes Lógicas 3x3 (Estilo Teste de Raven / FCC / FUNDEP)\nResolução passo a passo por análise bidimensional de matriz lógica (Sudoku de Formas e Valores):1) Analisando as formas geométricas externas:• Linha 1 possui: Círculo, Quadrado, Triângulo.• Linha 2 possui: Quadrado, Triângulo, Círculo.• Linha 3 possui: Triângulo, Círculo, [ ? ].Para que cada linha e coluna contenha exatamente uma de cada uma das três formas geométricas básicas, a figura da Linha 3, Coluna 3 DEVE OBRIGATORIAMENTE SER UM QUADRADO.2) Analisando a quantidade de pontos pretos internos:• Linha 1 possui: 1 ponto, 2 pontos, 3 pontos.• Linha 2 possui: 1 ponto, 2 pontos, 3 pontos.• Linha 3 possui: 1 ponto, 2 pontos, [ ? ].Na Linha 3 já temos o Triângulo com 1 ponto e o Círculo com 2 pontos. Portanto, o elemento que falta deve conter EXATAMENTE 3 PONTOS.Conclusão: A figura que substitui a interrogação é um Quadrado contendo 3 pontos pretos internos.Gabarito: Alternativa B."
+    },
+    {
+      "id": "rlmimg002",
+      "tema": "matrizes-logicas-3x3",
+      "temaNome": "Matrizes Logicas 3x3 (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q02_matriz_rotacao.png",
+      "enunciado": "Considere a matriz lógica 3x3 ilustrada na figura, na qual cada círculo possui um ponteiro radial e uma cor de preenchimento. Existe uma lei de formação rigorosa que rege a rotação dos ponteiros e a tonalidade de cada círculo ao longo das linhas e colunas. A figura que deve ocupar a célula com o ponto de interrogação (?) é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Um círculo branco com ponteiro orientado verticalmente para cima (90°)."
+        },
+        {
+          "letra": "B",
+          "texto": "Um círculo cinza claro com ponteiro inclinado a 135°."
+        },
+        {
+          "letra": "C",
+          "texto": "Um círculo cinza escuro com ponteiro orientado horizontalmente para a esquerda (180°)."
+        },
+        {
+          "letra": "D",
+          "texto": "Um círculo cinza escuro com ponteiro orientado verticalmente para baixo (270°)."
+        },
+        {
+          "letra": "E",
+          "texto": "Um círculo preto com ponteiro inclinado a 45°."
+        }
+      ],
+      "correta": "C",
+      "comentario": "Tema Visual: Bloco 1 — Matrizes Lógicas 3x3 (Estilo Teste de Raven / FCC / FUNDEP)\nResolução por decomposição de variáveis gráficas independentes:1) Padrão de cores de preenchimento dos círculos:• Linha 1: todos os círculos são BRANCOS.• Linha 2: todos os círculos são CINZA CLARO.• Linha 3: todos os círculos são CINZA ESCURO.Como a célula (?) encontra-se na Linha 3, o círculo correspondente é obrigatoriamente CINZA ESCURO.2) Padrão de rotação dos ponteiros radiais:Observando o avanço horizontal em cada linha (da esquerda para a direita):• Linha 1: 0° (horizontal direita) -> 45° (inclinado) -> 90° (vertical para cima) [rotação de +45° no sentido anti-horário a cada coluna].• Linha 2: 45° -> 90° -> 135° (rotação de +45°).• Linha 3: 90° -> 135° -> 180° (rotação de +45°).O ângulo de 180° aponta exatamente na horizontal para a esquerda!Conclusão: Círculo cinza escuro com ponteiro orientado horizontalmente para a esquerda (180°).Gabarito: Alternativa C."
+    },
+    {
+      "id": "rlmimg003",
+      "tema": "matrizes-logicas-3x3",
+      "temaNome": "Matrizes Logicas 3x3 (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q03_matriz_xor.png",
+      "enunciado": "A matriz gráfica a seguir é regida por uma operação lógica de sobreposição visual entre as figuras de cada linha: a terceira figura de cada linha é o resultado da fusão da primeira e da segunda figura, de modo que os elementos gráficos que aparecem em apenas uma delas são mantidos, enquanto os elementos comuns que aparecem em ambas são eliminados (operação Ou-Exclusivo / XOR visual). A figura que substitui o ponto de interrogação (?) na terceira linha é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Um Quadrado com uma Linha Diagonal interna."
+        },
+        {
+          "letra": "B",
+          "texto": "Um Quadrado com um Ponto Preto Central, sem a linha diagonal."
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas uma Linha Diagonal com um Ponto Preto Central."
+        },
+        {
+          "letra": "D",
+          "texto": "Um Quadrado vazio sem qualquer elemento interno."
+        },
+        {
+          "letra": "E",
+          "texto": "Uma Cruz (+) dentro de um Círculo."
+        }
+      ],
+      "correta": "B",
+      "comentario": "Tema Visual: Bloco 1 — Matrizes Lógicas 3x3 (Estilo Teste de Raven / FCC / FUNDEP)\nResolução detalhada por Álgebra Booleana Visual (Operação XOR):Regra formal da operação XOR visual em cada linha: Figura 3 = (Figura 1) XOR (Figura 2).• Se um traço/elemento gráfico está presente em APENAS UMA das figuras -> ELE PERMANECE no resultado.• Se um traço/elemento gráfico está presente nas DUAS figuras -> ELE SE CANCELA / DESAPARECE.Verificação nas linhas de controle:• Linha 1: Fig 1 (Vertical + Diagonal) e Fig 2 (Horizontal + Diagonal). A Diagonal aparece em ambas, portanto é cancelada! O resultado é a junção da Vertical e da Horizontal (Cruz central).• Linha 2: Fig 1 (Cruz + Círculo) e Fig 2 (Círculo + X). O Círculo aparece em ambas e se cancela. Sobram a Cruz e o X combinados na Fig 3.Aplicação na Linha 3:• Figura 1 (L3C1): Quadrado + Linha Diagonal ascendente.• Figura 2 (L3C2): Linha Diagonal ascendente + Ponto Preto Central.Comparando os elementos:1) A Linha Diagonal está presente em ambas -> É CANCELADA!2) O Quadrado está presente apenas na Fig 1 -> PERMANECE!3) O Ponto Preto Central está presente apenas na Fig 2 -> PERMANECE!Resultado final: Um Quadrado contendo o Ponto Preto Central (sem a linha diagonal).Gabarito: Alternativa B."
+    },
+    {
+      "id": "rlmimg004",
+      "tema": "matrizes-logicas-3x3",
+      "temaNome": "Matrizes Logicas 3x3 (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q04_matriz_poligonos.png",
+      "enunciado": "Na matriz gráfica apresentada, o número de lados ou segmentos de reta que formam os polígonos segue uma progressão aritmética estrita ao longo das células, lidas no sentido da leitura tradicional (da esquerda para a direita, linha por linha). Qual figura geométrica substitui corretamente o ponto de interrogação (?)?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Um Heptágono (polígono de 7 lados)."
+        },
+        {
+          "letra": "B",
+          "texto": "Um Octógono (polígono de 8 lados)."
+        },
+        {
+          "letra": "C",
+          "texto": "Um Eneágono (polígono de 9 lados)."
+        },
+        {
+          "letra": "D",
+          "texto": "Um Decágono (polígono de 10 lados)."
+        },
+        {
+          "letra": "E",
+          "texto": "Um Círculo com 9 divisões radiais."
+        }
+      ],
+      "correta": "C",
+      "comentario": "Tema Visual: Bloco 1 — Matrizes Lógicas 3x3 (Estilo Teste de Raven / FCC / FUNDEP)\nResolução por contagem de elementos lineares e progressão aritmética:Contando a quantidade de segmentos de reta / lados de cada figura:• Linha 1:  - Célula (1,1): 1 segmento de reta.  - Célula (1,2): 2 segmentos de reta paralelos.  - Célula (1,3): Triângulo = 3 segmentos de reta.• Linha 2:  - Célula (2,1): Quadrado = 4 lados.  - Célula (2,2): Pentágono = 5 lados.  - Célula (2,3): Hexágono = 6 lados.• Linha 3:  - Célula (3,1): Heptágono = 7 lados.  - Célula (3,2): Octógono = 8 lados.  - Célula (3,3): [ ? ] = Deve possuir exatamente 8 + 1 = 9 lados!O polígono de 9 lados é denominado geometricamente ENEÁGONO.Gabarito: Alternativa C."
+    },
+    {
+      "id": "rlmimg005",
+      "tema": "sequencias-graficas-e-rotacoes",
+      "temaNome": "Sequencias Graficas e Rotacoes (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q05_seq_rotacao.png",
+      "enunciado": "Observe a sequência de figuras numeradas de 1 a 4. Em cada transição, ocorrem simultaneamente dois movimentos regulares: uma rotação angular do ponteiro central e o deslocamento de um ponto preto ao longo dos vértices do quadrado. Mantido esse padrão, a Figura 5 que substitui a interrogação é caracterizada por:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ponteiro apontando para a esquerda (horizontal) e ponto preto no vértice superior direito."
+        },
+        {
+          "letra": "B",
+          "texto": "Ponteiro apontando para baixo (vertical) e ponto preto no vértice inferior direito."
+        },
+        {
+          "letra": "C",
+          "texto": "Ponteiro apontando para a esquerda (horizontal) e ponto preto no vértice superior esquerdo."
+        },
+        {
+          "letra": "D",
+          "texto": "Ponteiro apontando a 135° e ponto preto no vértice inferior esquerdo."
+        },
+        {
+          "letra": "E",
+          "texto": "Ponteiro apontando para a direita e ponto preto no centro do quadrado."
+        }
+      ],
+      "correta": "A",
+      "comentario": "Tema Visual: Bloco 2 — Sequências Lógicas Gráficas e Rotações (Estilo IBGP / FUNDEP / FUMARC)\nResolução por decomposição cinemática dos dois elementos:1) Movimento do Ponteiro Central (Vermelho):• Fig 1: Aponta para a direita (0°).• Fig 2: Aponta para baixo e à direita (-45°).• Fig 3: Aponta para baixo (-90°).• Fig 4: Aponta para baixo e à esquerda (-135°).Regra: Rotação contínua de 45° no sentido HORÁRIO a cada passo.Logo, na Figura 5 o ponteiro girará mais 45°, apontando para -180° (horizontal voltado para a ESQUERDA).2) Movimento do Ponto Preto nos Vértices:• Fig 1: Vértice superior direito.• Fig 2: Vértice inferior direito (desceu).• Fig 3: Vértice inferior esquerdo (foi para a esquerda).• Fig 4: Vértice superior esquerdo (subiu).Regra: Deslocamento no sentido ANTI-HORÁRIO de vértice em vértice ao redor do quadrado.Na Figura 5, após o vértice superior esquerdo, o ponto retorna ao VÉRTICE SUPERIOR DIREITO!Conclusão da Figura 5: Ponteiro na horizontal para a esquerda e ponto preto no vértice superior direito.Gabarito: Alternativa A."
+    },
+    {
+      "id": "rlmimg006",
+      "tema": "sequencias-graficas-e-rotacoes",
+      "temaNome": "Sequencias Graficas e Rotacoes (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q06_seq_poligonos.png",
+      "enunciado": "A sequência gráfica apresenta polígonos concêntricos com diferentes padrões de preenchimento interno. Seguindo a lógica evolutiva observada entre a 1ª e a 4ª figura, qual conjunto de características descreve corretamente a 5ª figura?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Polígono externo com 7 lados e polígono interno preto com 6 lados."
+        },
+        {
+          "letra": "B",
+          "texto": "Polígono externo com 8 lados e polígono interno hachurado com 7 lados."
+        },
+        {
+          "letra": "C",
+          "texto": "Polígono externo com 8 lados e polígono interno branco com 7 lados."
+        },
+        {
+          "letra": "D",
+          "texto": "Polígono externo com 9 lados e polígono interno cinza com 8 lados."
+        },
+        {
+          "letra": "E",
+          "texto": "Polígono externo com 8 lados e polígono interno preto com 6 lados."
+        }
+      ],
+      "correta": "B",
+      "comentario": "Tema Visual: Bloco 2 — Sequências Lógicas Gráficas e Rotações (Estilo IBGP / FUNDEP / FUMARC)\nResolução por análise de três padrões independentes:1) Número de lados do polígono externo:• 1ª Fig: Quadrado (4 lados)• 2ª Fig: Pentágono (5 lados)• 3ª Fig: Hexágono (6 lados)• 4ª Fig: Heptágono (7 lados)-> 5ª Fig: OCTÓGONO (8 lados).2) Número de lados do polígono interno:• 1ª Fig: Triângulo (3 lados)• 2ª Fig: Quadrado (4 lados)• 3ª Fig: Pentágono (5 lados)• 4ª Fig: Hexágono (6 lados)-> 5ª Fig: HEPTÁGONO (7 lados).3) Padrão de preenchimento da figura interna:• 1ª: Preto• 2ª: Hachurado (linhas diagonais)• 3ª: Branco (vazado)• 4ª: Preto (reinicia o ciclo de 3 cores)-> 5ª Fig: HACHURADO!Conclusão: Polígono externo com 8 lados (octógono) contendo em seu interior um polígono de 7 lados (heptágono) hachurado.Gabarito: Alternativa B."
+    },
+    {
+      "id": "rlmimg007",
+      "tema": "sequencias-graficas-e-rotacoes",
+      "temaNome": "Sequencias Graficas e Rotacoes (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q07_seq_malha.png",
+      "enunciado": "Em uma grade quadriculada 3x3, um bloco preto se desloca segundo uma trajetória geométrica predefinida. Observe os quatro primeiros passos dessa movimentação. Qual célula estará preenchida de preto no Passo 5?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A célula central da malha (linha 2, coluna 2)."
+        },
+        {
+          "letra": "B",
+          "texto": "A célula do canto inferior direito (linha 3, coluna 3)."
+        },
+        {
+          "letra": "C",
+          "texto": "A célula do canto superior esquerdo (linha 1, coluna 1)."
+        },
+        {
+          "letra": "D",
+          "texto": "A célula da borda superior central (linha 1, coluna 2)."
+        },
+        {
+          "letra": "E",
+          "texto": "A célula da borda esquerda central (linha 2, coluna 1)."
+        }
+      ],
+      "correta": "B",
+      "comentario": "Tema Visual: Bloco 2 — Sequências Lógicas Gráficas e Rotações (Estilo IBGP / FUNDEP / FUMARC)\nResolução por mapeamento matricial de coordenadas (linha, coluna):Identificando as posições do quadrado preto em cada passo (indexando linhas de 1 a 3 do topo para a base, e colunas de 1 a 3 da esquerda para a direita):• Passo 1: Canto superior direito -> (Linha 1, Coluna 3).• Passo 2: Centro exato da malha -> (Linha 2, Coluna 2).• Passo 3: Canto inferior esquerdo -> (Linha 3, Coluna 1).Perceba que os três primeiros passos percorreram a diagonal secundária completa!• Passo 4: Avançou para a direita na base -> (Linha 3, Coluna 2).• Passo 5: Continuando o percurso pela borda inferior para a direita, o bloco alcançará a posição (Linha 3, Coluna 3), que é o CANTO INFERIOR DIREITO da malha.Gabarito: Alternativa B."
+    },
+    {
+      "id": "rlmimg008",
+      "tema": "sequencias-graficas-e-rotacoes",
+      "temaNome": "Sequencias Graficas e Rotacoes (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q08_fichas_domino.png",
+      "enunciado": "A sequência de fichas retangulares do tipo dominó apresentada obedece a duas progressões aritméticas modulares distintas: uma na metade superior (valores em azul) e outra na metade inferior (valores em vermelho), respeitando a numeração clássica de peças de dominó (0 a 6, módulo 7). Os números que devem preencher a parte superior e inferior da Ficha 5 são, respectivamente:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 e 6"
+        },
+        {
+          "letra": "B",
+          "texto": "2 e 0"
+        },
+        {
+          "letra": "C",
+          "texto": "2 e 1"
+        },
+        {
+          "letra": "D",
+          "texto": "3 e 0"
+        },
+        {
+          "letra": "E",
+          "texto": "0 e 5"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Tema Visual: Bloco 2 — Sequências Lógicas Gráficas e Rotações (Estilo IBGP / FUNDEP / FUMARC)\nResolução por aritmética modular em dominós (base 7: números 0, 1, 2, 3, 4, 5, 6 e retorno a 0):1) Analisando a Parte Superior (Azul): valores = 1, 3, 5, 0• De 1 para 3: soma +2.• De 3 para 5: soma +2.• De 5 para 0: 5 + 2 = 7. Em peças de dominó (módulo 7), o número 7 é representado pelo zero (0 / sena branca).• Próximo valor (Ficha 5 superior): 0 + 2 = 2.2) Analisando a Parte Inferior (Vermelha): valores = 2, 5, 1, 4• De 2 para 5: soma +3.• De 5 para 1: 5 + 3 = 8 -> 8 mod 7 = 1.• De 1 para 4: 1 + 3 = 4.• Próximo valor (Ficha 5 inferior): 4 + 3 = 7 -> 7 mod 7 = 0.Conclusão: A Ficha 5 conterá o número 2 na parte superior e o número 0 na parte inferior.Gabarito: Alternativa B."
+    },
+    {
+      "id": "rlmimg009",
+      "tema": "planificacao-e-raciocinio-3d",
+      "temaNome": "Planificacao de Solidos e Raciocinio 3D (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q09_planificacao_cubo.png",
+      "enunciado": "A figura mostra a planificação (molde) de um cubo em formato de cruz, onde cada face possui um símbolo exclusivo: Círculo Preto, Quadrado Vazado, Triângulo, Cruz (+), Estrela e Listras Verticais. Ao montar tridimensionalmente o cubo, assinale a alternativa que contém uma combinação de três faces que NUNCA PODERÃO SER VISTAS SIMULTANEAMENTE em uma perspectiva externa qualquer:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Círculo Preto, Triângulo e Quadrado Vazado."
+        },
+        {
+          "letra": "B",
+          "texto": "Círculo Preto, Listras Verticais e Cruz (+)."
+        },
+        {
+          "letra": "C",
+          "texto": "Estrela, Quadrado Vazado e Círculo Preto."
+        },
+        {
+          "letra": "D",
+          "texto": "Quadrado Vazado, Triângulo e Listras Verticais."
+        },
+        {
+          "letra": "E",
+          "texto": "Estrela, Listras Verticais e Cruz (+)."
+        }
+      ],
+      "correta": "B",
+      "comentario": "Tema Visual: Bloco 3 — Planificação de Sólidos e Raciocínio Espacial 3D (Estilo FCC / FGV)\nRegra Fundamental de Dobramento de Cubos (Teorema das Faces Opostas):Em qualquer cubo tridimensional, faces opostas situam-se em planos paralelos opostos. Portanto, é FISICAMENTE E GEOMETRICAMENTE IMPOSSÍVEL visualizar duas faces opostas ao mesmo tempo a partir de um único ponto de vista externo!Identificando os 3 pares de faces opostas na planificação dada:1) Par 1: A face da aba superior (Círculo Preto) é oposta à face da aba inferior (Listras Verticais).2) Par 2: Na linha horizontal de 4 faces adjacentes, faces separadas por uma face intermediária são opostas:• Face Estrela (coluna 0) é OPOSTA à Face Triângulo (coluna 2).• Face Quadrado Vazado (coluna 1) é OPOSTA à Face Cruz (+) (coluna 3).Analisando a Alternativa B:A alternativa cita simultaneamente o 'Círculo Preto' e as 'Listras Verticais'. Como essas duas faces são OPOSTAS, elas JAMAIS podem ser vistas juntas!Gabarito: Alternativa B."
+    },
+    {
+      "id": "rlmimg010",
+      "tema": "planificacao-e-raciocinio-3d",
+      "temaNome": "Planificacao de Solidos e Raciocinio 3D (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q10_setas_cubo.png",
+      "enunciado": "Considere a planificação do cubo com setas direcionais desenhadas em suas faces. As setas apontam para orientações cardeais relativas a cada face. Ao dobrar essa folha para formar o cubo (com as setas voltadas para a parte externa), qual relação entre as pontas de duas setas em faces adjacentes é VERDADEIRA?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A seta da face superior e a seta da face central apontam para o mesmo vértice de junção."
+        },
+        {
+          "letra": "B",
+          "texto": "A seta da face esquerda e a seta da face direita colidem de frente."
+        },
+        {
+          "letra": "C",
+          "texto": "As setas das faces opostas sempre apontam na mesma direção tridimensional."
+        },
+        {
+          "letra": "D",
+          "texto": "A seta da face inferior aponta diretamente para o centro da face frontal."
+        },
+        {
+          "letra": "E",
+          "texto": "Nenhuma seta aponta para uma aresta compartilhada."
+        }
+      ],
+      "correta": "A",
+      "comentario": "Tema Visual: Bloco 3 — Planificação de Sólidos e Raciocínio Espacial 3D (Estilo FCC / FGV)\nResolução por dobramento mental tridimensional:1) Observe a face central (seta apontando para baixo) e a face superior (seta apontando para cima na folha plana).2) Ao dobrar a face superior em 90° em direção ao observador para formar a 'tampa' do cubo, a aresta que faz divisa com a face central é mantida.3) A seta da face central aponta para baixo (em direção à face inferior).4) Ao analisar a dobra entre a face central e as faces laterais, a orientação das pontas de setas converge geometricamente nas arestas correspondentes aos eixos ortogonais.Gabarito: Alternativa A."
+    },
+    {
+      "id": "rlmimg011",
+      "tema": "planificacao-e-raciocinio-3d",
+      "temaNome": "Planificacao de Solidos e Raciocinio 3D (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q11_faces_opostas.png",
+      "enunciado": "A planificação apresentada possui suas faces numeradas de 1 a 6. Um dado especial é construído dobrando-se esse molde. Se o dado for lançado sobre uma mesa e a face superior marcar o número 3, qual número estará em contato direto com a mesa (face inferior/oposta)?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1"
+        },
+        {
+          "letra": "B",
+          "texto": "2"
+        },
+        {
+          "letra": "C",
+          "texto": "4"
+        },
+        {
+          "letra": "D",
+          "texto": "5"
+        },
+        {
+          "letra": "E",
+          "texto": "6"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Tema Visual: Bloco 3 — Planificação de Sólidos e Raciocínio Espacial 3D (Estilo FCC / FGV)\nResolução por determinação de pares de faces opostas na planificação clássica:Na planificação em cruz apresentada:• A face 1 (topo) dobra-se para fechar com a face 6 (base inferior). Logo: Par (1, 6).• Na esteira horizontal de 4 faces contíguas (2, 3, 4, 5):  - A face 2 fica separada da face 4 por uma face (face 3). Logo, as faces 2 e 4 são OPOSTAS: Par (2, 4).  - A face 3 fica separada da face 5 por uma face (face 4). Logo, as faces 3 e 5 são OPOSTAS: Par (3, 5).Se a face voltada para cima é a 3, a face oposta que fica em contato direto com a mesa é OBRIGATORIAMENTE A FACE 5.Gabarito: Alternativa D."
+    },
+    {
+      "id": "rlmimg012",
+      "tema": "planificacao-e-raciocinio-3d",
+      "temaNome": "Planificacao de Solidos e Raciocinio 3D (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q12_piramide.png",
+      "enunciado": "A figura ilustra a planificação de uma pirâmide reta de base quadrada regular. Três das faces triangulares laterais são claras e uma delas é sombreada em azul escuro. Se essa pirâmide for montada e apoiada com sua base sobre um plano horizontal, a quantidade de faces triangulares visíveis a partir de um ângulo que contenha a face sombreada pode ser de no máximo:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 face triangular."
+        },
+        {
+          "letra": "B",
+          "texto": "2 faces triangulares."
+        },
+        {
+          "letra": "C",
+          "texto": "3 faces triangulares."
+        },
+        {
+          "letra": "D",
+          "texto": "4 faces triangulares."
+        },
+        {
+          "letra": "E",
+          "texto": "Nenhuma face triangular."
+        }
+      ],
+      "correta": "B",
+      "comentario": "Tema Visual: Bloco 3 — Planificação de Sólidos e Raciocínio Espacial 3D (Estilo FCC / FGV)\nPropriedade de visualização poliédrica em perspectiva cônica/isométrica:Em uma pirâmide regular de base quadrada apoiada sobre o plano horizontal (onde a base não é vista por estar apoiada no chão):• Se o observador olhar exatamente de frente para uma aresta lateral, ele enxergará no máximo 2 faces triangulares contíguas.• Se olhar diretamente de frente para uma face, enxergará apenas 1 face.• É impossível enxergar 3 faces triangulares simultaneamente sem visualizar o vértice de cima em ângulo zenital de pássaro extremo que descaracterize a vista de horizonte.Portanto, em perspectiva angular convencional a partir do solo, enxergam-se no máximo 2 faces triangulares.Gabarito: Alternativa B."
+    },
+    {
+      "id": "rlmimg013",
+      "tema": "diagramas-de-venn-visuais",
+      "temaNome": "Diagramas Logicos de Euler-Venn (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q13_venn_operacao.png",
+      "enunciado": "No diagrama de Euler-Venn da figura, os conjuntos A, B e C estão contidos no conjunto universo U. A região hachurada em vermelho representa graficamente qual das seguintes operações algébricas entre conjuntos?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "(A ∪ B) ∩ C"
+        },
+        {
+          "letra": "B",
+          "texto": "(A ∩ B) - C"
+        },
+        {
+          "letra": "C",
+          "texto": "(A ∩ C) ∪ B"
+        },
+        {
+          "letra": "D",
+          "texto": "(A ∪ B ∪ C) - (A ∩ B)"
+        },
+        {
+          "letra": "E",
+          "texto": "A ∩ B ∩ C"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Tema Visual: Bloco 4 — Diagramas Lógicos de Euler-Venn e Conjuntos (Estilo IBGP / CEBRASPE / FGV)\nResolução por identificação visual de regiões de conjuntos:1) Observe a região preenchida em vermelho:• Ela está contida DENTRO do círculo azul (Conjunto A).• Ela está simultaneamente contida DENTRO do círculo verde (Conjunto B).Logo, faz parte da INTERSEÇÃO entre A e B, isto é: (A ∩ B).2) Observe agora o círculo roxo inferior (Conjunto C):• A região sombreada para exatamente na borda de C e NÃO entra no círculo C (exclui a região central compartilhada pelos três).Isso significa que foram RETIRADOS todos os elementos que pertencem a C!Portanto, a representação formal exata é a diferença: (A ∩ B) - C (ou (A ∩ B) ∩ C^c).Gabarito: Alternativa B."
+    },
+    {
+      "id": "rlmimg014",
+      "tema": "diagramas-de-venn-visuais",
+      "temaNome": "Diagramas Logicos de Euler-Venn (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q14_venn_contagem.png",
+      "enunciado": "A Secretaria de Obras de Contagem realizou uma vistoria técnica em 100 edificações públicas municipais (Universo = 100), catalogando três tipos de não conformidades: Estrutural (E), Hidráulica (H) e Elétrica (EL). O diagrama de Venn exibe a quantidade de imóveis em cada setor exclusivo e interseção parcial. Sabendo que exatamente 19 imóveis não apresentaram nenhuma dessas não conformidades, o número de edificações que apresentaram SIMULTANEAMENTE AS TRÊS NÃO CONFORMIDADES (região central x) é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "5"
+        },
+        {
+          "letra": "D",
+          "texto": "7"
+        },
+        {
+          "letra": "E",
+          "texto": "8"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Tema Visual: Bloco 4 — Diagramas Lógicos de Euler-Venn e Conjuntos (Estilo IBGP / CEBRASPE / FGV)\nResolução por equação de partição de conjuntos disjuntos:O conjunto universo total é U = 100 edificações.Como 19 edificações estão fora dos três círculos (nenhuma falha):Total dentro dos três círculos = 100 - 19 = 81 edificações.Somando todas as regiões disjuntas internas do diagrama de Venn:• Regiões exclusivas de apenas 1 falha: 22 (apenas E) + 18 (apenas H) + 15 (apenas EL) = 55.• Regiões de exatamente 2 falhas (interseções duplas puras): 8 (E e H) + 6 (E e EL) + 7 (H e EL) = 21.• Região central de 3 falhas simultâneas = x.Montando a equação de soma total:55 + 21 + x = 8176 + x = 81x = 81 - 76 = 5 edificações.Gabarito: Alternativa C."
+    },
+    {
+      "id": "rlmimg015",
+      "tema": "diagramas-de-venn-visuais",
+      "temaNome": "Diagramas Logicos de Euler-Venn (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q15_diagrama_silogismo.png",
+      "enunciado": "Considere as seguintes premissas categóricas verdadeiras:• Todo Engenheiro (E) é Metódico (M).• Nenhum Metódico (M) é Desatento (D).• Alguns Fiscais (F) são Engenheiros (E).O diagrama lógico que ilustra essas relações indica com uma estrela a existência de elementos na interseção entre Fiscais e Engenheiros. A partir dessa configuração lógica, é CORRETO concluir com certeza absoluta que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Nenhum Fiscal é Desatento."
+        },
+        {
+          "letra": "B",
+          "texto": "Alguns Fiscais são Metódicos e não são Desatentos."
+        },
+        {
+          "letra": "C",
+          "texto": "Todo Fiscal é Engenheiro e Metódico."
+        },
+        {
+          "letra": "D",
+          "texto": "Alguns Desatentos são Engenheiros."
+        },
+        {
+          "letra": "E",
+          "texto": "Todos os Metódicos são Fiscais de obras."
+        }
+      ],
+      "correta": "B",
+      "comentario": "Tema Visual: Bloco 4 — Diagramas Lógicos de Euler-Venn e Conjuntos (Estilo IBGP / CEBRASPE / FGV)\nDedução Lógica Formal a partir do Diagrama de Euler:1) 'Todo E é M': O conjunto E está totalmente contido em M (E ⊂ M).2) 'Nenhum M é D': Os conjuntos M e D são disjuntos (M ∩ D = ∅). Como E está dentro de M, nenhum elemento de E pode estar em D (E ∩ D = ∅).3) 'Alguns F são E': Existe pelo menos um elemento que pertence simultaneamente a F e a E (região marcada com estrela: F ∩ E ≠ ∅).Analisando esse elemento garantido pela estrela:• Ele é Fiscal (pois está em F);• Ele é Engenheiro (está em E);• Como é Engenheiro e todo E está em M, ele é OBRIGATORIAMENTE METÓDICO;• Como é Metódico e nenhum M é D, ele OBRIGATORIAMENTE NÃO É DESATENTO!Conclusão necessária e universal: 'Alguns Fiscais são Metódicos e não são Desatentos'.Gabarito: Alternativa B."
+    },
+    {
+      "id": "rlmimg016",
+      "tema": "diagramas-de-venn-visuais",
+      "temaNome": "Diagramas Logicos de Euler-Venn (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q16_venn_complementar.png",
+      "enunciado": "Na figura, a região destacada em cor bege alaranjada representa os elementos que pertencem exclusivamente ao conjunto C, estando estritamente excluídos dos conjuntos A e B. A expressão que traduz algebricamente essa região é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "C ∩ (A ∪ B)"
+        },
+        {
+          "letra": "B",
+          "texto": "C - (A ∪ B)"
+        },
+        {
+          "letra": "C",
+          "texto": "(A ∩ B) - C"
+        },
+        {
+          "letra": "D",
+          "texto": "(A ∪ B ∪ C) - C"
+        },
+        {
+          "letra": "E",
+          "texto": "C ∪ (A ∩ B)^c"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Tema Visual: Bloco 4 — Diagramas Lógicos de Euler-Venn e Conjuntos (Estilo IBGP / CEBRASPE / FGV)\nAnálise da teoria dos conjuntos:A união (A ∪ B) reúne todos os elementos que pertencem a A ou a B (ou a ambos).A região destacada pertence integralmente ao conjunto C, mas retira qualquer elemento que faça parte de A ou de B.Isso corresponde exatamente à operação de DIFERENÇA DE CONJUNTOS:C - (A ∪ B), que também pode ser expressa como C ∩ (A ∪ B)^c (interseção de C com o complementar da união de A e B).Gabarito: Alternativa B."
+    },
+    {
+      "id": "rlmimg017",
+      "tema": "engrenagens-relogios-e-espelhos",
+      "temaNome": "Engrenagens, Relogios e Espelhos (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q17_engrenagens_serie.png",
+      "enunciado": "Um conjunto mecânico é formado por quatro engrenagens cilíndricas de dentes retos acopladas em série em um mesmo plano: E1 (40 dentes), E2 (24 dentes), E3 (48 dentes) e E4 (32 dentes). Se a engrenagem motora E1 gira no SENTIDO HORÁRIO com uma velocidade constante de 60 RPM, o sentido de giro e a velocidade de rotação da engrenagem movida E4 serão, respectivamente:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sentido Horário e 45 RPM."
+        },
+        {
+          "letra": "B",
+          "texto": "Sentido Anti-Horário e 75 RPM."
+        },
+        {
+          "letra": "C",
+          "texto": "Sentido Horário e 75 RPM."
+        },
+        {
+          "letra": "D",
+          "texto": "Sentido Anti-Horário e 60 RPM."
+        },
+        {
+          "letra": "E",
+          "texto": "Sentido Horário e 90 RPM."
+        }
+      ],
+      "correta": "B",
+      "comentario": "Tema Visual: Bloco 5 — Engrenagens, Transmissão Mecânica e Relógios (Estilo FUMARC / CESGRANRIO / IBGP)\nResolução passo a passo de Cinemática e Transmissão por Engrenagens:1) Determinação do Sentido de Giro:Cada engrenamento externo inverte o sentido de rotação entre duas engrenagens consecutivas:• E1: Gira no Sentido HORÁRIO (dado).• E2 (acoplada a E1): Inverte -> Gira no Sentido ANTI-HORÁRIO.• E3 (acoplada a E2): Inverte -> Gira no Sentido HORÁRIO.• E4 (acoplada a E3): Inverte -> Gira no Sentido ANTI-HORÁRIO!Logo, E4 gira no SENTIDO ANTI-HORÁRIO.2) Determinação da Velocidade Angular (RPM):Em um trem de engrenagens simples em série, as engrenagens intermediárias (E2 e E3) atuam apenas como engrenagens intermediárias/parasitas (não alteram a relação final de transmissão entre a primeira e a última!).A relação de transmissão fundamental é dada por:n1 * Z1 = n4 * Z4Onde:• n1 = 60 RPM; Z1 = 40 dentes• Z4 = 32 dentes; n4 = ?Substituindo:60 * 40 = n4 * 322.400 = 32 * n4n4 = 2.400 / 32 = 75 RPM.Conclusão: E4 gira no Sentido Anti-Horário a 75 RPM.Gabarito: Alternativa B."
+    },
+    {
+      "id": "rlmimg018",
+      "tema": "engrenagens-relogios-e-espelhos",
+      "temaNome": "Engrenagens, Relogios e Espelhos (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q18_correia_cruzada.png",
+      "enunciado": "Duas polias de mesmo diâmetro, A e B, estão ligadas por uma correia de transmissão montada de forma CRUZADA (em X). Se a polia motora A é acionada e passa a girar no SENTIDO HORÁRIO, qual será o comportamento cinemático da polia movida B?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Girará no sentido horário com o dobro da velocidade de A."
+        },
+        {
+          "letra": "B",
+          "texto": "Girará no sentido anti-horário com a mesma velocidade de A."
+        },
+        {
+          "letra": "C",
+          "texto": "Girará no sentido horário com a mesma velocidade de A."
+        },
+        {
+          "letra": "D",
+          "texto": "Ficará travada devido ao cruzamento da correia."
+        },
+        {
+          "letra": "E",
+          "texto": "Girará no sentido anti-horário com metade da velocidade de A."
+        }
+      ],
+      "correta": "B",
+      "comentario": "Tema Visual: Bloco 5 — Engrenagens, Transmissão Mecânica e Relógios (Estilo FUMARC / CESGRANRIO / IBGP)\nPrincípio da Transmissão por Correias:• Em uma transmissão por correia ABERTA (direta/paralela), a polia movida gira no MESMO sentido da polia motora.• Em uma transmissão por correia CRUZADA (em X), o cruzamento dos ramos da correia INVERTE o sentido de rotação entre as duas polias!Portanto, se a polia A gira no sentido HORÁRIO, a polia B obrigatoriamente girará no SENTIDO ANTI-HORÁRIO.Como ambas as polias possuem o mesmo diâmetro, a velocidade de rotação (RPM) de ambas é rigorosamente IDÊNTICA.Gabarito: Alternativa B."
+    },
+    {
+      "id": "rlmimg019",
+      "tema": "engrenagens-relogios-e-espelhos",
+      "temaNome": "Engrenagens, Relogios e Espelhos (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q19_relogio_angulo.png",
+      "enunciado": "Um relógio analógico de parede tradicional marca exatamente 15 horas e 40 minutos (3h 40min). O valor do MENOR ângulo (ângulo convexo θ) formado entre o ponteiro das horas e o ponteiro dos minutos nesse instante exato é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "120°"
+        },
+        {
+          "letra": "B",
+          "texto": "125°"
+        },
+        {
+          "letra": "C",
+          "texto": "130°"
+        },
+        {
+          "letra": "D",
+          "texto": "135°"
+        },
+        {
+          "letra": "E",
+          "texto": "140°"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Tema Visual: Bloco 5 — Engrenagens, Transmissão Mecânica e Relógios (Estilo FUMARC / CESGRANRIO / IBGP)\nResolução detalhada por Geometria Analítica de Ponteiros de Relógio:Fórmula universal do menor ângulo entre ponteiros de relógio:θ = |30 * H - 5,5 * M|Onde H é a hora (em escala de 1 a 12) e M são os minutos.Para 15h40min -> H = 3 e M = 40:θ = |30 * (3) - 5,5 * (40)|θ = |90 - 220|θ = |-130| = 130°.Demonstração física/geométrica passo a passo:1) A cada 60 minutos, o ponteiro das horas percorre 30° (0,5° por minuto).Em 40 minutos, o ponteiro das horas andou: 40 * 0,5° = 20° além da marcação do número 3.2) O ponteiro dos minutos está cravado no número 8 (40 minutos).3) Do número 3 ao número 8 existem 5 divisões de 30° = 150°.4) Como o ponteiro das horas já avançou 20° em direção ao 4, a distância angular entre eles reduziu-se em 20°:θ = 150° - 20° = 130°.Gabarito: Alternativa C."
+    },
+    {
+      "id": "rlmimg020",
+      "tema": "engrenagens-relogios-e-espelhos",
+      "temaNome": "Engrenagens, Relogios e Espelhos (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q20_relogio_espelho.png",
+      "enunciado": "Um candidato olha para o reflexo de um relógio analógico de ponteiros em um espelho plano vertical. No mundo real, o relógio está marcando exatamente 10 horas e 10 minutos. Ao observar a imagem refletida no espelho (onde os eixos horizontais são invertidos), que horário aparente o relógio refletido parece marcar?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "01h50min"
+        },
+        {
+          "letra": "B",
+          "texto": "02h10min"
+        },
+        {
+          "letra": "C",
+          "texto": "02h50min"
+        },
+        {
+          "letra": "D",
+          "texto": "01h10min"
+        },
+        {
+          "letra": "E",
+          "texto": "11h50min"
+        }
+      ],
+      "correta": "A",
+      "comentario": "Tema Visual: Bloco 5 — Engrenagens, Transmissão Mecânica e Relógios (Estilo FUMARC / CESGRANRIO / IBGP)\nResolução pelo Teorema da Reflexão Especular em Relógios:A reflexão em espelho plano vertical produz uma simetria bilateral em relação ao eixo vertical 12h - 6h.Existe uma regra prática infalível para qualquer problema de relógio no espelho:A soma do horário real com o horário refletido no espelho é sempre constante e igual a 12 horas (ou 11h 60min)!Cálculo direto:  11h 60min- 10h 10min-----------  01h 50minVerificação geométrica:• No relógio real (10h10min), o ponteiro dos minutos está na marca do 2 (+60° em relação ao topo). No espelho, ele é refletido simetricamente para a marca do 10 (-60° em relação ao topo), o que corresponde a 50 minutos.• O ponteiro das horas está um pouco após o 10. No espelho, sua imagem fica simetricamente um pouco antes do 2 (portanto, entre o 1 e o 2, apontando para 1 hora).Horário aparente refletido: 01h 50min.Gabarito: Alternativa A."
+    },
+    {
+      "id": "rlmimg021",
+      "tema": "geometria-cortes-e-circuitos",
+      "temaNome": "Geometria, Cortes e Circuitos Logicos (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q21_contagem_triangulos.png",
+      "enunciado": "A figura geométrica apresentada é formada por um triângulo principal cujo vértice superior emite duas cevianas internas até a base, dividindo-a em 3 segmentos. Além disso, há duas linhas transversais intermediárias paralelas à base dividindo a altura em 3 níveis. Quantos triângulos de quaisquer tamanhos existem, no total, nessa figura?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "9"
+        },
+        {
+          "letra": "B",
+          "texto": "12"
+        },
+        {
+          "letra": "C",
+          "texto": "15"
+        },
+        {
+          "letra": "D",
+          "texto": "18"
+        },
+        {
+          "letra": "E",
+          "texto": "24"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Tema Visual: Bloco 6 — Geometria Lógica, Cortes e Dobraduras (Estilo FGV / FCC / VUNESP)\nResolução por Análise Combinatória Geométrica:1) Análise da base subdividida por cevianas que partem de um mesmo vértice:A base do triângulo está particionada em n = 3 segmentos simples.O número de triângulos formados a partir de um único nível de base é dado pela soma dos primeiros n números naturais:T_base = n*(n + 1) / 2 = 3 * 4 / 2 = 6 triângulos.(São eles: 3 triângulos unitários de 1 vão, 2 triângulos compostos de 2 vãos e 1 triângulo total de 3 vãos).2) Multiplicação pelos níveis de linhas paralelas à base:Cada linha transversal horizontal paralela cria uma nova base para triângulos semelhantes que compartilham o mesmo vértice superior.Na figura, temos:• Nível superior (linha transversal 1): 6 triângulos.• Nível intermediário (linha transversal 2): 6 triângulos.• Nível inferior (base principal): 6 triângulos.Total geral de triângulos = 6 * 3 = 18 triângulos.Gabarito: Alternativa D."
+    },
+    {
+      "id": "rlmimg022",
+      "tema": "geometria-cortes-e-circuitos",
+      "temaNome": "Geometria, Cortes e Circuitos Logicos (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q22_malha_retangulos.png",
+      "enunciado": "A malha quadriculada da figura é composta por uma grade ortogonal de 4 colunas por 3 linhas de retângulos unitários (4 x 3). Quantos RETÂNGULOS de quaisquer dimensões (incluindo os quadrados) podem ser formados utilizando-se as linhas dessa malha?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "36"
+        },
+        {
+          "letra": "B",
+          "texto": "48"
+        },
+        {
+          "letra": "C",
+          "texto": "60"
+        },
+        {
+          "letra": "D",
+          "texto": "72"
+        },
+        {
+          "letra": "E",
+          "texto": "120"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Tema Visual: Bloco 6 — Geometria Lógica, Cortes e Dobraduras (Estilo FGV / FCC / VUNESP)\nResolução por Combinações de Linhas e Colunas:Para formar um retângulo em uma malha ortogonal, é necessário e suficiente escolher:• 2 retas verticais distintas (para delimitar as laterais esquerda e direita);• 2 retas horizontais distintas (para delimitar as bordas superior e inferior).1) Quantidade de retas verticais:Como a grade possui 4 colunas unitárias, existem 4 + 1 = 5 retas verticais.A quantidade de maneiras de escolher 2 retas verticais dentre 5 é:C(5, 2) = 5! / (2! * 3!) = (5 * 4) / 2 = 10 escolhas.2) Quantidade de retas horizontais:Como a grade possui 3 linhas unitárias, existem 3 + 1 = 4 retas horizontais.A quantidade de maneiras de escolher 2 retas horizontais dentre 4 é:C(4, 2) = 4! / (2! * 2!) = (4 * 3) / 2 = 6 escolhas.3) Pelo Princípio Fundamental da Contagem:Total de retângulos = C(5, 2) * C(4, 2) = 10 * 6 = 60 retângulos.Gabarito: Alternativa C."
+    },
+    {
+      "id": "rlmimg023",
+      "tema": "geometria-cortes-e-circuitos",
+      "temaNome": "Geometria, Cortes e Circuitos Logicos (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q23_dobradura_papel.png",
+      "enunciado": "Uma folha de papel quadrada é submetida a duas dobraduras sucessivas:1ª) É dobrada ao meio na vertical, da direita para a esquerda;2ª) É dobrada ao meio na horizontal, de cima para baixo, formando um quadrado menor com 4 camadas de papel.Nesse quadrado dobrado, é feito um furo circular no centro e um corte triangular reto no canto inferior esquerdo (que corresponde ao centro geométrico da folha original aberta). Ao desdobrar completamente a folha, qual será o padrão final de aberturas visível?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4 furos circulares e 4 pequenos triângulos nos quatro cantos externos da folha."
+        },
+        {
+          "letra": "B",
+          "texto": "4 furos circulares simétricos e uma abertura central em formato de Losango (ou Quadrado inclinado)."
+        },
+        {
+          "letra": "C",
+          "texto": "1 furo circular central e 4 cortes triangulares nas bordas."
+        },
+        {
+          "letra": "D",
+          "texto": "2 furos circulares e 2 cortes triangulares na linha de dobra."
+        },
+        {
+          "letra": "E",
+          "texto": "8 furos circulares e nenhum corte central."
+        }
+      ],
+      "correta": "B",
+      "comentario": "Tema Visual: Bloco 6 — Geometria Lógica, Cortes e Dobraduras (Estilo FGV / FCC / VUNESP)\nResolução passo a passo de Dobradura e Furos (Paper Folding & Punching):1) O canto inferior esquerdo do quadrante final é exatamente o ponto onde convergem as duas dobras originais (a dobra vertical e a dobra horizontal). Portanto, esse canto corresponde ao CENTRO GEOMÉTRICO EXATO da folha original!2) Ao cortar um triângulo retângulo nesse vértice central de dobra:• Ao desdobrar na horizontal, os dois triângulos se espelham formando um triângulo isósceles maior.• Ao desdobrar na vertical, os triângulos se espelham novamente para a direita, totalizando 4 triângulos que se unem perfeitamente no centro para formar um LOSANGO (ou um quadrado com vértices voltados para as retas de simetria).3) O furo circular foi feito no meio do quadrante (longe das bordas de dobra). Como a folha possui 4 camadas sobrepostas, serão gerados 4 FUROS CIRCULARES, exatamente um em cada um dos quatro quadrantes da folha desdobrada.Resultado final: 4 furos circulares simétricos e uma abertura central em formato de losango.Gabarito: Alternativa B."
+    },
+    {
+      "id": "rlmimg024",
+      "tema": "geometria-cortes-e-circuitos",
+      "temaNome": "Geometria, Cortes e Circuitos Logicos (com imagem)",
+      "tipo": "multipla",
+      "imagem": "assets/rlm/fig_q24_circuito_logico.png",
+      "enunciado": "O diagrama esquemático representa um circuito lógico combinacional constituído por três portas lógicas fundamentais: uma porta E (AND), um inversor NÃO (NOT) e uma porta OU (OR). Sabendo que os sinais lógicos de entrada são A = Verdadeiro (1), B = Falso (0) e C = Verdadeiro (1), o valor lógico obtido na saída final S é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Falso (0), pois a porta AND intermediária resultou em falso."
+        },
+        {
+          "letra": "B",
+          "texto": "Verdadeiro (1), devido à inversão pelo NOT e atuação da porta OR."
+        },
+        {
+          "letra": "C",
+          "texto": "Indeterminado, pois falta o sinal de clock de sincronização."
+        },
+        {
+          "letra": "D",
+          "texto": "Falso (0), pois a entrada B anula todo o circuito."
+        },
+        {
+          "letra": "E",
+          "texto": "Verdadeiro (1) apenas se a entrada C for invertida para Falso."
+        }
+      ],
+      "correta": "B",
+      "comentario": "Tema Visual: Bloco 6 — Geometria Lógica, Cortes e Dobraduras (Estilo FGV / FCC / VUNESP)\nResolução passo a passo por análise booleana de circuitos lógicos:Valores das entradas:• A = V (1)• B = F (0)• C = V (1)Passo 1: Porta AND (E) recebendo A e B:Saída_AND = A ∧ B = V ∧ F = Falso (0).Passo 2: Inversor NOT (NÃO) recebendo a saída do AND:Saída_NOT = ¬(Saída_AND) = ¬(F) = Verdadeiro (1).Passo 3: Porta OR (OU) final recebendo a Saída_NOT e a entrada C:Saída_Final S = (Saída_NOT) ∨ C = V ∨ V = Verdadeiro (1).Expressão booleana equivalente: S = ¬(A ∧ B) ∨ C = (¬A ∨ ¬B) ∨ C.Como ¬B = ¬F = V, a saída S é obrigatoriamente VERDADEIRA (1).Gabarito: Alternativa B."
+    },
+    {
+      "id": "rlmnovas065",
+      "tema": "r1-conjuntos-numericos-e-operacoes-fundamentais-mdc-mmc-fatoracao",
+      "temaNome": "R1. Conjuntos numericos e operacoes fundamentais (MDC, MMC, fatoracao)",
+      "tipo": "multipla",
+      "enunciado": "O numero de divisores positivos de 360 e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "20"
+        },
+        {
+          "letra": "B",
+          "texto": "22"
+        },
+        {
+          "letra": "C",
+          "texto": "24"
+        },
+        {
+          "letra": "D",
+          "texto": "26"
+        },
+        {
+          "letra": "E",
+          "texto": "28"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho: fatore em primos e some 1 a cada expoente, multiplicando os resultados - nao precisa listar os divisores. 360 = 2^3 x 3^2 x 5^1. Numero de divisores = (3+1) x (2+1) x (1+1) = 4 x 3 x 2 = 24."
+    },
+    {
+      "id": "rlmnovas066",
+      "tema": "r1-conjuntos-numericos-e-operacoes-fundamentais-mdc-mmc-fatoracao",
+      "temaNome": "R1. Conjuntos numericos e operacoes fundamentais (MDC, MMC, fatoracao)",
+      "tipo": "multipla",
+      "enunciado": "Um estoque de parafusos, quando dividido em pacotes de 12, de 15 ou de 20 unidades, sobra sempre 7 parafusos em qualquer dos tres casos. A menor quantidade de parafusos que pode haver nesse estoque e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "60"
+        },
+        {
+          "letra": "B",
+          "texto": "67"
+        },
+        {
+          "letra": "C",
+          "texto": "75"
+        },
+        {
+          "letra": "D",
+          "texto": "80"
+        },
+        {
+          "letra": "E",
+          "texto": "87"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho classico de concurso: quando o resto se repete para todos os divisores, a resposta e MMC + resto (nunca precisa testar numero por numero). MMC(12,15,20): 12=2^2x3, 15=3x5, 20=2^2x5, MMC=2^2x3x5=60. Resposta = 60 + 7 = 67."
+    },
+    {
+      "id": "rlmnovas067",
+      "tema": "r1-conjuntos-numericos-e-operacoes-fundamentais-mdc-mmc-fatoracao",
+      "temaNome": "R1. Conjuntos numericos e operacoes fundamentais (MDC, MMC, fatoracao)",
+      "tipo": "multipla",
+      "enunciado": "O valor da expressao 2^10 / 2^7 + 3^2 e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "15"
+        },
+        {
+          "letra": "B",
+          "texto": "16"
+        },
+        {
+          "letra": "C",
+          "texto": "17"
+        },
+        {
+          "letra": "D",
+          "texto": "18"
+        },
+        {
+          "letra": "E",
+          "texto": "19"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho: em divisao de potencias de mesma base, subtraia os expoentes em vez de calcular cada potencia por extenso. 2^10 / 2^7 = 2^(10-7) = 2^3 = 8. Depois 3^2 = 9. Soma: 8 + 9 = 17."
+    },
+    {
+      "id": "rlmnovas068",
+      "tema": "r1-conjuntos-numericos-e-operacoes-fundamentais-mdc-mmc-fatoracao",
+      "temaNome": "R1. Conjuntos numericos e operacoes fundamentais (MDC, MMC, fatoracao)",
+      "tipo": "multipla",
+      "enunciado": "Assinale a alternativa que apresenta os numeros a seguir em ORDEM CRESCENTE: -3/2 ; 0,8 ; -1 ; 5/4",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "-3/2, -1, 0,8, 5/4"
+        },
+        {
+          "letra": "B",
+          "texto": "-1, -3/2, 0,8, 5/4"
+        },
+        {
+          "letra": "C",
+          "texto": "5/4, 0,8, -1, -3/2"
+        },
+        {
+          "letra": "D",
+          "texto": "-3/2, 0,8, -1, 5/4"
+        },
+        {
+          "letra": "E",
+          "texto": "0,8, -1, -3/2, 5/4"
+        }
+      ],
+      "correta": "A",
+      "comentario": "Atalho: converta tudo para decimal de cabeca antes de comparar (fracoes com denominador 2 e 4 sao rapidas: -3/2 = -1,5 e 5/4 = 1,25). Ordem: -1,5 < -1 < 0,8 < 1,25, ou seja, -3/2, -1, 0,8, 5/4."
+    },
+    {
+      "id": "rlmnovas069",
+      "tema": "r2-razoes-proporcoes-e-regra-de-tres",
+      "temaNome": "R2. Razoes, proporcoes e regra de tres",
+      "tipo": "multipla",
+      "enunciado": "Uma equipe de 8 pedreiros conclui uma parede em 15 dias, trabalhando no mesmo ritmo. Mantido esse ritmo, o numero de pedreiros necessario para concluir a mesma parede em 6 dias e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "18"
+        },
+        {
+          "letra": "B",
+          "texto": "20"
+        },
+        {
+          "letra": "C",
+          "texto": "22"
+        },
+        {
+          "letra": "D",
+          "texto": "24"
+        },
+        {
+          "letra": "E",
+          "texto": "26"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho: pedreiros e dias sao inversamente proporcionais (mais gente, menos tempo), entao o PRODUTO pedreiros x dias e constante - nao precisa montar regra de tres formal. 8 x 15 = 120 = n x 6, logo n = 120/6 = 20."
+    },
+    {
+      "id": "rlmnovas070",
+      "tema": "r2-razoes-proporcoes-e-regra-de-tres",
+      "temaNome": "R2. Razoes, proporcoes e regra de tres",
+      "tipo": "multipla",
+      "enunciado": "Para pintar 300 m2 de parede, 4 pintores trabalhando 6 horas por dia levam 5 dias. Trabalhando 8 horas por dia, o numero de dias que 5 pintores levarao para pintar 500 m2 e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "5"
+        },
+        {
+          "letra": "D",
+          "texto": "6"
+        },
+        {
+          "letra": "E",
+          "texto": "7"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho da regra de tres composta: monte a razao de cada grandeza (direta ou invertida conforme o sentido) e CANCELE antes de multiplicar, sem passar por decimais. dias = 5 x (500/300) x (4/5) x (6/8) = 5 x (5/3) x (4/5) x (3/4). Cancele o 5 com o 5, o 4 com o 4 e o 3 com o 3: sobra dias = 5 x 1 = 5."
+    },
+    {
+      "id": "rlmnovas071",
+      "tema": "r2-razoes-proporcoes-e-regra-de-tres",
+      "temaNome": "R2. Razoes, proporcoes e regra de tres",
+      "tipo": "multipla",
+      "enunciado": "Em uma planta na escala 1:50, um corredor esta representado com 8 cm de comprimento. O comprimento REAL desse corredor, em metros, e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2"
+        },
+        {
+          "letra": "B",
+          "texto": "4"
+        },
+        {
+          "letra": "C",
+          "texto": "5"
+        },
+        {
+          "letra": "D",
+          "texto": "8"
+        },
+        {
+          "letra": "E",
+          "texto": "10"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho de escala: multiplique direto o valor no papel pelo denominador da escala para achar o valor real no MESMO tipo de unidade, so depois converta. 8 cm x 50 = 400 cm = 4 m (basta \"andar\" a virgula duas casas para virar metro)."
+    },
+    {
+      "id": "rlmnovas072",
+      "tema": "r2-razoes-proporcoes-e-regra-de-tres",
+      "temaNome": "R2. Razoes, proporcoes e regra de tres",
+      "tipo": "multipla",
+      "enunciado": "Tres socios investiram, respectivamente, R$ 20.000,00, R$ 30.000,00 e R$ 50.000,00 em uma obra. Ao final, o lucro de R$ 40.000,00 deve ser dividido proporcionalmente ao investimento de cada um. O socio que investiu R$ 30.000,00 devera receber:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R$ 8.000,00"
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 10.000,00"
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 12.000,00"
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 15.000,00"
+        },
+        {
+          "letra": "E",
+          "texto": "R$ 20.000,00"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho: simplifique a fracao da participacao ANTES de multiplicar pelo lucro total. Total investido = 100.000. Participacao do socio = 30.000/100.000 = 3/10. Lucro dele = 3/10 x 40.000 = 3 x 4.000 = R$ 12.000,00."
+    },
+    {
+      "id": "rlmnovas073",
+      "tema": "r3-porcentagem",
+      "temaNome": "R3. Porcentagem",
+      "tipo": "multipla",
+      "enunciado": "Uma loja de materiais de construcao oferece 10% de desconto a vista e, sobre o valor ja com desconto, mais 5% de desconto adicional para pagamento em dinheiro. Um produto de R$ 200,00 sai, no final, por:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R$ 165,00"
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 168,00"
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 170,00"
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 171,00"
+        },
+        {
+          "letra": "E",
+          "texto": "R$ 175,00"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Atalho: descontos sucessivos NAO se somam (nao e 15%) - multiplique os fatores restantes direto. Fator final = 0,90 x 0,95 = 0,855. Valor final = 200 x 0,855 = R$ 171,00. (Truque de cabeca: 200 x 0,9 = 180; 180 - 5% de 180 = 180 - 9 = 171.)"
+    },
+    {
+      "id": "rlmnovas074",
+      "tema": "r3-porcentagem",
+      "temaNome": "R3. Porcentagem",
+      "tipo": "multipla",
+      "enunciado": "O preco de um insumo caiu 20%. Para que o preco volte exatamente ao valor original, o novo preco (ja reduzido) deve ser aumentado em:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "20%"
+        },
+        {
+          "letra": "B",
+          "texto": "22%"
+        },
+        {
+          "letra": "C",
+          "texto": "25%"
+        },
+        {
+          "letra": "D",
+          "texto": "28%"
+        },
+        {
+          "letra": "E",
+          "texto": "30%"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho fundamental (armadilha classica de concurso): a alta para compensar NUNCA e igual a queda percentual. Se caiu 20%, o novo preco e 80% do original. Para voltar a 100%: 100/80 = 1,25, ou seja, precisa subir 25% sobre o preco JA reduzido - nunca 20%."
+    },
+    {
+      "id": "rlmnovas075",
+      "tema": "r3-porcentagem",
+      "temaNome": "R3. Porcentagem",
+      "tipo": "multipla",
+      "enunciado": "Um produto custou R$ 80,00 e foi vendido com lucro de 25% sobre o custo. O preco de venda foi de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R$ 95,00"
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 100,00"
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 105,00"
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 110,00"
+        },
+        {
+          "letra": "E",
+          "texto": "R$ 120,00"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho: 25% e um \"numero redondo\" (=1/4), entao calcule a fracao de cabeca em vez de multiplicar por 0,25. 1/4 de 80 = 20. Preco de venda = 80 + 20 = R$ 100,00."
+    },
+    {
+      "id": "rlmnovas076",
+      "tema": "r3-porcentagem",
+      "temaNome": "R3. Porcentagem",
+      "tipo": "multipla",
+      "enunciado": "Em um levantamento municipal, 40% da populacao de um bairro sao criancas e adolescentes. Desses, 30% estao matriculados em escolas municipais. O percentual da populacao TOTAL do bairro que esta matriculado em escola municipal e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10%"
+        },
+        {
+          "letra": "B",
+          "texto": "12%"
+        },
+        {
+          "letra": "C",
+          "texto": "15%"
+        },
+        {
+          "letra": "D",
+          "texto": "18%"
+        },
+        {
+          "letra": "E",
+          "texto": "70%"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho: \"porcentagem de porcentagem\" se resolve multiplicando as fracoes direto, sem inventar uma populacao hipotetica. 40% x 30% = 0,4 x 0,3 = 0,12 = 12% da populacao total."
+    },
+    {
+      "id": "rlmnovas077",
+      "tema": "r4-equacoes-e-sistemas-do-1o-grau-funcao-do-1o-grau",
+      "temaNome": "R4. Equacoes e sistemas do 1o grau / funcao do 1o grau",
+      "tipo": "multipla",
+      "enunciado": "A soma das idades de um engenheiro e de seu auxiliar e 52 anos. Daqui a 4 anos, a idade do engenheiro sera o dobro da idade do auxiliar. As idades ATUAIS do engenheiro e do auxiliar sao, respectivamente:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "40 e 12"
+        },
+        {
+          "letra": "B",
+          "texto": "36 e 16"
+        },
+        {
+          "letra": "C",
+          "texto": "38 e 14"
+        },
+        {
+          "letra": "D",
+          "texto": "34 e 18"
+        },
+        {
+          "letra": "E",
+          "texto": "30 e 22"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho: monte E + A = 52 e E + 4 = 2(A + 4), substitua E = 52 - A na segunda para cair numa equacao so em A. 52 - A + 4 = 2A + 8 -> 56 - A = 2A + 8 -> 48 = 3A -> A = 16 e E = 36. Confira de cabeca: 36+4=40 e 2x(16+4)=40. Bate."
+    },
+    {
+      "id": "rlmnovas078",
+      "tema": "r4-equacoes-e-sistemas-do-1o-grau-funcao-do-1o-grau",
+      "temaNome": "R4. Equacoes e sistemas do 1o grau / funcao do 1o grau",
+      "tipo": "multipla",
+      "enunciado": "Uma locadora cobra uma taxa fixa de R$ 150,00 mais R$ 25,00 por dia de uso de um equipamento. O numero de dias de uso para que o custo total atinja R$ 650,00 e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "16"
+        },
+        {
+          "letra": "B",
+          "texto": "18"
+        },
+        {
+          "letra": "C",
+          "texto": "20"
+        },
+        {
+          "letra": "D",
+          "texto": "22"
+        },
+        {
+          "letra": "E",
+          "texto": "24"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho: e uma funcao do 1o grau custo = 150 + 25d. Subtraia a taxa fixa primeiro e so depois divida (evita lidar com os tres numeros de uma vez). 650 - 150 = 500. 500 / 25 = 20 dias."
+    },
+    {
+      "id": "rlmnovas079",
+      "tema": "r4-equacoes-e-sistemas-do-1o-grau-funcao-do-1o-grau",
+      "temaNome": "R4. Equacoes e sistemas do 1o grau / funcao do 1o grau",
+      "tipo": "multipla",
+      "enunciado": "Um saco de mistura contem cimento e areia, totalizando 50 kg. A quantidade de areia e 10 kg a menos que o TRIPLO da quantidade de cimento. As quantidades de cimento e areia sao, respectivamente:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "15 kg e 35 kg"
+        },
+        {
+          "letra": "B",
+          "texto": "12 kg e 38 kg"
+        },
+        {
+          "letra": "C",
+          "texto": "10 kg e 40 kg"
+        },
+        {
+          "letra": "D",
+          "texto": "18 kg e 32 kg"
+        },
+        {
+          "letra": "E",
+          "texto": "20 kg e 30 kg"
+        }
+      ],
+      "correta": "A",
+      "comentario": "Atalho: chame cimento de C, areia = 3C - 10, e substitua direto em C + areia = 50 (so uma incognita). C + 3C - 10 = 50 -> 4C = 60 -> C = 15 kg. Areia = 3x15 - 10 = 35 kg. Confira: 15+35=50. Bate."
+    },
+    {
+      "id": "rlmnovas080",
+      "tema": "r4-equacoes-e-sistemas-do-1o-grau-funcao-do-1o-grau",
+      "temaNome": "R4. Equacoes e sistemas do 1o grau / funcao do 1o grau",
+      "tipo": "multipla",
+      "enunciado": "Uma obra tem orcamento inicial de R$ 12.000,00 e cada dia de atraso gera custo adicional de R$ 300,00. Para que o custo total NAO ultrapasse R$ 15.000,00, o numero MAXIMO de dias de atraso permitido e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "8"
+        },
+        {
+          "letra": "B",
+          "texto": "9"
+        },
+        {
+          "letra": "C",
+          "texto": "10"
+        },
+        {
+          "letra": "D",
+          "texto": "11"
+        },
+        {
+          "letra": "E",
+          "texto": "12"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho: e uma inequacao do 1o grau, mas resolve-se igual a uma equacao (so troca o = por <=). 12.000 + 300d <= 15.000 -> 300d <= 3.000 -> d <= 10. Maximo de 10 dias."
+    },
+    {
+      "id": "rlmnovas081",
+      "tema": "r5-media-aritmetica-simples-e-ponderada",
+      "temaNome": "R5. Media aritmetica simples e ponderada",
+      "tipo": "multipla",
+      "enunciado": "Em uma avaliacao, a prova objetiva (peso 3) obteve nota 7,0 e a prova discursiva (peso 2) obteve nota 6,0. A MEDIA PONDERADA final e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6,2"
+        },
+        {
+          "letra": "B",
+          "texto": "6,4"
+        },
+        {
+          "letra": "C",
+          "texto": "6,5"
+        },
+        {
+          "letra": "D",
+          "texto": "6,6"
+        },
+        {
+          "letra": "E",
+          "texto": "6,8"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Atalho: multiplique cada nota pelo seu peso, some tudo e divida pela SOMA DOS PESOS (nao pela quantidade de provas). (7x3 + 6x2) / (3+2) = (21+12)/5 = 33/5 = 6,6."
+    },
+    {
+      "id": "rlmnovas082",
+      "tema": "r5-media-aritmetica-simples-e-ponderada",
+      "temaNome": "R5. Media aritmetica simples e ponderada",
+      "tipo": "multipla",
+      "enunciado": "Um candidato obteve notas 6,0 e 7,0 nas duas primeiras avaliacoes, todas com o mesmo peso. Para atingir MEDIA 7,5 nas tres avaliacoes, a nota MINIMA necessaria na terceira e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "8,5"
+        },
+        {
+          "letra": "B",
+          "texto": "9,0"
+        },
+        {
+          "letra": "C",
+          "texto": "9,5"
+        },
+        {
+          "letra": "D",
+          "texto": "10,0"
+        },
+        {
+          "letra": "E",
+          "texto": "Impossivel, pois passaria de 10"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho: multiplique a media desejada pelo numero TOTAL de provas para achar a soma total necessaria, depois subtraia o que ja foi conseguido - nunca calcule a media parcial primeiro. Soma necessaria = 7,5 x 3 = 22,5. Ja tem 6,0+7,0=13,0. Falta 22,5 - 13,0 = 9,5."
+    },
+    {
+      "id": "rlmnovas083",
+      "tema": "r5-media-aritmetica-simples-e-ponderada",
+      "temaNome": "R5. Media aritmetica simples e ponderada",
+      "tipo": "multipla",
+      "enunciado": "As idades de 5 funcionarios de uma equipe somam, em media, 34 anos. Um sexto funcionario, com 22 anos, entra para a equipe. A NOVA media de idades da equipe passa a ser de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "28"
+        },
+        {
+          "letra": "B",
+          "texto": "30"
+        },
+        {
+          "letra": "C",
+          "texto": "31"
+        },
+        {
+          "letra": "D",
+          "texto": "32"
+        },
+        {
+          "letra": "E",
+          "texto": "33"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Atalho: reconstrua a SOMA (media x quantidade) antes de mexer nos dados, depois recalcule. Soma dos 5 = 34 x 5 = 170. Com o 6o funcionario: 170 + 22 = 192. Nova media = 192 / 6 = 32."
+    },
+    {
+      "id": "rlmnovas084",
+      "tema": "r5-media-aritmetica-simples-e-ponderada",
+      "temaNome": "R5. Media aritmetica simples e ponderada",
+      "tipo": "multipla",
+      "enunciado": "A turma A, com 30 alunos, obteve media 7,0 em uma prova; a turma B, com 20 alunos, obteve media 8,0 na mesma prova. A MEDIA GERAL das duas turmas juntas e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "7,2"
+        },
+        {
+          "letra": "B",
+          "texto": "7,4"
+        },
+        {
+          "letra": "C",
+          "texto": "7,5"
+        },
+        {
+          "letra": "D",
+          "texto": "7,6"
+        },
+        {
+          "letra": "E",
+          "texto": "7,8"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho (cuidado com a pegadinha de fazer so (7+8)/2=7,5, que estaria ERRADO por ignorar quantidades diferentes de alunos): pondere pela quantidade de alunos de cada turma. (30x7 + 20x8) / (30+20) = (210+160)/50 = 370/50 = 7,4."
+    },
+    {
+      "id": "rlmnovas085",
+      "tema": "r6-logica-proposicional-conectivos-tabelas-verdade-negacao-equivalencias-quantificadores",
+      "temaNome": "R6. Logica proposicional (conectivos, tabelas-verdade, negacao, equivalencias, quantificadores)",
+      "tipo": "multipla",
+      "enunciado": "A proposicao condicional p -> q (se p entao q) e FALSA exatamente quando:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "p e q sao ambas verdadeiras"
+        },
+        {
+          "letra": "B",
+          "texto": "p e q sao ambas falsas"
+        },
+        {
+          "letra": "C",
+          "texto": "p e verdadeira e q e falsa"
+        },
+        {
+          "letra": "D",
+          "texto": "p e falsa e q e verdadeira"
+        },
+        {
+          "letra": "E",
+          "texto": "p e falsa, independentemente do valor de q"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho: decore so essa UNICA linha da tabela-verdade do condicional, pois e a que a banca mais cobra - o condicional so e falso quando a \"promessa\" (p verdadeira) nao se cumpre (q falsa). Em qualquer outro caso, p->q e verdadeira, inclusive quando p e falsa (\"em vazio\")."
+    },
+    {
+      "id": "rlmnovas086",
+      "tema": "r6-logica-proposicional-conectivos-tabelas-verdade-negacao-equivalencias-quantificadores",
+      "temaNome": "R6. Logica proposicional (conectivos, tabelas-verdade, negacao, equivalencias, quantificadores)",
+      "tipo": "multipla",
+      "enunciado": "A proposicao p V ~p (p ou nao-p) e classificada logicamente como uma:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Tautologia (sempre verdadeira)"
+        },
+        {
+          "letra": "B",
+          "texto": "Contradicao (sempre falsa)"
+        },
+        {
+          "letra": "C",
+          "texto": "Contingencia (as vezes verdadeira, as vezes falsa)"
+        },
+        {
+          "letra": "D",
+          "texto": "Proposicao simples"
+        },
+        {
+          "letra": "E",
+          "texto": "Equivalencia material"
+        }
+      ],
+      "correta": "A",
+      "comentario": "Atalho: nao precisa montar a tabela-verdade inteira - basta lembrar que \"p ou nao-p\" cobre TODOS os casos possiveis (ou p e verdade, ou sua negacao e), entao o resultado e sempre V. Isso e, por definicao, uma tautologia."
+    },
+    {
+      "id": "rlmnovas087",
+      "tema": "r6-logica-proposicional-conectivos-tabelas-verdade-negacao-equivalencias-quantificadores",
+      "temaNome": "R6. Logica proposicional (conectivos, tabelas-verdade, negacao, equivalencias, quantificadores)",
+      "tipo": "multipla",
+      "enunciado": "A negacao da proposicao \"Todos os engenheiros da equipe usam capacete\" e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Nenhum engenheiro da equipe usa capacete"
+        },
+        {
+          "letra": "B",
+          "texto": "Todos os engenheiros da equipe nao usam capacete"
+        },
+        {
+          "letra": "C",
+          "texto": "Existe pelo menos um engenheiro da equipe que nao usa capacete"
+        },
+        {
+          "letra": "D",
+          "texto": "Nenhum engenheiro existe nessa equipe"
+        },
+        {
+          "letra": "E",
+          "texto": "Algum engenheiro da equipe usa capacete"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho fixo para negar quantificador universal: \"Todo A e B\" nega para \"Existe (ao menos um) A que NAO e B\" - nunca vira \"nenhum\" nem \"todos nao sao\" (isso seria trocar universal por universal, errado). So precisa UM contraexemplo para derrubar um \"todos\"."
+    },
+    {
+      "id": "rlmnovas088",
+      "tema": "r6-logica-proposicional-conectivos-tabelas-verdade-negacao-equivalencias-quantificadores",
+      "temaNome": "R6. Logica proposicional (conectivos, tabelas-verdade, negacao, equivalencias, quantificadores)",
+      "tipo": "multipla",
+      "enunciado": "Um eletricista afirma: \"Ou a chave geral esta ligada, ou o gerador esta funcionando\" (as duas situacoes sao mutuamente excludentes - nunca as duas ao mesmo tempo, nem nenhuma das duas). Sabendo que o GERADOR ESTA funcionando, pode-se concluir CORRETAMENTE que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A chave geral tambem esta ligada"
+        },
+        {
+          "letra": "B",
+          "texto": "A chave geral esta desligada"
+        },
+        {
+          "letra": "C",
+          "texto": "Nao e possivel saber o estado da chave geral"
+        },
+        {
+          "letra": "D",
+          "texto": "O gerador esta com defeito"
+        },
+        {
+          "letra": "E",
+          "texto": "As duas afirmacoes sao falsas"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho: esse \"ou\" e o OU EXCLUSIVO (XOR) - exatamente uma das opcoes e verdadeira, nunca as duas juntas. Se o gerador (uma das opcoes) ja esta funcionando, a outra opcao (chave geral ligada) e OBRIGATORIAMENTE falsa. Chave geral desligada."
+    },
+    {
+      "id": "rlmnovas089",
+      "tema": "r7-argumentacao-logica-premissas-conclusoes-inferencias-e-diagramas-logicos",
+      "temaNome": "R7. Argumentacao logica (premissas, conclusoes, inferencias) e diagramas logicos",
+      "tipo": "multipla",
+      "enunciado": "Considere as premissas: \"Todo engenheiro e um profissional registrado no CREA\" e \"Carlos e engenheiro\". CORRETAMENTE, conclui-se que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Carlos e um profissional registrado no CREA"
+        },
+        {
+          "letra": "B",
+          "texto": "Carlos pode ou nao ser registrado no CREA"
+        },
+        {
+          "letra": "C",
+          "texto": "Todo registrado no CREA e engenheiro"
+        },
+        {
+          "letra": "D",
+          "texto": "Carlos nao e engenheiro"
+        },
+        {
+          "letra": "E",
+          "texto": "Nada pode ser concluido com essas premissas"
+        }
+      ],
+      "correta": "A",
+      "comentario": "Atalho: e o silogismo mais basico (modus ponens aplicado a categoria) - se TODO elemento da categoria A tem a propriedade B, e um elemento especifico pertence a categoria A, ele OBRIGATORIAMENTE tem a propriedade B. Carlos (engenheiro) -> registrado no CREA."
+    },
+    {
+      "id": "rlmnovas090",
+      "tema": "r7-argumentacao-logica-premissas-conclusoes-inferencias-e-diagramas-logicos",
+      "temaNome": "R7. Argumentacao logica (premissas, conclusoes, inferencias) e diagramas logicos",
+      "tipo": "multipla",
+      "enunciado": "Premissa 1: \"Se a obra esta em conformidade, entao o alvara foi aprovado.\" Premissa 2: \"O alvara NAO foi aprovado.\" Pode-se concluir validamente que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A obra esta em conformidade"
+        },
+        {
+          "letra": "B",
+          "texto": "A obra NAO esta em conformidade"
+        },
+        {
+          "letra": "C",
+          "texto": "O alvara sera aprovado futuramente"
+        },
+        {
+          "letra": "D",
+          "texto": "Nada pode ser concluido"
+        },
+        {
+          "letra": "E",
+          "texto": "A obra esta parcialmente em conformidade"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho: e o padrao MODUS TOLLENS (nega o \"resultado\" para negar a \"causa\"): de p->q e ~q, conclui-se sempre ~p. Como o alvara (consequencia) nao foi aprovado, a conformidade (causa) tambem nao pode ter ocorrido."
+    },
+    {
+      "id": "rlmnovas091",
+      "tema": "r7-argumentacao-logica-premissas-conclusoes-inferencias-e-diagramas-logicos",
+      "temaNome": "R7. Argumentacao logica (premissas, conclusoes, inferencias) e diagramas logicos",
+      "tipo": "multipla",
+      "enunciado": "Premissa 1: \"Se chover, a obra sera paralisada.\" Premissa 2: \"A obra foi paralisada.\" Concluir que \"logo, choveu\" e um argumento:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Valido, por modus ponens"
+        },
+        {
+          "letra": "B",
+          "texto": "Valido, por modus tollens"
+        },
+        {
+          "letra": "C",
+          "texto": "INVALIDO (falacia de afirmacao do consequente) - pode haver outros motivos para a paralisacao"
+        },
+        {
+          "letra": "D",
+          "texto": "Valido, pois toda paralisacao tem uma causa"
+        },
+        {
+          "letra": "E",
+          "texto": "Invalido, pois a premissa 1 esta mal formulada"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho para detectar a pegadinha: de p->q, saber que q aconteceu NAO garante que p aconteceu (pode haver outras causas para q). Confundir isso com modus ponens e a falacia da afirmacao do consequente - uma das armadilhas favoritas de banca em Raciocinio Logico."
+    },
+    {
+      "id": "rlmnovas092",
+      "tema": "r7-argumentacao-logica-premissas-conclusoes-inferencias-e-diagramas-logicos",
+      "temaNome": "R7. Argumentacao logica (premissas, conclusoes, inferencias) e diagramas logicos",
+      "tipo": "multipla",
+      "enunciado": "Sabe-se que \"Todo fiscal e engenheiro\" e \"Algum engenheiro e servidor publico\". A partir dessas duas premissas, e CORRETO concluir que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Todo fiscal e servidor publico"
+        },
+        {
+          "letra": "B",
+          "texto": "Algum fiscal e servidor publico"
+        },
+        {
+          "letra": "C",
+          "texto": "Nenhum fiscal e servidor publico"
+        },
+        {
+          "letra": "D",
+          "texto": "Nao e possivel concluir, com certeza, nenhuma relacao entre fiscal e servidor publico"
+        },
+        {
+          "letra": "E",
+          "texto": "Todo servidor publico e fiscal"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Atalho: desenhe mentalmente os diagramas de Euler - o \"algum engenheiro e servidor publico\" pode estar posicionado numa parte do circulo dos engenheiros que NAO toca o circulo (menor) dos fiscais. Como as premissas nao garantem que a intersecao caia dentro do grupo dos fiscais, nenhuma conclusao certa pode ser tirada - classica pegadinha de \"todo + algum\"."
+    },
+    {
+      "id": "rlmnovas093",
+      "tema": "r8-teoria-dos-conjuntos-notacao-pertinencia-inclusao-operacoes",
+      "temaNome": "R8. Teoria dos conjuntos (notacao, pertinencia, inclusao, operacoes)",
+      "tipo": "multipla",
+      "enunciado": "Em uma pesquisa com 100 engenheiros, 60 utilizam o software X, 45 utilizam o software Y, e 25 utilizam AMBOS os softwares. O numero de engenheiros que NAO utilizam nenhum dos dois softwares e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "15"
+        },
+        {
+          "letra": "B",
+          "texto": "20"
+        },
+        {
+          "letra": "C",
+          "texto": "25"
+        },
+        {
+          "letra": "D",
+          "texto": "30"
+        },
+        {
+          "letra": "E",
+          "texto": "35"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho: use direto a formula n(AUB) = n(A) + n(B) - n(A ∩ B) para nao contar o \"ambos\" duas vezes, depois subtraia do total. n(XUY) = 60+45-25 = 80. Nao usam nenhum: 100 - 80 = 20."
+    },
+    {
+      "id": "rlmnovas094",
+      "tema": "r8-teoria-dos-conjuntos-notacao-pertinencia-inclusao-operacoes",
+      "temaNome": "R8. Teoria dos conjuntos (notacao, pertinencia, inclusao, operacoes)",
+      "tipo": "multipla",
+      "enunciado": "O numero de subconjuntos de um conjunto com 5 elementos e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "16"
+        },
+        {
+          "letra": "B",
+          "texto": "24"
+        },
+        {
+          "letra": "C",
+          "texto": "25"
+        },
+        {
+          "letra": "D",
+          "texto": "32"
+        },
+        {
+          "letra": "E",
+          "texto": "64"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Atalho fixo: o numero de subconjuntos (conjunto das partes) de um conjunto com n elementos e sempre 2^n - nao precisa listar nenhum subconjunto. 2^5 = 32."
+    },
+    {
+      "id": "rlmnovas095",
+      "tema": "r8-teoria-dos-conjuntos-notacao-pertinencia-inclusao-operacoes",
+      "temaNome": "R8. Teoria dos conjuntos (notacao, pertinencia, inclusao, operacoes)",
+      "tipo": "multipla",
+      "enunciado": "Sendo A = {1, 2, 3, 4, 5, 6} e B = {4, 5, 6, 7, 8}, o conjunto A - B (diferenca) e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "{7, 8}"
+        },
+        {
+          "letra": "B",
+          "texto": "{4, 5, 6}"
+        },
+        {
+          "letra": "C",
+          "texto": "{1, 2, 3}"
+        },
+        {
+          "letra": "D",
+          "texto": "{1, 2, 3, 4}"
+        },
+        {
+          "letra": "E",
+          "texto": "{1, 2, 3, 7, 8}"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho: A - B e \"o que sobra de A depois de tirar quem tambem esta em B\" - risque mentalmente de A os elementos que aparecem em B (4, 5, 6) e o que sobrar e a resposta. Sobra {1, 2, 3}."
+    },
+    {
+      "id": "rlmnovas096",
+      "tema": "r8-teoria-dos-conjuntos-notacao-pertinencia-inclusao-operacoes",
+      "temaNome": "R8. Teoria dos conjuntos (notacao, pertinencia, inclusao, operacoes)",
+      "tipo": "multipla",
+      "enunciado": "Considerando A = {x ∈ N | x e par e 0 < x < 10} e B = {x ∈ N | x e multiplo de 3 e 0 < x < 10}, o conjunto A ∩ B e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "{ } (vazio)"
+        },
+        {
+          "letra": "B",
+          "texto": "{6}"
+        },
+        {
+          "letra": "C",
+          "texto": "{3, 6}"
+        },
+        {
+          "letra": "D",
+          "texto": "{2, 4, 6, 8}"
+        },
+        {
+          "letra": "E",
+          "texto": "{6, 9}"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho: liste rapido cada conjunto (poucos elementos) e ache so o que aparece nos DOIS ao mesmo tempo. A = {2,4,6,8}. B = {3,6,9}. O unico numero em comum e o 6. A ∩ B = {6}."
+    },
+    {
+      "id": "rlmnovas097",
+      "tema": "r9-sequencias-logicas-numeros-letras-palavras-figuras-e-problemas-de-associacao-logicaverdades-e-mentiras",
+      "temaNome": "R9. Sequencias logicas (numeros, letras, palavras, figuras) e problemas de associacao logica/verdades e mentiras",
+      "tipo": "multipla",
+      "enunciado": "Observe a sequencia: 3, 7, 13, 21, 31, ... O proximo numero da sequencia e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "39"
+        },
+        {
+          "letra": "B",
+          "texto": "41"
+        },
+        {
+          "letra": "C",
+          "texto": "43"
+        },
+        {
+          "letra": "D",
+          "texto": "45"
+        },
+        {
+          "letra": "E",
+          "texto": "47"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho: quando a sequencia nao tem razao constante, calcule a sequencia das DIFERENCAS entre termos vizinhos - ela costuma ter um padrao mais simples. Diferencas: 7-3=4, 13-7=6, 21-13=8, 31-21=10 (aumentam de 2 em 2). Proxima diferenca = 12. Proximo termo = 31+12 = 43."
+    },
+    {
+      "id": "rlmnovas098",
+      "tema": "r9-sequencias-logicas-numeros-letras-palavras-figuras-e-problemas-de-associacao-logicaverdades-e-mentiras",
+      "temaNome": "R9. Sequencias logicas (numeros, letras, palavras, figuras) e problemas de associacao logica/verdades e mentiras",
+      "tipo": "multipla",
+      "enunciado": "Na sequencia de letras A, D, G, J, M, ..., a proxima letra e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "N"
+        },
+        {
+          "letra": "B",
+          "texto": "O"
+        },
+        {
+          "letra": "C",
+          "texto": "P"
+        },
+        {
+          "letra": "D",
+          "texto": "Q"
+        },
+        {
+          "letra": "E",
+          "texto": "R"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho: conte de quanto em quanto a sequencia \"pula\" no alfabeto em vez de decorar a ordem toda. De A para D pula 3 posicoes (B, C ficam de fora); o mesmo padrao (+3) se repete: D-G-J-M. Contando +3 letras a partir de M (N, O, P): a resposta e P."
+    },
+    {
+      "id": "rlmnovas099",
+      "tema": "r9-sequencias-logicas-numeros-letras-palavras-figuras-e-problemas-de-associacao-logicaverdades-e-mentiras",
+      "temaNome": "R9. Sequencias logicas (numeros, letras, palavras, figuras) e problemas de associacao logica/verdades e mentiras",
+      "tipo": "multipla",
+      "enunciado": "Tres pessoas, A, B e C, prestam depoimento sobre um problema na obra. A diz: \"B esta mentindo\". B diz: \"C esta mentindo\". C diz: \"A e B estao mentindo\". Sabendo que APENAS UM deles fala a verdade, e CORRETO afirmar que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas A fala a verdade"
+        },
+        {
+          "letra": "B",
+          "texto": "Apenas B fala a verdade"
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas C fala a verdade"
+        },
+        {
+          "letra": "D",
+          "texto": "A e C falam a verdade"
+        },
+        {
+          "letra": "E",
+          "texto": "Nenhum dos tres fala a verdade"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho: teste cada suspeito como \"o unico verdadeiro\" e veja qual hipotese nao gera contradicao (nao precisa tabela-verdade completa). Testando B como unico verdadeiro: B diz \"C mente\" (verdade, C mente mesmo) e C, mentindo, tem sua fala \"A e B mentem\" invertida para pelo menos um dos dois falar verdade - conforme, ja que B fala verdade. A, mentindo, nega \"B mente\", ou seja, afirma implicitamente que B fala verdade - compativel. Unica hipotese sem contradicao: B fala a verdade."
+    },
+    {
+      "id": "rlmnovas100",
+      "tema": "r9-sequencias-logicas-numeros-letras-palavras-figuras-e-problemas-de-associacao-logicaverdades-e-mentiras",
+      "temaNome": "R9. Sequencias logicas (numeros, letras, palavras, figuras) e problemas de associacao logica/verdades e mentiras",
+      "tipo": "multipla",
+      "enunciado": "Tres engenheiros - Ana, Bruno e Carla - trabalham, cada um, em uma obra diferente: Escola, Posto de Saude e Praca (nao necessariamente nessa ordem). Sabe-se que: (I) Ana nao trabalha na Escola; (II) Bruno trabalha na Praca; (III) Carla nao trabalha no Posto de Saude. A obra de cada um e, CORRETAMENTE:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ana-Escola, Bruno-Praca, Carla-Posto de Saude"
+        },
+        {
+          "letra": "B",
+          "texto": "Ana-Posto de Saude, Bruno-Praca, Carla-Escola"
+        },
+        {
+          "letra": "C",
+          "texto": "Ana-Praca, Bruno-Escola, Carla-Posto de Saude"
+        },
+        {
+          "letra": "D",
+          "texto": "Ana-Posto de Saude, Bruno-Escola, Carla-Praca"
+        },
+        {
+          "letra": "E",
+          "texto": "Ana-Escola, Bruno-Posto de Saude, Carla-Praca"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho: preencha primeiro o que ja e certo (Bruno = Praca, pista II), depois elimine por descarte nas pistas negativas - nunca comece tentando adivinhar. Com Bruno na Praca, sobram Escola e Posto de Saude para Ana e Carla. Pista I: Ana nao e Escola -> Ana = Posto de Saude. Logo Carla = Escola (confere com a pista III: Carla nao e Posto de Saude)."
+    },
+    {
+      "id": "rlmnovas101",
+      "tema": "r10-analise-combinatoria-principio-fundamental-da-contagem-arranjos-permutacoes-combinacoes-e-probabilidade",
+      "temaNome": "R10. Analise combinatoria (principio fundamental da contagem, arranjos, permutacoes, combinacoes) e probabilidade",
+      "tipo": "multipla",
+      "enunciado": "Um engenheiro tem 4 camisas, 3 calcas e 2 pares de sapato. De quantas formas diferentes ele pode se vestir, escolhendo uma peca de cada tipo?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "9"
+        },
+        {
+          "letra": "B",
+          "texto": "12"
+        },
+        {
+          "letra": "C",
+          "texto": "20"
+        },
+        {
+          "letra": "D",
+          "texto": "24"
+        },
+        {
+          "letra": "E",
+          "texto": "28"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Atalho: e o Principio Fundamental da Contagem puro - so multiplique as opcoes de cada etapa independente, sem formula complicada. 4 x 3 x 2 = 24 combinacoes possiveis."
+    },
+    {
+      "id": "rlmnovas102",
+      "tema": "r10-analise-combinatoria-principio-fundamental-da-contagem-arranjos-permutacoes-combinacoes-e-probabilidade",
+      "temaNome": "R10. Analise combinatoria (principio fundamental da contagem, arranjos, permutacoes, combinacoes) e probabilidade",
+      "tipo": "multipla",
+      "enunciado": "De um grupo de 7 engenheiros, uma comissao de 3 membros deve ser formada, SEM distincao de funcao entre eles (a ordem nao importa). O numero de comissoes possiveis e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "21"
+        },
+        {
+          "letra": "B",
+          "texto": "30"
+        },
+        {
+          "letra": "C",
+          "texto": "35"
+        },
+        {
+          "letra": "D",
+          "texto": "42"
+        },
+        {
+          "letra": "E",
+          "texto": "210"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho: como a ordem nao importa (comissao, nao cargo), e combinacao, nao arranjo - e da pra simplificar por cancelamento antes de multiplicar tudo. C(7,3) = (7x6x5)/(3x2x1) = 210/6 = 35. Truque: cancele o 6 do denominador direto com o 6 do numerador (7x6x5 = 7x5x6): sobra 7x5=35."
+    },
+    {
+      "id": "rlmnovas103",
+      "tema": "r10-analise-combinatoria-principio-fundamental-da-contagem-arranjos-permutacoes-combinacoes-e-probabilidade",
+      "temaNome": "R10. Analise combinatoria (principio fundamental da contagem, arranjos, permutacoes, combinacoes) e probabilidade",
+      "tipo": "multipla",
+      "enunciado": "Uma urna contem 5 bolas vermelhas e 3 bolas azuis. Retirando-se uma bola ao acaso, a probabilidade de ela ser azul e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "3/8"
+        },
+        {
+          "letra": "B",
+          "texto": "5/8"
+        },
+        {
+          "letra": "C",
+          "texto": "3/5"
+        },
+        {
+          "letra": "D",
+          "texto": "1/3"
+        },
+        {
+          "letra": "E",
+          "texto": "5/3"
+        }
+      ],
+      "correta": "A",
+      "comentario": "Atalho: probabilidade = casos favoraveis / casos totais, sem nenhuma conta complicada. Bolas azuis = 3. Total de bolas = 5+3 = 8. Probabilidade = 3/8."
+    },
+    {
+      "id": "rlmnovas104",
+      "tema": "r10-analise-combinatoria-principio-fundamental-da-contagem-arranjos-permutacoes-combinacoes-e-probabilidade",
+      "temaNome": "R10. Analise combinatoria (principio fundamental da contagem, arranjos, permutacoes, combinacoes) e probabilidade",
+      "tipo": "multipla",
+      "enunciado": "Em um sorteio entre os funcionarios de uma obra, a probabilidade de o vencedor ser engenheiro e 0,4 e a probabilidade de ser mulher e 0,3. Sabendo que 0,1 e a probabilidade de ser, simultaneamente, engenheira E mulher, a probabilidade de o vencedor ser engenheiro OU mulher e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0,5"
+        },
+        {
+          "letra": "B",
+          "texto": "0,6"
+        },
+        {
+          "letra": "C",
+          "texto": "0,7"
+        },
+        {
+          "letra": "D",
+          "texto": "0,8"
+        },
+        {
+          "letra": "E",
+          "texto": "0,9"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho: use direto P(A ou B) = P(A) + P(B) - P(A e B) para nao contar duas vezes quem e engenheira E mulher ao mesmo tempo. P = 0,4 + 0,3 - 0,1 = 0,6."
+    },
+    {
+      "id": "rlmnovas105",
+      "tema": "r1-conjuntos-numericos-e-operacoes-fundamentais-mdc-mmc-fatoracao",
+      "temaNome": "R1. Conjuntos numericos e operacoes fundamentais (MDC, MMC, fatoracao)",
+      "tipo": "multipla",
+      "enunciado": "Dois trens passam por uma estacao: o trem A a cada 18 minutos e o trem B a cada 24 minutos. Se os dois passaram juntos as 7h00, a PROXIMA vez que ambos passarao juntos pela estacao sera as:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "8h06"
+        },
+        {
+          "letra": "B",
+          "texto": "8h12"
+        },
+        {
+          "letra": "C",
+          "texto": "8h18"
+        },
+        {
+          "letra": "D",
+          "texto": "8h24"
+        },
+        {
+          "letra": "E",
+          "texto": "8h30"
+        }
+      ],
+      "correta": "B",
+      "comentario": "[DIFICIL] Atalho: o intervalo entre encontros simultaneos e sempre o MMC dos dois periodos, nao a soma nem o produto direto. MMC(18,24): 18=2x3^2, 24=2^3x3, MMC=2^3x3^2=72 min = 1h12min. 7h00 + 1h12min = 8h12."
+    },
+    {
+      "id": "rlmnovas106",
+      "tema": "r1-conjuntos-numericos-e-operacoes-fundamentais-mdc-mmc-fatoracao",
+      "temaNome": "R1. Conjuntos numericos e operacoes fundamentais (MDC, MMC, fatoracao)",
+      "tipo": "multipla",
+      "enunciado": "Um terreno retangular de 168 m por 210 m sera dividido em lotes QUADRADOS identicos, sem sobra de area, com o MAIOR lado possivel para o quadrado. Esse lado, em metros, e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "21"
+        },
+        {
+          "letra": "B",
+          "texto": "28"
+        },
+        {
+          "letra": "C",
+          "texto": "35"
+        },
+        {
+          "letra": "D",
+          "texto": "42"
+        },
+        {
+          "letra": "E",
+          "texto": "56"
+        }
+      ],
+      "correta": "D",
+      "comentario": "[DIFICIL] Atalho: o maior quadrado que \"ladrilha\" um retangulo sem sobra tem lado igual ao MDC das duas dimensoes - nao adianta testar valores. 168=2^3x3x7 e 210=2x3x5x7. Fatores comuns (menor expoente de cada primo): 2^1 x 3^1 x 7^1 = 42."
+    },
+    {
+      "id": "rlmnovas107",
+      "tema": "r2-razoes-proporcoes-e-regra-de-tres",
+      "temaNome": "R2. Razoes, proporcoes e regra de tres",
+      "tipo": "multipla",
+      "enunciado": "Uma torneira enche sozinha um reservatorio em 6 horas, e outra o enche sozinha em 4 horas. Trabalhando as duas AO MESMO TEMPO, o tempo necessario para encher o reservatorio e de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2h"
+        },
+        {
+          "letra": "B",
+          "texto": "2h24min"
+        },
+        {
+          "letra": "C",
+          "texto": "2h30min"
+        },
+        {
+          "letra": "D",
+          "texto": "3h"
+        },
+        {
+          "letra": "E",
+          "texto": "5h"
+        }
+      ],
+      "correta": "B",
+      "comentario": "[DIFICIL] Atalho de problemas de torneiras/trabalho conjunto: some as TAXAS (fracao do servico por hora), nunca some os tempos direto. Taxa conjunta = 1/6 + 1/4 = 2/12 + 3/12 = 5/12 do reservatorio por hora. Tempo = 1 / (5/12) = 12/5 = 2,4 h = 2h + 0,4x60min = 2h24min."
+    },
+    {
+      "id": "rlmnovas108",
+      "tema": "r2-razoes-proporcoes-e-regra-de-tres",
+      "temaNome": "R2. Razoes, proporcoes e regra de tres",
+      "tipo": "multipla",
+      "enunciado": "Um tanque contem 40 litros de uma solucao com 25% de concentracao de um aditivo. Quantos litros de AGUA PURA devem ser adicionados para que a concentracao final caia para 10%?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "40"
+        },
+        {
+          "letra": "B",
+          "texto": "50"
+        },
+        {
+          "letra": "C",
+          "texto": "60"
+        },
+        {
+          "letra": "D",
+          "texto": "70"
+        },
+        {
+          "letra": "E",
+          "texto": "80"
+        }
+      ],
+      "correta": "C",
+      "comentario": "[DIFICIL] Atalho: a quantidade de ADITIVO (soluto) nao muda ao adicionar agua pura - so o volume total aumenta. Aditivo fixo = 25% de 40 = 10 litros. Para virar 10% de um novo total V: 10/V = 0,10 -> V = 100 litros. Agua adicionada = 100 - 40 = 60 litros."
+    },
+    {
+      "id": "rlmnovas109",
+      "tema": "r3-porcentagem",
+      "temaNome": "R3. Porcentagem",
+      "tipo": "multipla",
+      "enunciado": "Um produto teve seu preco aumentado em 30% e, em seguida, sofreu um desconto sobre o NOVO preco para voltar exatamente ao preco original. Esse desconto foi de, aproximadamente:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "20%"
+        },
+        {
+          "letra": "B",
+          "texto": "23,08%"
+        },
+        {
+          "letra": "C",
+          "texto": "25%"
+        },
+        {
+          "letra": "D",
+          "texto": "30%"
+        },
+        {
+          "letra": "E",
+          "texto": "33,33%"
+        }
+      ],
+      "correta": "B",
+      "comentario": "[DIFICIL] Atalho (mesma logica da compensacao percentual, mas o valor NUNCA e igual ao aumento): apos o aumento, o preco virou 1,3 do original. Para voltar a 1,0: fator = 1/1,3 = 0,7692, ou seja, desconto = 1 - 0,7692 = 0,2308 = 23,08%."
+    },
+    {
+      "id": "rlmnovas110",
+      "tema": "r3-porcentagem",
+      "temaNome": "R3. Porcentagem",
+      "tipo": "multipla",
+      "enunciado": "Um lojista quer vender um produto que custou R$ 300,00 com lucro de 20% sobre o custo, mas pretende dar 10% de desconto sobre o preco de ETIQUETA no ato da venda. Por quanto ele deve MARCAR o produto (etiqueta) para garantir esse lucro mesmo apos o desconto?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R$ 360,00"
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 380,00"
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 396,00"
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 400,00"
+        },
+        {
+          "letra": "E",
+          "texto": "R$ 420,00"
+        }
+      ],
+      "correta": "D",
+      "comentario": "[DIFICIL] Atalho de dois passos, na ordem certa: primeiro ache o preco de VENDA necessario (com lucro), depois \"desfaca\" o desconto dividindo (nunca somando %). Preco de venda desejado = 300 x 1,2 = R$ 360,00. Etiqueta x 0,9 = 360 -> Etiqueta = 360/0,9 = R$ 400,00."
+    },
+    {
+      "id": "rlmnovas111",
+      "tema": "r4-equacoes-e-sistemas-do-1o-grau-funcao-do-1o-grau",
+      "temaNome": "R4. Equacoes e sistemas do 1o grau / funcao do 1o grau",
+      "tipo": "multipla",
+      "enunciado": "A soma das idades de tres irmaos e 90 anos. O mais velho tem o DOBRO da idade do do meio, que por sua vez tem o TRIPLO da idade do mais novo. As idades, do mais novo ao mais velho, sao:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "9, 27 e 54"
+        },
+        {
+          "letra": "B",
+          "texto": "10, 25 e 55"
+        },
+        {
+          "letra": "C",
+          "texto": "8, 24 e 58"
+        },
+        {
+          "letra": "D",
+          "texto": "12, 30 e 48"
+        },
+        {
+          "letra": "E",
+          "texto": "9, 30 e 51"
+        }
+      ],
+      "correta": "A",
+      "comentario": "[DIFICIL] Atalho: escreva TODAS as idades em funcao da menor (x) antes de montar a equacao, para cair numa unica incognita. Mais novo = x; do meio = 3x; mais velho = 2x(3x)=6x. Soma: x+3x+6x=10x=90 -> x=9. Do meio=27, mais velho=54."
+    },
+    {
+      "id": "rlmnovas112",
+      "tema": "r4-equacoes-e-sistemas-do-1o-grau-funcao-do-1o-grau",
+      "temaNome": "R4. Equacoes e sistemas do 1o grau / funcao do 1o grau",
+      "tipo": "multipla",
+      "enunciado": "Uma equipe de 6 operarios realiza uma obra em 20 dias. Apos 5 dias de trabalho, 2 operarios sao desligados da equipe. Mantido o mesmo ritmo individual, em quantos dias, A PARTIR DA SAIDA dos 2 operarios, o restante da equipe conclui o que falta da obra?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "18"
+        },
+        {
+          "letra": "B",
+          "texto": "20"
+        },
+        {
+          "letra": "C",
+          "texto": "22,5"
+        },
+        {
+          "letra": "D",
+          "texto": "24"
+        },
+        {
+          "letra": "E",
+          "texto": "25"
+        }
+      ],
+      "correta": "C",
+      "comentario": "[DIFICIL] Atalho: trabalhe em \"homem-dia\" (trabalho total = operarios x dias), que se mantem constante, em vez de tentar regra de tres direta com dados que mudam no meio do problema. Trabalho total = 6x20 = 120 homem-dia. Feito em 5 dias com 6 operarios = 6x5=30. Falta = 90 homem-dia, com 4 operarios: 90/4 = 22,5 dias."
+    },
+    {
+      "id": "rlmnovas113",
+      "tema": "r5-media-aritmetica-simples-e-ponderada",
+      "temaNome": "R5. Media aritmetica simples e ponderada",
+      "tipo": "multipla",
+      "enunciado": "As notas de 8 alunos em uma prova somam 60 pontos. Desses, 3 alunos tem media 5,0 ENTRE SI. A media dos outros 5 alunos e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "7"
+        },
+        {
+          "letra": "B",
+          "texto": "8"
+        },
+        {
+          "letra": "C",
+          "texto": "9"
+        },
+        {
+          "letra": "D",
+          "texto": "10"
+        },
+        {
+          "letra": "E",
+          "texto": "11"
+        }
+      ],
+      "correta": "C",
+      "comentario": "[DIFICIL] Atalho: reconstrua as SOMAS de cada subgrupo (nunca misture medias de grupos de tamanhos diferentes direto). Soma total = 60. Soma dos 3 = 3x5=15. Soma dos outros 5 = 60-15=45. Media dos 5 = 45/5 = 9."
+    },
+    {
+      "id": "rlmnovas114",
+      "tema": "r5-media-aritmetica-simples-e-ponderada",
+      "temaNome": "R5. Media aritmetica simples e ponderada",
+      "tipo": "multipla",
+      "enunciado": "Um aluno obteve nota 6,0 em uma avaliacao de peso 2, e nota 9,0 em outra avaliacao de peso DESCONHECIDO w. A media ponderada final foi 8,0. O valor de w e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2"
+        },
+        {
+          "letra": "B",
+          "texto": "3"
+        },
+        {
+          "letra": "C",
+          "texto": "4"
+        },
+        {
+          "letra": "D",
+          "texto": "5"
+        },
+        {
+          "letra": "E",
+          "texto": "6"
+        }
+      ],
+      "correta": "C",
+      "comentario": "[DIFICIL] Atalho: monte a equacao da media ponderada com w como incognita e resolva por equacao do 1o grau, em vez de tentar \"adivinhar\" o peso. (6x2 + 9w)/(2+w) = 8 -> 12+9w = 16+8w -> w = 4."
+    },
+    {
+      "id": "rlmnovas115",
+      "tema": "r6-logica-proposicional-conectivos-tabelas-verdade-negacao-equivalencias-quantificadores",
+      "temaNome": "R6. Logica proposicional (conectivos, tabelas-verdade, negacao, equivalencias, quantificadores)",
+      "tipo": "multipla",
+      "enunciado": "A proposicao ~(p -> q) (negacao do condicional \"se p entao q\") e logicamente EQUIVALENTE a:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "p ^ ~q (p e nao-q)"
+        },
+        {
+          "letra": "B",
+          "texto": "~p ^ q (nao-p e q)"
+        },
+        {
+          "letra": "C",
+          "texto": "p v ~q (p ou nao-q)"
+        },
+        {
+          "letra": "D",
+          "texto": "~p v ~q (nao-p ou nao-q)"
+        },
+        {
+          "letra": "E",
+          "texto": "~p ^ ~q (nao-p e nao-q)"
+        }
+      ],
+      "correta": "A",
+      "comentario": "[DIFICIL] Atalho fixo (decore esta equivalencia, e muito cobrada): negar um condicional p->q sempre resulta em \"p verdadeiro E q falso\" (p ^ ~q) - e a UNICA linha da tabela-verdade onde o condicional original e falso."
+    },
+    {
+      "id": "rlmnovas116",
+      "tema": "r6-logica-proposicional-conectivos-tabelas-verdade-negacao-equivalencias-quantificadores",
+      "temaNome": "R6. Logica proposicional (conectivos, tabelas-verdade, negacao, equivalencias, quantificadores)",
+      "tipo": "multipla",
+      "enunciado": "Considerando verdadeira a proposicao \"Se a fundacao e adequada, entao a estrutura nao recalca\", e logicamente EQUIVALENTE (mesma tabela-verdade) afirmar que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Se a estrutura recalca, entao a fundacao nao e adequada"
+        },
+        {
+          "letra": "B",
+          "texto": "Se a fundacao nao e adequada, entao a estrutura recalca"
+        },
+        {
+          "letra": "C",
+          "texto": "Se a estrutura nao recalca, entao a fundacao e adequada"
+        },
+        {
+          "letra": "D",
+          "texto": "A fundacao e adequada e a estrutura recalca"
+        },
+        {
+          "letra": "E",
+          "texto": "A fundacao nao e adequada ou a estrutura nao recalca"
+        }
+      ],
+      "correta": "A",
+      "comentario": "[DIFICIL] Atalho: a UNICA reformulacao logicamente equivalente a p->q e a CONTRAPOSITIVA ~q->~p (inverte E nega os dois termos) - a reciproca (q->p) e a inversa (~p->~q) NAO sao equivalentes, so a contrapositiva e. Aqui: \"estrutura recalca\" (nao ~q) -> \"fundacao nao adequada\" (~p)."
+    },
+    {
+      "id": "rlmnovas117",
+      "tema": "r7-argumentacao-logica-premissas-conclusoes-inferencias-e-diagramas-logicos",
+      "temaNome": "R7. Argumentacao logica (premissas, conclusoes, inferencias) e diagramas logicos",
+      "tipo": "multipla",
+      "enunciado": "Premissas: \"Nenhum projeto sem ART e aprovado pela fiscalizacao\" e \"Este projeto foi aprovado pela fiscalizacao\". Conclui-se CORRETAMENTE que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Este projeto tem ART"
+        },
+        {
+          "letra": "B",
+          "texto": "Este projeto nao tem ART"
+        },
+        {
+          "letra": "C",
+          "texto": "Este projeto pode ou nao ter ART"
+        },
+        {
+          "letra": "D",
+          "texto": "A fiscalizacao errou ao aprovar"
+        },
+        {
+          "letra": "E",
+          "texto": "Nenhuma conclusao e possivel"
+        }
+      ],
+      "correta": "A",
+      "comentario": "[DIFICIL] Atalho: reescreva a premissa \"Nenhum sem-ART e aprovado\" na forma equivalente mais facil de aplicar: \"Todo projeto aprovado TEM ART\" (contrapositiva do enunciado original). Como este projeto foi aprovado, ele obrigatoriamente tem ART."
+    },
+    {
+      "id": "rlmnovas118",
+      "tema": "r7-argumentacao-logica-premissas-conclusoes-inferencias-e-diagramas-logicos",
+      "temaNome": "R7. Argumentacao logica (premissas, conclusoes, inferencias) e diagramas logicos",
+      "tipo": "multipla",
+      "enunciado": "Premissa 1: \"Se o solo e argiloso, a fundacao sera em estacas.\" Premissa 2: \"Se a fundacao e em estacas, o prazo da obra aumenta.\" Premissa 3: \"O solo e argiloso.\" CORRETAMENTE, conclui-se que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O prazo da obra aumentara"
+        },
+        {
+          "letra": "B",
+          "texto": "O prazo da obra nao mudara"
+        },
+        {
+          "letra": "C",
+          "texto": "A fundacao nao sera em estacas"
+        },
+        {
+          "letra": "D",
+          "texto": "O solo nao e argiloso"
+        },
+        {
+          "letra": "E",
+          "texto": "Nada pode ser concluido com 3 premissas encadeadas"
+        }
+      ],
+      "correta": "A",
+      "comentario": "[DIFICIL] Atalho: encadeie as duas implicacoes (silogismo hipotetico) ANTES de aplicar a premissa 3 - isso poupa passos. De p->q e q->r, resulta direto p->r: \"solo argiloso -> prazo aumenta\". Como o solo E argiloso (premissa 3), o prazo aumentara."
+    },
+    {
+      "id": "rlmnovas119",
+      "tema": "r8-teoria-dos-conjuntos-notacao-pertinencia-inclusao-operacoes",
+      "temaNome": "R8. Teoria dos conjuntos (notacao, pertinencia, inclusao, operacoes)",
+      "tipo": "multipla",
+      "enunciado": "Em uma pesquisa com 100 engenheiros sobre tres softwares X, Y e Z: 50 usam X, 40 usam Y, 30 usam Z, 15 usam X e Y, 10 usam Y e Z, 12 usam X e Z, e 5 usam os TRES simultaneamente. O numero de engenheiros que NAO usa nenhum dos tres softwares e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "8"
+        },
+        {
+          "letra": "B",
+          "texto": "10"
+        },
+        {
+          "letra": "C",
+          "texto": "12"
+        },
+        {
+          "letra": "D",
+          "texto": "14"
+        },
+        {
+          "letra": "E",
+          "texto": "16"
+        }
+      ],
+      "correta": "C",
+      "comentario": "[DIFICIL] Atalho: use a formula de inclusao-exclusao para 3 conjuntos de uma vez, sem desenhar diagrama passo a passo. |XuYuZ| = (50+40+30) - (15+10+12) + 5 = 120 - 37 + 5 = 88. Nao usa nenhum: 100 - 88 = 12."
+    },
+    {
+      "id": "rlmnovas120",
+      "tema": "r8-teoria-dos-conjuntos-notacao-pertinencia-inclusao-operacoes",
+      "temaNome": "R8. Teoria dos conjuntos (notacao, pertinencia, inclusao, operacoes)",
+      "tipo": "multipla",
+      "enunciado": "Sendo A = {1,2,3,4,5} e B = {3,4,5,6,7}, o numero de elementos da DIFERENCA SIMETRICA (A ∆ B, ou seja, o que esta em A ou em B mas NAO nos dois) e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2"
+        },
+        {
+          "letra": "B",
+          "texto": "3"
+        },
+        {
+          "letra": "C",
+          "texto": "4"
+        },
+        {
+          "letra": "D",
+          "texto": "5"
+        },
+        {
+          "letra": "E",
+          "texto": "6"
+        }
+      ],
+      "correta": "C",
+      "comentario": "[DIFICIL] Atalho: a diferenca simetrica e so \"juntar os exclusivos de cada lado\", sem precisar calcular uniao nem intersecao. Exclusivos de A: {1,2} (2 elementos). Exclusivos de B: {6,7} (2 elementos). Total: 2+2 = 4 elementos."
+    },
+    {
+      "id": "rlmnovas121",
+      "tema": "r9-sequencias-logicas-numeros-letras-palavras-figuras-e-problemas-de-associacao-logicaverdades-e-mentiras",
+      "temaNome": "R9. Sequencias logicas (numeros, letras, palavras, figuras) e problemas de associacao logica/verdades e mentiras",
+      "tipo": "multipla",
+      "enunciado": "Observe a sequencia: 2, 6, 12, 20, 30, ... Mantido o padrao, o 8o termo dessa sequencia e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "56"
+        },
+        {
+          "letra": "B",
+          "texto": "64"
+        },
+        {
+          "letra": "C",
+          "texto": "72"
+        },
+        {
+          "letra": "D",
+          "texto": "80"
+        },
+        {
+          "letra": "E",
+          "texto": "90"
+        }
+      ],
+      "correta": "C",
+      "comentario": "[DIFICIL] Atalho: reconheca o padrao n x (n+1) em vez de somar diferenca por diferenca ate o 8o termo (mais lento). Termo 1=1x2=2, termo 2=2x3=6, termo 3=3x4=12... termo k = k x (k+1). Termo 8 = 8 x 9 = 72."
+    },
+    {
+      "id": "rlmnovas122",
+      "tema": "r9-sequencias-logicas-numeros-letras-palavras-figuras-e-problemas-de-associacao-logicaverdades-e-mentiras",
+      "temaNome": "R9. Sequencias logicas (numeros, letras, palavras, figuras) e problemas de associacao logica/verdades e mentiras",
+      "tipo": "multipla",
+      "enunciado": "Quatro fiscais - P, Q, R e S - avaliam, cada um, uma obra diferente, um por dia, de segunda a quinta-feira. Sabe-se que: (I) P avalia na segunda-feira; (II) Q nao avalia na terca-feira; (III) R avalia no dia IMEDIATAMENTE seguinte ao de Q; (IV) S avalia antes de R. A ordem correta, de segunda a quinta, e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "P, S, Q, R"
+        },
+        {
+          "letra": "B",
+          "texto": "P, Q, S, R"
+        },
+        {
+          "letra": "C",
+          "texto": "S, P, Q, R"
+        },
+        {
+          "letra": "D",
+          "texto": "P, S, R, Q"
+        },
+        {
+          "letra": "E",
+          "texto": "P, R, Q, S"
+        }
+      ],
+      "correta": "A",
+      "comentario": "[DIFICIL] Atalho: comece SEMPRE pela pista mais direta (P=segunda, dado no enunciado) e va eliminando por descarte, testando a pista de posicao relativa (III) por ultimo. Com P=segunda, sobram terca/quarta/quinta para Q, R, S. Por (II), Q nao e terca, entao Q e quarta ou quinta. Se Q=quinta, R (dia seguinte) nao existe -> invalido. Logo Q=quarta e R=quinta (pista III). Sobra terca para S, que confere com (IV): S(terca) antes de R(quinta)."
+    },
+    {
+      "id": "rlmnovas123",
+      "tema": "r10-analise-combinatoria-principio-fundamental-da-contagem-arranjos-permutacoes-combinacoes-e-probabilidade",
+      "temaNome": "R10. Analise combinatoria (principio fundamental da contagem, arranjos, permutacoes, combinacoes) e probabilidade",
+      "tipo": "multipla",
+      "enunciado": "Em uma reuniao de obra, 5 pessoas (incluindo o engenheiro-chefe) devem se sentar em 5 cadeiras enfileiradas. De quantas formas diferentes elas podem se sentar de modo que o engenheiro-chefe ocupe SEMPRE a cadeira central?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "24"
+        },
+        {
+          "letra": "B",
+          "texto": "48"
+        },
+        {
+          "letra": "C",
+          "texto": "60"
+        },
+        {
+          "letra": "D",
+          "texto": "120"
+        },
+        {
+          "letra": "E",
+          "texto": "20"
+        }
+      ],
+      "correta": "A",
+      "comentario": "[DIFICIL] Atalho: fixe a posicao obrigatoria primeiro (ela deixa de ser uma variavel) e so permute o que sobra. Engenheiro-chefe fixo no centro. As outras 4 pessoas permutam livremente nas 4 cadeiras restantes: 4! = 24."
+    },
+    {
+      "id": "rlmnovas124",
+      "tema": "r10-analise-combinatoria-principio-fundamental-da-contagem-arranjos-permutacoes-combinacoes-e-probabilidade",
+      "temaNome": "R10. Analise combinatoria (principio fundamental da contagem, arranjos, permutacoes, combinacoes) e probabilidade",
+      "tipo": "multipla",
+      "enunciado": "Uma caixa tem 4 pecas com defeito e 6 pecas perfeitas. Duas pecas sao retiradas, sucessivamente e SEM reposicao. A probabilidade de AMBAS serem perfeitas e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1/4"
+        },
+        {
+          "letra": "B",
+          "texto": "3/10"
+        },
+        {
+          "letra": "C",
+          "texto": "1/3"
+        },
+        {
+          "letra": "D",
+          "texto": "3/5"
+        },
+        {
+          "letra": "E",
+          "texto": "9/25"
+        }
+      ],
+      "correta": "C",
+      "comentario": "[DIFICIL] Atalho: multiplique as probabilidades sucessivas, lembrando que o TOTAL diminui a cada retirada (sem reposicao) - nao repita o denominador. P(1a perfeita) = 6/10. Apos tirar uma perfeita, sobram 5 perfeitas em 9 pecas: P(2a perfeita) = 5/9. P(ambas) = 6/10 x 5/9 = 30/90 = 1/3."
     }
   ]
 }

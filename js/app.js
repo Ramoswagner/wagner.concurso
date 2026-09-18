@@ -262,6 +262,9 @@ function renderStudy(card) {
   document.getElementById('conf-row').style.display = 'none';
   document.getElementById('fc-badge-txt').textContent = card.temaNome || CATS[S.cat].pt;
   document.getElementById('fc-term').textContent = card.enunciado;
+  const fcImg = document.getElementById('fc-img');
+  if (card.imagem) { fcImg.src = card.imagem; fcImg.alt = 'Figura da questão'; fcImg.style.display = 'block'; }
+  else { fcImg.style.display = 'none'; fcImg.src = ''; }
 
   const back = document.getElementById('bk-alts');
   back.innerHTML = '';
@@ -284,6 +287,9 @@ function renderStudy(card) {
 function renderQuiz(card) {
   document.getElementById('q-tema').textContent = card.temaNome || CATS[S.cat].pt;
   document.getElementById('q-prompt').textContent = card.enunciado;
+  const qImg = document.getElementById('q-img');
+  if (card.imagem) { qImg.src = card.imagem; qImg.alt = 'Figura da questão'; qImg.style.display = 'block'; }
+  else { qImg.style.display = 'none'; qImg.src = ''; }
   document.getElementById('q-score').textContent  = `${S.qScore} corretas de ${S.qTotal}`;
   document.getElementById('q-comment').style.display = 'none';
   S.qAnswered = false;
