@@ -454,7 +454,7 @@
         }
       ],
       "correta": "B",
-      "comentario": "O estagio probatorio e o periodo, em regra de 3 anos, em que o servidor efetivo e avaliado quanto a aptidao, capacidade, disciplina, assiduidade e eficiencia para o exercicio do cargo."
+      "comentario": "O estagio probatorio e o periodo em que o servidor efetivo e avaliado quanto a aptidao, capacidade, disciplina, assiduidade e eficiencia para o exercicio do cargo. ATENCAO: o prazo varia de Municipio para Municipio - em muitos estatutos e de 3 anos, mas para Contagem/MG especificamente (Lei 2.160/1990, art. 21) o prazo correto e de 24 (vinte e quatro) meses. Veja a questao especifica sobre esse prazo no tema C4."
     },
     {
       "id": "cgm015",
@@ -517,6 +517,1060 @@
       ],
       "correta": "B",
       "comentario": "A progressao funcional e o mecanismo, tipico dos planos de carreira, pelo qual o servidor avanca de nivel/referencia dentro da mesma carreira, geralmente vinculado a tempo de servico e/ou avaliacao de desempenho ou qualificacao."
+    },
+    {
+      "id": "gnovas017",
+      "tema": "c1-aspectos-geograficos-e-historicos-de-contagemmg",
+      "temaNome": "C1. Aspectos geograficos e historicos de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "O Municipio de Contagem foi elevado a categoria de municipio autonomo pela Lei Estadual no 556, em:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "20 de agosto de 1911"
+        },
+        {
+          "letra": "B",
+          "texto": "30 de agosto de 1911"
+        },
+        {
+          "letra": "C",
+          "texto": "15 de setembro de 1911"
+        },
+        {
+          "letra": "D",
+          "texto": "30 de agosto de 1901"
+        },
+        {
+          "letra": "E",
+          "texto": "10 de julho de 1922"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Contagem foi emancipada em 30 de agosto de 1911, data hoje comemorada como aniversario da cidade."
+    },
+    {
+      "id": "gnovas018",
+      "tema": "c1-aspectos-geograficos-e-historicos-de-contagemmg",
+      "temaNome": "C1. Aspectos geograficos e historicos de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Em 1938, Contagem perdeu sua autonomia politico-administrativa e passou a integrar o territorio do Municipio de Betim como distrito. Contagem recuperou definitivamente sua autonomia municipal em 27 de dezembro de 1948, por meio da:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Lei no 556/1911"
+        },
+        {
+          "letra": "B",
+          "texto": "Lei no 336/1948"
+        },
+        {
+          "letra": "C",
+          "texto": "Lei Organica de 1990"
+        },
+        {
+          "letra": "D",
+          "texto": "Constituicao Estadual de 1947"
+        },
+        {
+          "letra": "E",
+          "texto": "Lei no 750/1976"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A autonomia de Contagem, suprimida em 1938 (quando o Municipio foi anexado a Betim como distrito), foi restaurada pela Lei no 336, de 27 de dezembro de 1948."
+    },
+    {
+      "id": "gnovas019",
+      "tema": "c1-aspectos-geograficos-e-historicos-de-contagemmg",
+      "temaNome": "C1. Aspectos geograficos e historicos de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "O nome do Municipio de Contagem esta historicamente associado a um antigo posto colonial de fiscalizacao e cobranca de tributos sobre tropas de gado e mercadorias em transito, relacionado ao chamado imposto de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Dizimo"
+        },
+        {
+          "letra": "B",
+          "texto": "Contagens"
+        },
+        {
+          "letra": "C",
+          "texto": "Sisa"
+        },
+        {
+          "letra": "D",
+          "texto": "Derrama"
+        },
+        {
+          "letra": "E",
+          "texto": "Quinto"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A origem do nome remete ao \"posto de contagens\", local onde, no periodo colonial, eram contadas e tributadas as tropas e mercadorias em transito - dando origem ao nome \"Contagem\" (antigo povoado de \"Contagem das Aboboras\")."
+    },
+    {
+      "id": "gnovas020",
+      "tema": "c1-aspectos-geograficos-e-historicos-de-contagemmg",
+      "temaNome": "C1. Aspectos geograficos e historicos de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Sao municipios limitrofes (que fazem fronteira direta) com Contagem/MG, EXCETO:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Belo Horizonte"
+        },
+        {
+          "letra": "B",
+          "texto": "Betim"
+        },
+        {
+          "letra": "C",
+          "texto": "Esmeraldas"
+        },
+        {
+          "letra": "D",
+          "texto": "Ribeirao das Neves"
+        },
+        {
+          "letra": "E",
+          "texto": "Vespasiano"
+        }
+      ],
+      "correta": "E",
+      "comentario": "Contagem faz fronteira direta com Belo Horizonte, Betim, Esmeraldas, Ribeirao das Neves e Ibirite. Vespasiano, embora tambem integre a Regiao Metropolitana de Belo Horizonte, NAO faz fronteira direta com Contagem."
+    },
+    {
+      "id": "gnovas021",
+      "tema": "c1-aspectos-geograficos-e-historicos-de-contagemmg",
+      "temaNome": "C1. Aspectos geograficos e historicos de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Contagem integra a Regiao Metropolitana de Belo Horizonte (RMBH) e esta localizada a uma distancia aproximada da capital mineira de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5 km"
+        },
+        {
+          "letra": "B",
+          "texto": "12 km"
+        },
+        {
+          "letra": "C",
+          "texto": "21 km"
+        },
+        {
+          "letra": "D",
+          "texto": "45 km"
+        },
+        {
+          "letra": "E",
+          "texto": "80 km"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Contagem esta a aproximadamente 21 km de Belo Horizonte, sendo um dos municipios mais proximos e mais populosos da Regiao Metropolitana."
+    },
+    {
+      "id": "gnovas022",
+      "tema": "c1-aspectos-geograficos-e-historicos-de-contagemmg",
+      "temaNome": "C1. Aspectos geograficos e historicos de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "O primeiro distrito industrial de Contagem, implantado a partir da decada de 1940 e um dos marcos fundadores da vocacao industrial do Municipio, e denominado Cidade Industrial:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Presidente Juscelino Kubitschek"
+        },
+        {
+          "letra": "B",
+          "texto": "Coronel Juventino Dias"
+        },
+        {
+          "letra": "C",
+          "texto": "Israel Pinheiro"
+        },
+        {
+          "letra": "D",
+          "texto": "Santa Terezinha"
+        },
+        {
+          "letra": "E",
+          "texto": "Dom Bosco"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A Cidade Industrial Coronel Juventino Dias, implantada a partir da decada de 1940, e um dos marcos historicos da industrializacao de Contagem, tornando o Municipio um dos maiores polos industriais de Minas Gerais."
+    },
+    {
+      "id": "gnovas023",
+      "tema": "c2-atualidades-cidadania-e-simbolos-municipais",
+      "temaNome": "C2. Atualidades, cidadania e simbolos municipais",
+      "tipo": "multipla",
+      "enunciado": "O brasao de armas do Municipio de Contagem foi instituido pela Lei no 499, em:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "23 de maio de 1963"
+        },
+        {
+          "letra": "B",
+          "texto": "1 de janeiro de 1976"
+        },
+        {
+          "letra": "C",
+          "texto": "30 de agosto de 1911"
+        },
+        {
+          "letra": "D",
+          "texto": "27 de dezembro de 1948"
+        },
+        {
+          "letra": "E",
+          "texto": "20 de dezembro de 1990"
+        }
+      ],
+      "correta": "A",
+      "comentario": "O brasao de armas de Contagem foi criado pela Lei no 499, de 23 de maio de 1963."
+    },
+    {
+      "id": "gnovas024",
+      "tema": "c2-atualidades-cidadania-e-simbolos-municipais",
+      "temaNome": "C2. Atualidades, cidadania e simbolos municipais",
+      "tipo": "multipla",
+      "enunciado": "No brasao de armas de Contagem, o elemento grafico da CHAMINE simboliza:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A tradicao agricola do Municipio"
+        },
+        {
+          "letra": "B",
+          "texto": "A riqueza e a vocacao industrial do Municipio"
+        },
+        {
+          "letra": "C",
+          "texto": "A ligacao com a Igreja Catolica"
+        },
+        {
+          "letra": "D",
+          "texto": "O poder Legislativo municipal"
+        },
+        {
+          "letra": "E",
+          "texto": "A fundacao da cidade por bandeirantes"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A chamine que compoe o brasao municipal representa a riqueza e a vocacao industrial de Contagem, caracterizando sua identidade de polo industrial."
+    },
+    {
+      "id": "gnovas025",
+      "tema": "c2-atualidades-cidadania-e-simbolos-municipais",
+      "temaNome": "C2. Atualidades, cidadania e simbolos municipais",
+      "tipo": "multipla",
+      "enunciado": "Ainda sobre o brasao de Contagem, o campo azul e os tres cruzeiros de ouro fazem referencia:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A tradicao e origem portuguesa do Municipio, ligada a capitania de Vasco Fernandes Coutinho"
+        },
+        {
+          "letra": "B",
+          "texto": "A independencia do Brasil"
+        },
+        {
+          "letra": "C",
+          "texto": "Aos tres poderes da Republica"
+        },
+        {
+          "letra": "D",
+          "texto": "As tres principais industrias instaladas no Municipio"
+        },
+        {
+          "letra": "E",
+          "texto": "Ao movimento da Inconfidencia Mineira"
+        }
+      ],
+      "correta": "A",
+      "comentario": "O campo azul e os tres cruzeiros de ouro remetem a tradicao e as origens portuguesas de Contagem, ligadas historicamente a capitania de Vasco Fernandes Coutinho, a qual pertencia a regiao como posto fiscal do \"imposto de contagens\"."
+    },
+    {
+      "id": "gnovas026",
+      "tema": "c2-atualidades-cidadania-e-simbolos-municipais",
+      "temaNome": "C2. Atualidades, cidadania e simbolos municipais",
+      "tipo": "multipla",
+      "enunciado": "A bandeira do Municipio de Contagem, em campo branco com o brasao ao centro, apresenta em sua parte superior (chefe) uma faixa purpura com sete estrelas, que representam:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "As sete regioes administrativas do Municipio"
+        },
+        {
+          "letra": "B",
+          "texto": "As Sete Dores de Nossa Senhora, ligadas ao privilegio papal do Jubileu das Dores concedido ao Municipio"
+        },
+        {
+          "letra": "C",
+          "texto": "Os sete distritos industriais da cidade"
+        },
+        {
+          "letra": "D",
+          "texto": "Os sete primeiros prefeitos de Contagem"
+        },
+        {
+          "letra": "E",
+          "texto": "As sete bandeiras que fundaram a cidade"
+        }
+      ],
+      "correta": "B",
+      "comentario": "As sete estrelas na faixa purpura da bandeira de Contagem representam as Sete Dores de Nossa Senhora, em razao do privilegio especial concedido pelo Papa Pio VII para a celebracao do Jubileu das Dores no Municipio - uma das duas cidades brasileiras com essa concessao."
+    },
+    {
+      "id": "gnovas027",
+      "tema": "c2-atualidades-cidadania-e-simbolos-municipais",
+      "temaNome": "C2. Atualidades, cidadania e simbolos municipais",
+      "tipo": "multipla",
+      "enunciado": "O mote (lema) inscrito no listel de ouro do brasao de Contagem e \"Per Populum Omnis Potestas a Deo\", cuja traducao correta e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "\"Pelo povo, todo poder emana do Estado\""
+        },
+        {
+          "letra": "B",
+          "texto": "\"Todo poder vem de Deus pelo povo\""
+        },
+        {
+          "letra": "C",
+          "texto": "\"O povo acima de tudo\""
+        },
+        {
+          "letra": "D",
+          "texto": "\"Deus, Patria e Povo\""
+        },
+        {
+          "letra": "E",
+          "texto": "\"Nada sem o povo, nada sem Deus\""
+        }
+      ],
+      "correta": "B",
+      "comentario": "A traducao literal do mote latino \"Per Populum Omnis Potestas a Deo\" e \"Todo Poder vem de Deus pelo Povo\"."
+    },
+    {
+      "id": "gnovas028",
+      "tema": "c2-atualidades-cidadania-e-simbolos-municipais",
+      "temaNome": "C2. Atualidades, cidadania e simbolos municipais",
+      "tipo": "multipla",
+      "enunciado": "O Hino do Municipio de Contagem foi oficializado pela Lei Municipal no 750, de 1o de janeiro de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1963"
+        },
+        {
+          "letra": "B",
+          "texto": "1976"
+        },
+        {
+          "letra": "C",
+          "texto": "1990"
+        },
+        {
+          "letra": "D",
+          "texto": "1948"
+        },
+        {
+          "letra": "E",
+          "texto": "2011"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O Hino de Contagem foi oficializado pela Lei Municipal no 750, de 1o de janeiro de 1976, com letra de Nair Mendes Moreira e melodia de Gil Vidigal e Augusto Braz Pereira."
+    },
+    {
+      "id": "gnovas029",
+      "tema": "c2-atualidades-cidadania-e-simbolos-municipais",
+      "temaNome": "C2. Atualidades, cidadania e simbolos municipais",
+      "tipo": "multipla",
+      "enunciado": "O gentilico (nome dado aos naturais ou habitantes) do Municipio de Contagem/MG e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Contagenense"
+        },
+        {
+          "letra": "B",
+          "texto": "Contagense"
+        },
+        {
+          "letra": "C",
+          "texto": "Contageiro"
+        },
+        {
+          "letra": "D",
+          "texto": "Contagiano"
+        },
+        {
+          "letra": "E",
+          "texto": "Contagoense"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O gentilico correto dos naturais ou habitantes de Contagem e \"contagense\"."
+    },
+    {
+      "id": "gnovas030",
+      "tema": "c2-atualidades-cidadania-e-simbolos-municipais",
+      "temaNome": "C2. Atualidades, cidadania e simbolos municipais",
+      "tipo": "multipla",
+      "enunciado": "No que se refere a cidadania e a inclusao no servico publico municipal, o Estatuto dos Servidores Publicos de Contagem/MG assegura as pessoas com deficiencia o direito de se inscreverem em concurso publico para cargos compativeis com sua deficiencia, reservando-lhes o seguinte percentual das vagas oferecidas:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5%"
+        },
+        {
+          "letra": "B",
+          "texto": "10%"
+        },
+        {
+          "letra": "C",
+          "texto": "15%"
+        },
+        {
+          "letra": "D",
+          "texto": "20%"
+        },
+        {
+          "letra": "E",
+          "texto": "25%"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O Estatuto dos Servidores Publicos de Contagem (Lei 2.160/1990, art. 8o, §2o) reserva 10% das vagas oferecidas em concurso publico as pessoas com deficiencia, para cargos cujas atribuicoes sejam compativeis com a deficiencia."
+    },
+    {
+      "id": "gnovas031",
+      "tema": "c3-lei-organica-do-municipio-de-contagemmg",
+      "temaNome": "C3. Lei Organica do Municipio de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Segundo a Lei Organica do Municipio de Contagem/MG (art. 37, caput), os cargos, empregos e funcoes publicas municipais sao acessiveis:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas aos brasileiros natos"
+        },
+        {
+          "letra": "B",
+          "texto": "Aos brasileiros que preencham os requisitos estabelecidos em lei, assim como aos estrangeiros, na forma da lei"
+        },
+        {
+          "letra": "C",
+          "texto": "Exclusivamente a quem reside no Municipio ha mais de 10 anos"
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas a quem possui diploma de nivel superior"
+        },
+        {
+          "letra": "E",
+          "texto": "Somente aos brasileiros naturalizados"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 37, caput, da LOM de Contagem (espelhando o art. 37, I, da Constituicao Federal): os cargos, empregos e funcoes publicas sao acessiveis aos brasileiros que preencham os requisitos estabelecidos em Lei, assim como aos estrangeiros, na forma da Lei."
+    },
+    {
+      "id": "gnovas032",
+      "tema": "c3-lei-organica-do-municipio-de-contagemmg",
+      "temaNome": "C3. Lei Organica do Municipio de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Nos termos da Lei Organica do Municipio de Contagem/MG (art. 55), o Municipio concedera licenca especial as servidoras publicas municipais adotantes, sem prejuizo do cargo e da remuneracao, pelo prazo de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "30 dias"
+        },
+        {
+          "letra": "B",
+          "texto": "60 dias"
+        },
+        {
+          "letra": "C",
+          "texto": "90 dias"
+        },
+        {
+          "letra": "D",
+          "texto": "120 dias"
+        },
+        {
+          "letra": "E",
+          "texto": "180 dias"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Art. 55 da LOM: licenca especial de 120 (cento e vinte) dias para as adotantes servidoras publicas municipais, a partir do ato da adocao, desde que o adotado tenha de 0 (zero) a 2 (dois) anos."
+    },
+    {
+      "id": "gnovas033",
+      "tema": "c3-lei-organica-do-municipio-de-contagemmg",
+      "temaNome": "C3. Lei Organica do Municipio de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "De acordo com a Lei Organica do Municipio de Contagem/MG (art. 6o), constitui competencia PRIVATIVA do Municipio:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Cuidar da saude e assistencia publica"
+        },
+        {
+          "letra": "B",
+          "texto": "Criar guarda municipal para protecao de bens, servicos e instalacoes municipais"
+        },
+        {
+          "letra": "C",
+          "texto": "Combater a poluicao em qualquer de suas formas"
+        },
+        {
+          "letra": "D",
+          "texto": "Proteger os documentos, obras e outros bens de valor historico"
+        },
+        {
+          "letra": "E",
+          "texto": "Preservar as florestas, fauna e flora"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 6o, XVI, da LOM: e competencia PRIVATIVA do Municipio criar guarda municipal para protecao de seus bens, servicos e instalacoes. As demais alternativas listadas sao exemplos classicos de competencia COMUM entre Municipio, Estado e Uniao (art. 7o da LOM, espelhando o art. 23 da Constituicao Federal) - a mesma pegadinha \"privativa x comum\" costuma se repetir na prova."
+    },
+    {
+      "id": "gnovas034",
+      "tema": "c3-lei-organica-do-municipio-de-contagemmg",
+      "temaNome": "C3. Lei Organica do Municipio de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Segundo a doutrina de Direito Municipal, a disciplina dos simbolos oficiais de um Municipio (brasao, bandeira e hino) e, em regra, estabelecida:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Exclusivamente por Decreto do Poder Executivo"
+        },
+        {
+          "letra": "B",
+          "texto": "Pela propria Lei Organica Municipal ou por lei especifica por ela autorizada"
+        },
+        {
+          "letra": "C",
+          "texto": "Por Resolucao do Tribunal de Contas do Estado"
+        },
+        {
+          "letra": "D",
+          "texto": "Por ato do Governador do Estado"
+        },
+        {
+          "letra": "E",
+          "texto": "Por Portaria do Ministerio da Justica"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A definicao dos simbolos oficiais municipais (brasao, bandeira, hino) e tipicamente disciplinada pela propria Lei Organica do Municipio, que pode remeter a leis especificas (como ocorreu em Contagem: Lei 499/1963 para o brasao e Lei 750/1976 para o hino)."
+    },
+    {
+      "id": "gnovas035",
+      "tema": "c3-lei-organica-do-municipio-de-contagemmg",
+      "temaNome": "C3. Lei Organica do Municipio de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Nos termos da Lei Organica do Municipio de Contagem/MG (art. 104), a fiscalizacao contabil, financeira, orcamentaria, operacional e patrimonial do Municipio e exercida pela Camara Municipal mediante controle externo, com o auxilio de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ministerio Publico Estadual"
+        },
+        {
+          "letra": "B",
+          "texto": "Tribunal de Contas do Estado"
+        },
+        {
+          "letra": "C",
+          "texto": "Controladoria-Geral da Uniao"
+        },
+        {
+          "letra": "D",
+          "texto": "Tribunal de Justica"
+        },
+        {
+          "letra": "E",
+          "texto": "Defensoria Publica do Estado"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 104 da LOM: a fiscalizacao contabil, financeira, orcamentaria, operacional e patrimonial do Municipio e exercida pela Camara mediante controle externo, com o auxilio do Tribunal de Contas do Estado, e pelo sistema de controle interno de cada Poder."
+    },
+    {
+      "id": "gnovas036",
+      "tema": "c3-lei-organica-do-municipio-de-contagemmg",
+      "temaNome": "C3. Lei Organica do Municipio de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Considerando a Lei Organica do Municipio de Contagem/MG (art. 106), o parecer previo do Tribunal de Contas do Estado sobre as contas do Prefeito somente deixara de prevalecer por decisao de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Maioria simples da Camara"
+        },
+        {
+          "letra": "B",
+          "texto": "Maioria absoluta da Camara"
+        },
+        {
+          "letra": "C",
+          "texto": "2/3 (dois tercos) dos votos da Camara"
+        },
+        {
+          "letra": "D",
+          "texto": "3/5 (tres quintos) dos votos da Camara"
+        },
+        {
+          "letra": "E",
+          "texto": "Unanimidade da Camara"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Art. 106 da LOM: o parecer previo do TCE sobre as contas do Prefeito somente deixara de prevalecer por decisao de 2/3 (dois tercos) dos votos da Camara Municipal."
+    },
+    {
+      "id": "gnovas037",
+      "tema": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "temaNome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)",
+      "tipo": "multipla",
+      "enunciado": "Segundo o Estatuto dos Servidores Publicos do Municipio de Contagem/MG (Lei no 2.160/1990, art. 8o), sao requisitos basicos para investidura em cargo publico, EXCETO:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Nacionalidade brasileira"
+        },
+        {
+          "letra": "B",
+          "texto": "Gozo dos direitos politicos"
+        },
+        {
+          "letra": "C",
+          "texto": "Quitacao com as obrigacoes militares e eleitorais"
+        },
+        {
+          "letra": "D",
+          "texto": "Filiacao a partido politico"
+        },
+        {
+          "letra": "E",
+          "texto": "Nivel de escolaridade exigido para o exercicio do cargo"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Art. 8o do Estatuto: os requisitos basicos sao nacionalidade brasileira, gozo dos direitos politicos, quitacao com obrigacoes militares e eleitorais, nivel de escolaridade exigido, idade minima conforme edital e boa saude fisica e mental. Filiacao a partido politico NAO e requisito para investidura em cargo publico."
+    },
+    {
+      "id": "gnovas038",
+      "tema": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "temaNome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com o Estatuto dos Servidores Publicos de Contagem/MG (art. 76), o servidor tera direito, apos cada periodo de 12 meses de efetivo exercicio, a gozo de ferias de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "20 dias corridos"
+        },
+        {
+          "letra": "B",
+          "texto": "25 dias uteis, acrescidos do adicional de 1/3 da remuneracao"
+        },
+        {
+          "letra": "C",
+          "texto": "30 dias corridos, sem adicional"
+        },
+        {
+          "letra": "D",
+          "texto": "15 dias uteis, acrescidos de 1/3"
+        },
+        {
+          "letra": "E",
+          "texto": "45 dias uteis"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 76 do Estatuto: 25 (vinte e cinco) dias uteis de gozo de ferias por periodo de 12 meses de efetivo exercicio, acrescido do adicional de 1/3 (um terco) da remuneracao correspondente ao periodo de ferias."
+    },
+    {
+      "id": "gnovas039",
+      "tema": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "temaNome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)",
+      "tipo": "multipla",
+      "enunciado": "Segundo o Estatuto dos Servidores Publicos de Contagem/MG, a licenca-gestante e a licenca-paternidade tem, respectivamente, a duracao de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "120 dias e 5 dias"
+        },
+        {
+          "letra": "B",
+          "texto": "90 dias e 15 dias"
+        },
+        {
+          "letra": "C",
+          "texto": "120 dias e 20 dias"
+        },
+        {
+          "letra": "D",
+          "texto": "180 dias e 10 dias"
+        },
+        {
+          "letra": "E",
+          "texto": "60 dias e 20 dias"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Arts. 191 e 192 do Estatuto: licenca-gestante de 120 (cento e vinte) dias consecutivos, sem prejuizo da remuneracao; licenca-paternidade de 20 (vinte) dias consecutivos, pelo nascimento ou adocao."
+    },
+    {
+      "id": "gnovas040",
+      "tema": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "temaNome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)",
+      "tipo": "multipla",
+      "enunciado": "O periodo de avaliacao a que se submete o servidor recem-nomeado para cargo de provimento efetivo em Contagem/MG, destinado a aferir sua aptidao e capacidade para o exercicio do cargo, denomina-se estagio probatorio e tem, segundo o Estatuto (art. 21), a duracao de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12 meses"
+        },
+        {
+          "letra": "B",
+          "texto": "18 meses"
+        },
+        {
+          "letra": "C",
+          "texto": "24 meses"
+        },
+        {
+          "letra": "D",
+          "texto": "36 meses"
+        },
+        {
+          "letra": "E",
+          "texto": "48 meses"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Art. 21 do Estatuto de Contagem: o estagio probatorio tem a duracao de 24 (vinte e quatro) meses, periodo em que sao avaliadas assiduidade, disciplina, capacidade de iniciativa, produtividade e responsabilidade. ATENCAO: esse prazo varia de Municipio para Municipio (em muitos estatutos e de 3 anos) - para Contagem especificamente, o prazo correto e 24 meses, nao 3 anos."
+    },
+    {
+      "id": "gnovas041",
+      "tema": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "temaNome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)",
+      "tipo": "multipla",
+      "enunciado": "Nos termos do Estatuto dos Servidores Publicos de Contagem/MG (art. 63), o adicional por tempo de servico corresponde a:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5% a cada 5 anos de servico"
+        },
+        {
+          "letra": "B",
+          "texto": "10% a cada 5 anos de servico"
+        },
+        {
+          "letra": "C",
+          "texto": "10% a cada 3 anos de servico"
+        },
+        {
+          "letra": "D",
+          "texto": "15% a cada 5 anos de servico"
+        },
+        {
+          "letra": "E",
+          "texto": "20% a cada 10 anos de servico"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 63 do Estatuto: adicional por tempo de servico de 10% (dez por cento) por cada periodo de 5 (cinco) anos de servico."
+    },
+    {
+      "id": "gnovas042",
+      "tema": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "temaNome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)",
+      "tipo": "multipla",
+      "enunciado": "Segundo o Estatuto dos Servidores Publicos de Contagem/MG (arts. 69 e 72), o servico extraordinario e remunerado com acrescimo de ____, e o adicional noturno (para servico prestado entre 22h e 5h) corresponde a ____ sobre a hora normal:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "30%; 15%"
+        },
+        {
+          "letra": "B",
+          "texto": "50%; 25%"
+        },
+        {
+          "letra": "C",
+          "texto": "40%; 20%"
+        },
+        {
+          "letra": "D",
+          "texto": "60%; 30%"
+        },
+        {
+          "letra": "E",
+          "texto": "25%; 50%"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 69: servico extraordinario remunerado com acrescimo de 50% sobre a hora normal. Art. 72: adicional noturno de 25% para o servico prestado entre 22h e 5h."
+    },
+    {
+      "id": "gnovas043",
+      "tema": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "temaNome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)",
+      "tipo": "multipla",
+      "enunciado": "Configura ABANDONO DE CARGO, segundo o Estatuto dos Servidores Publicos de Contagem/MG (art. 133), a ausencia intencional do servidor ao servico por mais de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "15 dias consecutivos"
+        },
+        {
+          "letra": "B",
+          "texto": "20 dias consecutivos"
+        },
+        {
+          "letra": "C",
+          "texto": "30 dias consecutivos"
+        },
+        {
+          "letra": "D",
+          "texto": "45 dias consecutivos"
+        },
+        {
+          "letra": "E",
+          "texto": "60 dias consecutivos"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Art. 133 do Estatuto: configura abandono de cargo a ausencia intencional do servidor ao servico por mais de 30 (trinta) dias consecutivos."
+    },
+    {
+      "id": "gnovas044",
+      "tema": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "temaNome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)",
+      "tipo": "multipla",
+      "enunciado": "Segundo o Estatuto dos Servidores Publicos de Contagem/MG (art. 137), os prazos de prescricao das infracoes disciplinares sao, respectivamente, para as infracoes puniveis com demissao/cassacao de aposentadoria, com suspensao, e com advertencia:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5 anos; 2 anos; 180 dias"
+        },
+        {
+          "letra": "B",
+          "texto": "10 anos; 5 anos; 1 ano"
+        },
+        {
+          "letra": "C",
+          "texto": "2 anos; 1 ano; 90 dias"
+        },
+        {
+          "letra": "D",
+          "texto": "5 anos; 3 anos; 6 meses"
+        },
+        {
+          "letra": "E",
+          "texto": "3 anos; 1 ano; 180 dias"
+        }
+      ],
+      "correta": "A",
+      "comentario": "Art. 137 do Estatuto: prescrevem em 5 anos as infracoes puniveis com demissao, cassacao de aposentadoria/disponibilidade ou destituicao de cargo em comissao; em 2 anos as puniveis com suspensao; e em 180 dias as puniveis com advertencia."
+    },
+    {
+      "id": "gnovas045",
+      "tema": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "temaNome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)",
+      "tipo": "multipla",
+      "enunciado": "Nos termos do Estatuto dos Servidores Publicos de Contagem/MG (art. 14), o concurso publico tera validade de ate:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 ano, sem possibilidade de prorrogacao"
+        },
+        {
+          "letra": "B",
+          "texto": "2 anos, podendo ser prorrogado uma unica vez, por igual periodo"
+        },
+        {
+          "letra": "C",
+          "texto": "4 anos, improrrogavel"
+        },
+        {
+          "letra": "D",
+          "texto": "2 anos, prorrogavel indefinidamente"
+        },
+        {
+          "letra": "E",
+          "texto": "6 meses, prorrogavel por mais 6 meses"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 14 do Estatuto: o concurso publico tera validade de ate 2 (dois) anos, podendo ser prorrogado uma UNICA vez, por igual periodo (ou seja, no maximo 4 anos no total, somando validade + 1 prorrogacao)."
+    },
+    {
+      "id": "gnovas046",
+      "tema": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "temaNome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)",
+      "tipo": "multipla",
+      "enunciado": "Segundo o Estatuto dos Servidores Publicos de Contagem/MG (art. 15, §1o), a posse do servidor nomeado devera ocorrer no prazo improrrogavel de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10 dias"
+        },
+        {
+          "letra": "B",
+          "texto": "15 dias"
+        },
+        {
+          "letra": "C",
+          "texto": "20 dias"
+        },
+        {
+          "letra": "D",
+          "texto": "30 dias"
+        },
+        {
+          "letra": "E",
+          "texto": "45 dias"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Art. 15, §1o, do Estatuto: a posse ocorrera no prazo improrrogavel de 30 (trinta) dias, contados da publicacao do ato de provimento."
+    },
+    {
+      "id": "gnovas047",
+      "tema": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "temaNome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com o Plano de Cargos, Carreiras e Vencimentos - PCCV do Municipio de Contagem/MG (Lei Complementar no 105/2011, arts. 38 e 39), a PROGRESSAO do servidor (passagem para padrao de vencimento superior dentro do mesmo nivel) pode se dar por merito, titulacao ou qualificacao, podendo o direito a progressao ser adquirido a cada:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 ano de efetivo exercicio"
+        },
+        {
+          "letra": "B",
+          "texto": "2 anos de efetivo exercicio"
+        },
+        {
+          "letra": "C",
+          "texto": "3 anos de efetivo exercicio"
+        },
+        {
+          "letra": "D",
+          "texto": "5 anos de efetivo exercicio"
+        },
+        {
+          "letra": "E",
+          "texto": "10 anos de efetivo exercicio"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Arts. 38 e 39 do PCCV: a progressao (mudanca de padrao dentro do mesmo nivel) se da por merito, titulacao ou qualificacao, podendo o direito ser adquirido a cada 2 (dois) anos de efetivo exercicio."
+    },
+    {
+      "id": "gnovas048",
+      "tema": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "temaNome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)",
+      "tipo": "multipla",
+      "enunciado": "Segundo o PCCV de Contagem/MG (Lei Complementar 105/2011, art. 44), a PROMOCAO (passagem do servidor para nivel superior) ocorre mediante selecao interna periodica, realizada a cada:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 ano, sem limite de vagas"
+        },
+        {
+          "letra": "B",
+          "texto": "2 anos, limitada a 10% do total"
+        },
+        {
+          "letra": "C",
+          "texto": "5 anos, limitada a 5% do total"
+        },
+        {
+          "letra": "D",
+          "texto": "10 anos, limitada a 20% do total"
+        },
+        {
+          "letra": "E",
+          "texto": "3 anos, sem limite de vagas"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Art. 44 do PCCV: a promocao e a passagem do servidor para padrao/nivel superior mediante selecao interna periodica, realizada a cada 5 (cinco) anos, limitada a 5% do total de servidores da respectiva carreira - NAO confundir com a progressao (a cada 2 anos, por merito/titulacao/qualificacao)."
+    },
+    {
+      "id": "gnovas049",
+      "tema": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "temaNome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)",
+      "tipo": "multipla",
+      "enunciado": "Ainda segundo o PCCV de Contagem/MG (art. 59), a tabela de vencimentos e composta por niveis e padroes, sendo cada nivel formado por 45 padroes com relacao percentual entre padroes consecutivos de, aproximadamente:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1,408%"
+        },
+        {
+          "letra": "B",
+          "texto": "2,5%"
+        },
+        {
+          "letra": "C",
+          "texto": "5%"
+        },
+        {
+          "letra": "D",
+          "texto": "10%"
+        },
+        {
+          "letra": "E",
+          "texto": "0,5%"
+        }
+      ],
+      "correta": "A",
+      "comentario": "Art. 59 do PCCV: cada nivel da tabela de vencimentos e formado por 45 padroes, com relacao percentual de 1,408% entre padroes consecutivos - e um detalhe tecnico bem especifico, mas exatamente o tipo de numero que a banca gosta de cobrar em Conhecimentos Gerais/Legislacao."
+    },
+    {
+      "id": "gnovas050",
+      "tema": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "temaNome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)",
+      "tipo": "multipla",
+      "enunciado": "[DIFICIL] Compare os seguintes prazos previstos na legislacao municipal de Contagem/MG e assinale a alternativa CORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O estagio probatorio (24 meses) e MAIOR que a validade do concurso publico (2 anos)"
+        },
+        {
+          "letra": "B",
+          "texto": "A licenca-gestante (120 dias) e MENOR que a licenca-paternidade (20 dias)"
+        },
+        {
+          "letra": "C",
+          "texto": "O prazo de posse (30 dias) e MAIOR que o prazo de prescricao da advertencia (180 dias)"
+        },
+        {
+          "letra": "D",
+          "texto": "O estagio probatorio (24 meses) coincide exatamente com a validade do concurso publico (2 anos)"
+        },
+        {
+          "letra": "E",
+          "texto": "A promocao no PCCV (a cada 5 anos) e limitada a 10% do total de servidores da carreira"
+        }
+      ],
+      "correta": "D",
+      "comentario": "[DIFICIL] Questao de comparacao numerica entre prazos (armadilha classica de converter unidades diferentes - dias, meses e anos - de proposito para confundir). Convertendo tudo para a mesma unidade: estagio probatorio = 24 meses = 2 anos, EXATAMENTE igual a validade do concurso (2 anos) - alternativa D correta. As demais estao erradas: 120 dias e MAIOR, nao menor, que 20 dias; 30 dias e MENOR, nao maior, que 180 dias; e a promocao e limitada a 5% (nao 10%) do total da carreira, conforme o art. 44 do PCCV."
     }
   ]
 }
