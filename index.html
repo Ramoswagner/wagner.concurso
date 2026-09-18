@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#131F2C">
+  <meta name="description" content="Simulado e flashcards para o Concurso de Contagem/MG 2026 — Engenheiro Civil, por Wagner Ramos.">
+  <title>Wagner.Concurso — Contagem 2026</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="ambient" aria-hidden="true">
+    <div class="orb o1"></div>
+    <div class="orb o2"></div>
+    <div class="orb o3"></div>
+  </div>
+
+  <div id="app">
+
+    <!-- HEADER -->
+    <header id="hdr">
+      <a href="#" class="brand" onclick="goHome(); return false;">
+        <div class="brand-wordmark">
+          <span class="bw-wagner">Wagner</span><span class="bw-dot">.</span><span class="bw-english">Concurso</span>
+        </div>
+        <div class="brand-descriptor">Contagem/MG 2026 · Engenheiro Civil</div>
+      </a>
+
+      <nav>
+        <button class="nv active" id="nb-home" onclick="showView('home')">
+          <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 7L9 1.5 16 7v9a1 1 0 01-1 1H3a1 1 0 01-1-1V7z"/><path d="M6.5 17.5v-6h5v6"/></svg>
+          Início
+        </button>
+        <button class="nv" id="nb-prog" onclick="showView('progress')">
+          <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 13l4-4 3 3 4-5 3 3"/></svg>
+          Progresso
+        </button>
+      </nav>
+
+      <div class="hdr-end">
+        <div class="streak-chip" id="streak-badge">
+          <svg viewBox="0 0 14 14" fill="currentColor"><path d="M7 1c0 0-4.5 2.8-4.5 6.5C2.5 9.9 4.6 12 7 12s4.5-2.1 4.5-4.5C11.5 3.8 7 1 7 1z"/></svg>
+          <span id="streak-n">0</span>
+        </div>
+        <div class="mastery-chip" id="mastery-pill"><span>0</span> dominadas</div>
+      </div>
+    </header>
+
+    <!-- HOME -->
+    <main id="view-home" class="view active">
+      <section class="hero">
+        <div class="hero-tag">
+          <span class="tag-pip"></span>Edital nº 01/2026 · Cargo 516
+        </div>
+        <h1 class="hero-h">
+          <span class="h-line1">Reta final</span>
+          <span class="h-line2">Contagem 2026.</span>
+        </h1>
+        <p class="hero-sub">Banco de questões inéditas calibrado no estilo da banca IBGP, organizado pelos 4 blocos da prova objetiva. Escolha uma matéria, filtre os temas e treine em flashcard ou simulado.</p>
+        <div class="hero-nums">
+          <div class="hero-num">
+            <strong id="hs-total-cards">—</strong>
+            <em>questões</em>
+          </div>
+          <div class="hero-divider"></div>
+          <div class="hero-num">
+            <strong>4</strong>
+            <em>matérias</em>
+          </div>
+        </div>
+      </section>
+
+      <div class="ov-strip">
+        <div class="ov-cell">
+          <span class="ov-v" id="ov-studied">0</span>
+          <span class="ov-k">Respondidas</span>
+        </div>
+        <span class="ov-line"></span>
+        <div class="ov-cell">
+          <span class="ov-v warm" id="ov-mastered">0</span>
+          <span class="ov-k">Dominadas</span>
+        </div>
+        <span class="ov-line"></span>
+        <div class="ov-cell">
+          <span class="ov-v" id="ov-streak">0</span>
+          <span class="ov-k">Sequência</span>
+        </div>
+        <span class="ov-line"></span>
+        <div class="ov-cell">
+          <span class="ov-v" id="ov-acc">—</span>
+          <span class="ov-k">Precisão</span>
+        </div>
+      </div>
+
+      <section class="cats-section">
+        <div class="section-eyebrow">
+          <span>Matérias</span>
+          <div class="eyebrow-line"></div>
+        </div>
+        <div class="cat-grid" id="cat-grid"></div>
+      </section>
+    </main>
+
+    <!-- TEMA FILTER -->
+    <main id="view-filter" class="view">
+      <div class="study-bar">
+        <button class="back-btn" onclick="goHome()">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M10 3L5 8l5 5"/></svg>
+          Voltar
+        </button>
+        <div class="study-info">
+          <span class="si-title" id="ft-title">—</span>
+          <span class="si-mode">escolha os temas</span>
+        </div>
+      </div>
+
+      <div class="filter-wrap">
+        <div class="filter-toolbar">
+          <button class="chip-all" onclick="toggleAllTemas(true)">Selecionar todos</button>
+          <button class="chip-none" onclick="toggleAllTemas(false)">Limpar seleção</button>
+          <span class="filter-count" id="ft-count">0 questões selecionadas</span>
+        </div>
+        <div class="tema-grid" id="tema-grid"></div>
+      </div>
+
+      <div class="filter-actions">
+        <button class="fa-btn fa-study" onclick="startFromFilter('study')">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 3h5a2.5 2.5 0 010 5H3zm0 5h6M3 12h4"/></svg>
+          Estudar (flashcard)
+        </button>
+        <button class="fa-btn fa-quiz" onclick="startFromFilter('quiz')">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="8" cy="8" r="6.5"/><path d="M6 6.2a2 2 0 113.46 2C9 9 8 9.5 8 10.5"/><circle cx="8" cy="12.5" r=".6" fill="currentColor"/></svg>
+          Simulado (quiz)
+        </button>
+      </div>
+    </main>
+
+    <!-- STUDY -->
+    <main id="view-study" class="view">
+      <div class="study-bar">
+        <button class="back-btn" onclick="backToFilter()">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M10 3L5 8l5 5"/></svg>
+          Voltar
+        </button>
+        <div class="study-info">
+          <span class="si-title" id="sh-title">—</span>
+          <span class="si-mode" id="sh-sub">flashcard</span>
+        </div>
+        <div class="study-nav-dots">
+          <div class="dot-track" id="prog-dots"></div>
+          <span class="dot-cnt" id="sh-cnt">—</span>
+        </div>
+      </div>
+
+      <div class="mode-strip">
+        <button class="mode-pill active" id="tab-study" onclick="setMode('study')">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 3h5a2.5 2.5 0 010 5H3zm0 5h6M3 12h4"/></svg>
+          Flashcard
+        </button>
+        <button class="mode-pill" id="tab-quiz" onclick="setMode('quiz')">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="8" cy="8" r="6.5"/><path d="M6 6.2a2 2 0 113.46 2C9 9 8 9.5 8 10.5"/><circle cx="8" cy="12.5" r=".6" fill="currentColor"/></svg>
+          Quiz
+        </button>
+      </div>
+
+      <!-- STUDY PANE (flashcard) -->
+      <div id="pane-study">
+        <div class="fc-stage">
+          <div class="fc-wrap">
+            <div class="flashcard" id="flashcard" onclick="flipCard()" tabindex="0">
+              <!-- Front -->
+              <div class="cface cfront">
+                <div class="c-mark" id="fc-badge-txt">—</div>
+                <div class="cfront-body">
+                  <div class="fc-word" id="fc-term">—</div>
+                </div>
+                <div class="c-cue">
+                  <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M2 7h10M8 3l4 4-4 4"/></svg>
+                  revelar gabarito
+                </div>
+              </div>
+              <!-- Back -->
+              <div class="cface cback" id="cf-back">
+                <div class="cback-scroll">
+                  <div class="cb-block">
+                    <span class="cb-lbl">ALTERNATIVAS</span>
+                    <div id="bk-alts"></div>
+                  </div>
+                  <hr class="cb-hr">
+                  <div class="cb-block">
+                    <span class="cb-lbl">COMENTÁRIO</span>
+                    <p class="cb-def" id="bk-comment">—</p>
+                  </div>
+                </div>
+                <div class="conf-bar" id="conf-row" style="display:none">
+                  <button class="conf-btn cb-hard" onclick="rate('hard')">
+                    <span class="cb-pip"></span><span class="cb-txt">Difícil</span>
+                  </button>
+                  <button class="conf-btn cb-med" onclick="rate('medium')">
+                    <span class="cb-pip"></span><span class="cb-txt">Médio</span>
+                  </button>
+                  <button class="conf-btn cb-easy" onclick="rate('easy')">
+                    <span class="cb-pip"></span><span class="cb-txt">Fácil</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Nav -->
+        <div class="cn-row">
+          <button class="cn-arrow" onclick="prevCard()">
+            <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 4L6 9l5 5"/></svg>
+          </button>
+          <button class="cn-flip" onclick="flipCard()">
+            <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="9" r="7"/><circle cx="9" cy="9" r="2.5" fill="currentColor"/></svg>
+            Virar card
+          </button>
+          <button class="cn-arrow" onclick="nextCard()">
+            <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 4l5 5-5 5"/></svg>
+          </button>
+        </div>
+
+        <div class="kb-hints">
+          <span><kbd>←</kbd><kbd>→</kbd></span>
+          <span><kbd>Space</kbd> virar</span>
+          <span><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd> avaliar</span>
+        </div>
+      </div>
+
+      <!-- QUIZ PANE -->
+      <div id="pane-quiz" style="display:none">
+        <div class="quiz-wrap">
+          <div class="quiz-card">
+            <p class="qz-eyebrow" id="q-tema">—</p>
+            <h2 class="qz-prompt" id="q-prompt">—</h2>
+            <div class="qz-opts" id="q-opts"></div>
+            <div class="qz-comment" id="q-comment" style="display:none"></div>
+            <div class="qz-score"><span id="q-score">0 corretas de 0</span></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- PROGRESS -->
+    <main id="view-progress" class="view">
+      <header class="prog-hdr">
+        <h2>Progresso</h2>
+        <p>Sua evolução rumo à posse — Engenheiro Civil, Contagem/MG.</p>
+      </header>
+
+      <div class="kpi-grid">
+        <div class="kpi-card kpi-ocean">
+          <span class="kpi-n" id="st-studied">0</span>
+          <span class="kpi-l">Questões vistas</span>
+        </div>
+        <div class="kpi-card kpi-warm">
+          <span class="kpi-n" id="st-mastered">0</span>
+          <span class="kpi-l">Dominadas</span>
+        </div>
+        <div class="kpi-card kpi-slate">
+          <span class="kpi-n" id="st-acc">—</span>
+          <span class="kpi-l">Acertos no simulado</span>
+        </div>
+        <div class="kpi-card kpi-slate">
+          <span class="kpi-n" id="st-streak">0</span>
+          <span class="kpi-l">Dias seguidos</span>
+        </div>
+      </div>
+
+      <section class="prog-section">
+        <div class="section-eyebrow"><span>Domínio por matéria</span><div class="eyebrow-line"></div></div>
+        <div id="mastery-rows"></div>
+      </section>
+
+      <section class="prog-section charts-sec">
+        <div class="section-eyebrow"><span>Atividade</span><div class="eyebrow-line"></div></div>
+        <div class="charts-grid">
+          <div class="chart-panel">
+            <span class="chart-lbl">Evolução diária</span>
+            <div class="chart-box"><canvas id="chart-daily"></canvas></div>
+          </div>
+          <div class="chart-panel chart-sm">
+            <span class="chart-lbl">Simulado</span>
+            <div class="chart-box"><canvas id="chart-pie"></canvas></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="prog-section">
+        <div class="section-eyebrow"><span>Conquistas</span><div class="eyebrow-line"></div></div>
+        <div class="ach-grid" id="achievements-grid"></div>
+      </section>
+    </main>
+
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/app.js"></script>
+  <script>if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});</script>
+</body>
+</html>

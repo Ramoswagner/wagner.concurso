@@ -1,0 +1,11 @@
+{
+  "name": "Wagner.Concurso - Contagem 2026",
+  "short_name": "W.Concurso",
+  "description": "Flashcards e simulados para o Concurso de Contagem/MG 2026 - Engenheiro Civil",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#131F2C",
+  "theme_color": "#131F2C",
+  "icons": []
+}

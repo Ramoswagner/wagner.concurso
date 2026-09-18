@@ -1,0 +1,778 @@
+{
+  "lbl": "Português",
+  "pt": "Português",
+  "color": "#2862A8",
+  "desc": "Interpretação de texto, gramática e norma culta.",
+  "temas": [
+    {
+      "id": "p1-compreensao-e-interpretacao-de-textos-generos-textuais",
+      "nome": "P1. Compreensao e interpretacao de textos / generos textuais"
+    },
+    {
+      "id": "p2-coesao-coerencia-textual-e-estrategias-argumentativas",
+      "nome": "P2. Coesao, coerencia textual e estrategias argumentativas"
+    },
+    {
+      "id": "p3-morfologia-classes-de-palavras-formacao-de-palavras-verbo",
+      "nome": "P3. Morfologia (classes de palavras, formacao de palavras, verbo)"
+    },
+    {
+      "id": "p4-sintaxe-concordancia-regencia-pronomes-relativos-colocacao-pronominal",
+      "nome": "P4. Sintaxe (concordancia, regencia, pronomes relativos, colocacao pronominal)"
+    },
+    {
+      "id": "p5-crase-e-pontuacao",
+      "nome": "P5. Crase e pontuacao"
+    },
+    {
+      "id": "p6-ortografia-e-acentuacao-grafica",
+      "nome": "P6. Ortografia e acentuacao grafica"
+    }
+  ],
+  "cards": [
+    {
+      "id": "portugues001",
+      "tema": "p1-compreensao-e-interpretacao-de-textos-generos-textuais",
+      "temaNome": "P1. Compreensao e interpretacao de textos / generos textuais",
+      "tipo": "multipla",
+      "enunciado": "\"Embora o Brasil tenha avancado nas ultimas decadas na universalizacao do acesso a agua tratada, o esgotamento sanitario ainda e o elo mais fragil do saneamento basico nacional.\" A conjuncao \"Embora\" introduz, no periodo, uma relacao de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Causa"
+        },
+        {
+          "letra": "B",
+          "texto": "Concessao"
+        },
+        {
+          "letra": "C",
+          "texto": "Consequencia"
+        },
+        {
+          "letra": "D",
+          "texto": "Conformidade"
+        },
+        {
+          "letra": "E",
+          "texto": "Condicao"
+        }
+      ],
+      "correta": "B",
+      "comentario": "\"Embora\" e conjuncao concessiva classica (equivale a \"ainda que\", \"apesar de\")."
+    },
+    {
+      "id": "portugues002",
+      "tema": "p1-compreensao-e-interpretacao-de-textos-generos-textuais",
+      "temaNome": "P1. Compreensao e interpretacao de textos / generos textuais",
+      "tipo": "multipla",
+      "enunciado": "Considerando os generos textuais, assinale a alternativa que corresponde a um genero predominantemente injuntivo (instrucional):",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Cronica jornalistica"
+        },
+        {
+          "letra": "B",
+          "texto": "Manual de instrucoes de um equipamento"
+        },
+        {
+          "letra": "C",
+          "texto": "Biografia"
+        },
+        {
+          "letra": "D",
+          "texto": "Poema lirico"
+        },
+        {
+          "letra": "E",
+          "texto": "Noticia policial"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O manual de instrucoes visa orientar/ordenar uma acao passo a passo - tipologia injuntiva."
+    },
+    {
+      "id": "portugues003",
+      "tema": "p1-compreensao-e-interpretacao-de-textos-generos-textuais",
+      "temaNome": "P1. Compreensao e interpretacao de textos / generos textuais",
+      "tipo": "multipla",
+      "enunciado": "\"O edital do concurso, publicado na integra no site da Prefeitura, estabelece prazo improrrogavel para recursos.\" A palavra sublinhada (\"improrrogavel\") tem como funcao no periodo:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Indicar que o prazo pode ser estendido em casos excepcionais"
+        },
+        {
+          "letra": "B",
+          "texto": "Reforcar a ideia de que nao havera prorrogacao do prazo"
+        },
+        {
+          "letra": "C",
+          "texto": "Sugerir que o prazo ja foi prorrogado anteriormente"
+        },
+        {
+          "letra": "D",
+          "texto": "Estabelecer uma condicao para a prorrogacao"
+        },
+        {
+          "letra": "E",
+          "texto": "Negar a existencia de qualquer prazo"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O prefixo \"im-\" + \"prorrogavel\" indica impossibilidade de prorrogacao."
+    },
+    {
+      "id": "portugues004",
+      "tema": "p1-compreensao-e-interpretacao-de-textos-generos-textuais",
+      "temaNome": "P1. Compreensao e interpretacao de textos / generos textuais",
+      "tipo": "multipla",
+      "enunciado": "A respeito da diferenca entre texto narrativo e texto dissertativo-argumentativo, e correto afirmar que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O narrativo tem como finalidade defender um ponto de vista por meio de argumentos"
+        },
+        {
+          "letra": "B",
+          "texto": "O dissertativo-argumentativo se organiza em torno de personagens, tempo e espaco"
+        },
+        {
+          "letra": "C",
+          "texto": "O narrativo relata fatos organizados numa sequencia temporal e causal, envolvendo personagens"
+        },
+        {
+          "letra": "D",
+          "texto": "Ambos os tipos textuais sao incompativeis com o uso de discurso direto"
+        },
+        {
+          "letra": "E",
+          "texto": "O dissertativo-argumentativo nao admite conectivos logicos"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Narracao = fatos + personagens + tempo/espaco; dissertacao-argumentativa = defesa de tese."
+    },
+    {
+      "id": "portugues005",
+      "tema": "p2-coesao-coerencia-textual-e-estrategias-argumentativas",
+      "temaNome": "P2. Coesao, coerencia textual e estrategias argumentativas",
+      "tipo": "multipla",
+      "enunciado": "\"A comissao avaliou os recursos administrativos; entretanto, manteve o resultado preliminar do certame.\" O conectivo \"entretanto\" estabelece entre as oracoes uma relacao de coesao:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Aditiva"
+        },
+        {
+          "letra": "B",
+          "texto": "Explicativa"
+        },
+        {
+          "letra": "C",
+          "texto": "Adversativa"
+        },
+        {
+          "letra": "D",
+          "texto": "Conclusiva"
+        },
+        {
+          "letra": "E",
+          "texto": "Comparativa"
+        }
+      ],
+      "correta": "C",
+      "comentario": "\"Entretanto\" e conectivo adversativo, equivalente a \"porem\", \"contudo\"."
+    },
+    {
+      "id": "portugues006",
+      "tema": "p2-coesao-coerencia-textual-e-estrategias-argumentativas",
+      "temaNome": "P2. Coesao, coerencia textual e estrategias argumentativas",
+      "tipo": "multipla",
+      "enunciado": "Discurso direto: O fiscal afirmou: \"Vou vistoriar a obra amanha.\" Assinale a transposicao correta para o discurso indireto:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O fiscal afirmou que vai vistoriar a obra amanha."
+        },
+        {
+          "letra": "B",
+          "texto": "O fiscal afirmou que iria vistoriar a obra no dia seguinte."
+        },
+        {
+          "letra": "C",
+          "texto": "O fiscal perguntou se vistoriaria a obra amanha."
+        },
+        {
+          "letra": "D",
+          "texto": "O fiscal ordenou que vistoriasse a obra amanha."
+        },
+        {
+          "letra": "E",
+          "texto": "O fiscal afirma que vistoriara a obra amanha."
+        }
+      ],
+      "correta": "B",
+      "comentario": "No discurso indireto: presente/futuro do indicativo -> futuro do preterito; \"amanha\" -> \"no dia seguinte\"."
+    },
+    {
+      "id": "portugues007",
+      "tema": "p2-coesao-coerencia-textual-e-estrategias-argumentativas",
+      "temaNome": "P2. Coesao, coerencia textual e estrategias argumentativas",
+      "tipo": "multipla",
+      "enunciado": "No trecho \"O engenheiro revisou o projeto estrutural; em seguida, encaminhou-o a fiscalizacao\", o elemento \"em seguida\" exerce a funcao de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Operador argumentativo de oposicao"
+        },
+        {
+          "letra": "B",
+          "texto": "Operador sequencial, marcando progressao temporal"
+        },
+        {
+          "letra": "C",
+          "texto": "Expressao referencial anaforica"
+        },
+        {
+          "letra": "D",
+          "texto": "Marcador de causa e consequencia"
+        },
+        {
+          "letra": "E",
+          "texto": "Elemento de coesao lexical por sinonimia"
+        }
+      ],
+      "correta": "B",
+      "comentario": "\"Em seguida\" e operador sequencial tipico de textos narrativos/instrucionais."
+    },
+    {
+      "id": "portugues008",
+      "tema": "p2-coesao-coerencia-textual-e-estrategias-argumentativas",
+      "temaNome": "P2. Coesao, coerencia textual e estrategias argumentativas",
+      "tipo": "multipla",
+      "enunciado": "Para garantir a coerencia textual, um paragrafo argumentativo bem construido deve, EXCETO:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apresentar uma ideia-nucleo claramente identificavel"
+        },
+        {
+          "letra": "B",
+          "texto": "Articular os argumentos de forma logica e progressiva"
+        },
+        {
+          "letra": "C",
+          "texto": "Conter informacoes contraditorias entre si sem qualquer costura textual"
+        },
+        {
+          "letra": "D",
+          "texto": "Utilizar conectivos adequados a relacao de sentido pretendida"
+        },
+        {
+          "letra": "E",
+          "texto": "Manter relacao de pertinencia com o tema central do texto"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Contradicoes internas sem costura textual quebram a coerencia - e o unico item incorreto."
+    },
+    {
+      "id": "portugues009",
+      "tema": "p3-morfologia-classes-de-palavras-formacao-de-palavras-verbo",
+      "temaNome": "P3. Morfologia (classes de palavras, formacao de palavras, verbo)",
+      "tipo": "multipla",
+      "enunciado": "Na frase \"O fiscal analisou cuidadosamente o memorial descritivo do projeto\", a palavra \"cuidadosamente\" classifica-se morfologicamente como:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Substantivo"
+        },
+        {
+          "letra": "B",
+          "texto": "Adjetivo"
+        },
+        {
+          "letra": "C",
+          "texto": "Adverbio"
+        },
+        {
+          "letra": "D",
+          "texto": "Conjuncao"
+        },
+        {
+          "letra": "E",
+          "texto": "Preposicao"
+        }
+      ],
+      "correta": "C",
+      "comentario": "\"Cuidadosamente\" e advebio de modo, pois modifica o verbo \"analisou\", indicando a maneira como a acao ocorreu."
+    },
+    {
+      "id": "portugues010",
+      "tema": "p3-morfologia-classes-de-palavras-formacao-de-palavras-verbo",
+      "temaNome": "P3. Morfologia (classes de palavras, formacao de palavras, verbo)",
+      "tipo": "multipla",
+      "enunciado": "Em relacao ao processo de formacao de palavras, o vocabulo \"reconstrucao\" (re + constru + cao) e formado por:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Composicao por justaposicao"
+        },
+        {
+          "letra": "B",
+          "texto": "Composicao por aglutinacao"
+        },
+        {
+          "letra": "C",
+          "texto": "Derivacao regressiva"
+        },
+        {
+          "letra": "D",
+          "texto": "Derivacao prefixal e sufixal"
+        },
+        {
+          "letra": "E",
+          "texto": "Onomatopeia"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Ha acrescimo simultaneo de prefixo (\"re-\") e sufixo (\"-cao\") ao radical \"constru-\", e a palavra \"construcao\" existe isoladamente sem o prefixo, o que caracteriza derivacao prefixal e sufixal (nao parassintese)."
+    },
+    {
+      "id": "portugues011",
+      "tema": "p3-morfologia-classes-de-palavras-formacao-de-palavras-verbo",
+      "temaNome": "P3. Morfologia (classes de palavras, formacao de palavras, verbo)",
+      "tipo": "multipla",
+      "enunciado": "A forma verbal destacada em \"Se o engenheiro tivesse concluido o laudo a tempo, o recurso teria sido aceito\" esta flexionada no:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Preterito perfeito do indicativo"
+        },
+        {
+          "letra": "B",
+          "texto": "Preterito mais-que-perfeito composto do subjuntivo"
+        },
+        {
+          "letra": "C",
+          "texto": "Futuro do subjuntivo"
+        },
+        {
+          "letra": "D",
+          "texto": "Presente do indicativo"
+        },
+        {
+          "letra": "E",
+          "texto": "Imperativo afirmativo"
+        }
+      ],
+      "correta": "B",
+      "comentario": "\"Tivesse concluido\" e o preterito mais-que-perfeito composto do modo subjuntivo, formado por \"tivesse\" (imperfeito do subjuntivo do verbo ter) + participio do verbo principal."
+    },
+    {
+      "id": "portugues012",
+      "tema": "p3-morfologia-classes-de-palavras-formacao-de-palavras-verbo",
+      "temaNome": "P3. Morfologia (classes de palavras, formacao de palavras, verbo)",
+      "tipo": "multipla",
+      "enunciado": "A frase \"A obra foi vistoriada pelo engenheiro fiscal\" esta na:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Voz ativa"
+        },
+        {
+          "letra": "B",
+          "texto": "Voz passiva analitica"
+        },
+        {
+          "letra": "C",
+          "texto": "Voz passiva sintetica"
+        },
+        {
+          "letra": "D",
+          "texto": "Voz reflexiva"
+        },
+        {
+          "letra": "E",
+          "texto": "Voz reflexiva reciproca"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A voz passiva analitica e formada por verbo auxiliar (\"foi\") + participio (\"vistoriada\"), com agente da passiva expresso (\"pelo engenheiro fiscal\")."
+    },
+    {
+      "id": "portugues013",
+      "tema": "p4-sintaxe-concordancia-regencia-pronomes-relativos-colocacao-pronominal",
+      "temaNome": "P4. Sintaxe (concordancia, regencia, pronomes relativos, colocacao pronominal)",
+      "tipo": "multipla",
+      "enunciado": "Assinale a alternativa em que a concordancia verbal esta de acordo com a norma-padrao da lingua portuguesa:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A maioria dos candidatos compareceram a prova no horario determinado"
+        },
+        {
+          "letra": "B",
+          "texto": "A maioria dos candidatos compareceu a prova no horario determinado"
+        },
+        {
+          "letra": "C",
+          "texto": "Fazem dois anos que o edital foi publicado"
+        },
+        {
+          "letra": "D",
+          "texto": "Haviam muitos candidatos na sala de espera"
+        },
+        {
+          "letra": "E",
+          "texto": "Aluga-se salas comerciais no centro da cidade"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Com sujeito partitivo (\"a maioria de + substantivo plural\"), a concordancia com o nucleo \"maioria\" (singular) e a mais tradicional e recomendada em provas de concurso."
+    },
+    {
+      "id": "portugues014",
+      "tema": "p4-sintaxe-concordancia-regencia-pronomes-relativos-colocacao-pronominal",
+      "temaNome": "P4. Sintaxe (concordancia, regencia, pronomes relativos, colocacao pronominal)",
+      "tipo": "multipla",
+      "enunciado": "Assinale a alternativa em que a regencia verbal esta CORRETA, conforme a norma-padrao da lingua portuguesa:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O engenheiro assistiu a palestra sobre normas tecnicas, sem uso de crase"
+        },
+        {
+          "letra": "B",
+          "texto": "O engenheiro aspirava o cargo de diretor de obras"
+        },
+        {
+          "letra": "C",
+          "texto": "O engenheiro assistiu a palestra sobre normas tecnicas"
+        },
+        {
+          "letra": "D",
+          "texto": "O candidato preferia mais o cargo tecnico do que o administrativo"
+        },
+        {
+          "letra": "E",
+          "texto": "O relatorio implicava em atraso na obra"
+        }
+      ],
+      "correta": "C",
+      "comentario": "\"Assistir\" no sentido de \"ver, presenciar\" e transitivo indireto, regido pela preposicao \"a\"; ocorrendo crase com o artigo feminino da palavra seguinte (\"a palestra\"), grafa-se \"a\" com acento indicativo de crase."
+    },
+    {
+      "id": "portugues015",
+      "tema": "p4-sintaxe-concordancia-regencia-pronomes-relativos-colocacao-pronominal",
+      "temaNome": "P4. Sintaxe (concordancia, regencia, pronomes relativos, colocacao pronominal)",
+      "tipo": "multipla",
+      "enunciado": "Assinale a alternativa em que o pronome relativo \"cujo\" esta empregado CORRETAMENTE:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O engenheiro cujo o projeto foi aprovado iniciara a obra"
+        },
+        {
+          "letra": "B",
+          "texto": "O engenheiro que seu projeto foi aprovado iniciara a obra"
+        },
+        {
+          "letra": "C",
+          "texto": "O engenheiro cujo projeto foi aprovado iniciara a obra em janeiro"
+        },
+        {
+          "letra": "D",
+          "texto": "O engenheiro do cujo projeto foi aprovado iniciara a obra"
+        },
+        {
+          "letra": "E",
+          "texto": "O engenheiro cujo projeto foram aprovados iniciara a obra"
+        }
+      ],
+      "correta": "C",
+      "comentario": "\"Cujo\" e pronome relativo possessivo, nao admite artigo apos si e concorda em genero/numero com o substantivo que o segue (\"projeto\", singular masculino)."
+    },
+    {
+      "id": "portugues016",
+      "tema": "p4-sintaxe-concordancia-regencia-pronomes-relativos-colocacao-pronominal",
+      "temaNome": "P4. Sintaxe (concordancia, regencia, pronomes relativos, colocacao pronominal)",
+      "tipo": "multipla",
+      "enunciado": "Assinale a alternativa em que a colocacao pronominal esta de acordo com a norma-padrao da lingua portuguesa:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Aplicam-se-a multas sem processo, quando necessario"
+        },
+        {
+          "letra": "B",
+          "texto": "Nao se aplicam multas sem o devido processo administrativo"
+        },
+        {
+          "letra": "C",
+          "texto": "Aplica-se-lhe a multa, quando necessario, sem processo"
+        },
+        {
+          "letra": "D",
+          "texto": "Nunca aplica-se multa sem processo"
+        },
+        {
+          "letra": "E",
+          "texto": "Se aplicam multas normalmente, sem processo, no inicio da frase"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A palavra negativa \"nao\" atrai o pronome atono para antes do verbo (proclise obrigatoria), como em \"Nao se aplicam\"."
+    },
+    {
+      "id": "portugues017",
+      "tema": "p5-crase-e-pontuacao",
+      "temaNome": "P5. Crase e pontuacao",
+      "tipo": "multipla",
+      "enunciado": "Assinale a alternativa em que o uso do acento indicativo de crase esta CORRETO:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O edital foi enviado a Comissao de Licitacao para analise"
+        },
+        {
+          "letra": "B",
+          "texto": "O prazo refere-se a partir de amanha"
+        },
+        {
+          "letra": "C",
+          "texto": "O engenheiro chegou a pe ao canteiro de obras"
+        },
+        {
+          "letra": "D",
+          "texto": "Entregamos o laudo a ela, conforme solicitado"
+        },
+        {
+          "letra": "E",
+          "texto": "A prefeitura esta a espera de recursos, a qualquer momento"
+        }
+      ],
+      "correta": "A",
+      "comentario": "Ha crase pela fusao da preposicao \"a\" (exigida por \"enviado a\") com o artigo feminino \"a\" que precede \"Comissao\". As demais alternativas trazem casos em que a crase e vedada (antes de verbo, locucao \"a pe\", pronome \"ela\" e \"qualquer\")."
+    },
+    {
+      "id": "portugues018",
+      "tema": "p5-crase-e-pontuacao",
+      "temaNome": "P5. Crase e pontuacao",
+      "tipo": "multipla",
+      "enunciado": "Assinale a alternativa em que a expressao \"a medida que\" esta empregada CORRETAMENTE, com o devido acento indicativo de crase, para exprimir proporcionalidade:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A medida que a obra avanca, os custos sao reavaliados"
+        },
+        {
+          "letra": "B",
+          "texto": "A medida que a obra avanca, os custos sao reavaliados"
+        },
+        {
+          "letra": "C",
+          "texto": "Na medida em que a obra avanca"
+        },
+        {
+          "letra": "D",
+          "texto": "A medida em que a obra avanca"
+        },
+        {
+          "letra": "E",
+          "texto": "Na medida a obra avanca"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A locucao conjuntiva proporcional \"a medida que\" e craseada por tradicao gramatical, distinguindo-se de \"na medida em que\" (sem crase, pois usa preposicao \"em\")."
+    },
+    {
+      "id": "portugues019",
+      "tema": "p5-crase-e-pontuacao",
+      "temaNome": "P5. Crase e pontuacao",
+      "tipo": "multipla",
+      "enunciado": "Assinale a alternativa em que o uso da virgula esta CORRETO, isolando o aposto explicativo:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Contagem municipio da regiao metropolitana de Belo Horizonte, sediara o concurso"
+        },
+        {
+          "letra": "B",
+          "texto": "Contagem, municipio da regiao metropolitana de Belo Horizonte sediara o concurso"
+        },
+        {
+          "letra": "C",
+          "texto": "Contagem, municipio da regiao metropolitana de Belo Horizonte, sediara o concurso"
+        },
+        {
+          "letra": "D",
+          "texto": "Contagem municipio, da regiao metropolitana de Belo Horizonte sediara, o concurso"
+        },
+        {
+          "letra": "E",
+          "texto": "Contagem municipio da regiao, metropolitana de Belo Horizonte, sediara o concurso"
+        }
+      ],
+      "correta": "C",
+      "comentario": "O aposto explicativo \"municipio da regiao metropolitana de Belo Horizonte\" deve ser isolado por virgulas dos dois lados."
+    },
+    {
+      "id": "portugues020",
+      "tema": "p5-crase-e-pontuacao",
+      "temaNome": "P5. Crase e pontuacao",
+      "tipo": "multipla",
+      "enunciado": "Assinale a alternativa em que o ponto e virgula foi empregado CORRETAMENTE para separar itens de uma enumeracao cujos elementos ja contem virgulas internas:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O edital preve tres etapas prova objetiva; prova discursiva; prova de titulos"
+        },
+        {
+          "letra": "B",
+          "texto": "O edital preve tres etapas: prova objetiva, de carater eliminatorio e classificatorio; prova discursiva, de carater eliminatorio e classificatorio; prova de titulos, de carater classificatorio"
+        },
+        {
+          "letra": "C",
+          "texto": "O edital, preve; tres etapas: prova objetiva prova discursiva prova de titulos"
+        },
+        {
+          "letra": "D",
+          "texto": "O edital preve tres etapas, prova objetiva; prova discursiva, prova de titulos."
+        },
+        {
+          "letra": "E",
+          "texto": "O edital; preve tres etapas prova objetiva, prova discursiva, prova de titulos"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Quando os itens de uma enumeracao ja contem virgulas internas, usa-se o ponto e virgula para separar os itens maiores, evitando ambiguidade."
+    },
+    {
+      "id": "portugues021",
+      "tema": "p6-ortografia-e-acentuacao-grafica",
+      "temaNome": "P6. Ortografia e acentuacao grafica",
+      "tipo": "multipla",
+      "enunciado": "Todas as palavras a seguir sao acentuadas pela mesma regra (proparoxitonas), EXCETO:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Publico"
+        },
+        {
+          "letra": "B",
+          "texto": "Especifico"
+        },
+        {
+          "letra": "C",
+          "texto": "Ultimo"
+        },
+        {
+          "letra": "D",
+          "texto": "Agua"
+        },
+        {
+          "letra": "E",
+          "texto": "Pratico"
+        }
+      ],
+      "correta": "D",
+      "comentario": "\"Agua\" e paroxitona terminada em ditongo crescente (\"gua\"), acentuada por regra propria de paroxitonas terminadas em ditongo, e nao por ser proparoxitona."
+    },
+    {
+      "id": "portugues022",
+      "tema": "p6-ortografia-e-acentuacao-grafica",
+      "temaNome": "P6. Ortografia e acentuacao grafica",
+      "tipo": "multipla",
+      "enunciado": "A palavra \"saida\" recebe acento grafico porque:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "E uma palavra proparoxitona"
+        },
+        {
+          "letra": "B",
+          "texto": "E uma palavra oxitona terminada em \"a\""
+        },
+        {
+          "letra": "C",
+          "texto": "O \"i\" tonico forma hiato com a vogal anterior e esta sozinho na silaba"
+        },
+        {
+          "letra": "D",
+          "texto": "Todas as paroxitonas terminadas em \"a\" sao acentuadas"
+        },
+        {
+          "letra": "E",
+          "texto": "Segue a regra de acentuacao das monossilabas tonicas"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Em hiatos, a vogal tonica \"i\" ou \"u\", quando sozinha na silaba (ou seguida apenas de \"s\"), recebe acento, independentemente da tonicidade geral da palavra."
+    },
+    {
+      "id": "portugues023",
+      "tema": "p6-ortografia-e-acentuacao-grafica",
+      "temaNome": "P6. Ortografia e acentuacao grafica",
+      "tipo": "multipla",
+      "enunciado": "Assinale a alternativa em que o emprego de \"porque/por que/porque/por que\" esta CORRETO:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Por que o prazo foi reduzido? Ninguem explicou o porque da decisao, por que o edital nao trouxe justificativa"
+        },
+        {
+          "letra": "B",
+          "texto": "Porque o prazo foi reduzido? Ninguem explicou o porque da decisao, porque o edital nao trouxe justificativa"
+        },
+        {
+          "letra": "C",
+          "texto": "Por que o prazo de recurso foi reduzido? Ninguem explicou o porque da decisao, porque o edital nao trouxe justificativa"
+        },
+        {
+          "letra": "D",
+          "texto": "Por que o prazo foi reduzido? Ninguem explicou o por que da decisao, porque o edital nao trouxe justificativa"
+        },
+        {
+          "letra": "E",
+          "texto": "Porque o prazo foi reduzido? Ninguem explicou o por que da decisao, por que o edital nao trouxe justificativa"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Em pergunta direta usa-se \"por que\" (separado, sem acento); como substantivo (precedido de artigo) usa-se \"o porque\" (junto, com acento); como conjuncao explicativa (equivalente a \"pois\") usa-se \"porque\" (junto, sem acento)."
+    },
+    {
+      "id": "portugues024",
+      "tema": "p6-ortografia-e-acentuacao-grafica",
+      "temaNome": "P6. Ortografia e acentuacao grafica",
+      "tipo": "multipla",
+      "enunciado": "Assinale a alternativa em que o emprego dos vocabulos destacados esta CORRETO quanto a ortografia: \"O candidato fez um ___ uso do tempo de prova, ___ conseguiu terminar; ele levou ___ material do que o necessario.\"",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "mal / mas / mas"
+        },
+        {
+          "letra": "B",
+          "texto": "mau / mas / mais"
+        },
+        {
+          "letra": "C",
+          "texto": "mau / mais / mas"
+        },
+        {
+          "letra": "D",
+          "texto": "mal / mas / mais"
+        },
+        {
+          "letra": "E",
+          "texto": "mau / mas / mas"
+        }
+      ],
+      "correta": "B",
+      "comentario": "\"Mau\" (adjetivo, oposto de \"bom\") qualifica \"uso\"; \"mas\" (conjuncao adversativa, oposto de \"porem\") liga as oracoes; \"mais\" (advebio de intensidade/quantidade, oposto de \"menos\") antecede \"material\"."
+    }
+  ]
+}

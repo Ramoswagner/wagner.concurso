@@ -1,0 +1,1290 @@
+{
+  "lbl": "Raciocínio Lógico",
+  "pt": "Raciocínio Lógico",
+  "color": "#9A7B6C",
+  "desc": "Lógica matemática, conjuntos, sequências e probabilidade.",
+  "temas": [
+    {
+      "id": "r1-conjuntos-numericos-e-operacoes-fundamentais-mdc-mmc-fatoracao",
+      "nome": "R1. Conjuntos numericos e operacoes fundamentais (MDC, MMC, fatoracao)"
+    },
+    {
+      "id": "r2-razoes-proporcoes-e-regra-de-tres",
+      "nome": "R2. Razoes, proporcoes e regra de tres"
+    },
+    {
+      "id": "r3-porcentagem",
+      "nome": "R3. Porcentagem"
+    },
+    {
+      "id": "r4-equacoes-e-sistemas-do-1o-grau-funcao-do-1o-grau",
+      "nome": "R4. Equacoes e sistemas do 1o grau / funcao do 1o grau"
+    },
+    {
+      "id": "r5-media-aritmetica-simples-e-ponderada",
+      "nome": "R5. Media aritmetica simples e ponderada"
+    },
+    {
+      "id": "r6-logica-proposicional-conectivos-tabelas-verdade-negacao-equivalencias-quantificadores",
+      "nome": "R6. Logica proposicional (conectivos, tabelas-verdade, negacao, equivalencias, quantificadores)"
+    },
+    {
+      "id": "r7-argumentacao-logica-premissas-conclusoes-inferencias-e-diagramas-logicos",
+      "nome": "R7. Argumentacao logica (premissas, conclusoes, inferencias) e diagramas logicos"
+    },
+    {
+      "id": "r8-teoria-dos-conjuntos-notacao-pertinencia-inclusao-operacoes",
+      "nome": "R8. Teoria dos conjuntos (notacao, pertinencia, inclusao, operacoes)"
+    },
+    {
+      "id": "r9-sequencias-logicas-numeros-letras-palavras-figuras-e-problemas-de-associacao-logicaverdades-e-mentiras",
+      "nome": "R9. Sequencias logicas (numeros, letras, palavras, figuras) e problemas de associacao logica/verdades e mentiras"
+    },
+    {
+      "id": "r10-analise-combinatoria-principio-fundamental-da-contagem-arranjos-permutacoes-combinacoes-e-probabilidade",
+      "nome": "R10. Analise combinatoria (principio fundamental da contagem, arranjos, permutacoes, combinacoes) e probabilidade"
+    }
+  ],
+  "cards": [
+    {
+      "id": "raciocinio001",
+      "tema": "r1-conjuntos-numericos-e-operacoes-fundamentais-mdc-mmc-fatoracao",
+      "temaNome": "R1. Conjuntos numericos e operacoes fundamentais (MDC, MMC, fatoracao)",
+      "tipo": "multipla",
+      "enunciado": "Qual e o maximo divisor comum (MDC) entre 84 e 126?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "21"
+        },
+        {
+          "letra": "B",
+          "texto": "42"
+        },
+        {
+          "letra": "C",
+          "texto": "63"
+        },
+        {
+          "letra": "D",
+          "texto": "14"
+        },
+        {
+          "letra": "E",
+          "texto": "7"
+        }
+      ],
+      "correta": "B",
+      "comentario": "84=2^2x3x7 ; 126=2x3^2x7 ; MDC = 2x3x7 = 42."
+    },
+    {
+      "id": "raciocinio002",
+      "tema": "r1-conjuntos-numericos-e-operacoes-fundamentais-mdc-mmc-fatoracao",
+      "temaNome": "R1. Conjuntos numericos e operacoes fundamentais (MDC, MMC, fatoracao)",
+      "tipo": "multipla",
+      "enunciado": "O menor numero natural, maior que 1, divisivel simultaneamente por 12, 18 e 30 e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "90"
+        },
+        {
+          "letra": "B",
+          "texto": "120"
+        },
+        {
+          "letra": "C",
+          "texto": "150"
+        },
+        {
+          "letra": "D",
+          "texto": "180"
+        },
+        {
+          "letra": "E",
+          "texto": "360"
+        }
+      ],
+      "correta": "D",
+      "comentario": "MMC(12,18,30) = 2^2 x 3^2 x 5 = 180."
+    },
+    {
+      "id": "raciocinio003",
+      "tema": "r1-conjuntos-numericos-e-operacoes-fundamentais-mdc-mmc-fatoracao",
+      "temaNome": "R1. Conjuntos numericos e operacoes fundamentais (MDC, MMC, fatoracao)",
+      "tipo": "multipla",
+      "enunciado": "Decompondo o numero 360 em fatores primos, obtem-se:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2^2 x 3^3 x 5"
+        },
+        {
+          "letra": "B",
+          "texto": "2^3 x 3^2 x 5"
+        },
+        {
+          "letra": "C",
+          "texto": "2^4 x 3 x 5"
+        },
+        {
+          "letra": "D",
+          "texto": "2^3 x 3 x 5^2"
+        },
+        {
+          "letra": "E",
+          "texto": "2^2 x 3^2 x 5^2"
+        }
+      ],
+      "correta": "B",
+      "comentario": "360 = 8 x 45 = 2^3 x 3^2 x 5."
+    },
+    {
+      "id": "raciocinio004",
+      "tema": "r1-conjuntos-numericos-e-operacoes-fundamentais-mdc-mmc-fatoracao",
+      "temaNome": "R1. Conjuntos numericos e operacoes fundamentais (MDC, MMC, fatoracao)",
+      "tipo": "multipla",
+      "enunciado": "O valor da expressao |7 - 15| + |-4| e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4"
+        },
+        {
+          "letra": "B",
+          "texto": "8"
+        },
+        {
+          "letra": "C",
+          "texto": "11"
+        },
+        {
+          "letra": "D",
+          "texto": "12"
+        },
+        {
+          "letra": "E",
+          "texto": "19"
+        }
+      ],
+      "correta": "D",
+      "comentario": "|7-15| = |-8| = 8 ; |-4| = 4 ; 8+4 = 12."
+    },
+    {
+      "id": "raciocinio005",
+      "tema": "r2-razoes-proporcoes-e-regra-de-tres",
+      "temaNome": "R2. Razoes, proporcoes e regra de tres",
+      "tipo": "multipla",
+      "enunciado": "Uma equipe de 6 pedreiros constroi um muro em 15 dias. Mantida a mesma produtividade individual, quantos dias serao necessarios para 9 pedreiros construirem o mesmo muro?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "8"
+        },
+        {
+          "letra": "B",
+          "texto": "9"
+        },
+        {
+          "letra": "C",
+          "texto": "10"
+        },
+        {
+          "letra": "D",
+          "texto": "12"
+        },
+        {
+          "letra": "E",
+          "texto": "22,5"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Regra de tres inversa: 6x15 = 9x -> x = 90/9 = 10 dias."
+    },
+    {
+      "id": "raciocinio006",
+      "tema": "r2-razoes-proporcoes-e-regra-de-tres",
+      "temaNome": "R2. Razoes, proporcoes e regra de tres",
+      "tipo": "multipla",
+      "enunciado": "Em uma planta na escala 1:200, um ambiente aparece representado com 6 cm de comprimento. A medida real desse comprimento, em metros, e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6 m"
+        },
+        {
+          "letra": "B",
+          "texto": "8 m"
+        },
+        {
+          "letra": "C",
+          "texto": "10 m"
+        },
+        {
+          "letra": "D",
+          "texto": "12 m"
+        },
+        {
+          "letra": "E",
+          "texto": "20 m"
+        }
+      ],
+      "correta": "D",
+      "comentario": "6 cm x 200 = 1200 cm = 12 m."
+    },
+    {
+      "id": "raciocinio007",
+      "tema": "r2-razoes-proporcoes-e-regra-de-tres",
+      "temaNome": "R2. Razoes, proporcoes e regra de tres",
+      "tipo": "multipla",
+      "enunciado": "Para produzir 150 m2 de contrapiso, uma empresa utiliza 12 sacos de cimento. Quantos sacos serao necessarios para executar 400 m2 do mesmo contrapiso, mantida a mesma proporcao?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "24"
+        },
+        {
+          "letra": "B",
+          "texto": "28"
+        },
+        {
+          "letra": "C",
+          "texto": "30"
+        },
+        {
+          "letra": "D",
+          "texto": "32"
+        },
+        {
+          "letra": "E",
+          "texto": "36"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Regra de tres direta: 12/150 = x/400 -> x = 4800/150 = 32."
+    },
+    {
+      "id": "raciocinio008",
+      "tema": "r2-razoes-proporcoes-e-regra-de-tres",
+      "temaNome": "R2. Razoes, proporcoes e regra de tres",
+      "tipo": "multipla",
+      "enunciado": "Se as grandezas X e Y sao inversamente proporcionais, e X=5 corresponde a Y=24, qual o valor de Y quando X=8?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12"
+        },
+        {
+          "letra": "B",
+          "texto": "15"
+        },
+        {
+          "letra": "C",
+          "texto": "18"
+        },
+        {
+          "letra": "D",
+          "texto": "20"
+        },
+        {
+          "letra": "E",
+          "texto": "24"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Produto constante: 5x24=120 -> Y = 120/8 = 15."
+    },
+    {
+      "id": "raciocinio009",
+      "tema": "r3-porcentagem",
+      "temaNome": "R3. Porcentagem",
+      "tipo": "multipla",
+      "enunciado": "Um contrato de obra publica no valor de R$ 850.000,00 sofreu um aditivo de acrescimo de 18%. O novo valor do contrato passa a ser de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R$ 1.001.000,00"
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 1.003.000,00"
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 1.020.000,00"
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 969.000,00"
+        },
+        {
+          "letra": "E",
+          "texto": "R$ 1.050.000,00"
+        }
+      ],
+      "correta": "B",
+      "comentario": "850.000 x 1,18 = 1.003.000,00."
+    },
+    {
+      "id": "raciocinio010",
+      "tema": "r3-porcentagem",
+      "temaNome": "R3. Porcentagem",
+      "tipo": "multipla",
+      "enunciado": "O preco de um material de construcao sofreu um aumento de 20% em janeiro e, em seguida, uma reducao de 10% em fevereiro sobre o novo valor. Em relacao ao preco original, o preco final representa um:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Aumento de 10%"
+        },
+        {
+          "letra": "B",
+          "texto": "Aumento de 8%"
+        },
+        {
+          "letra": "C",
+          "texto": "Reducao de 8%"
+        },
+        {
+          "letra": "D",
+          "texto": "Aumento de 30%"
+        },
+        {
+          "letra": "E",
+          "texto": "Nenhuma variacao"
+        }
+      ],
+      "correta": "B",
+      "comentario": "1,20 x 0,90 = 1,08, ou seja, aumento liquido de 8% em relacao ao preco original."
+    },
+    {
+      "id": "raciocinio011",
+      "tema": "r3-porcentagem",
+      "temaNome": "R3. Porcentagem",
+      "tipo": "multipla",
+      "enunciado": "Um engenheiro gastou 40% do orcamento de uma obra com fundacoes e ainda restaram R$ 90.000,00 para as demais etapas. O valor total do orcamento era de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R$ 120.000,00"
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 135.000,00"
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 150.000,00"
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 180.000,00"
+        },
+        {
+          "letra": "E",
+          "texto": "R$ 225.000,00"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Se 40% foram gastos, restam 60% = R$ 90.000,00. Logo, o total x = 90.000 / 0,6 = R$ 150.000,00."
+    },
+    {
+      "id": "raciocinio012",
+      "tema": "r3-porcentagem",
+      "temaNome": "R3. Porcentagem",
+      "tipo": "multipla",
+      "enunciado": "Em uma fiscalizacao de obra, verificou-se que o valor medido (R$ 276.000,00) corresponde a 92% do valor previsto no cronograma fisico-financeiro para o mes. O valor previsto era de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R$ 288.000,00"
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 300.000,00"
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 304.000,00"
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 312.000,00"
+        },
+        {
+          "letra": "E",
+          "texto": "R$ 320.000,00"
+        }
+      ],
+      "correta": "B",
+      "comentario": "276.000 / 0,92 = 300.000,00."
+    },
+    {
+      "id": "raciocinio013",
+      "tema": "r4-equacoes-e-sistemas-do-1o-grau-funcao-do-1o-grau",
+      "temaNome": "R4. Equacoes e sistemas do 1o grau / funcao do 1o grau",
+      "tipo": "multipla",
+      "enunciado": "O custo total C (em reais) para producao de x m3 de concreto usinado em uma central e dado pela funcao C(x) = 280x + 1500, sendo R$ 1.500,00 o custo fixo de mobilizacao. O custo para produzir 12 m3 de concreto e de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "R$ 3.360,00"
+        },
+        {
+          "letra": "B",
+          "texto": "R$ 4.500,00"
+        },
+        {
+          "letra": "C",
+          "texto": "R$ 4.860,00"
+        },
+        {
+          "letra": "D",
+          "texto": "R$ 5.160,00"
+        },
+        {
+          "letra": "E",
+          "texto": "R$ 6.360,00"
+        }
+      ],
+      "correta": "C",
+      "comentario": "C(12) = 280 x 12 + 1500 = 3360 + 1500 = 4860."
+    },
+    {
+      "id": "raciocinio014",
+      "tema": "r4-equacoes-e-sistemas-do-1o-grau-funcao-do-1o-grau",
+      "temaNome": "R4. Equacoes e sistemas do 1o grau / funcao do 1o grau",
+      "tipo": "multipla",
+      "enunciado": "Resolvendo o sistema de equacoes 2x + y = 18 e x - y = 3, o valor de x e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5"
+        },
+        {
+          "letra": "B",
+          "texto": "6"
+        },
+        {
+          "letra": "C",
+          "texto": "7"
+        },
+        {
+          "letra": "D",
+          "texto": "8"
+        },
+        {
+          "letra": "E",
+          "texto": "9"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Somando as duas equacoes: 3x = 21, logo x = 7 (e y = 4)."
+    },
+    {
+      "id": "raciocinio015",
+      "tema": "r4-equacoes-e-sistemas-do-1o-grau-funcao-do-1o-grau",
+      "temaNome": "R4. Equacoes e sistemas do 1o grau / funcao do 1o grau",
+      "tipo": "multipla",
+      "enunciado": "Uma empreiteira cobra uma taxa fixa de R$ 500,00 mais R$ 45,00 por metro quadrado de forro executado. Se o valor total cobrado foi de R$ 3.650,00, o numero de metros quadrados executados foi de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "65"
+        },
+        {
+          "letra": "B",
+          "texto": "68"
+        },
+        {
+          "letra": "C",
+          "texto": "70"
+        },
+        {
+          "letra": "D",
+          "texto": "72"
+        },
+        {
+          "letra": "E",
+          "texto": "75"
+        }
+      ],
+      "correta": "C",
+      "comentario": "500 + 45x = 3650 => 45x = 3150 => x = 70."
+    },
+    {
+      "id": "raciocinio016",
+      "tema": "r4-equacoes-e-sistemas-do-1o-grau-funcao-do-1o-grau",
+      "temaNome": "R4. Equacoes e sistemas do 1o grau / funcao do 1o grau",
+      "tipo": "multipla",
+      "enunciado": "A equacao 3(x - 2) = 2x + 4 tem como solucao:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6"
+        },
+        {
+          "letra": "B",
+          "texto": "8"
+        },
+        {
+          "letra": "C",
+          "texto": "10"
+        },
+        {
+          "letra": "D",
+          "texto": "12"
+        },
+        {
+          "letra": "E",
+          "texto": "14"
+        }
+      ],
+      "correta": "C",
+      "comentario": "3x - 6 = 2x + 4 => x = 10."
+    },
+    {
+      "id": "raciocinio017",
+      "tema": "r5-media-aritmetica-simples-e-ponderada",
+      "temaNome": "R5. Media aritmetica simples e ponderada",
+      "tipo": "multipla",
+      "enunciado": "As notas de um candidato nas quatro provas objetivas de um concurso foram 72, 85, 90 e 77. A media aritmetica simples dessas notas e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "78"
+        },
+        {
+          "letra": "B",
+          "texto": "79"
+        },
+        {
+          "letra": "C",
+          "texto": "80"
+        },
+        {
+          "letra": "D",
+          "texto": "81"
+        },
+        {
+          "letra": "E",
+          "texto": "82"
+        }
+      ],
+      "correta": "D",
+      "comentario": "(72+85+90+77)/4 = 324/4 = 81."
+    },
+    {
+      "id": "raciocinio018",
+      "tema": "r5-media-aritmetica-simples-e-ponderada",
+      "temaNome": "R5. Media aritmetica simples e ponderada",
+      "tipo": "multipla",
+      "enunciado": "Na avaliacao de desempenho de uma equipe de fiscalizacao, as notas obtidas foram 6,0 (peso 2), 8,0 (peso 3) e 9,0 (peso 5). A media ponderada dessas notas e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "7,5"
+        },
+        {
+          "letra": "B",
+          "texto": "7,8"
+        },
+        {
+          "letra": "C",
+          "texto": "8,0"
+        },
+        {
+          "letra": "D",
+          "texto": "8,1"
+        },
+        {
+          "letra": "E",
+          "texto": "8,5"
+        }
+      ],
+      "correta": "D",
+      "comentario": "(6x2 + 8x3 + 9x5)/(2+3+5) = (12+24+45)/10 = 81/10 = 8,1."
+    },
+    {
+      "id": "raciocinio019",
+      "tema": "r5-media-aritmetica-simples-e-ponderada",
+      "temaNome": "R5. Media aritmetica simples e ponderada",
+      "tipo": "multipla",
+      "enunciado": "Um engenheiro fez 5 medicoes de resistencia a compressao do concreto, obtendo media de 28 MPa. Ao descartar uma medicao considerada espuria, a media das 4 restantes passou para 29 MPa. O valor da medicao descartada foi de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "20 MPa"
+        },
+        {
+          "letra": "B",
+          "texto": "22 MPa"
+        },
+        {
+          "letra": "C",
+          "texto": "24 MPa"
+        },
+        {
+          "letra": "D",
+          "texto": "26 MPa"
+        },
+        {
+          "letra": "E",
+          "texto": "30 MPa"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Soma original = 5x28 = 140. Soma das 4 restantes = 4x29 = 116. Medicao descartada = 140 - 116 = 24."
+    },
+    {
+      "id": "raciocinio020",
+      "tema": "r5-media-aritmetica-simples-e-ponderada",
+      "temaNome": "R5. Media aritmetica simples e ponderada",
+      "tipo": "multipla",
+      "enunciado": "Em uma prova composta por Portugues (peso 2), Raciocinio Logico (peso 2), Conhecimentos Gerais (peso 1) e Conhecimentos Especificos (peso 3), um candidato obteve, respectivamente, notas 8, 6, 5 e 9 (escala de 0 a 10). A media ponderada final desse candidato e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6,8"
+        },
+        {
+          "letra": "B",
+          "texto": "7,0"
+        },
+        {
+          "letra": "C",
+          "texto": "7,25"
+        },
+        {
+          "letra": "D",
+          "texto": "7,5"
+        },
+        {
+          "letra": "E",
+          "texto": "8,0"
+        }
+      ],
+      "correta": "D",
+      "comentario": "(8x2 + 6x2 + 5x1 + 9x3)/(2+2+1+3) = (16+12+5+27)/8 = 60/8 = 7,5."
+    },
+    {
+      "id": "raciocinio021",
+      "tema": "r6-logica-proposicional-conectivos-tabelas-verdade-negacao-equivalencias-quantificadores",
+      "temaNome": "R6. Logica proposicional (conectivos, tabelas-verdade, negacao, equivalencias, quantificadores)",
+      "tipo": "multipla",
+      "enunciado": "Considere a proposicao composta: \"Se o projeto for aprovado, entao a obra sera iniciada.\" A negacao logica dessa proposicao e corretamente representada por:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O projeto nao foi aprovado e a obra nao foi iniciada"
+        },
+        {
+          "letra": "B",
+          "texto": "O projeto foi aprovado e a obra nao foi iniciada"
+        },
+        {
+          "letra": "C",
+          "texto": "Se a obra nao foi iniciada, o projeto nao foi aprovado"
+        },
+        {
+          "letra": "D",
+          "texto": "O projeto nao foi aprovado ou a obra foi iniciada"
+        },
+        {
+          "letra": "E",
+          "texto": "A obra foi iniciada e o projeto nao foi aprovado"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A negacao de \"p -> q\" e \"p e ~q\": o projeto foi aprovado (p verdadeiro) e a obra nao foi iniciada (q falso)."
+    },
+    {
+      "id": "raciocinio022",
+      "tema": "r6-logica-proposicional-conectivos-tabelas-verdade-negacao-equivalencias-quantificadores",
+      "temaNome": "R6. Logica proposicional (conectivos, tabelas-verdade, negacao, equivalencias, quantificadores)",
+      "tipo": "multipla",
+      "enunciado": "A tabela-verdade da proposicao (p AND q) -> p e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sempre falsa (contradicao)"
+        },
+        {
+          "letra": "B",
+          "texto": "Verdadeira apenas quando p e falso"
+        },
+        {
+          "letra": "C",
+          "texto": "Sempre verdadeira (tautologia)"
+        },
+        {
+          "letra": "D",
+          "texto": "Verdadeira apenas quando ambos sao verdadeiros"
+        },
+        {
+          "letra": "E",
+          "texto": "Depende apenas do valor logico de q"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Se \"p AND q\" e verdadeiro, entao p obrigatoriamente e verdadeiro; se \"p AND q\" e falso, a condicional e verdadeira por vacuidade. Logo, e sempre verdadeira (tautologia)."
+    },
+    {
+      "id": "raciocinio023",
+      "tema": "r6-logica-proposicional-conectivos-tabelas-verdade-negacao-equivalencias-quantificadores",
+      "temaNome": "R6. Logica proposicional (conectivos, tabelas-verdade, negacao, equivalencias, quantificadores)",
+      "tipo": "multipla",
+      "enunciado": "A proposicao \"Nao e verdade que o edital foi publicado e as inscricoes estao abertas\" equivale, pela lei de De Morgan, a:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O edital nao foi publicado e as inscricoes nao estao abertas"
+        },
+        {
+          "letra": "B",
+          "texto": "O edital foi publicado ou as inscricoes estao abertas"
+        },
+        {
+          "letra": "C",
+          "texto": "O edital nao foi publicado ou as inscricoes nao estao abertas"
+        },
+        {
+          "letra": "D",
+          "texto": "Se o edital foi publicado, as inscricoes estao abertas"
+        },
+        {
+          "letra": "E",
+          "texto": "O edital nao foi publicado e as inscricoes estao abertas"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Pela lei de De Morgan, a negacao de \"p AND q\" e \"~p OR ~q\"."
+    },
+    {
+      "id": "raciocinio024",
+      "tema": "r6-logica-proposicional-conectivos-tabelas-verdade-negacao-equivalencias-quantificadores",
+      "temaNome": "R6. Logica proposicional (conectivos, tabelas-verdade, negacao, equivalencias, quantificadores)",
+      "tipo": "multipla",
+      "enunciado": "A proposicao \"p se e somente se q\" (p <-> q) e FALSA exatamente quando:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "p e q sao ambas verdadeiras"
+        },
+        {
+          "letra": "B",
+          "texto": "p e q sao ambas falsas"
+        },
+        {
+          "letra": "C",
+          "texto": "p e q tem o mesmo valor logico"
+        },
+        {
+          "letra": "D",
+          "texto": "p e q tem valores logicos diferentes"
+        },
+        {
+          "letra": "E",
+          "texto": "p e verdadeira, independentemente de q"
+        }
+      ],
+      "correta": "D",
+      "comentario": "O bicondicional so e falso quando as proposicoes componentes tem valores logicos diferentes (uma verdadeira e outra falsa)."
+    },
+    {
+      "id": "raciocinio025",
+      "tema": "r7-argumentacao-logica-premissas-conclusoes-inferencias-e-diagramas-logicos",
+      "temaNome": "R7. Argumentacao logica (premissas, conclusoes, inferencias) e diagramas logicos",
+      "tipo": "multipla",
+      "enunciado": "Considere as premissas: (1) Todo engenheiro civil aprovado no concurso fez a prova discursiva. (2) Carlos nao fez a prova discursiva. E CORRETO concluir que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Carlos e engenheiro civil aprovado"
+        },
+        {
+          "letra": "B",
+          "texto": "Carlos nao e engenheiro civil aprovado no concurso"
+        },
+        {
+          "letra": "C",
+          "texto": "Todo engenheiro civil fez a prova discursiva, exceto Carlos"
+        },
+        {
+          "letra": "D",
+          "texto": "Carlos fez a prova objetiva, mas nao e engenheiro"
+        },
+        {
+          "letra": "E",
+          "texto": "Nada se pode concluir sobre Carlos"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Trata-se de modus tollens: se todo aprovado fez a discursiva e Carlos nao fez, entao Carlos nao e aprovado no concurso."
+    },
+    {
+      "id": "raciocinio026",
+      "tema": "r7-argumentacao-logica-premissas-conclusoes-inferencias-e-diagramas-logicos",
+      "temaNome": "R7. Argumentacao logica (premissas, conclusoes, inferencias) e diagramas logicos",
+      "tipo": "multipla",
+      "enunciado": "Considere as premissas: \"Todos os candidatos aprovados na prova objetiva farao a prova discursiva\" e \"Alguns candidatos aprovados na prova objetiva sao PcD\". E CORRETO concluir que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Todos os candidatos PcD farao a prova discursiva"
+        },
+        {
+          "letra": "B",
+          "texto": "Alguns candidatos PcD farao a prova discursiva"
+        },
+        {
+          "letra": "C",
+          "texto": "Nenhum candidato PcD fara a prova discursiva"
+        },
+        {
+          "letra": "D",
+          "texto": "Todos os candidatos que farao a discursiva sao PcD"
+        },
+        {
+          "letra": "E",
+          "texto": "Nao e possivel relacionar PcD a prova discursiva"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Como alguns aprovados na objetiva sao PcD e todo aprovado na objetiva fara a discursiva, pelo menos esses PcD tambem farao a discursiva (silogismo valido apenas na forma \"alguns\")."
+    },
+    {
+      "id": "raciocinio027",
+      "tema": "r7-argumentacao-logica-premissas-conclusoes-inferencias-e-diagramas-logicos",
+      "temaNome": "R7. Argumentacao logica (premissas, conclusoes, inferencias) e diagramas logicos",
+      "tipo": "multipla",
+      "enunciado": "Em um levantamento com 50 fiscais municipais, sabe-se que todos os que atuam na area de saneamento tambem atuam na area de obras. Se 30 fiscais atuam em obras e 12 atuam em saneamento, e CORRETO afirmar que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ha 42 fiscais atuando em pelo menos uma das duas areas"
+        },
+        {
+          "letra": "B",
+          "texto": "Os 12 fiscais de saneamento estao necessariamente incluidos entre os 30 de obras"
+        },
+        {
+          "letra": "C",
+          "texto": "18 fiscais atuam exclusivamente em saneamento"
+        },
+        {
+          "letra": "D",
+          "texto": "Nenhum fiscal atua nas duas areas simultaneamente"
+        },
+        {
+          "letra": "E",
+          "texto": "O total de fiscais nas duas areas e indeterminado"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Como o conjunto \"saneamento\" e subconjunto de \"obras\" (todo fiscal de saneamento tambem atua em obras), os 12 de saneamento estao contidos entre os 30 de obras."
+    },
+    {
+      "id": "raciocinio028",
+      "tema": "r7-argumentacao-logica-premissas-conclusoes-inferencias-e-diagramas-logicos",
+      "temaNome": "R7. Argumentacao logica (premissas, conclusoes, inferencias) e diagramas logicos",
+      "tipo": "multipla",
+      "enunciado": "Considere o argumento: \"Se chove, a obra e paralisada. A obra foi paralisada. Logo, choveu.\" Esse argumento e um exemplo classico de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Modus ponens, argumento valido"
+        },
+        {
+          "letra": "B",
+          "texto": "Modus tollens, argumento valido"
+        },
+        {
+          "letra": "C",
+          "texto": "Falacia de afirmacao do consequente, argumento invalido"
+        },
+        {
+          "letra": "D",
+          "texto": "Falacia de negacao do antecedente, argumento invalido"
+        },
+        {
+          "letra": "E",
+          "texto": "Silogismo disjuntivo, argumento valido"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Concluir o antecedente (choveu) a partir da verdade do consequente (obra parada) e a classica falacia de afirmacao do consequente; a obra pode ter parado por outros motivos."
+    },
+    {
+      "id": "raciocinio029",
+      "tema": "r8-teoria-dos-conjuntos-notacao-pertinencia-inclusao-operacoes",
+      "temaNome": "R8. Teoria dos conjuntos (notacao, pertinencia, inclusao, operacoes)",
+      "tipo": "multipla",
+      "enunciado": "Sejam A = {1,2,3,4,5} e B = {3,4,5,6,7}. O conjunto A intersecao B e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "{1,2,6,7}"
+        },
+        {
+          "letra": "B",
+          "texto": "{3,4,5}"
+        },
+        {
+          "letra": "C",
+          "texto": "{1,2,3,4,5,6,7}"
+        },
+        {
+          "letra": "D",
+          "texto": "{1,2}"
+        },
+        {
+          "letra": "E",
+          "texto": "conjunto vazio"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A intersecao contem apenas os elementos comuns aos dois conjuntos: 3, 4 e 5."
+    },
+    {
+      "id": "raciocinio030",
+      "tema": "r8-teoria-dos-conjuntos-notacao-pertinencia-inclusao-operacoes",
+      "temaNome": "R8. Teoria dos conjuntos (notacao, pertinencia, inclusao, operacoes)",
+      "tipo": "multipla",
+      "enunciado": "Em uma pesquisa com 100 candidatos, 60 estudam Direito Administrativo, 45 estudam Legislacao Tributaria e 20 estudam ambas as disciplinas. O numero de candidatos que NAO estuda nenhuma das duas disciplinas e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5"
+        },
+        {
+          "letra": "B",
+          "texto": "10"
+        },
+        {
+          "letra": "C",
+          "texto": "15"
+        },
+        {
+          "letra": "D",
+          "texto": "20"
+        },
+        {
+          "letra": "E",
+          "texto": "25"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Uniao = 60+45-20 = 85. Os que nao estudam nenhuma = 100-85 = 15."
+    },
+    {
+      "id": "raciocinio031",
+      "tema": "r8-teoria-dos-conjuntos-notacao-pertinencia-inclusao-operacoes",
+      "temaNome": "R8. Teoria dos conjuntos (notacao, pertinencia, inclusao, operacoes)",
+      "tipo": "multipla",
+      "enunciado": "Se A e um subconjunto de B (A esta contido em B), e CORRETO afirmar que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A uniao B = A"
+        },
+        {
+          "letra": "B",
+          "texto": "A intersecao B = A"
+        },
+        {
+          "letra": "C",
+          "texto": "A intersecao B = conjunto vazio"
+        },
+        {
+          "letra": "D",
+          "texto": "B esta contido em A"
+        },
+        {
+          "letra": "E",
+          "texto": "A e B sao disjuntos"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Quando A esta contido em B, todo elemento de A tambem pertence a B, logo a intersecao entre A e B e o proprio A."
+    },
+    {
+      "id": "raciocinio032",
+      "tema": "r8-teoria-dos-conjuntos-notacao-pertinencia-inclusao-operacoes",
+      "temaNome": "R8. Teoria dos conjuntos (notacao, pertinencia, inclusao, operacoes)",
+      "tipo": "multipla",
+      "enunciado": "Dado o conjunto universo U = {1,2,3,...,10} e o conjunto A = {2,4,6,8,10}, o complementar de A em relacao a U e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "{1,3,5,7,9}"
+        },
+        {
+          "letra": "B",
+          "texto": "{2,4,6,8,10}"
+        },
+        {
+          "letra": "C",
+          "texto": "conjunto vazio"
+        },
+        {
+          "letra": "D",
+          "texto": "o proprio U"
+        },
+        {
+          "letra": "E",
+          "texto": "{1,2,3,4,5}"
+        }
+      ],
+      "correta": "A",
+      "comentario": "O complementar de A contem os elementos de U que nao pertencem a A: os numeros impares de 1 a 9."
+    },
+    {
+      "id": "raciocinio033",
+      "tema": "r9-sequencias-logicas-numeros-letras-palavras-figuras-e-problemas-de-associacao-logicaverdades-e-mentiras",
+      "temaNome": "R9. Sequencias logicas (numeros, letras, palavras, figuras) e problemas de associacao logica/verdades e mentiras",
+      "tipo": "multipla",
+      "enunciado": "Observe a sequencia numerica: 3, 6, 11, 18, 27, ... O proximo termo dessa sequencia e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "34"
+        },
+        {
+          "letra": "B",
+          "texto": "36"
+        },
+        {
+          "letra": "C",
+          "texto": "38"
+        },
+        {
+          "letra": "D",
+          "texto": "40"
+        },
+        {
+          "letra": "E",
+          "texto": "42"
+        }
+      ],
+      "correta": "C",
+      "comentario": "As diferencas entre termos consecutivos sao 3, 5, 7, 9 (numeros impares crescentes); a proxima diferenca e 11, logo 27+11=38."
+    },
+    {
+      "id": "raciocinio034",
+      "tema": "r9-sequencias-logicas-numeros-letras-palavras-figuras-e-problemas-de-associacao-logicaverdades-e-mentiras",
+      "temaNome": "R9. Sequencias logicas (numeros, letras, palavras, figuras) e problemas de associacao logica/verdades e mentiras",
+      "tipo": "multipla",
+      "enunciado": "Observe a sequencia de letras: A, C, F, J, O, ... A proxima letra dessa sequencia e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "S"
+        },
+        {
+          "letra": "B",
+          "texto": "T"
+        },
+        {
+          "letra": "C",
+          "texto": "U"
+        },
+        {
+          "letra": "D",
+          "texto": "V"
+        },
+        {
+          "letra": "E",
+          "texto": "W"
+        }
+      ],
+      "correta": "C",
+      "comentario": "As posicoes no alfabeto sao 1, 3, 6, 10, 15 (diferencas 2, 3, 4, 5); a proxima diferenca e 6, logo a posicao 21 corresponde a letra U."
+    },
+    {
+      "id": "raciocinio035",
+      "tema": "r9-sequencias-logicas-numeros-letras-palavras-figuras-e-problemas-de-associacao-logicaverdades-e-mentiras",
+      "temaNome": "R9. Sequencias logicas (numeros, letras, palavras, figuras) e problemas de associacao logica/verdades e mentiras",
+      "tipo": "multipla",
+      "enunciado": "Tres fiscais - Ana, Bruno e Carla - fazem afirmacoes sobre uma irregularidade em uma obra. Ana diz: \"Bruno mente.\" Bruno diz: \"Carla mente.\" Carla diz: \"Ana e Bruno mentem.\" Sabendo que apenas um deles fala a verdade, e CORRETO afirmar que quem fala a verdade e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ana"
+        },
+        {
+          "letra": "B",
+          "texto": "Bruno"
+        },
+        {
+          "letra": "C",
+          "texto": "Carla"
+        },
+        {
+          "letra": "D",
+          "texto": "Ana e Bruno"
+        },
+        {
+          "letra": "E",
+          "texto": "Nenhum dos tres"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Testando as hipoteses, apenas a hipotese \"Bruno fala a verdade\" e consistente: Bruno verdadeiro implica Carla mentirosa; a negacao da afirmacao de Carla (\"Ana e Bruno mentem\") sendo falsa exige que ao menos um deles nao minta, o que e satisfeito por Bruno; e Ana, sendo mentirosa, tem sua afirmacao (\"Bruno mente\") corretamente falsa, ja que Bruno diz a verdade."
+    },
+    {
+      "id": "raciocinio036",
+      "tema": "r9-sequencias-logicas-numeros-letras-palavras-figuras-e-problemas-de-associacao-logicaverdades-e-mentiras",
+      "temaNome": "R9. Sequencias logicas (numeros, letras, palavras, figuras) e problemas de associacao logica/verdades e mentiras",
+      "tipo": "multipla",
+      "enunciado": "Considere a sequencia: 1, 4, 9, 16, 25, ... Essa sequencia numerica e formada por:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Numeros primos"
+        },
+        {
+          "letra": "B",
+          "texto": "Quadrados perfeitos"
+        },
+        {
+          "letra": "C",
+          "texto": "Numeros triangulares"
+        },
+        {
+          "letra": "D",
+          "texto": "Potencias de 2"
+        },
+        {
+          "letra": "E",
+          "texto": "Numeros da sequencia de Fibonacci"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Os termos sao 1 ao quadrado, 2 ao quadrado, 3 ao quadrado, 4 ao quadrado e 5 ao quadrado, ou seja, quadrados perfeitos."
+    },
+    {
+      "id": "raciocinio037",
+      "tema": "r10-analise-combinatoria-principio-fundamental-da-contagem-arranjos-permutacoes-combinacoes-e-probabilidade",
+      "temaNome": "R10. Analise combinatoria (principio fundamental da contagem, arranjos, permutacoes, combinacoes) e probabilidade",
+      "tipo": "multipla",
+      "enunciado": "Uma comissao de licitacao deve ser composta por 3 servidores escolhidos entre 8 disponiveis, sem distincao de funcao entre eles. De quantas formas distintas essa comissao pode ser formada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "24"
+        },
+        {
+          "letra": "B",
+          "texto": "48"
+        },
+        {
+          "letra": "C",
+          "texto": "56"
+        },
+        {
+          "letra": "D",
+          "texto": "64"
+        },
+        {
+          "letra": "E",
+          "texto": "336"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Trata-se de uma combinacao simples C(8,3) = 8!/(3! x 5!) = 56."
+    },
+    {
+      "id": "raciocinio038",
+      "tema": "r10-analise-combinatoria-principio-fundamental-da-contagem-arranjos-permutacoes-combinacoes-e-probabilidade",
+      "temaNome": "R10. Analise combinatoria (principio fundamental da contagem, arranjos, permutacoes, combinacoes) e probabilidade",
+      "tipo": "multipla",
+      "enunciado": "De quantas maneiras diferentes podem ser dispostos, em fila, os cadernos de prova de 5 candidatos distintos?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "20"
+        },
+        {
+          "letra": "B",
+          "texto": "60"
+        },
+        {
+          "letra": "C",
+          "texto": "100"
+        },
+        {
+          "letra": "D",
+          "texto": "120"
+        },
+        {
+          "letra": "E",
+          "texto": "150"
+        }
+      ],
+      "correta": "D",
+      "comentario": "E uma permutacao simples de 5 elementos: 5! = 120."
+    },
+    {
+      "id": "raciocinio039",
+      "tema": "r10-analise-combinatoria-principio-fundamental-da-contagem-arranjos-permutacoes-combinacoes-e-probabilidade",
+      "temaNome": "R10. Analise combinatoria (principio fundamental da contagem, arranjos, permutacoes, combinacoes) e probabilidade",
+      "tipo": "multipla",
+      "enunciado": "Um edital preve que os 4 primeiros colocados, entre 10 candidatos aprovados, ocuparao vagas de 4 cargos distintos (1o, 2o, 3o e 4o lugares, para funcoes diferentes). De quantas formas essas 4 posicoes podem ser preenchidas?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "210"
+        },
+        {
+          "letra": "B",
+          "texto": "840"
+        },
+        {
+          "letra": "C",
+          "texto": "2.520"
+        },
+        {
+          "letra": "D",
+          "texto": "5.040"
+        },
+        {
+          "letra": "E",
+          "texto": "10.080"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Trata-se de um arranjo simples A(10,4) = 10x9x8x7 = 5.040, pois a ordem (funcao atribuida) importa."
+    },
+    {
+      "id": "raciocinio040",
+      "tema": "r10-analise-combinatoria-principio-fundamental-da-contagem-arranjos-permutacoes-combinacoes-e-probabilidade",
+      "temaNome": "R10. Analise combinatoria (principio fundamental da contagem, arranjos, permutacoes, combinacoes) e probabilidade",
+      "tipo": "multipla",
+      "enunciado": "Uma urna contem 4 bolas brancas e 6 bolas pretas. Retirando-se uma bola ao acaso, a probabilidade de que ela seja branca e de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "20%"
+        },
+        {
+          "letra": "B",
+          "texto": "30%"
+        },
+        {
+          "letra": "C",
+          "texto": "40%"
+        },
+        {
+          "letra": "D",
+          "texto": "50%"
+        },
+        {
+          "letra": "E",
+          "texto": "60%"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Probabilidade = casos favoraveis / casos possiveis = 4/10 = 0,4 = 40%."
+    }
+  ]
+}

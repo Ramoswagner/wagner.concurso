@@ -1,0 +1,522 @@
+{
+  "lbl": "Conhec. Gerais",
+  "pt": "Conhecimentos Gerais do Município",
+  "color": "#4EDEA3",
+  "desc": "História, geografia e administração de Contagem/MG.",
+  "temas": [
+    {
+      "id": "c1-aspectos-geograficos-e-historicos-de-contagemmg",
+      "nome": "C1. Aspectos geograficos e historicos de Contagem/MG"
+    },
+    {
+      "id": "c2-atualidades-cidadania-e-simbolos-municipais",
+      "nome": "C2. Atualidades, cidadania e simbolos municipais"
+    },
+    {
+      "id": "c3-lei-organica-do-municipio-de-contagemmg",
+      "nome": "C3. Lei Organica do Municipio de Contagem/MG"
+    },
+    {
+      "id": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "nome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)"
+    }
+  ],
+  "cards": [
+    {
+      "id": "cgm001",
+      "tema": "c1-aspectos-geograficos-e-historicos-de-contagemmg",
+      "temaNome": "C1. Aspectos geograficos e historicos de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Contagem/MG integra a:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Regiao Metropolitana do Vale do Aco"
+        },
+        {
+          "letra": "B",
+          "texto": "Regiao Metropolitana de Belo Horizonte (RMBH)"
+        },
+        {
+          "letra": "C",
+          "texto": "Regiao Metropolitana do Sul de Minas"
+        },
+        {
+          "letra": "D",
+          "texto": "Regiao Integrada de Desenvolvimento do Distrito Federal"
+        },
+        {
+          "letra": "E",
+          "texto": "Regiao Metropolitana da Baixada Santista"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Contagem e um dos municipios mais populosos da RMBH, limitrofe a capital Belo Horizonte."
+    },
+    {
+      "id": "cgm002",
+      "tema": "c1-aspectos-geograficos-e-historicos-de-contagemmg",
+      "temaNome": "C1. Aspectos geograficos e historicos de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "A origem do toponimo \"Contagem\" esta historicamente associada:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A um posto de contagem/cobranca de tributos sobre ouro e mercadorias no periodo colonial"
+        },
+        {
+          "letra": "B",
+          "texto": "A homenagem a um imigrante europeu fundador da cidade"
+        },
+        {
+          "letra": "C",
+          "texto": "Ao numero de imigrantes que ali se instalaram no seculo XX"
+        },
+        {
+          "letra": "D",
+          "texto": "A contagem de votos nas primeiras eleicoes municipais"
+        },
+        {
+          "letra": "E",
+          "texto": "A uma etnia indigena de mesmo nome"
+        }
+      ],
+      "correta": "A",
+      "comentario": "O nome remonta a um \"registro\" colonial onde se contavam/taxavam bens em transito."
+    },
+    {
+      "id": "cgm003",
+      "tema": "c1-aspectos-geograficos-e-historicos-de-contagemmg",
+      "temaNome": "C1. Aspectos geograficos e historicos de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Contagem e reconhecida como um dos principais polos industriais de Minas Gerais, abrigando um dos maiores distritos industriais da America Latina, conhecido como:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Distrito Industrial de Betim"
+        },
+        {
+          "letra": "B",
+          "texto": "Cidade Industrial de Contagem (CINCO)"
+        },
+        {
+          "letra": "C",
+          "texto": "Polo Petroquimico de Contagem"
+        },
+        {
+          "letra": "D",
+          "texto": "Zona Franca de Contagem"
+        },
+        {
+          "letra": "E",
+          "texto": "Distrito Empresarial do Barreiro"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A CINCO e referencia historica da industrializacao do municipio, iniciada nos anos 1940-1950."
+    },
+    {
+      "id": "cgm004",
+      "tema": "c1-aspectos-geograficos-e-historicos-de-contagemmg",
+      "temaNome": "C1. Aspectos geograficos e historicos de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Duas importantes rodovias federais cortam o territorio de Contagem/MG:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "BR-101 e BR-116"
+        },
+        {
+          "letra": "B",
+          "texto": "BR-040 e BR-381"
+        },
+        {
+          "letra": "C",
+          "texto": "BR-262 e BR-050"
+        },
+        {
+          "letra": "D",
+          "texto": "BR-153 e BR-364"
+        },
+        {
+          "letra": "E",
+          "texto": "BR-070 e BR-060"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A BR-040 (Rio-Brasilia) e a BR-381 (Fernao Dias) atravessam o municipio."
+    },
+    {
+      "id": "cgm005",
+      "tema": "c2-atualidades-cidadania-e-simbolos-municipais",
+      "temaNome": "C2. Atualidades, cidadania e simbolos municipais",
+      "tipo": "multipla",
+      "enunciado": "Sao considerados simbolos oficiais de um Municipio, em regra, com adocao disciplinada na respectiva Lei Organica:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas a bandeira"
+        },
+        {
+          "letra": "B",
+          "texto": "Apenas o hino"
+        },
+        {
+          "letra": "C",
+          "texto": "Bandeira, brasao (armas) e hino"
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas o brasao"
+        },
+        {
+          "letra": "E",
+          "texto": "Somente o slogan turistico oficial"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Os simbolos municipais classicos sao bandeira, brasao/armas e hino."
+    },
+    {
+      "id": "cgm006",
+      "tema": "c2-atualidades-cidadania-e-simbolos-municipais",
+      "temaNome": "C2. Atualidades, cidadania e simbolos municipais",
+      "tipo": "multipla",
+      "enunciado": "Sobre as competencias do Municipio, a semelhanca dos demais municipios brasileiros, compete-lhe, entre outras atribuicoes:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Legislar sobre direito penal e processual civil"
+        },
+        {
+          "letra": "B",
+          "texto": "Organizar e prestar, diretamente ou sob concessao/permissao, servicos publicos de interesse local"
+        },
+        {
+          "letra": "C",
+          "texto": "Instituir e cobrar o Imposto de Renda"
+        },
+        {
+          "letra": "D",
+          "texto": "Julgar em ultima instancia questoes eleitorais"
+        },
+        {
+          "letra": "E",
+          "texto": "Declarar guerra e celebrar tratados internacionais"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Competencia tipicamente municipal (art. 30, CF/88): servicos publicos de interesse local."
+    },
+    {
+      "id": "cgm007",
+      "tema": "c2-atualidades-cidadania-e-simbolos-municipais",
+      "temaNome": "C2. Atualidades, cidadania e simbolos municipais",
+      "tipo": "multipla",
+      "enunciado": "Sobre os temas de atualidades municipais previstos no edital (economia, ecologia, meio ambiente, seguranca publica, cultura, educacao, turismo, georreferenciamento etc.), a melhor estrategia de estudo e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Memorizar apenas fatos historicos anteriores ao ano 2000"
+        },
+        {
+          "letra": "B",
+          "texto": "Acompanhar o site oficial da Prefeitura e a imprensa local nos meses que antecedem a prova"
+        },
+        {
+          "letra": "C",
+          "texto": "Ignorar noticias locais e focar exclusivamente em politica nacional"
+        },
+        {
+          "letra": "D",
+          "texto": "Restringir-se a dados do Censo de 2010"
+        },
+        {
+          "letra": "E",
+          "texto": "Estudar apenas geografia fisica, sem relacao com a atualidade"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Questoes de atualidades municipais cobram fatos recentes - acompanhar fontes oficiais e essencial."
+    },
+    {
+      "id": "cgm008",
+      "tema": "c2-atualidades-cidadania-e-simbolos-municipais",
+      "temaNome": "C2. Atualidades, cidadania e simbolos municipais",
+      "tipo": "multipla",
+      "enunciado": "O IBGE Cidades e fonte oficial recomendada para consulta de dados atualizados sobre Contagem/MG relativos, principalmente, a:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Jurisprudencia do Tribunal de Justica de Minas Gerais"
+        },
+        {
+          "letra": "B",
+          "texto": "Indicadores demograficos, economicos e sociais do municipio"
+        },
+        {
+          "letra": "C",
+          "texto": "Legislacao tributaria federal"
+        },
+        {
+          "letra": "D",
+          "texto": "Calendario de feriados religiosos"
+        },
+        {
+          "letra": "E",
+          "texto": "Curriculo escolar da rede municipal"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O IBGE Cidades concentra indicadores socioeconomicos e demograficos por municipio."
+    },
+    {
+      "id": "cgm009",
+      "tema": "c3-lei-organica-do-municipio-de-contagemmg",
+      "temaNome": "C3. Lei Organica do Municipio de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Em regra, a Lei Organica de um Municipio brasileiro, a luz do principio da simetria constitucional, deve prever a organizacao dos Poderes municipais entre:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Executivo e Legislativo, apenas, pois o Poder Judiciario nao e organizado em ambito municipal"
+        },
+        {
+          "letra": "B",
+          "texto": "Executivo, Legislativo e Judiciario, todos exercidos em ambito municipal"
+        },
+        {
+          "letra": "C",
+          "texto": "Executivo, Legislativo e o Tribunal de Contas Municipal, quando existente"
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas o Poder Executivo, exercido pelo Prefeito Municipal"
+        },
+        {
+          "letra": "E",
+          "texto": "Executivo, Legislativo e Ministerio Publico Municipal"
+        }
+      ],
+      "correta": "A",
+      "comentario": "O Municipio, na organizacao politico-administrativa brasileira, nao possui Poder Judiciario proprio; sua estrutura de poderes se limita ao Executivo (Prefeito) e ao Legislativo (Camara Municipal)."
+    },
+    {
+      "id": "cgm010",
+      "tema": "c3-lei-organica-do-municipio-de-contagemmg",
+      "temaNome": "C3. Lei Organica do Municipio de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Como regra geral do sistema de freios e contrapesos previsto nas leis organicas municipais, cabe a Camara Municipal:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Administrar diretamente os servicos publicos municipais"
+        },
+        {
+          "letra": "B",
+          "texto": "Exercer a fiscalizacao contabil, financeira e orcamentaria do Municipio, com o auxilio do Tribunal de Contas competente"
+        },
+        {
+          "letra": "C",
+          "texto": "Nomear os secretarios municipais"
+        },
+        {
+          "letra": "D",
+          "texto": "Exercer o poder de policia administrativa isoladamente"
+        },
+        {
+          "letra": "E",
+          "texto": "Representar o Municipio em juizo"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A fiscalizacao contabil, financeira, orcamentaria, operacional e patrimonial do Municipio e exercida pela Camara Municipal, com auxilio do Tribunal de Contas, nos termos do modelo constitucional replicado nas leis organicas municipais."
+    },
+    {
+      "id": "cgm011",
+      "tema": "c3-lei-organica-do-municipio-de-contagemmg",
+      "temaNome": "C3. Lei Organica do Municipio de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Em caso de vacancia simultanea dos cargos de Prefeito e Vice-Prefeito nos dois ultimos anos do mandato, a regra geral adotada pelas leis organicas municipais, em harmonia com a sistematica constitucional, e a realizacao de eleicao:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Direta, pelo voto popular, em ate 90 dias"
+        },
+        {
+          "letra": "B",
+          "texto": "Indireta, pela Camara Municipal, em ate 30 dias"
+        },
+        {
+          "letra": "C",
+          "texto": "Nao havera nova eleicao, permanecendo o cargo vago ate o fim do mandato"
+        },
+        {
+          "letra": "D",
+          "texto": "Direta, pelo voto popular, em ate 30 dias"
+        },
+        {
+          "letra": "E",
+          "texto": "Indireta, pelo Tribunal de Justica"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Vagando os dois cargos nos ultimos dois anos do mandato, a eleicao e indireta, realizada pela Camara Municipal, em regra no prazo de 30 dias; nos dois primeiros anos, a eleicao seria direta."
+    },
+    {
+      "id": "cgm012",
+      "tema": "c3-lei-organica-do-municipio-de-contagemmg",
+      "temaNome": "C3. Lei Organica do Municipio de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "De acordo com a estrutura tipica das leis organicas municipais, a iniciativa de leis que disponham sobre a criacao e extincao de cargos, funcoes ou empregos publicos na administracao direta municipal e privativa:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Da Camara Municipal"
+        },
+        {
+          "letra": "B",
+          "texto": "Do Prefeito Municipal"
+        },
+        {
+          "letra": "C",
+          "texto": "De qualquer vereador, indistintamente"
+        },
+        {
+          "letra": "D",
+          "texto": "Do Tribunal de Contas"
+        },
+        {
+          "letra": "E",
+          "texto": "De iniciativa popular, exclusivamente"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Assim como ocorre na esfera federal e estadual, a iniciativa de leis sobre organizacao e regime juridico do funcionalismo publico da administracao direta e, em regra, privativa do Chefe do Poder Executivo (Prefeito)."
+    },
+    {
+      "id": "cgm013",
+      "tema": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "temaNome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)",
+      "tipo": "multipla",
+      "enunciado": "No regime juridico estatutario, comum aos estatutos de servidores publicos municipais, a investidura em cargo de provimento efetivo depende de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Aprovacao previa em concurso publico de provas ou de provas e titulos"
+        },
+        {
+          "letra": "B",
+          "texto": "Indicacao da chefia imediata"
+        },
+        {
+          "letra": "C",
+          "texto": "Livre nomeacao e exoneracao pela autoridade competente"
+        },
+        {
+          "letra": "D",
+          "texto": "Eleicao direta pelos demais servidores do orgao"
+        },
+        {
+          "letra": "E",
+          "texto": "Apresentacao de curriculo e entrevista, dispensado o concurso publico"
+        }
+      ],
+      "correta": "A",
+      "comentario": "A investidura em cargo de provimento efetivo pressupoe, por forca constitucional, previa aprovacao em concurso publico de provas ou de provas e titulos, replicada nos estatutos municipais."
+    },
+    {
+      "id": "cgm014",
+      "tema": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "temaNome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)",
+      "tipo": "multipla",
+      "enunciado": "O periodo de avaliacao a que se submete o servidor recem-nomeado para cargo de provimento efetivo, destinado a aferir sua aptidao e capacidade para o exercicio do cargo, e denominado:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Periodo de experiencia"
+        },
+        {
+          "letra": "B",
+          "texto": "Estagio probatorio"
+        },
+        {
+          "letra": "C",
+          "texto": "Licenca-premio"
+        },
+        {
+          "letra": "D",
+          "texto": "Readaptacao funcional"
+        },
+        {
+          "letra": "E",
+          "texto": "Disponibilidade remunerada"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O estagio probatorio e o periodo, em regra de 3 anos, em que o servidor efetivo e avaliado quanto a aptidao, capacidade, disciplina, assiduidade e eficiencia para o exercicio do cargo."
+    },
+    {
+      "id": "cgm015",
+      "tema": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "temaNome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)",
+      "tipo": "multipla",
+      "enunciado": "Distinguem-se, nos estatutos de servidores publicos, os cargos de provimento efetivo dos cargos em comissao. E CORRETO afirmar que os cargos em comissao sao:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Preenchidos exclusivamente por concurso publico, como os efetivos"
+        },
+        {
+          "letra": "B",
+          "texto": "Destinados as atribuicoes de direcao, chefia e assessoramento, de livre nomeacao e exoneracao"
+        },
+        {
+          "letra": "C",
+          "texto": "Vitalicios, uma vez preenchidos"
+        },
+        {
+          "letra": "D",
+          "texto": "Acumulaveis obrigatoriamente com cargo efetivo do mesmo servidor"
+        },
+        {
+          "letra": "E",
+          "texto": "Extintos automaticamente apos 4 anos, independentemente de ato administrativo"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Cargos em comissao destinam-se as atribuicoes de direcao, chefia e assessoramento e sao de livre nomeacao e exoneracao (ad nutum), nao exigindo concurso publico."
+    },
+    {
+      "id": "cgm016",
+      "tema": "c4-estatuto-dos-servidores-publicos-de-contagemmg-lei-municipal-no-21601990-e-plano-de-cargos-carreira-e-salarios-lei-municipal-no-1052011",
+      "temaNome": "C4. Estatuto dos Servidores Publicos de Contagem/MG (Lei Municipal no 2.160/1990) e Plano de Cargos, Carreira e Salarios (Lei Municipal no 105/2011)",
+      "tipo": "multipla",
+      "enunciado": "Nos planos de cargos, carreiras e vencimentos dos servidores publicos municipais, a movimentacao do servidor entre niveis ou referencias de uma mesma carreira, em razao do tempo de efetivo exercicio associado ao cumprimento de requisitos como avaliacao de desempenho ou qualificacao, denomina-se, em regra:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Readaptacao"
+        },
+        {
+          "letra": "B",
+          "texto": "Progressao funcional"
+        },
+        {
+          "letra": "C",
+          "texto": "Reversao"
+        },
+        {
+          "letra": "D",
+          "texto": "Reconducao"
+        },
+        {
+          "letra": "E",
+          "texto": "Disponibilidade"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A progressao funcional e o mecanismo, tipico dos planos de carreira, pelo qual o servidor avanca de nivel/referencia dentro da mesma carreira, geralmente vinculado a tempo de servico e/ou avaliacao de desempenho ou qualificacao."
+    }
+  ]
+}
