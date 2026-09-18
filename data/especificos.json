@@ -1669,6 +1669,2641 @@
       ],
       "correta": "B",
       "comentario": "A Resolucao CONAMA no 307/2002 estabelece diretrizes, criterios e procedimentos para a gestao dos residuos da construcao civil (classificacao, destinacao e responsabilidades dos geradores)."
+    },
+    {
+      "id": "esnovas053",
+      "tema": "e1-resistencia-dos-materiais-e-analise-estrutural",
+      "temaNome": "E1. Resistencia dos materiais e analise estrutural",
+      "tipo": "multipla",
+      "enunciado": "Uma barra de aco com secao circular de diametro 20mm esta submetida a uma forca de tracao de 31,4 kN. A tensao normal media atuante na barra e, aproximadamente:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "50 MPa"
+        },
+        {
+          "letra": "B",
+          "texto": "80 MPa"
+        },
+        {
+          "letra": "C",
+          "texto": "100 MPa"
+        },
+        {
+          "letra": "D",
+          "texto": "120 MPa"
+        },
+        {
+          "letra": "E",
+          "texto": "150 MPa"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Area = pi.d^2/4 = 3,14 x 400/4 = 314 mm^2 (use pi=3,14 e d em mm direto, sem converter para m^2). Tensao = N/A = 31.400 N / 314 mm^2 = 100 MPa."
+    },
+    {
+      "id": "esnovas054",
+      "tema": "e1-resistencia-dos-materiais-e-analise-estrutural",
+      "temaNome": "E1. Resistencia dos materiais e analise estrutural",
+      "tipo": "multipla",
+      "enunciado": "Uma barra de aco (E = 200 GPa) com 2 m de comprimento e area de secao 100 mm^2 esta submetida a uma forca de tracao de 20 kN. O alongamento total da barra, pela Lei de Hooke, e de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 mm"
+        },
+        {
+          "letra": "B",
+          "texto": "2 mm"
+        },
+        {
+          "letra": "C",
+          "texto": "3 mm"
+        },
+        {
+          "letra": "D",
+          "texto": "4 mm"
+        },
+        {
+          "letra": "E",
+          "texto": "5 mm"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho: use direto a formula do alongamento delta = N.L /(A.E), sem calcular tensao e deformacao separadamente. delta = (20.000 N x 2 m) / (100x10^-6 m^2 x 200x10^9 Pa) = 40.000 / (20x10^6) = 0,002 m = 2 mm."
+    },
+    {
+      "id": "esnovas055",
+      "tema": "e1-resistencia-dos-materiais-e-analise-estrutural",
+      "temaNome": "E1. Resistencia dos materiais e analise estrutural",
+      "tipo": "multipla",
+      "enunciado": "Em um eixo circular macico submetido a torcao pura, a tensao de cisalhamento maxima ocorre:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "No centro do eixo, onde o raio e zero"
+        },
+        {
+          "letra": "B",
+          "texto": "Na superficie externa do eixo, onde o raio e maximo"
+        },
+        {
+          "letra": "C",
+          "texto": "E constante em toda a secao transversal"
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas nas extremidades do eixo"
+        },
+        {
+          "letra": "E",
+          "texto": "Nao ha tensao de cisalhamento por torcao, apenas normal"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A tensao de cisalhamento por torcao varia linearmente com o raio (tau = T.r/J), sendo NULA no centro (r=0) e MAXIMA na superficie externa (r maximo) - por isso, em pecas ocas (tubulares), o material e melhor aproveitado que em pecas maciças."
+    },
+    {
+      "id": "esnovas056",
+      "tema": "e1-resistencia-dos-materiais-e-analise-estrutural",
+      "temaNome": "E1. Resistencia dos materiais e analise estrutural",
+      "tipo": "multipla",
+      "enunciado": "Um eixo circular macico com diametro de 40mm transmite um momento torsor de 1.000 N.m. Sendo o momento polar de inercia J = pi.d^4/32, a tensao de cisalhamento maxima aproximada na superficie do eixo e de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "40 MPa"
+        },
+        {
+          "letra": "B",
+          "texto": "60 MPa"
+        },
+        {
+          "letra": "C",
+          "texto": "80 MPa"
+        },
+        {
+          "letra": "D",
+          "texto": "100 MPa"
+        },
+        {
+          "letra": "E",
+          "texto": "120 MPa"
+        }
+      ],
+      "correta": "C",
+      "comentario": "J = pi x (0,04)^4/32 = pi x 2,56x10^-6/32 = 2,51x10^-7 m^4. tau_max = T.r/J = 1.000 x 0,02 / 2,51x10^-7 = aproximadamente 80x10^6 Pa = 80 MPa (r = d/2 = 0,02m)."
+    },
+    {
+      "id": "esnovas057",
+      "tema": "e1-resistencia-dos-materiais-e-analise-estrutural",
+      "temaNome": "E1. Resistencia dos materiais e analise estrutural",
+      "tipo": "multipla",
+      "enunciado": "Uma barra de material com coeficiente de Poisson v = 0,3 sofre deformacao longitudinal (alongamento) de 2 por mil (0,002). A deformacao transversal (contracao) correspondente e de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0,2 por mil"
+        },
+        {
+          "letra": "B",
+          "texto": "0,6 por mil"
+        },
+        {
+          "letra": "C",
+          "texto": "0,9 por mil"
+        },
+        {
+          "letra": "D",
+          "texto": "1,2 por mil"
+        },
+        {
+          "letra": "E",
+          "texto": "1,5 por mil"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho: multiplique direto a deformacao longitudinal pelo coeficiente de Poisson (sem formulas adicionais). Deformacao transversal = v x deformacao longitudinal = 0,3 x 2 por mil = 0,6 por mil (contracao)."
+    },
+    {
+      "id": "esnovas058",
+      "tema": "e1-resistencia-dos-materiais-e-analise-estrutural",
+      "temaNome": "E1. Resistencia dos materiais e analise estrutural",
+      "tipo": "multipla",
+      "enunciado": "Uma viga de secao retangular (base 100mm, altura 200mm) esta submetida a um momento fletor de 20 kN.m. Usando o modulo de resistencia W = b.h^2/6, a tensao normal maxima na secao e de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "15 MPa"
+        },
+        {
+          "letra": "B",
+          "texto": "20 MPa"
+        },
+        {
+          "letra": "C",
+          "texto": "25 MPa"
+        },
+        {
+          "letra": "D",
+          "texto": "30 MPa"
+        },
+        {
+          "letra": "E",
+          "texto": "35 MPa"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Atalho: use o modulo de resistencia W (evita calcular I e multiplicar por y separadamente). W = 100 x 200^2/6 = 666.667 mm^3. Tensao maxima = M/W = 20.000.000 N.mm / 666.667 mm^3 = 30 MPa."
+    },
+    {
+      "id": "esnovas059",
+      "tema": "e1-resistencia-dos-materiais-e-analise-estrutural",
+      "temaNome": "E1. Resistencia dos materiais e analise estrutural",
+      "tipo": "multipla",
+      "enunciado": "Uma viga biapoiada de vao L = 6m recebe uma carga concentrada P = 12 kN aplicada no meio do vao. O momento fletor maximo (no meio do vao) vale:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "12 kN.m"
+        },
+        {
+          "letra": "B",
+          "texto": "15 kN.m"
+        },
+        {
+          "letra": "C",
+          "texto": "18 kN.m"
+        },
+        {
+          "letra": "D",
+          "texto": "21 kN.m"
+        },
+        {
+          "letra": "E",
+          "texto": "24 kN.m"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho: para carga concentrada no meio do vao de uma viga biapoiada, use direto a formula M_max = P.L/4, sem montar diagrama. M_max = 12 x 6 / 4 = 18 kN.m."
+    },
+    {
+      "id": "esnovas060",
+      "tema": "e1-resistencia-dos-materiais-e-analise-estrutural",
+      "temaNome": "E1. Resistencia dos materiais e analise estrutural",
+      "tipo": "multipla",
+      "enunciado": "Uma viga biapoiada de vao L = 8m recebe carregamento uniformemente distribuido q = 5 kN/m em todo o vao. O momento fletor maximo (no meio do vao) vale:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "20 kN.m"
+        },
+        {
+          "letra": "B",
+          "texto": "30 kN.m"
+        },
+        {
+          "letra": "C",
+          "texto": "40 kN.m"
+        },
+        {
+          "letra": "D",
+          "texto": "50 kN.m"
+        },
+        {
+          "letra": "E",
+          "texto": "60 kN.m"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho: para carga uniformemente distribuida em toda a viga biapoiada, use direto M_max = q.L^2/8. M_max = 5 x 8^2/8 = 5 x 64/8 = 40 kN.m."
+    },
+    {
+      "id": "esnovas061",
+      "tema": "e1-resistencia-dos-materiais-e-analise-estrutural",
+      "temaNome": "E1. Resistencia dos materiais e analise estrutural",
+      "tipo": "multipla",
+      "enunciado": "Em um ponto de uma estrutura, o estado de tensoes e dado por sigma_x = 60 MPa, sigma_y = 20 MPa e tau_xy = 0 (sem cisalhamento). As tensoes principais nesse ponto sao:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "60 MPa e 20 MPa"
+        },
+        {
+          "letra": "B",
+          "texto": "80 MPa e 0 MPa"
+        },
+        {
+          "letra": "C",
+          "texto": "40 MPa e 40 MPa"
+        },
+        {
+          "letra": "D",
+          "texto": "70 MPa e 10 MPa"
+        },
+        {
+          "letra": "E",
+          "texto": "50 MPa e 30 MPa"
+        }
+      ],
+      "correta": "A",
+      "comentario": "Atalho fundamental do Circulo de Mohr: quando tau_xy = 0, os planos x e y JA SAO os planos principais - as tensoes normais dadas JA SAO as tensoes principais, sem necessidade de nenhuma formula adicional. sigma_1 = 60 MPa, sigma_2 = 20 MPa."
+    },
+    {
+      "id": "esnovas062",
+      "tema": "e1-resistencia-dos-materiais-e-analise-estrutural",
+      "temaNome": "E1. Resistencia dos materiais e analise estrutural",
+      "tipo": "multipla",
+      "enunciado": "[DIFICIL] Em um ponto de uma estrutura, sigma_x = 80 MPa, sigma_y = 20 MPa e tau_xy = 40 MPa. A tensao principal maxima (sigma_1) nesse ponto e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "80 MPa"
+        },
+        {
+          "letra": "B",
+          "texto": "90 MPa"
+        },
+        {
+          "letra": "C",
+          "texto": "100 MPa"
+        },
+        {
+          "letra": "D",
+          "texto": "110 MPa"
+        },
+        {
+          "letra": "E",
+          "texto": "120 MPa"
+        }
+      ],
+      "correta": "C",
+      "comentario": "[DIFICIL] Atalho: monte o Circulo de Mohr de cabeca, reconhecendo o triangulo 3-4-5 para tirar a raiz sem calculadora. Centro do circulo = (80+20)/2 = 50 MPa. Raio R = sqrt(((80-20)/2)^2 + 40^2) = sqrt(30^2+40^2) = sqrt(900+1600) = sqrt(2500) = 50 (triangulo 30-40-50, multiplo de 3-4-5). sigma_1 = centro + R = 50+50 = 100 MPa."
+    },
+    {
+      "id": "esnovas063",
+      "tema": "e1-resistencia-dos-materiais-e-analise-estrutural",
+      "temaNome": "E1. Resistencia dos materiais e analise estrutural",
+      "tipo": "multipla",
+      "enunciado": "[DIFICIL] Uma coluna de secao quadrada 200mm x 200mm recebe uma carga axial N = 180 kN aplicada com excentricidade e = 50mm em relacao ao eixo, gerando flexao composta (normal + momento). Sendo A = 40.000 mm^2 e W = b.h^2/6 = 1.333.333 mm^3, a tensao normal maxima de COMPRESSAO na secao (lado da excentricidade) e de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "4,5 MPa"
+        },
+        {
+          "letra": "B",
+          "texto": "6,75 MPa"
+        },
+        {
+          "letra": "C",
+          "texto": "9,0 MPa"
+        },
+        {
+          "letra": "D",
+          "texto": "11,25 MPa"
+        },
+        {
+          "letra": "E",
+          "texto": "13,5 MPa"
+        }
+      ],
+      "correta": "D",
+      "comentario": "[DIFICIL] Atalho: some a tensao devido a forca normal com a tensao devido ao momento fletor equivalente (M = N.e), sem montar equacoes de compatibilidade. sigma_normal = N/A = 180.000/40.000 = 4,5 MPa. M = N.e = 180.000 x 50 = 9.000.000 N.mm. sigma_flexao = M/W = 9.000.000/1.333.333 = 6,75 MPa. No lado da excentricidade, as tensoes se SOMAM: 4,5 + 6,75 = 11,25 MPa (no lado oposto, se SUBTRAIRIAM, podendo gerar tracao)."
+    },
+    {
+      "id": "esnovas064",
+      "tema": "e2-concreto-armado-e-protendido",
+      "temaNome": "E2. Concreto armado e protendido",
+      "tipo": "multipla",
+      "enunciado": "Segundo a NBR 6118, considerando um concreto com fck = 25 MPa e o coeficiente de ponderacao padrao da resistencia do concreto (gama_c = 1,4), o valor de calculo da resistencia a compressao (fcd) e de, aproximadamente:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "15,0 MPa"
+        },
+        {
+          "letra": "B",
+          "texto": "17,9 MPa"
+        },
+        {
+          "letra": "C",
+          "texto": "20,0 MPa"
+        },
+        {
+          "letra": "D",
+          "texto": "22,0 MPa"
+        },
+        {
+          "letra": "E",
+          "texto": "25,0 MPa"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho: divida o fck direto por 1,4 (coeficiente padrao para concreto). fcd = fck/gama_c = 25/1,4 = 17,86 MPa, aproximadamente 17,9 MPa."
+    },
+    {
+      "id": "esnovas065",
+      "tema": "e2-concreto-armado-e-protendido",
+      "temaNome": "E2. Concreto armado e protendido",
+      "tipo": "multipla",
+      "enunciado": "O aco CA-50, um dos tipos mais utilizados em armaduras de concreto armado no Brasil, possui tensao de escoamento caracteristica (fyk) de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "250 MPa"
+        },
+        {
+          "letra": "B",
+          "texto": "400 MPa"
+        },
+        {
+          "letra": "C",
+          "texto": "500 MPa"
+        },
+        {
+          "letra": "D",
+          "texto": "600 MPa"
+        },
+        {
+          "letra": "E",
+          "texto": "700 MPa"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho: a propria nomenclatura do aco ja indica o fyk em MPa (CA-50 -> fyk=500MPa; CA-60 -> fyk=600MPa) - nao precisa memorizar tabela separada."
+    },
+    {
+      "id": "esnovas066",
+      "tema": "e2-concreto-armado-e-protendido",
+      "temaNome": "E2. Concreto armado e protendido",
+      "tipo": "multipla",
+      "enunciado": "Segundo o diagrama tensao-deformacao simplificado (parabola-retangulo) adotado pela NBR 6118 para o concreto no Estado Limite Ultimo, a deformacao especifica de encurtamento do concreto na borda comprimida, no caso de flexao simples, e limitada ao valor de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2 por mil"
+        },
+        {
+          "letra": "B",
+          "texto": "3,5 por mil"
+        },
+        {
+          "letra": "C",
+          "texto": "5 por mil"
+        },
+        {
+          "letra": "D",
+          "texto": "10 por mil"
+        },
+        {
+          "letra": "E",
+          "texto": "20 por mil"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A NBR 6118 estabelece o valor-limite de deformacao especifica do concreto igual a 3,5 por mil (0,35%) para secoes submetidas a flexao (ruptura convencional por esmagamento do concreto na borda comprimida)."
+    },
+    {
+      "id": "esnovas067",
+      "tema": "e2-concreto-armado-e-protendido",
+      "temaNome": "E2. Concreto armado e protendido",
+      "tipo": "multipla",
+      "enunciado": "Considerando o aco CA-50 (fyk=500MPa, gama_s=1,15) e o modulo de elasticidade do aco Es=210GPa, a deformacao especifica de calculo no escoamento (εyd = fyd/Es) vale, aproximadamente:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1,0 por mil"
+        },
+        {
+          "letra": "B",
+          "texto": "2,07 por mil"
+        },
+        {
+          "letra": "C",
+          "texto": "3,5 por mil"
+        },
+        {
+          "letra": "D",
+          "texto": "5,0 por mil"
+        },
+        {
+          "letra": "E",
+          "texto": "10,0 por mil"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho: calcule fyd = fyk/gama_s = 500/1,15 = 434,8 MPa, depois divida por Es (em MPa: 210.000 MPa). εyd = 434,8/210.000 = 0,00207 = 2,07 por mil - valor classico usado no diagrama tensao-deformacao do aco na NBR 6118."
+    },
+    {
+      "id": "esnovas068",
+      "tema": "e2-concreto-armado-e-protendido",
+      "temaNome": "E2. Concreto armado e protendido",
+      "tipo": "multipla",
+      "enunciado": "A funcao primordial dos estribos em uma viga de concreto armado e resistir aos esforcos de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Momento fletor"
+        },
+        {
+          "letra": "B",
+          "texto": "Forca cortante (cisalhamento)"
+        },
+        {
+          "letra": "C",
+          "texto": "Torcao pura, exclusivamente"
+        },
+        {
+          "letra": "D",
+          "texto": "Retracao do concreto"
+        },
+        {
+          "letra": "E",
+          "texto": "Temperatura"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Os estribos (armadura transversal) sao dimensionados principalmente para resistir aos esforcos de cisalhamento (forca cortante) na viga, complementando o concreto nessa funcao; a armadura longitudinal (positiva/negativa) e que resiste ao momento fletor."
+    },
+    {
+      "id": "esnovas069",
+      "tema": "e2-concreto-armado-e-protendido",
+      "temaNome": "E2. Concreto armado e protendido",
+      "tipo": "multipla",
+      "enunciado": "O comprimento de ancoragem das barras longitudinais de armadura, segundo a NBR 6118, tem como finalidade principal:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Reduzir o consumo de aco na obra"
+        },
+        {
+          "letra": "B",
+          "texto": "Garantir a transferencia de tensao entre a armadura e o concreto por aderencia, evitando o escorregamento da barra"
+        },
+        {
+          "letra": "C",
+          "texto": "Aumentar a resistencia do concreto a compressao"
+        },
+        {
+          "letra": "D",
+          "texto": "Diminuir a fissuracao por retracao"
+        },
+        {
+          "letra": "E",
+          "texto": "Facilitar exclusivamente a montagem da armadura"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O comprimento de ancoragem garante que a barra transfira sua tensao ao concreto por aderencia ao longo desse trecho, evitando que a barra escorregue (perca ancoragem) antes de atingir sua capacidade resistente."
+    },
+    {
+      "id": "esnovas070",
+      "tema": "e2-concreto-armado-e-protendido",
+      "temaNome": "E2. Concreto armado e protendido",
+      "tipo": "multipla",
+      "enunciado": "A verificacao do Estado Limite de Servico (ELS) relacionada a deformacoes excessivas em uma laje de concreto armado esta associada, principalmente, ao controle de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Fissuracao por corrosao da armadura"
+        },
+        {
+          "letra": "B",
+          "texto": "Flechas (deslocamentos verticais) que possam comprometer a utilizacao ou a aparencia da estrutura"
+        },
+        {
+          "letra": "C",
+          "texto": "Ruptura por esmagamento do concreto"
+        },
+        {
+          "letra": "D",
+          "texto": "Flambagem de pilares"
+        },
+        {
+          "letra": "E",
+          "texto": "Ruptura da armadura por escoamento"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O ELS de deformacoes excessivas (ELS-DEF) trata do controle das flechas da estrutura, que embora nao levem ao colapso, podem comprometer a utilizacao, a aparencia (fissuras visiveis) ou danificar elementos nao estruturais (como paredes e esquadrias)."
+    },
+    {
+      "id": "esnovas071",
+      "tema": "e3-estruturas-metalicas-e-de-madeira",
+      "temaNome": "E3. Estruturas metalicas e de madeira",
+      "tipo": "multipla",
+      "enunciado": "O aco estrutural classico ASTM A36, amplamente especificado em perfis laminados no Brasil, possui resistencia ao escoamento (fy) de, aproximadamente:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "150 MPa"
+        },
+        {
+          "letra": "B",
+          "texto": "250 MPa"
+        },
+        {
+          "letra": "C",
+          "texto": "350 MPa"
+        },
+        {
+          "letra": "D",
+          "texto": "450 MPa"
+        },
+        {
+          "letra": "E",
+          "texto": "550 MPa"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O aco ASTM A36 e um dos acos estruturais mais tradicionais, com fy = 250 MPa (fu = 400MPa) - referencia classica para perfis laminados no Brasil."
+    },
+    {
+      "id": "esnovas072",
+      "tema": "e3-estruturas-metalicas-e-de-madeira",
+      "temaNome": "E3. Estruturas metalicas e de madeira",
+      "tipo": "multipla",
+      "enunciado": "O indice de esbeltez (lambda) de uma barra comprimida, parametro fundamental na verificacao de flambagem segundo a NBR 8800, e definido pela razao entre:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A area da secao e o comprimento da barra"
+        },
+        {
+          "letra": "B",
+          "texto": "O comprimento de flambagem (Lfl) e o raio de giracao (r) da secao"
+        },
+        {
+          "letra": "C",
+          "texto": "O momento de inercia e a area da secao"
+        },
+        {
+          "letra": "D",
+          "texto": "A tensao de escoamento e o modulo de elasticidade"
+        },
+        {
+          "letra": "E",
+          "texto": "O peso da barra e sua area de secao"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O indice de esbeltez e definido como lambda = Lfl/r, sendo Lfl o comprimento de flambagem (que depende das condicoes de apoio) e r o raio de giracao da secao transversal - quanto maior lambda, maior a susceptibilidade a flambagem."
+    },
+    {
+      "id": "esnovas073",
+      "tema": "e3-estruturas-metalicas-e-de-madeira",
+      "temaNome": "E3. Estruturas metalicas e de madeira",
+      "tipo": "multipla",
+      "enunciado": "Segundo a formula de Euler, a carga critica de flambagem de uma coluna biarticulada e dada por Pcr = pi^2.E.I/L^2. Se o comprimento (L) da coluna DOBRAR, mantidos os demais parametros, a carga critica de flambagem:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Dobra"
+        },
+        {
+          "letra": "B",
+          "texto": "Permanece igual"
+        },
+        {
+          "letra": "C",
+          "texto": "Reduz-se pela metade"
+        },
+        {
+          "letra": "D",
+          "texto": "Reduz-se a 1/4 do valor original"
+        },
+        {
+          "letra": "E",
+          "texto": "Quadruplica"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Atalho: como L aparece ao QUADRADO no denominador, dobrar L significa dividir Pcr por 2^2=4. A carga critica se reduz a 1/4 do valor original - por isso colunas mais longas sao muito mais susceptiveis a flambagem."
+    },
+    {
+      "id": "esnovas074",
+      "tema": "e3-estruturas-metalicas-e-de-madeira",
+      "temaNome": "E3. Estruturas metalicas e de madeira",
+      "tipo": "multipla",
+      "enunciado": "Segundo a NBR 7190, a umidade de referencia (umidade padrao) adotada para a determinacao das propriedades de resistencia e rigidez da madeira e de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6%"
+        },
+        {
+          "letra": "B",
+          "texto": "12%"
+        },
+        {
+          "letra": "C",
+          "texto": "20%"
+        },
+        {
+          "letra": "D",
+          "texto": "30%"
+        },
+        {
+          "letra": "E",
+          "texto": "50%"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A NBR 7190 adota a umidade de referencia de 12% para a determinacao das propriedades mecanicas da madeira, permitindo a comparacao padronizada entre especies e ensaios."
+    },
+    {
+      "id": "esnovas075",
+      "tema": "e3-estruturas-metalicas-e-de-madeira",
+      "temaNome": "E3. Estruturas metalicas e de madeira",
+      "tipo": "multipla",
+      "enunciado": "Nas ligacoes de estruturas de madeira, o tipo de ligacao mais tradicional, que utiliza pinos metalicos (pregos, parafusos ou cavilhas) trabalhando por corte (cisalhamento), e denominada ligacao:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Colada (com adesivo estrutural)"
+        },
+        {
+          "letra": "B",
+          "texto": "Por pinos"
+        },
+        {
+          "letra": "C",
+          "texto": "Por entalhe (encaixe) exclusivamente"
+        },
+        {
+          "letra": "D",
+          "texto": "Soldada"
+        },
+        {
+          "letra": "E",
+          "texto": "Por atrito puro, sem elemento de fixacao"
+        }
+      ],
+      "correta": "B",
+      "comentario": "As ligacoes por pinos (pregos, parafusos, cavilhas), que transmitem esforco por corte (cisalhamento) dos pinos metalicos, sao o tipo mais tradicional e difundido de ligacao em estruturas de madeira."
+    },
+    {
+      "id": "esnovas076",
+      "tema": "e3-estruturas-metalicas-e-de-madeira",
+      "temaNome": "E3. Estruturas metalicas e de madeira",
+      "tipo": "multipla",
+      "enunciado": "Nas ligacoes parafusadas de estruturas metalicas, segundo a NBR 8800, o furo padrao costuma ter diametro nominal aproximadamente ___ maior que o diametro do parafuso, para permitir a montagem:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0,5 mm"
+        },
+        {
+          "letra": "B",
+          "texto": "1,5 mm"
+        },
+        {
+          "letra": "C",
+          "texto": "3,0 mm"
+        },
+        {
+          "letra": "D",
+          "texto": "5,0 mm"
+        },
+        {
+          "letra": "E",
+          "texto": "8,0 mm"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O furo padrao usual e cerca de 1,5mm maior que o diametro do parafuso (para parafusos comuns), permitindo a montagem das pecas sem folga excessiva que comprometa a transmissao de esforcos."
+    },
+    {
+      "id": "esnovas077",
+      "tema": "e4-fundacoes-contencoes-e-geotecnia",
+      "temaNome": "E4. Fundacoes, contencoes e geotecnia",
+      "tipo": "multipla",
+      "enunciado": "Em Mecanica dos Solos, o indice de vazios (e) de uma amostra de solo e definido pela razao entre:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O volume de vazios e o volume total da amostra"
+        },
+        {
+          "letra": "B",
+          "texto": "O volume de vazios e o volume de solidos da amostra"
+        },
+        {
+          "letra": "C",
+          "texto": "O volume de agua e o volume de vazios"
+        },
+        {
+          "letra": "D",
+          "texto": "O peso dos solidos e o peso total"
+        },
+        {
+          "letra": "E",
+          "texto": "O volume de ar e o volume de agua"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O indice de vazios (e) e definido como e = Vv/Vs (volume de vazios sobre volume de solidos) - diferente da porosidade (n = Vv/Vtotal), que usa o volume TOTAL no denominador."
+    },
+    {
+      "id": "esnovas078",
+      "tema": "e4-fundacoes-contencoes-e-geotecnia",
+      "temaNome": "E4. Fundacoes, contencoes e geotecnia",
+      "tipo": "multipla",
+      "enunciado": "O grau de saturacao (S) de um solo, expresso em percentual, e definido pela razao entre:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O volume de agua e o volume total da amostra"
+        },
+        {
+          "letra": "B",
+          "texto": "O volume de agua e o volume de vazios da amostra"
+        },
+        {
+          "letra": "C",
+          "texto": "O peso da agua e o peso dos solidos"
+        },
+        {
+          "letra": "D",
+          "texto": "O volume de solidos e o volume de vazios"
+        },
+        {
+          "letra": "E",
+          "texto": "O peso total e o volume total"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O grau de saturacao e S = Vw/Vv (volume de agua sobre volume de VAZIOS, nao sobre o volume total) - quando S=100%, todos os vazios estao preenchidos por agua (solo saturado)."
+    },
+    {
+      "id": "esnovas079",
+      "tema": "e4-fundacoes-contencoes-e-geotecnia",
+      "temaNome": "E4. Fundacoes, contencoes e geotecnia",
+      "tipo": "multipla",
+      "enunciado": "O ensaio de Sondagem a Percussao (SPT), normatizado pela NBR 6484, fornece o indice N_SPT, que corresponde ao numero de golpes necessarios para a penetracao de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Os primeiros 15 cm de cravacao do amostrador padrao"
+        },
+        {
+          "letra": "B",
+          "texto": "Os 30 cm finais de um total de 45 cm de cravacao do amostrador padrao"
+        },
+        {
+          "letra": "C",
+          "texto": "1 metro completo de cravacao"
+        },
+        {
+          "letra": "D",
+          "texto": "Os primeiros 45 cm de cravacao"
+        },
+        {
+          "letra": "E",
+          "texto": "10 cm de cravacao, com peso de 10 kg"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O ensaio SPT crava o amostrador padrao em 3 segmentos de 15 cm (45 cm no total); o N_SPT corresponde ao numero de golpes necessarios para cravar os 30 cm FINAIS (os 2 ultimos segmentos de 15 cm), desprezando os primeiros 15 cm (considerados de acomodacao)."
+    },
+    {
+      "id": "esnovas080",
+      "tema": "e4-fundacoes-contencoes-e-geotecnia",
+      "temaNome": "E4. Fundacoes, contencoes e geotecnia",
+      "tipo": "multipla",
+      "enunciado": "Em uma estaca de fundacao profunda, a capacidade de carga total resistida pela estaca e composta pela soma da resistencia de ponta com a resistencia por:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Flexao da estaca"
+        },
+        {
+          "letra": "B",
+          "texto": "Atrito lateral (fuste)"
+        },
+        {
+          "letra": "C",
+          "texto": "Empuxo passivo do solo"
+        },
+        {
+          "letra": "D",
+          "texto": "Adensamento do solo"
+        },
+        {
+          "letra": "E",
+          "texto": "Peso proprio da estaca, exclusivamente"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A capacidade de carga de uma estaca (fundacao profunda) e a soma da resistencia de ponta (na base) e da resistencia por atrito lateral desenvolvida ao longo do fuste (superficie lateral) da estaca em contato com o solo."
+    },
+    {
+      "id": "esnovas081",
+      "tema": "e4-fundacoes-contencoes-e-geotecnia",
+      "temaNome": "E4. Fundacoes, contencoes e geotecnia",
+      "tipo": "multipla",
+      "enunciado": "O fenomeno de reducao gradual de volume de um solo saturado ao longo do tempo, decorrente da expulsao lenta da agua dos vazios sob a acao de um carregamento, e denominado:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Liquefacao"
+        },
+        {
+          "letra": "B",
+          "texto": "Adensamento (consolidacao)"
+        },
+        {
+          "letra": "C",
+          "texto": "Capilaridade"
+        },
+        {
+          "letra": "D",
+          "texto": "Erosao"
+        },
+        {
+          "letra": "E",
+          "texto": "Expansao"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O adensamento (ou consolidacao) e o processo de reducao de volume do solo saturado, ao longo do tempo, causado pela expulsao gradual da agua dos vazios (dissipacao da poropressao) sob carregamento - fenomeno particularmente relevante em solos argilosos de baixa permeabilidade, causando recalques diferidos no tempo."
+    },
+    {
+      "id": "esnovas082",
+      "tema": "e4-fundacoes-contencoes-e-geotecnia",
+      "temaNome": "E4. Fundacoes, contencoes e geotecnia",
+      "tipo": "multipla",
+      "enunciado": "O empuxo ATIVO de terra sobre uma estrutura de contencao ocorre na condicao em que o solo:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Esta em repouso, sem deformacao"
+        },
+        {
+          "letra": "B",
+          "texto": "Tende a se mover em direcao a estrutura de contencao, mobilizando resistencia ao cisalhamento e reduzindo o empuxo"
+        },
+        {
+          "letra": "C",
+          "texto": "E comprimido contra a estrutura pelo movimento desta em direcao ao solo (empuxo passivo, na verdade)"
+        },
+        {
+          "letra": "D",
+          "texto": "Esta totalmente saturado, sem qualquer coesao"
+        },
+        {
+          "letra": "E",
+          "texto": "Nunca ocorre em solos coesivos"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O empuxo ativo ocorre quando o solo tende a se movimentar em direcao a estrutura de contencao (a estrutura \"cede\" ao solo), mobilizando a resistencia ao cisalhamento do solo e RESULTANDO no menor valor possivel de empuxo. O empuxo passivo (situacao oposta) ocorre quando a estrutura se move contra o solo, gerando o MAIOR valor de empuxo possivel."
+    },
+    {
+      "id": "esnovas083",
+      "tema": "e4-fundacoes-contencoes-e-geotecnia",
+      "temaNome": "E4. Fundacoes, contencoes e geotecnia",
+      "tipo": "multipla",
+      "enunciado": "[DIFICIL] Um solo saturado tem peso especifico natural de 18 kN/m^3. Considerando o nivel d'agua na superficie do terreno (peso especifico da agua = 10 kN/m^3), a tensao efetiva vertical (segundo o Principio das Tensoes Efetivas de Terzaghi) a uma profundidade de 5m e de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "40 kPa"
+        },
+        {
+          "letra": "B",
+          "texto": "50 kPa"
+        },
+        {
+          "letra": "C",
+          "texto": "60 kPa"
+        },
+        {
+          "letra": "D",
+          "texto": "70 kPa"
+        },
+        {
+          "letra": "E",
+          "texto": "90 kPa"
+        }
+      ],
+      "correta": "A",
+      "comentario": "[DIFICIL] Atalho: calcule a tensao TOTAL e a poropressao separadamente, e subtraia (Principio de Terzaghi: sigma' = sigma - u) - nunca use direto o peso especifico saturado para a tensao efetiva. Tensao total = 18 x 5 = 90 kPa. Poropressao (agua) = 10 x 5 = 50 kPa. Tensao efetiva = 90 - 50 = 40 kPa."
+    },
+    {
+      "id": "esnovas084",
+      "tema": "e5-patologia-recuperacao-e-reforco-de-estruturas",
+      "temaNome": "E5. Patologia, recuperacao e reforco de estruturas",
+      "tipo": "multipla",
+      "enunciado": "A carbonatacao do concreto e um processo quimico que reduz o pH da pasta de cimento (favorecendo a despassivacao da armadura), sendo causada principalmente pela reacao do hidroxido de calcio do cimento com o(a):",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Cloreto presente no ambiente marinho"
+        },
+        {
+          "letra": "B",
+          "texto": "Dioxido de carbono (CO2) do ar"
+        },
+        {
+          "letra": "C",
+          "texto": "Sulfato presente no solo"
+        },
+        {
+          "letra": "D",
+          "texto": "Umidade excessiva do concreto, exclusivamente"
+        },
+        {
+          "letra": "E",
+          "texto": "Calor excessivo de hidratacao"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A carbonatacao ocorre pela reacao do CO2 atmosferico com o hidroxido de calcio Ca(OH)2 da pasta de cimento, formando carbonato de calcio e reduzindo o pH do concreto (de ~12,5 para valores abaixo de 9), o que remove a protecao alcalina (passivacao) da armadura, favorecendo a corrosao."
+    },
+    {
+      "id": "esnovas085",
+      "tema": "e5-patologia-recuperacao-e-reforco-de-estruturas",
+      "temaNome": "E5. Patologia, recuperacao e reforco de estruturas",
+      "tipo": "multipla",
+      "enunciado": "A Reacao Alcali-Agregado (RAA) no concreto ocorre entre os alcalis do cimento e determinados agregados reativos (contendo silica reativa), resultando na formacao de um gel expansivo que provoca, tipicamente:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Aumento da resistencia do concreto"
+        },
+        {
+          "letra": "B",
+          "texto": "Fissuracao mapeada (em mapa) e expansao do concreto"
+        },
+        {
+          "letra": "C",
+          "texto": "Reducao do peso especifico do concreto"
+        },
+        {
+          "letra": "D",
+          "texto": "Melhora da aderencia aco-concreto"
+        },
+        {
+          "letra": "E",
+          "texto": "Nenhum efeito visivel a curto ou longo prazo"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A RAA gera um gel expansivo higroscopico nos poros do concreto, que absorve umidade e se expande, provocando fissuracao caracteristica (em mapa, tipo \"couro de crocodilo\") e podendo comprometer a integridade da estrutura a longo prazo."
+    },
+    {
+      "id": "esnovas086",
+      "tema": "e5-patologia-recuperacao-e-reforco-de-estruturas",
+      "temaNome": "E5. Patologia, recuperacao e reforco de estruturas",
+      "tipo": "multipla",
+      "enunciado": "Fissuras de retracao plastica no concreto surgem tipicamente nas primeiras horas apos a concretagem (concreto ainda fresco/em pega), sendo agravadas por:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Cura umida prolongada"
+        },
+        {
+          "letra": "B",
+          "texto": "Baixa temperatura ambiente e alta umidade relativa do ar"
+        },
+        {
+          "letra": "C",
+          "texto": "Evaporacao rapida da agua de amassamento, favorecida por vento, calor e baixa umidade do ar"
+        },
+        {
+          "letra": "D",
+          "texto": "Uso de cimento de baixo calor de hidratacao"
+        },
+        {
+          "letra": "E",
+          "texto": "Excesso de cobrimento da armadura"
+        }
+      ],
+      "correta": "C",
+      "comentario": "As fissuras de retracao plastica ocorrem quando a taxa de evaporacao da agua superficial excede a taxa de exsudacao (agua que sobe a superficie), situacao agravada por vento, alta temperatura, baixa umidade relativa e insolacao direta sobre o concreto fresco - por isso a cura imediata e essencial nessas condicoes."
+    },
+    {
+      "id": "esnovas087",
+      "tema": "e5-patologia-recuperacao-e-reforco-de-estruturas",
+      "temaNome": "E5. Patologia, recuperacao e reforco de estruturas",
+      "tipo": "multipla",
+      "enunciado": "A tecnica de recuperacao estrutural que consiste na injecao de resina (geralmente epoxidica) em fissuras de elementos de concreto tem como principal objetivo restabelecer:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas o aspecto estetico da peca"
+        },
+        {
+          "letra": "B",
+          "texto": "A monoliticidade e/ou a estanqueidade da peca fissurada"
+        },
+        {
+          "letra": "C",
+          "texto": "A resistencia ao fogo da estrutura"
+        },
+        {
+          "letra": "D",
+          "texto": "O isolamento termico do elemento"
+        },
+        {
+          "letra": "E",
+          "texto": "A cor original do concreto"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A injecao de resina epoxidica em fissuras visa \"colar\" novamente as faces da fissura, restabelecendo a monoliticidade (comportamento estrutural unico da peca) e/ou a estanqueidade (impedindo a passagem de agua/umidade), dependendo do tipo de resina e da finalidade da intervencao."
+    },
+    {
+      "id": "esnovas088",
+      "tema": "e5-patologia-recuperacao-e-reforco-de-estruturas",
+      "temaNome": "E5. Patologia, recuperacao e reforco de estruturas",
+      "tipo": "multipla",
+      "enunciado": "O reforco estrutural de vigas de concreto armado com fibra de carbono colada externamente (sistema PRFC) tem como principal vantagem, em relacao ao reforco tradicional com chapas de aco coladas:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Menor custo do material, sempre"
+        },
+        {
+          "letra": "B",
+          "texto": "Alta resistencia mecanica com peso e espessura muito reduzidos, e resistencia a corrosao"
+        },
+        {
+          "letra": "C",
+          "texto": "Maior modulo de elasticidade que o aco"
+        },
+        {
+          "letra": "D",
+          "texto": "Dispensa qualquer preparo da superficie de concreto"
+        },
+        {
+          "letra": "E",
+          "texto": "Nao necessita de resina para colagem"
+        }
+      ],
+      "correta": "B",
+      "comentario": "As fibras de carbono (PRFC) apresentam altissima resistencia a tracao com peso e espessura muito reduzidos (facilitando a aplicacao e nao sobrecarregando a estrutura), alem de nao serem susceptiveis a corrosao como as chapas de aco."
+    },
+    {
+      "id": "esnovas089",
+      "tema": "e5-patologia-recuperacao-e-reforco-de-estruturas",
+      "temaNome": "E5. Patologia, recuperacao e reforco de estruturas",
+      "tipo": "multipla",
+      "enunciado": "Manchas de eflorescencia em alvenarias, caracterizadas por depositos brancos na superficie das paredes, sao causadas pela:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Oxidacao de armaduras proximas a superficie"
+        },
+        {
+          "letra": "B",
+          "texto": "Migracao e cristalizacao de sais soluveis presentes nos materiais, transportados pela agua que percola pela alvenaria"
+        },
+        {
+          "letra": "C",
+          "texto": "Reacao alcali-agregado nos blocos ceramicos"
+        },
+        {
+          "letra": "D",
+          "texto": "Presenca de fungos na superficie"
+        },
+        {
+          "letra": "E",
+          "texto": "Carbonatacao da argamassa de assentamento"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A eflorescencia ocorre quando a agua que penetra na alvenaria dissolve sais soluveis presentes nos materiais (blocos, argamassa), transporta-os para a superficie por capilaridade e, ao evaporar, deixa os sais cristalizados visiveis como manchas brancas."
+    },
+    {
+      "id": "esnovas090",
+      "tema": "e6-materiais-e-tecnologia-da-construcao-civil-sistemas-construtivos",
+      "temaNome": "E6. Materiais e tecnologia da construcao civil / sistemas construtivos",
+      "tipo": "multipla",
+      "enunciado": "O ensaio de consistencia do concreto fresco mais utilizado em obras, normatizado pela NBR NM 67, e o ensaio de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Resistencia a compressao em corpos de prova cilindricos"
+        },
+        {
+          "letra": "B",
+          "texto": "Abatimento do tronco de cone (slump test)"
+        },
+        {
+          "letra": "C",
+          "texto": "Modulo de elasticidade"
+        },
+        {
+          "letra": "D",
+          "texto": "Absorcao de agua por capilaridade"
+        },
+        {
+          "letra": "E",
+          "texto": "Carbonatacao acelerada"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O slump test (abatimento do tronco de cone), normatizado pela NBR NM 67, e o ensaio de campo mais utilizado para verificar a consistencia (trabalhabilidade) do concreto fresco antes do lancamento."
+    },
+    {
+      "id": "esnovas091",
+      "tema": "e6-materiais-e-tecnologia-da-construcao-civil-sistemas-construtivos",
+      "temaNome": "E6. Materiais e tecnologia da construcao civil / sistemas construtivos",
+      "tipo": "multipla",
+      "enunciado": "A cura do concreto, etapa fundamental apos a concretagem, tem como principal finalidade:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Acelerar a evaporacao da agua de amassamento"
+        },
+        {
+          "letra": "B",
+          "texto": "Manter a umidade adequada para a hidratacao completa do cimento, garantindo o desenvolvimento da resistencia"
+        },
+        {
+          "letra": "C",
+          "texto": "Reduzir o calor de hidratacao do cimento a zero"
+        },
+        {
+          "letra": "D",
+          "texto": "Aumentar a temperatura do concreto artificialmente"
+        },
+        {
+          "letra": "E",
+          "texto": "Eliminar a necessidade de cobrimento da armadura"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A cura visa manter a umidade (e, as vezes, a temperatura) adequadas nas primeiras idades do concreto, garantindo que a reacao de hidratacao do cimento ocorra de forma completa, o que e essencial para o desenvolvimento pleno da resistencia e da durabilidade do concreto."
+    },
+    {
+      "id": "esnovas092",
+      "tema": "e6-materiais-e-tecnologia-da-construcao-civil-sistemas-construtivos",
+      "temaNome": "E6. Materiais e tecnologia da construcao civil / sistemas construtivos",
+      "tipo": "multipla",
+      "enunciado": "O cimento Portland CP III (cimento de alto-forno) se distingue dos demais tipos pela adicao de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Cinza volante"
+        },
+        {
+          "letra": "B",
+          "texto": "Escoria de alto-forno"
+        },
+        {
+          "letra": "C",
+          "texto": "Fibra de vidro"
+        },
+        {
+          "letra": "D",
+          "texto": "Pozolana natural, exclusivamente"
+        },
+        {
+          "letra": "E",
+          "texto": "Fillers carbonaticos, exclusivamente"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O CP III (cimento de alto-forno) e caracterizado pela adicao de escoria de alto-forno (subproduto da industria siderurgica) em teores elevados, conferindo maior resistencia a meios agressivos e menor calor de hidratacao."
+    },
+    {
+      "id": "esnovas093",
+      "tema": "e6-materiais-e-tecnologia-da-construcao-civil-sistemas-construtivos",
+      "temaNome": "E6. Materiais e tecnologia da construcao civil / sistemas construtivos",
+      "tipo": "multipla",
+      "enunciado": "Na alvenaria estrutural, o principal parametro tecnico para o dimensionamento e a especificacao dos blocos (ceramicos ou de concreto) e a resistencia a:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Tracao na flexao"
+        },
+        {
+          "letra": "B",
+          "texto": "Compressao (fbk)"
+        },
+        {
+          "letra": "C",
+          "texto": "Abrasao superficial"
+        },
+        {
+          "letra": "D",
+          "texto": "Absorcao de agua, exclusivamente"
+        },
+        {
+          "letra": "E",
+          "texto": "Condutividade termica"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A resistencia caracteristica a compressao do bloco (fbk) e o parametro fundamental para o dimensionamento de paredes de alvenaria estrutural, pois a parede resiste principalmente a esforcos de compressao (cargas verticais)."
+    },
+    {
+      "id": "esnovas094",
+      "tema": "e6-materiais-e-tecnologia-da-construcao-civil-sistemas-construtivos",
+      "temaNome": "E6. Materiais e tecnologia da construcao civil / sistemas construtivos",
+      "tipo": "multipla",
+      "enunciado": "Um traco de concreto expresso na forma 1:2:3 (cimento:areia:brita, em massa ou volume) indica que, para cada unidade de cimento, sao utilizadas, respectivamente:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1 unidade de areia e 2 de brita"
+        },
+        {
+          "letra": "B",
+          "texto": "2 unidades de areia e 3 de brita"
+        },
+        {
+          "letra": "C",
+          "texto": "3 unidades de areia e 2 de brita"
+        },
+        {
+          "letra": "D",
+          "texto": "2 unidades de areia e 1 de brita"
+        },
+        {
+          "letra": "E",
+          "texto": "1 unidade de areia e 3 de brita"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Na notacao de traco 1:2:3, o primeiro numero (1) sempre se refere ao cimento (unidade de referencia); os numeros seguintes sao as proporcoes dos demais materiais NA MESMA ORDEM em que sao citados no enunciado - aqui, 2 de areia e 3 de brita."
+    },
+    {
+      "id": "esnovas095",
+      "tema": "e6-materiais-e-tecnologia-da-construcao-civil-sistemas-construtivos",
+      "temaNome": "E6. Materiais e tecnologia da construcao civil / sistemas construtivos",
+      "tipo": "multipla",
+      "enunciado": "A relacao agua/cimento (a/c) no concreto tem influencia direta e INVERSA sobre a:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Trabalhabilidade do concreto fresco"
+        },
+        {
+          "letra": "B",
+          "texto": "Resistencia mecanica do concreto endurecido"
+        },
+        {
+          "letra": "C",
+          "texto": "Quantidade de cimento utilizada"
+        },
+        {
+          "letra": "D",
+          "texto": "Temperatura de lancamento do concreto"
+        },
+        {
+          "letra": "E",
+          "texto": "Cor final do concreto"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Quanto MAIOR a relacao agua/cimento, MENOR tende a ser a resistencia mecanica do concreto endurecido (mais vazios/porosidade na pasta de cimento hidratada) - e a Lei de Abrams, um dos principios mais classicos da tecnologia do concreto."
+    },
+    {
+      "id": "esnovas096",
+      "tema": "e7-planejamento-orcamento-bdi-curva-abc-cronograma-fisico-financeiro-sinapisicro",
+      "temaNome": "E7. Planejamento, orcamento, BDI, curva ABC, cronograma fisico-financeiro (SINAPI/SICRO)",
+      "tipo": "multipla",
+      "enunciado": "O BDI (Beneficios e Despesas Indiretas) e um percentual aplicado sobre o custo direto de uma obra para compor o preco de venda, incorporando, entre outros itens:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas o lucro do construtor"
+        },
+        {
+          "letra": "B",
+          "texto": "Despesas indiretas (administracao central, seguros, garantias), tributos incidentes sobre o faturamento e o lucro/remuneracao do construtor"
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas os tributos federais"
+        },
+        {
+          "letra": "D",
+          "texto": "Somente os custos de mao de obra direta"
+        },
+        {
+          "letra": "E",
+          "texto": "Exclusivamente o custo dos materiais de construcao"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O BDI incorpora as despesas indiretas da empresa (administracao central, seguros, garantias, riscos), os tributos incidentes sobre o faturamento (PIS, COFINS, ISS etc.) e o lucro (remuneracao do construtor) - tudo que NAO esta contido no custo direto da obra."
+    },
+    {
+      "id": "esnovas097",
+      "tema": "e7-planejamento-orcamento-bdi-curva-abc-cronograma-fisico-financeiro-sinapisicro",
+      "temaNome": "E7. Planejamento, orcamento, BDI, curva ABC, cronograma fisico-financeiro (SINAPI/SICRO)",
+      "tipo": "multipla",
+      "enunciado": "A Curva ABC de insumos/servicos de uma obra classifica os itens em ordem decrescente de representatividade no custo total, sendo a classe A composta, tipicamente, pelos itens que representam a MAIOR parcela do custo com o MENOR numero de itens. Essa curva se fundamenta no principio de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Pareto (regra 80/20)"
+        },
+        {
+          "letra": "B",
+          "texto": "Terzaghi"
+        },
+        {
+          "letra": "C",
+          "texto": "Mohr-Coulomb"
+        },
+        {
+          "letra": "D",
+          "texto": "Euler"
+        },
+        {
+          "letra": "E",
+          "texto": "Hooke"
+        }
+      ],
+      "correta": "A",
+      "comentario": "A Curva ABC aplica o Principio de Pareto (regra 80/20): tipicamente, uma pequena parcela dos itens (classe A) responde pela maior parte do custo total da obra - focar o controle nesses poucos itens de maior impacto e a essencia da ferramenta."
+    },
+    {
+      "id": "esnovas098",
+      "tema": "e7-planejamento-orcamento-bdi-curva-abc-cronograma-fisico-financeiro-sinapisicro",
+      "temaNome": "E7. Planejamento, orcamento, BDI, curva ABC, cronograma fisico-financeiro (SINAPI/SICRO)",
+      "tipo": "multipla",
+      "enunciado": "O cronograma fisico-financeiro de uma obra relaciona:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas o avanco fisico da execucao, sem qualquer relacao com custos"
+        },
+        {
+          "letra": "B",
+          "texto": "O avanco fisico da execucao com o desembolso financeiro previsto ao longo do tempo"
+        },
+        {
+          "letra": "C",
+          "texto": "Somente os prazos contratuais, sem relacao com o avanco de servicos"
+        },
+        {
+          "letra": "D",
+          "texto": "Exclusivamente as datas de pagamento aos fornecedores"
+        },
+        {
+          "letra": "E",
+          "texto": "Apenas o consumo de materiais, sem relacao com a mao de obra"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O cronograma fisico-financeiro relaciona o avanco FISICO (percentual de servicos executados) com o avanco FINANCEIRO (desembolso/faturamento previsto), ao longo do tempo de execucao da obra - ferramenta essencial de planejamento e acompanhamento."
+    },
+    {
+      "id": "esnovas099",
+      "tema": "e7-planejamento-orcamento-bdi-curva-abc-cronograma-fisico-financeiro-sinapisicro",
+      "temaNome": "E7. Planejamento, orcamento, BDI, curva ABC, cronograma fisico-financeiro (SINAPI/SICRO)",
+      "tipo": "multipla",
+      "enunciado": "O SINAPI (Sistema Nacional de Pesquisa de Custos e Indices da Construcao Civil), mantido pela Caixa Economica Federal em parceria com o IBGE, e referencia obrigatoria para a composicao de custos e orcamento de obras contratadas com recursos:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Exclusivamente privados"
+        },
+        {
+          "letra": "B",
+          "texto": "Federais"
+        },
+        {
+          "letra": "C",
+          "texto": "Exclusivamente estaduais"
+        },
+        {
+          "letra": "D",
+          "texto": "De organismos internacionais, apenas"
+        },
+        {
+          "letra": "E",
+          "texto": "De qualquer origem, sem exigencia legal"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O SINAPI e a referencia oficial obrigatoria para orcamentos de obras publicas contratadas com recursos federais, conforme legislacao orcamentaria (Lei de Diretrizes Orcamentarias - LDO), sendo tambem amplamente adotado por Estados e Municipios."
+    },
+    {
+      "id": "esnovas100",
+      "tema": "e7-planejamento-orcamento-bdi-curva-abc-cronograma-fisico-financeiro-sinapisicro",
+      "temaNome": "E7. Planejamento, orcamento, BDI, curva ABC, cronograma fisico-financeiro (SINAPI/SICRO)",
+      "tipo": "multipla",
+      "enunciado": "O SICRO (Sistema de Custos Referenciais de Obras), mantido pelo DNIT, e a referencia de custos aplicada especificamente a obras de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Edificacoes residenciais urbanas"
+        },
+        {
+          "letra": "B",
+          "texto": "Infraestrutura de transportes (rodovias e obras viarias)"
+        },
+        {
+          "letra": "C",
+          "texto": "Saneamento basico, exclusivamente"
+        },
+        {
+          "letra": "D",
+          "texto": "Parques e areas verdes"
+        },
+        {
+          "letra": "E",
+          "texto": "Instalacoes industriais, exclusivamente"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O SICRO e o sistema de referencia de custos mantido pelo DNIT (Departamento Nacional de Infraestrutura de Transportes), aplicado especificamente a obras de infraestrutura de transportes (rodovias, pavimentacao, obras viarias) - diferente do SINAPI, mais generico para edificacoes e obras diversas."
+    },
+    {
+      "id": "esnovas101",
+      "tema": "e7-planejamento-orcamento-bdi-curva-abc-cronograma-fisico-financeiro-sinapisicro",
+      "temaNome": "E7. Planejamento, orcamento, BDI, curva ABC, cronograma fisico-financeiro (SINAPI/SICRO)",
+      "tipo": "multipla",
+      "enunciado": "Em uma composicao de custo unitario de servico, os coeficientes de consumo de materiais e de mao de obra sao multiplicados pelos respectivos precos unitarios para se obter o custo:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Total da obra, diretamente"
+        },
+        {
+          "letra": "B",
+          "texto": "Direto unitario do servico"
+        },
+        {
+          "letra": "C",
+          "texto": "Indireto da obra"
+        },
+        {
+          "letra": "D",
+          "texto": "Financeiro do contrato"
+        },
+        {
+          "letra": "E",
+          "texto": "De oportunidade do investimento"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A composicao de custo unitario multiplica os coeficientes de consumo (quantidade de material/mao de obra por unidade de servico) pelos precos unitarios de cada insumo, somando os resultados para obter o CUSTO DIRETO unitario daquele servico especifico - sobre o qual, posteriormente, se aplica o BDI."
+    },
+    {
+      "id": "esnovas102",
+      "tema": "e7-planejamento-orcamento-bdi-curva-abc-cronograma-fisico-financeiro-sinapisicro",
+      "temaNome": "E7. Planejamento, orcamento, BDI, curva ABC, cronograma fisico-financeiro (SINAPI/SICRO)",
+      "tipo": "multipla",
+      "enunciado": "O boletim de medicao de uma obra tem como finalidade principal:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Registrar exclusivamente as ocorrencias de seguranca do trabalho"
+        },
+        {
+          "letra": "B",
+          "texto": "Quantificar os servicos efetivamente executados em determinado periodo, servindo de base para faturamento/pagamento"
+        },
+        {
+          "letra": "C",
+          "texto": "Substituir o cronograma fisico-financeiro da obra"
+        },
+        {
+          "letra": "D",
+          "texto": "Registrar apenas o consumo de combustivel dos equipamentos"
+        },
+        {
+          "letra": "E",
+          "texto": "Documentar exclusivamente atrasos no cronograma"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O boletim de medicao quantifica os servicos efetivamente executados (avanco fisico real) em um determinado periodo (geralmente mensal), servindo de base tecnica para o faturamento e pagamento da empreiteira/contratada."
+    },
+    {
+      "id": "esnovas103",
+      "tema": "e8-instalacoes-prediais-hidrossanitarias-eletricas-incendio",
+      "temaNome": "E8. Instalacoes prediais (hidrossanitarias, eletricas, incendio)",
+      "tipo": "multipla",
+      "enunciado": "Nas instalacoes prediais de agua fria, o reservatorio superior (caixa d'agua) tem, entre suas funcoes, garantir:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas o tratamento da agua antes do consumo"
+        },
+        {
+          "letra": "B",
+          "texto": "O abastecimento por gravidade e a reserva de agua em caso de interrupcao do fornecimento publico"
+        },
+        {
+          "letra": "C",
+          "texto": "A pressurizacao artificial da rede, sempre por bombeamento direto"
+        },
+        {
+          "letra": "D",
+          "texto": "O aquecimento da agua para uso domestico"
+        },
+        {
+          "letra": "E",
+          "texto": "A filtragem biologica da agua"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O reservatorio superior garante o abastecimento por gravidade aos pontos de consumo (dispensando bombeamento continuo) e mantem uma reserva de agua para os casos de interrupcao temporaria do fornecimento pela concessionaria."
+    },
+    {
+      "id": "esnovas104",
+      "tema": "e8-instalacoes-prediais-hidrossanitarias-eletricas-incendio",
+      "temaNome": "E8. Instalacoes prediais (hidrossanitarias, eletricas, incendio)",
+      "tipo": "multipla",
+      "enunciado": "O dispositivo instalado nas tubulacoes de esgoto sanitario para impedir a passagem de gases e odores para o interior da edificacao, mantendo uma lamina de agua como barreira, e denominado:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ralo seco"
+        },
+        {
+          "letra": "B",
+          "texto": "Sifao (fecho hidrico)"
+        },
+        {
+          "letra": "C",
+          "texto": "Caixa de inspecao"
+        },
+        {
+          "letra": "D",
+          "texto": "Ventilador sanitario"
+        },
+        {
+          "letra": "E",
+          "texto": "Registro de gaveta"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O sifao (ou fecho hidrico) mantem uma lamina de agua que funciona como barreira, impedindo a passagem de gases e odores do sistema de esgoto para o ambiente interno da edificacao."
+    },
+    {
+      "id": "esnovas105",
+      "tema": "e8-instalacoes-prediais-hidrossanitarias-eletricas-incendio",
+      "temaNome": "E8. Instalacoes prediais (hidrossanitarias, eletricas, incendio)",
+      "tipo": "multipla",
+      "enunciado": "Em instalacoes eletricas prediais, o Dispositivo Diferencial Residual (DR) tem como principal funcao:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Proteger os condutores contra sobrecarga"
+        },
+        {
+          "letra": "B",
+          "texto": "Proteger as pessoas contra choques eletricos, detectando fugas de corrente para a terra"
+        },
+        {
+          "letra": "C",
+          "texto": "Proteger exclusivamente os equipamentos contra surtos de tensao"
+        },
+        {
+          "letra": "D",
+          "texto": "Reduzir o consumo de energia eletrica"
+        },
+        {
+          "letra": "E",
+          "texto": "Estabilizar a tensao da rede"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O DR detecta diferencas (fugas) de corrente entre os condutores de fase e neutro, que indicam corrente escoando para a terra (por exemplo, atraves do corpo de uma pessoa), desarmando o circuito rapidamente para proteger contra choques eletricos - diferente do disjuntor, que protege o CIRCUITO (nao diretamente as pessoas)."
+    },
+    {
+      "id": "esnovas106",
+      "tema": "e8-instalacoes-prediais-hidrossanitarias-eletricas-incendio",
+      "temaNome": "E8. Instalacoes prediais (hidrossanitarias, eletricas, incendio)",
+      "tipo": "multipla",
+      "enunciado": "Diferentemente do DR, o disjuntor termomagnetico tem como funcao principal proteger:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "As pessoas contra choques eletricos, exclusivamente"
+        },
+        {
+          "letra": "B",
+          "texto": "Os condutores e equipamentos contra sobrecarga e curto-circuito"
+        },
+        {
+          "letra": "C",
+          "texto": "Contra quedas de energia da concessionaria"
+        },
+        {
+          "letra": "D",
+          "texto": "Contra surtos atmosfericos (raios), exclusivamente"
+        },
+        {
+          "letra": "E",
+          "texto": "Contra variacoes de frequencia da rede"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O disjuntor termomagnetico protege os condutores e equipamentos contra sobrecarga (excesso de corrente sustentado, atuacao termica) e curto-circuito (corrente muito elevada e rapida, atuacao magnetica) - a protecao contra choques em pessoas e funcao especifica do DR."
+    },
+    {
+      "id": "esnovas107",
+      "tema": "e8-instalacoes-prediais-hidrossanitarias-eletricas-incendio",
+      "temaNome": "E8. Instalacoes prediais (hidrossanitarias, eletricas, incendio)",
+      "tipo": "multipla",
+      "enunciado": "Nas instalacoes de combate a incendio, o sistema de chuveiros automaticos (sprinklers) atua por meio de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Acionamento manual exclusivo por um operador"
+        },
+        {
+          "letra": "B",
+          "texto": "Ativacao automatica individual quando a temperatura no ambiente atinge um valor pre-determinado, liberando agua sobre o foco do incendio"
+        },
+        {
+          "letra": "C",
+          "texto": "Deteccao de fumaca, sem liberacao de agua"
+        },
+        {
+          "letra": "D",
+          "texto": "Bombeamento continuo de agua, independente de qualquer deteccao"
+        },
+        {
+          "letra": "E",
+          "texto": "Liberacao simultanea de toda a agua do reservatorio, sem controle"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Os sprinklers possuem um elemento sensivel (ampola de liquido ou solda fusivel) que se rompe/funde ao atingir uma temperatura pre-determinada, ativando AUTOMATICAMENTE e INDIVIDUALMENTE apenas o(s) bico(s) proximo(s) ao foco do incendio, liberando agua diretamente sobre a area afetada."
+    },
+    {
+      "id": "esnovas108",
+      "tema": "e9-topografia-e-geoprocessamento",
+      "temaNome": "E9. Topografia e geoprocessamento",
+      "tipo": "multipla",
+      "enunciado": "Em topografia, o azimute de uma direcao e o angulo horizontal medido a partir do Norte, no sentido:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Anti-horario, variando de 0 a 180 graus"
+        },
+        {
+          "letra": "B",
+          "texto": "Horario, variando de 0 a 360 graus"
+        },
+        {
+          "letra": "C",
+          "texto": "Horario, variando de 0 a 90 graus"
+        },
+        {
+          "letra": "D",
+          "texto": "Anti-horario, variando de 0 a 360 graus"
+        },
+        {
+          "letra": "E",
+          "texto": "Indiferente ao sentido, variando de 0 a 180 graus"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O azimute e sempre medido a partir do Norte, no sentido HORARIO, podendo variar de 0 a 360 graus - diferente do rumo, que e medido do Norte OU do Sul (o mais proximo), no sentido do quadrante, variando de 0 a 90 graus."
+    },
+    {
+      "id": "esnovas109",
+      "tema": "e9-topografia-e-geoprocessamento",
+      "temaNome": "E9. Topografia e geoprocessamento",
+      "tipo": "multipla",
+      "enunciado": "O rumo de uma direcao topografica e medido a partir da linha Norte-Sul (do polo mais proximo), no sentido do quadrante, com variacao maxima de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "0 a 45 graus"
+        },
+        {
+          "letra": "B",
+          "texto": "0 a 90 graus"
+        },
+        {
+          "letra": "C",
+          "texto": "0 a 180 graus"
+        },
+        {
+          "letra": "D",
+          "texto": "0 a 270 graus"
+        },
+        {
+          "letra": "E",
+          "texto": "0 a 360 graus"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O rumo varia de 0 a 90 graus, sempre acompanhado da indicacao do quadrante (NE, SE, SW ou NW) - diferentemente do azimute, que varia de 0 a 360 graus e nao precisa de indicacao de quadrante."
+    },
+    {
+      "id": "esnovas110",
+      "tema": "e9-topografia-e-geoprocessamento",
+      "temaNome": "E9. Topografia e geoprocessamento",
+      "tipo": "multipla",
+      "enunciado": "Uma direcao topografica possui azimute de 130 graus. O rumo correspondente dessa direcao e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "N50E"
+        },
+        {
+          "letra": "B",
+          "texto": "S50E"
+        },
+        {
+          "letra": "C",
+          "texto": "S40E"
+        },
+        {
+          "letra": "D",
+          "texto": "N40W"
+        },
+        {
+          "letra": "E",
+          "texto": "S50W"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Atalho: para azimute entre 90 e 180 graus (quadrante SE), o rumo se calcula por rumo = 180 - azimute, no quadrante SE. Rumo = 180 - 130 = 50 graus. Resposta: S50E (sudeste)."
+    },
+    {
+      "id": "esnovas111",
+      "tema": "e9-topografia-e-geoprocessamento",
+      "temaNome": "E9. Topografia e geoprocessamento",
+      "tipo": "multipla",
+      "enunciado": "O metodo de posicionamento GNSS que utiliza uma estacao de referencia fixa (base) e um receptor movel (rover), processando os dados em tempo real com precisao centimetrica, e denominado:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "PPP (Precise Point Positioning)"
+        },
+        {
+          "letra": "B",
+          "texto": "RTK (Real Time Kinematic)"
+        },
+        {
+          "letra": "C",
+          "texto": "Posicionamento absoluto simples"
+        },
+        {
+          "letra": "D",
+          "texto": "Posicionamento por codigo, sem correcao"
+        },
+        {
+          "letra": "E",
+          "texto": "Nivelamento geometrico"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O RTK (Real Time Kinematic) utiliza uma base fixa que transmite correcoes em tempo real para o receptor movel (rover), permitindo precisao centimetrica instantaneamente em campo - tecnica amplamente usada em locacao de obras e levantamentos topograficos."
+    },
+    {
+      "id": "esnovas112",
+      "tema": "e9-topografia-e-geoprocessamento",
+      "temaNome": "E9. Topografia e geoprocessamento",
+      "tipo": "multipla",
+      "enunciado": "A curva de nivel em uma planta topografica representa:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O limite da propriedade levantada"
+        },
+        {
+          "letra": "B",
+          "texto": "O lugar geometrico dos pontos de mesma cota (altitude) no terreno"
+        },
+        {
+          "letra": "C",
+          "texto": "A projecao horizontal de uma edificacao"
+        },
+        {
+          "letra": "D",
+          "texto": "A direcao do escoamento das aguas pluviais, exclusivamente"
+        },
+        {
+          "letra": "E",
+          "texto": "O eixo de uma via de acesso"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A curva de nivel une, no desenho topografico, todos os pontos do terreno que possuem a MESMA COTA (altitude), permitindo representar o relevo (declividades, depressoes, elevacoes) em uma planta bidimensional."
+    },
+    {
+      "id": "esnovas113",
+      "tema": "e9-topografia-e-geoprocessamento",
+      "temaNome": "E9. Topografia e geoprocessamento",
+      "tipo": "multipla",
+      "enunciado": "A estacao total, equipamento fundamental na topografia moderna, combina basicamente a medicao eletronica de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas distancias, sem medicao angular"
+        },
+        {
+          "letra": "B",
+          "texto": "Angulos (horizontais e verticais) e distancias, por meio de distanciometro eletronico"
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas coordenadas GNSS"
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas desniveis, por nivelamento geometrico"
+        },
+        {
+          "letra": "E",
+          "texto": "Apenas a declividade do terreno"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A estacao total combina, em um unico equipamento, a medicao eletronica de angulos horizontais e verticais (teodolito eletronico) com a medicao eletronica de distancias (distanciometro), permitindo o calculo automatico de coordenadas dos pontos visados."
+    },
+    {
+      "id": "esnovas114",
+      "tema": "e9-topografia-e-geoprocessamento",
+      "temaNome": "E9. Topografia e geoprocessamento",
+      "tipo": "multipla",
+      "enunciado": "Em uma poligonal fechada, a soma teorica dos angulos internos e dada por (n-2) x 180 graus, sendo n o numero de lados/vertices. Para uma poligonal fechada de 6 lados, a soma teorica dos angulos internos e de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "540 graus"
+        },
+        {
+          "letra": "B",
+          "texto": "630 graus"
+        },
+        {
+          "letra": "C",
+          "texto": "720 graus"
+        },
+        {
+          "letra": "D",
+          "texto": "810 graus"
+        },
+        {
+          "letra": "E",
+          "texto": "900 graus"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Atalho: aplique direto a formula (n-2) x 180. Para n=6: (6-2) x 180 = 4 x 180 = 720 graus. Essa soma teorica e usada para calcular o erro de fechamento angular da poligonal (diferenca entre a soma medida em campo e o valor teorico)."
+    },
+    {
+      "id": "esnovas115",
+      "tema": "e10-infraestrutura-urbana-pavimentacao-drenagem-saneamento",
+      "temaNome": "E10. Infraestrutura urbana (pavimentacao, drenagem, saneamento)",
+      "tipo": "multipla",
+      "enunciado": "O CBR (Indice de Suporte California), parametro classico em projetos de pavimentacao, e utilizado para avaliar:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A capacidade de suporte do solo/subleito, por meio da resistencia a penetracao de um pistao padronizado"
+        },
+        {
+          "letra": "B",
+          "texto": "A resistencia a compressao do concreto de cimento Portland"
+        },
+        {
+          "letra": "C",
+          "texto": "A granulometria dos agregados do concreto asfaltico"
+        },
+        {
+          "letra": "D",
+          "texto": "A viscosidade do ligante asfaltico"
+        },
+        {
+          "letra": "E",
+          "texto": "O teor de umidade otimo do solo, exclusivamente"
+        }
+      ],
+      "correta": "A",
+      "comentario": "O CBR (California Bearing Ratio) mede a capacidade de suporte de um solo (subleito, sub-base ou base) por meio da resistencia a penetracao de um pistao padronizado, comparada a de uma brita de referencia - sendo parametro fundamental no dimensionamento de pavimentos."
+    },
+    {
+      "id": "esnovas116",
+      "tema": "e10-infraestrutura-urbana-pavimentacao-drenagem-saneamento",
+      "temaNome": "E10. Infraestrutura urbana (pavimentacao, drenagem, saneamento)",
+      "tipo": "multipla",
+      "enunciado": "Em pavimentos flexiveis (asfalticos), a camada de BASE tem como principal funcao:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Impermeabilizar totalmente o pavimento"
+        },
+        {
+          "letra": "B",
+          "texto": "Resistir e distribuir as tensoes provenientes do trafego para as camadas inferiores (sub-base e subleito)"
+        },
+        {
+          "letra": "C",
+          "texto": "Fornecer aderencia aos pneus dos veiculos, exclusivamente"
+        },
+        {
+          "letra": "D",
+          "texto": "Substituir a necessidade de sub-base"
+        },
+        {
+          "letra": "E",
+          "texto": "Drenar as aguas superficiais, exclusivamente"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A camada de base, situada sob o revestimento (e, quando existente, sobre a sub-base), tem a funcao estrutural de resistir e distribuir as tensoes do trafego, reduzindo as tensoes que chegam as camadas inferiores (sub-base e subleito), que possuem menor capacidade de suporte."
+    },
+    {
+      "id": "esnovas117",
+      "tema": "e10-infraestrutura-urbana-pavimentacao-drenagem-saneamento",
+      "temaNome": "E10. Infraestrutura urbana (pavimentacao, drenagem, saneamento)",
+      "tipo": "multipla",
+      "enunciado": "Diferentemente dos pavimentos flexiveis, os pavimentos RIGIDOS (placas de concreto de cimento Portland) resistem as cargas do trafego principalmente por:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Compressao pura distribuida em multiplas camadas granulares"
+        },
+        {
+          "letra": "B",
+          "texto": "Flexao da placa de concreto, que trabalha com rigidez propria, distribuindo tensoes por uma area maior"
+        },
+        {
+          "letra": "C",
+          "texto": "Atrito exclusivo entre a placa e o subleito"
+        },
+        {
+          "letra": "D",
+          "texto": "Deformacao plastica permanente do concreto"
+        },
+        {
+          "letra": "E",
+          "texto": "Absorcao de agua pela placa"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Ao contrario dos pavimentos flexiveis (que dependem de multiplas camadas granulares para distribuir tensoes por compressao), os pavimentos rigidos trabalham como uma placa com rigidez propria a flexao, distribuindo as cargas por uma area muito maior do subleito, exigindo menos camadas de suporte."
+    },
+    {
+      "id": "esnovas118",
+      "tema": "e10-infraestrutura-urbana-pavimentacao-drenagem-saneamento",
+      "temaNome": "E10. Infraestrutura urbana (pavimentacao, drenagem, saneamento)",
+      "tipo": "multipla",
+      "enunciado": "No dimensionamento de sistemas de MICRODRENAGEM urbana (bocas de lobo, galerias de pequeno porte), o tempo de retorno (periodo de recorrencia) adotado e, tipicamente:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Maior que o adotado para macrodrenagem"
+        },
+        {
+          "letra": "B",
+          "texto": "Menor que o adotado para macrodrenagem (por exemplo, 2 a 10 anos, contra 25 a 100 anos na macrodrenagem)"
+        },
+        {
+          "letra": "C",
+          "texto": "Igual ao adotado para macrodrenagem, sempre"
+        },
+        {
+          "letra": "D",
+          "texto": "Independente do porte da bacia"
+        },
+        {
+          "letra": "E",
+          "texto": "Sempre superior a 100 anos, por seguranca"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A microdrenagem (galerias e bocas de lobo de pequeno porte) costuma adotar tempos de retorno menores (2 a 10 anos), enquanto a macrodrenagem (canais e galerias de grande porte, que atendem bacias maiores e cujo transbordamento causa danos mais graves) exige tempos de retorno maiores (25 a 100 anos ou mais)."
+    },
+    {
+      "id": "esnovas119",
+      "tema": "e10-infraestrutura-urbana-pavimentacao-drenagem-saneamento",
+      "temaNome": "E10. Infraestrutura urbana (pavimentacao, drenagem, saneamento)",
+      "tipo": "multipla",
+      "enunciado": "Na Estacao de Tratamento de Agua (ETA) convencional, a etapa em que se adicionam produtos quimicos (coagulantes) para desestabilizar e aglutinar particulas em suspensao e denominada:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Floculacao"
+        },
+        {
+          "letra": "B",
+          "texto": "Coagulacao"
+        },
+        {
+          "letra": "C",
+          "texto": "Decantacao"
+        },
+        {
+          "letra": "D",
+          "texto": "Filtracao"
+        },
+        {
+          "letra": "E",
+          "texto": "Desinfeccao"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A coagulacao e a etapa em que se adiciona o produto quimico coagulante (como o sulfato de aluminio), que desestabiliza as particulas em suspensao (neutralizando cargas eletricas), preparando-as para se aglutinarem na etapa seguinte, a floculacao."
+    },
+    {
+      "id": "esnovas120",
+      "tema": "e10-infraestrutura-urbana-pavimentacao-drenagem-saneamento",
+      "temaNome": "E10. Infraestrutura urbana (pavimentacao, drenagem, saneamento)",
+      "tipo": "multipla",
+      "enunciado": "O tratamento biologico de esgoto sanitario (tratamento secundario), realizado por sistemas como lodos ativados ou filtros biologicos, tem como principal objetivo:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Remover apenas solidos grosseiros do esgoto"
+        },
+        {
+          "letra": "B",
+          "texto": "Reduzir a carga de materia organica (DBO/DQO) por meio da acao de microrganismos"
+        },
+        {
+          "letra": "C",
+          "texto": "Remover exclusivamente organismos patogenicos"
+        },
+        {
+          "letra": "D",
+          "texto": "Corrigir o pH do efluente, exclusivamente"
+        },
+        {
+          "letra": "E",
+          "texto": "Remover metais pesados, exclusivamente"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O tratamento secundario (biologico) utiliza microrganismos (bacterias, principalmente) para degradar a materia organica presente no esgoto, reduzindo os indicadores de DBO (Demanda Bioquimica de Oxigenio) e DQO (Demanda Quimica de Oxigenio) antes do lancamento do efluente no corpo receptor."
+    },
+    {
+      "id": "esnovas121",
+      "tema": "e10-infraestrutura-urbana-pavimentacao-drenagem-saneamento",
+      "temaNome": "E10. Infraestrutura urbana (pavimentacao, drenagem, saneamento)",
+      "tipo": "multipla",
+      "enunciado": "[DIFICIL] Utilizando o Metodo Racional (Q = C.I.A/360, com Q em m3/s, C adimensional, I em mm/h e A em hectares), a vazao de projeto para uma bacia com area de 50 ha, coeficiente de escoamento C=0,6 e intensidade de chuva de projeto I=90 mm/h e de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5,0 m3/s"
+        },
+        {
+          "letra": "B",
+          "texto": "6,0 m3/s"
+        },
+        {
+          "letra": "C",
+          "texto": "7,5 m3/s"
+        },
+        {
+          "letra": "D",
+          "texto": "9,0 m3/s"
+        },
+        {
+          "letra": "E",
+          "texto": "12,0 m3/s"
+        }
+      ],
+      "correta": "C",
+      "comentario": "[DIFICIL] Atalho: multiplique C, I e A e divida por 360 direto (sem converter unidades manualmente - a formula ja incorpora os fatores de conversao). Q = 0,6 x 90 x 50 / 360 = 2.700/360 = 7,5 m3/s."
+    },
+    {
+      "id": "esnovas122",
+      "tema": "e11-urbanismo-e-parcelamento-do-solo-estatuto-da-cidade-lei-67661979",
+      "temaNome": "E11. Urbanismo e parcelamento do solo (Estatuto da Cidade, Lei 6.766/1979)",
+      "tipo": "multipla",
+      "enunciado": "O zoneamento urbano, instrumento classico do planejamento urbanistico municipal, tem como finalidade principal:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Definir exclusivamente os tributos municipais incidentes sobre cada bairro"
+        },
+        {
+          "letra": "B",
+          "texto": "Ordenar o uso e a ocupacao do solo, definindo areas com destinacao e parametros construtivos especificos"
+        },
+        {
+          "letra": "C",
+          "texto": "Substituir integralmente o Plano Diretor"
+        },
+        {
+          "letra": "D",
+          "texto": "Regulamentar exclusivamente o transporte publico municipal"
+        },
+        {
+          "letra": "E",
+          "texto": "Definir apenas os limites do perimetro urbano"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O zoneamento divide o territorio municipal em zonas com destinacao de uso (residencial, comercial, industrial, mista etc.) e parametros urbanisticos especificos (coeficiente de aproveitamento, taxa de ocupacao, gabarito), ordenando o crescimento urbano."
+    },
+    {
+      "id": "esnovas123",
+      "tema": "e11-urbanismo-e-parcelamento-do-solo-estatuto-da-cidade-lei-67661979",
+      "temaNome": "E11. Urbanismo e parcelamento do solo (Estatuto da Cidade, Lei 6.766/1979)",
+      "tipo": "multipla",
+      "enunciado": "O Coeficiente de Aproveitamento (CA) de um lote urbano e definido pela razao entre:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A area do lote e o numero de pavimentos da edificacao"
+        },
+        {
+          "letra": "B",
+          "texto": "A area total edificavel (construida) e a area do lote/terreno"
+        },
+        {
+          "letra": "C",
+          "texto": "A area de projecao horizontal da edificacao e a area do lote"
+        },
+        {
+          "letra": "D",
+          "texto": "O gabarito de altura e a taxa de ocupacao"
+        },
+        {
+          "letra": "E",
+          "texto": "O numero de unidades habitacionais e a area do lote"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O CA e a razao entre a area total que pode ser construida (area edificavel) e a area do lote/terreno - por exemplo, CA=2 em um lote de 500m2 permite construir ate 1.000m2 de area total (podendo ser distribuida em varios pavimentos)."
+    },
+    {
+      "id": "esnovas124",
+      "tema": "e11-urbanismo-e-parcelamento-do-solo-estatuto-da-cidade-lei-67661979",
+      "temaNome": "E11. Urbanismo e parcelamento do solo (Estatuto da Cidade, Lei 6.766/1979)",
+      "tipo": "multipla",
+      "enunciado": "A Taxa de Ocupacao (TO) de um lote urbano e definida pela razao entre:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A area total edificada em todos os pavimentos e a area do lote"
+        },
+        {
+          "letra": "B",
+          "texto": "A area de projecao horizontal da edificacao (area da base/implantacao) e a area total do lote"
+        },
+        {
+          "letra": "C",
+          "texto": "O numero de pavimentos e a altura total da edificacao"
+        },
+        {
+          "letra": "D",
+          "texto": "A area permeavel e a area impermeavel do lote"
+        },
+        {
+          "letra": "E",
+          "texto": "O CA e o gabarito de altura"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A TO e a razao entre a area de PROJECAO HORIZONTAL da edificacao (a \"pegada\" do edificio no terreno, vista de cima) e a area total do lote - diferente do CA, que soma a area construida em TODOS os pavimentos."
+    },
+    {
+      "id": "esnovas125",
+      "tema": "e11-urbanismo-e-parcelamento-do-solo-estatuto-da-cidade-lei-67661979",
+      "temaNome": "E11. Urbanismo e parcelamento do solo (Estatuto da Cidade, Lei 6.766/1979)",
+      "tipo": "multipla",
+      "enunciado": "O gabarito de altura, parametro urbanistico previsto nos planos diretores e leis de uso e ocupacao do solo, estabelece:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O numero minimo de vagas de estacionamento exigidas"
+        },
+        {
+          "letra": "B",
+          "texto": "A altura maxima permitida para as edificacoes em determinada zona"
+        },
+        {
+          "letra": "C",
+          "texto": "A largura minima das vias de acesso ao lote"
+        },
+        {
+          "letra": "D",
+          "texto": "O percentual minimo de area permeavel do lote"
+        },
+        {
+          "letra": "E",
+          "texto": "A distancia minima entre edificacoes vizinhas, exclusivamente"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O gabarito de altura define o limite maximo de altura (ou numero de pavimentos) permitido para as edificacoes em cada zona, geralmente relacionado a infraestrutura viaria, ventilacao/insolacao e caracteristicas da paisagem urbana local."
+    },
+    {
+      "id": "esnovas126",
+      "tema": "e11-urbanismo-e-parcelamento-do-solo-estatuto-da-cidade-lei-67661979",
+      "temaNome": "E11. Urbanismo e parcelamento do solo (Estatuto da Cidade, Lei 6.766/1979)",
+      "tipo": "multipla",
+      "enunciado": "A Operacao Urbana Consorciada, instrumento previsto no Estatuto da Cidade (Lei 10.257/2001), permite ao Poder Publico Municipal, mediante lei especifica, promover transformacoes urbanisticas estruturais em determinada area, contando com a participacao de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas orgaos federais de planejamento"
+        },
+        {
+          "letra": "B",
+          "texto": "Proprietarios, moradores, usuarios permanentes e investidores privados"
+        },
+        {
+          "letra": "C",
+          "texto": "Exclusivamente o Ministerio Publico"
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas o Tribunal de Contas do Estado"
+        },
+        {
+          "letra": "E",
+          "texto": "Somente empresas estatais"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A Operacao Urbana Consorciada e um conjunto de intervencoes coordenadas pelo Municipio, com a participacao dos proprietarios, moradores, usuarios permanentes e investidores privados, visando alcancar transformacoes urbanisticas estruturais, melhorias sociais e valorizacao ambiental em uma area determinada."
+    },
+    {
+      "id": "esnovas127",
+      "tema": "e12-pericias-vistorias-e-avaliacao-de-imoveis",
+      "temaNome": "E12. Pericias, vistorias e avaliacao de imoveis",
+      "tipo": "multipla",
+      "enunciado": "A NBR 14653 estabelece os procedimentos gerais para a avaliacao de bens, sendo a norma tecnica de referencia para a atividade de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Fiscalizacao de obras publicas"
+        },
+        {
+          "letra": "B",
+          "texto": "Avaliacao de imoveis (e outros bens)"
+        },
+        {
+          "letra": "C",
+          "texto": "Licenciamento ambiental"
+        },
+        {
+          "letra": "D",
+          "texto": "Controle tecnologico do concreto"
+        },
+        {
+          "letra": "E",
+          "texto": "Projeto de fundacoes"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A NBR 14653 (em suas diversas partes) e a norma tecnica brasileira de referencia para a avaliacao de bens, incluindo imoveis urbanos e rurais, maquinas, equipamentos e demais bens."
+    },
+    {
+      "id": "esnovas128",
+      "tema": "e12-pericias-vistorias-e-avaliacao-de-imoveis",
+      "temaNome": "E12. Pericias, vistorias e avaliacao de imoveis",
+      "tipo": "multipla",
+      "enunciado": "O metodo mais usualmente empregado para avaliacao de imoveis urbanos, baseado no tratamento estatistico (ou por fatores) de uma amostra de dados de mercado de imoveis semelhantes ao avaliando, e o metodo:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Evolutivo"
+        },
+        {
+          "letra": "B",
+          "texto": "Comparativo direto de dados de mercado"
+        },
+        {
+          "letra": "C",
+          "texto": "Da renda (capitalizacao)"
+        },
+        {
+          "letra": "D",
+          "texto": "Do custo de reproducao"
+        },
+        {
+          "letra": "E",
+          "texto": "Involutivo"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O metodo comparativo direto de dados de mercado utiliza uma amostra de imoveis semelhantes ao avaliando (mesma regiao, caracteristicas similares), tratando estatisticamente ou por fatores de homogeneizacao os precos observados, para estimar o valor do imovel avaliando."
+    },
+    {
+      "id": "esnovas129",
+      "tema": "e12-pericias-vistorias-e-avaliacao-de-imoveis",
+      "temaNome": "E12. Pericias, vistorias e avaliacao de imoveis",
+      "tipo": "multipla",
+      "enunciado": "Em uma pericia de engenharia, o documento tecnico que reune as informacoes coletadas, as analises realizadas e as conclusoes do perito e denominado:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Memorial descritivo"
+        },
+        {
+          "letra": "B",
+          "texto": "Laudo pericial"
+        },
+        {
+          "letra": "C",
+          "texto": "Boletim de medicao"
+        },
+        {
+          "letra": "D",
+          "texto": "Diario de obra"
+        },
+        {
+          "letra": "E",
+          "texto": "ART (Anotacao de Responsabilidade Tecnica)"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O laudo pericial e o documento tecnico formal em que o perito apresenta a metodologia utilizada, as informacoes e evidencias coletadas, as analises tecnicas realizadas e as conclusoes fundamentadas sobre o objeto da pericia."
+    },
+    {
+      "id": "esnovas130",
+      "tema": "e12-pericias-vistorias-e-avaliacao-de-imoveis",
+      "temaNome": "E12. Pericias, vistorias e avaliacao de imoveis",
+      "tipo": "multipla",
+      "enunciado": "A inspecao predial, disciplinada pela NBR 16747, tem como objetivo principal:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Substituir a manutencao predial de rotina"
+        },
+        {
+          "letra": "B",
+          "texto": "Avaliar as condicoes de uso, manutencao, desempenho e seguranca de uma edificacao"
+        },
+        {
+          "letra": "C",
+          "texto": "Realizar exclusivamente a avaliacao de mercado do imovel"
+        },
+        {
+          "letra": "D",
+          "texto": "Aprovar projetos arquitetonicos junto a prefeitura"
+        },
+        {
+          "letra": "E",
+          "texto": "Emitir habite-se de edificacoes novas"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A inspecao predial avalia periodicamente as condicoes de uso, manutencao, desempenho e seguranca de uma edificacao ao longo de sua vida util, identificando anomalias e recomendando acoes corretivas ou preventivas - nao substitui, mas orienta, a manutencao predial."
+    },
+    {
+      "id": "esnovas131",
+      "tema": "e12-pericias-vistorias-e-avaliacao-de-imoveis",
+      "temaNome": "E12. Pericias, vistorias e avaliacao de imoveis",
+      "tipo": "multipla",
+      "enunciado": "Na avaliacao de imoveis para fins de desapropriacao por utilidade publica, a indenizacao devida ao expropriado deve corresponder, conforme a Constituicao Federal, ao valor:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Simbolico, definido unilateralmente pelo Poder Publico"
+        },
+        {
+          "letra": "B",
+          "texto": "Justo, correspondente ao valor de mercado do bem, pago previamente"
+        },
+        {
+          "letra": "C",
+          "texto": "Historico de aquisicao do imovel, sem correcao"
+        },
+        {
+          "letra": "D",
+          "texto": "Fiscal (valor venal) constante no carne de IPTU"
+        },
+        {
+          "letra": "E",
+          "texto": "Metade do valor de mercado, por se tratar de interesse publico"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A Constituicao Federal assegura ao expropriado indenizacao PREVIA e JUSTA, correspondente ao valor de mercado do bem, como contrapartida a desapropriacao por necessidade ou utilidade publica ou interesse social."
+    },
+    {
+      "id": "esnovas132",
+      "tema": "e12-pericias-vistorias-e-avaliacao-de-imoveis",
+      "temaNome": "E12. Pericias, vistorias e avaliacao de imoveis",
+      "tipo": "multipla",
+      "enunciado": "No metodo evolutivo de avaliacao de imoveis, alem do valor do terreno e do valor da construcao (por metodo de custo), considera-se um fator de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Correcao monetaria exclusivamente"
+        },
+        {
+          "letra": "B",
+          "texto": "Depreciacao fisica, funcional e/ou economica da edificacao"
+        },
+        {
+          "letra": "C",
+          "texto": "Valorizacao especulativa do bairro, exclusivamente"
+        },
+        {
+          "letra": "D",
+          "texto": "Multiplicacao pelo numero de pavimentos"
+        },
+        {
+          "letra": "E",
+          "texto": "Reducao proporcional ao tempo de posse do proprietario"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O metodo evolutivo soma o valor do terreno ao valor da construcao (estimado pelo custo de reedicao), aplicando um fator de depreciacao (fisica, funcional e/ou economica) sobre a construcao, para refletir seu estado real de conservacao e obsolescencia."
+    },
+    {
+      "id": "esnovas133",
+      "tema": "e13-licitacoes-lei-141332021-e-gestao-ambiental-normas-abnt",
+      "temaNome": "E13. Licitacoes (Lei 14.133/2021) e gestao ambiental / normas ABNT",
+      "tipo": "multipla",
+      "enunciado": "O processo de licenciamento ambiental de empreendimentos, segundo a Resolucao CONAMA 237/1997, e composto, em regra, pelas seguintes licencas, na ordem:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Licenca de Operacao, Licenca de Instalacao e Licenca Previa"
+        },
+        {
+          "letra": "B",
+          "texto": "Licenca Previa (LP), Licenca de Instalacao (LI) e Licenca de Operacao (LO)"
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas a Licenca de Operacao, dispensadas as demais"
+        },
+        {
+          "letra": "D",
+          "texto": "Licenca de Instalacao, seguida de Licenca Previa"
+        },
+        {
+          "letra": "E",
+          "texto": "Apenas a Licenca Previa, valida por toda a vida do empreendimento"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O licenciamento ambiental trifasico segue a ordem: Licenca Previa (LP, na fase de planejamento), Licenca de Instalacao (LI, autoriza o inicio da implantacao/obras) e Licenca de Operacao (LO, autoriza o funcionamento efetivo do empreendimento)."
+    },
+    {
+      "id": "esnovas134",
+      "tema": "e13-licitacoes-lei-141332021-e-gestao-ambiental-normas-abnt",
+      "temaNome": "E13. Licitacoes (Lei 14.133/2021) e gestao ambiental / normas ABNT",
+      "tipo": "multipla",
+      "enunciado": "O Estudo de Impacto Ambiental (EIA) e o respectivo Relatorio de Impacto Ambiental (RIMA) sao exigidos para o licenciamento de atividades:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "De qualquer natureza, sem excecao"
+        },
+        {
+          "letra": "B",
+          "texto": "Efetiva ou potencialmente causadoras de significativa degradacao ambiental"
+        },
+        {
+          "letra": "C",
+          "texto": "Exclusivamente de mineracao"
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas as executadas por entes publicos"
+        },
+        {
+          "letra": "E",
+          "texto": "Somente as localizadas em area urbana consolidada"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O EIA/RIMA e exigido para o licenciamento de atividades ou obras efetiva ou potencialmente causadoras de significativa degradacao do meio ambiente, conforme previsto na Constituicao Federal (art. 225, IV) e na legislacao ambiental (Resolucao CONAMA 001/1986)."
+    },
+    {
+      "id": "esnovas135",
+      "tema": "e13-licitacoes-lei-141332021-e-gestao-ambiental-normas-abnt",
+      "temaNome": "E13. Licitacoes (Lei 14.133/2021) e gestao ambiental / normas ABNT",
+      "tipo": "multipla",
+      "enunciado": "Na gestao de residuos da construcao civil, a alternativa preferencial a disposicao final em aterro, sempre que tecnica e economicamente viavel, e a:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Incineracao, exclusivamente"
+        },
+        {
+          "letra": "B",
+          "texto": "Reutilizacao e/ou reciclagem dos residuos"
+        },
+        {
+          "letra": "C",
+          "texto": "Estocagem indefinida em canteiro de obras"
+        },
+        {
+          "letra": "D",
+          "texto": "Queima a ceu aberto"
+        },
+        {
+          "letra": "E",
+          "texto": "Lancamento em corpos hidricos, apos diluicao"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Seguindo a hierarquia de gestao de residuos (Lei 12.305/2010 e Resolucao CONAMA 307/2002), a reutilizacao e a reciclagem sao preferenciais em relacao a disposicao final em aterro, sempre que tecnica e economicamente viaveis - a disposicao final e destinada apenas aos rejeitos, sem alternativa de aproveitamento."
+    },
+    {
+      "id": "esnovas136",
+      "tema": "e13-licitacoes-lei-141332021-e-gestao-ambiental-normas-abnt",
+      "temaNome": "E13. Licitacoes (Lei 14.133/2021) e gestao ambiental / normas ABNT",
+      "tipo": "multipla",
+      "enunciado": "Segundo a Lei Federal 14.133/2021, entre os elementos do projeto de engenharia (estudo tecnico preliminar, anteprojeto, projeto basico e projeto executivo), o PROJETO EXECUTIVO e o conjunto de elementos necessarios e suficientes para:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas estimar o custo preliminar da obra"
+        },
+        {
+          "letra": "B",
+          "texto": "A execucao completa da obra, de acordo com as normas tecnicas pertinentes"
+        },
+        {
+          "letra": "C",
+          "texto": "Substituir o edital de licitacao"
+        },
+        {
+          "letra": "D",
+          "texto": "Definir exclusivamente o cronograma da obra, sem detalhamento tecnico"
+        },
+        {
+          "letra": "E",
+          "texto": "Servir apenas de material de divulgacao do empreendimento"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O projeto executivo e o nivel mais detalhado de projeto, contendo todos os elementos necessarios e suficientes para a execucao completa da obra, em conformidade com as normas tecnicas pertinentes - diferente do projeto basico, que ja permite a licitacao mas com menor nivel de detalhamento."
+    },
+    {
+      "id": "esnovas137",
+      "tema": "e13-licitacoes-lei-141332021-e-gestao-ambiental-normas-abnt",
+      "temaNome": "E13. Licitacoes (Lei 14.133/2021) e gestao ambiental / normas ABNT",
+      "tipo": "multipla",
+      "enunciado": "Entre as certificacoes de sustentabilidade mais difundidas internacionalmente na construcao civil, aplicada tambem a edificacoes no Brasil, destaca-se o selo:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "ISO 9001"
+        },
+        {
+          "letra": "B",
+          "texto": "LEED (Leadership in Energy and Environmental Design)"
+        },
+        {
+          "letra": "C",
+          "texto": "NBR 5410"
+        },
+        {
+          "letra": "D",
+          "texto": "PBQP-H, exclusivamente"
+        },
+        {
+          "letra": "E",
+          "texto": "CREA Verde"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O LEED (Leadership in Energy and Environmental Design) e uma das certificacoes de sustentabilidade mais reconhecidas internacionalmente, avaliando edificacoes segundo criterios de eficiencia energetica, uso racional de agua, qualidade ambiental interna e uso de materiais sustentaveis, entre outros."
     }
   ]
 }
