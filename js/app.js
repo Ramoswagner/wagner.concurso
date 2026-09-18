@@ -7,10 +7,11 @@ const CAT_ICONS = {
   portugues:   `<path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/>`,
   raciocinio:  `<circle cx="12" cy="12" r="9"/><path d="M9 9.5a3 3 0 115.2 2C13 12.5 12 13 12 14.5"/><circle cx="12" cy="18" r=".8" fill="currentColor"/>`,
   gerais:      `<path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>`,
-  especificos: `<path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>`
+  especificos: `<path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>`,
+  leis:        `<path d="M12 3v18M5 7l-3 6a3 3 0 006 0zM19 7l-3 6a3 3 0 006 0z"/><path d="M5 7h14M9 21h6"/>`
 };
 
-const MATERIA_KEYS = ['portugues', 'raciocinio', 'gerais', 'especificos'];
+const MATERIA_KEYS = ['portugues', 'raciocinio', 'gerais', 'especificos', 'leis'];
 
 let CATS = {};
 

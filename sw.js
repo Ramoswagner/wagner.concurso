@@ -2,7 +2,7 @@ const CACHE = 'wagner-concurso-v1';
 const ASSETS = [
   '.', 'index.html', 'manifest.json',
   'css/style.css', 'js/app.js',
-  'data/portugues.json', 'data/raciocinio.json', 'data/gerais.json', 'data/especificos.json'
+  'data/portugues.json', 'data/raciocinio.json', 'data/gerais.json', 'data/especificos.json', 'data/leis.json'
 ];
 
 self.addEventListener('install', e => {

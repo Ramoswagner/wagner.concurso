@@ -1,0 +1,550 @@
+{
+  "lbl": "Leis & NBRs",
+  "pt": "Leis e Normas",
+  "color": "#F2C572",
+  "desc": "Legislacao federal, Lei Organica municipal e normas ABNT citadas no edital — mesmas questoes que aparecem em Conhecimentos Especificos/Gerais, agrupadas aqui para revisao focada.",
+  "temas": [
+    {
+      "id": "abnt-nbr-13714",
+      "nome": "ABNT NBR 13714"
+    },
+    {
+      "id": "abnt-nbr-5410",
+      "nome": "ABNT NBR 5410"
+    },
+    {
+      "id": "abnt-nbr-6118",
+      "nome": "ABNT NBR 6118"
+    },
+    {
+      "id": "abnt-nbr-6122",
+      "nome": "ABNT NBR 6122"
+    },
+    {
+      "id": "abnt-nbr-7190",
+      "nome": "ABNT NBR 7190"
+    },
+    {
+      "id": "abnt-nbr-8160",
+      "nome": "ABNT NBR 8160"
+    },
+    {
+      "id": "abnt-nbr-8800",
+      "nome": "ABNT NBR 8800"
+    },
+    {
+      "id": "lei-federal-10257-2001",
+      "nome": "Lei Federal 10.257/2001"
+    },
+    {
+      "id": "lei-federal-14133-2021",
+      "nome": "Lei Federal 14.133/2021"
+    },
+    {
+      "id": "lei-federal-6766-1979",
+      "nome": "Lei Federal 6.766/1979"
+    },
+    {
+      "id": "lei-organica-do-municipio-de-contagem-mg",
+      "nome": "Lei Organica do Municipio de Contagem/MG"
+    }
+  ],
+  "cards": [
+    {
+      "id": "especificos031",
+      "tema": "abnt-nbr-13714",
+      "temaNome": "ABNT NBR 13714",
+      "tipo": "multipla",
+      "enunciado": "Em instalacoes prediais de combate a incendio, conforme a ABNT NBR 13714, o sistema de hidrantes tem como finalidade principal:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Detectar precocemente a fumaca, acionando alarme sonoro"
+        },
+        {
+          "letra": "B",
+          "texto": "Fornecer agua, em vazao e pressao adequadas, para o combate ao incendio por meio de mangueiras"
+        },
+        {
+          "letra": "C",
+          "texto": "Extinguir automaticamente o incendio por meio de descarga de gas inerte"
+        },
+        {
+          "letra": "D",
+          "texto": "Sinalizar exclusivamente as rotas de fuga"
+        },
+        {
+          "letra": "E",
+          "texto": "Resfriar equipamentos eletricos energizados"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O sistema de hidrantes destina-se a fornecer agua com vazao e pressao adequadas para o combate ao incendio, por meio de mangueiras conectadas aos pontos de hidrante."
+    },
+    {
+      "id": "especificos029",
+      "tema": "abnt-nbr-5410",
+      "temaNome": "ABNT NBR 5410",
+      "tipo": "multipla",
+      "enunciado": "De acordo com a ABNT NBR 5410, as instalacoes eletricas de baixa tensao devem prever circuitos de distribuicao separados, no minimo, para:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Um unico circuito para toda a unidade habitacional, independentemente da potencia instalada"
+        },
+        {
+          "letra": "B",
+          "texto": "Iluminacao, tomadas de uso geral e tomadas de uso especifico, em circuitos distintos"
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas os circuitos de forca motriz, sendo a iluminacao sempre no mesmo circuito das tomadas"
+        },
+        {
+          "letra": "D",
+          "texto": "Circuitos exclusivos para equipamentos de ar-condicionado, sendo os demais unificados"
+        },
+        {
+          "letra": "E",
+          "texto": "Nao ha exigencia normativa de separacao de circuitos"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A NBR 5410 exige a separacao de circuitos conforme a finalidade de utilizacao (iluminacao, tomadas de uso geral, tomadas de uso especifico), evitando a interdependencia entre eles."
+    },
+    {
+      "id": "especificos005",
+      "tema": "abnt-nbr-6118",
+      "temaNome": "ABNT NBR 6118",
+      "tipo": "multipla",
+      "enunciado": "Segundo a NBR 6118, o cobrimento nominal da armadura tem como principal finalidade:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Aumentar a resistencia a compressao do concreto"
+        },
+        {
+          "letra": "B",
+          "texto": "Garantir a protecao da armadura contra corrosao e assegurar aderencia e desempenho ao fogo"
+        },
+        {
+          "letra": "C",
+          "texto": "Reduzir o consumo de cimento no traco"
+        },
+        {
+          "letra": "D",
+          "texto": "Diminuir o peso proprio da estrutura"
+        },
+        {
+          "letra": "E",
+          "texto": "Substituir a necessidade de estribos"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O cobrimento protege a armadura (durabilidade) e contribui para aderencia e resistencia ao fogo."
+    },
+    {
+      "id": "especificos013",
+      "tema": "abnt-nbr-6122",
+      "temaNome": "ABNT NBR 6122",
+      "tipo": "multipla",
+      "enunciado": "Segundo a ABNT NBR 6122, sao consideradas fundacoes profundas aquelas cuja base ou ponta se situa a uma profundidade, em relacao ao terreno adjacente, superior a:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1,0 m, independentemente da dimensao da base"
+        },
+        {
+          "letra": "B",
+          "texto": "Duas vezes sua menor dimensao em planta, respeitado o minimo de 3,0 m"
+        },
+        {
+          "letra": "C",
+          "texto": "Exatamente 6,0 m, para qualquer tipo de solo"
+        },
+        {
+          "letra": "D",
+          "texto": "0,5 vez sua menor dimensao em planta"
+        },
+        {
+          "letra": "E",
+          "texto": "10,0 m, valor fixo estabelecido pela norma"
+        }
+      ],
+      "correta": "B",
+      "comentario": "A NBR 6122 caracteriza fundacao profunda pela transmissao de carga por ponta, por atrito lateral ou pela combinacao das duas, com assentamento em profundidade superior ao dobro da menor dimensao em planta, respeitado o minimo de 3,0 m."
+    },
+    {
+      "id": "especificos011",
+      "tema": "abnt-nbr-7190",
+      "temaNome": "ABNT NBR 7190",
+      "tipo": "multipla",
+      "enunciado": "De acordo com a ABNT NBR 7190 (projeto de estruturas de madeira), a resistencia mecanica da madeira e fortemente influenciada pela direcao das solicitacoes em relacao as fibras. Em geral, a resistencia a compressao da madeira e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Igual, independentemente da direcao das fibras"
+        },
+        {
+          "letra": "B",
+          "texto": "Maior perpendicular as fibras do que paralela"
+        },
+        {
+          "letra": "C",
+          "texto": "Maior paralela as fibras do que perpendicular as fibras"
+        },
+        {
+          "letra": "D",
+          "texto": "Nula na direcao paralela as fibras"
+        },
+        {
+          "letra": "E",
+          "texto": "Determinada apenas pelo teor de umidade, sem relacao com as fibras"
+        }
+      ],
+      "correta": "C",
+      "comentario": "A madeira, material anisotropo, apresenta resistencia a compressao significativamente maior quando a forca atua paralela as fibras, em comparacao com a direcao perpendicular."
+    },
+    {
+      "id": "especificos030",
+      "tema": "abnt-nbr-8160",
+      "temaNome": "ABNT NBR 8160",
+      "tipo": "multipla",
+      "enunciado": "Segundo a ABNT NBR 8160, o dispositivo instalado nos aparelhos sanitarios para impedir a passagem de gases do sistema de esgoto para o ambiente, mediante uma barreira liquida, denomina-se:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Caixa de gordura"
+        },
+        {
+          "letra": "B",
+          "texto": "Fecho hidrico (sifao)"
+        },
+        {
+          "letra": "C",
+          "texto": "Tubo de queda"
+        },
+        {
+          "letra": "D",
+          "texto": "Ralo seco"
+        },
+        {
+          "letra": "E",
+          "texto": "Coluna de ventilacao"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O fecho hidrico (sifao) mantem uma lamina de agua que veda a passagem de gases do sistema de esgoto para o ambiente, sem impedir o escoamento dos efluentes."
+    },
+    {
+      "id": "especificos009",
+      "tema": "abnt-nbr-8800",
+      "temaNome": "ABNT NBR 8800",
+      "tipo": "multipla",
+      "enunciado": "Segundo a ABNT NBR 8800, no dimensionamento de estruturas de aco pelo metodo dos estados-limites, a verificacao de seguranca de um elemento estrutural consiste em garantir que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A resistencia caracteristica seja igual a solicitacao nominal"
+        },
+        {
+          "letra": "B",
+          "texto": "A solicitacao de calculo (Sd) seja menor ou igual a resistencia de calculo (Rd)"
+        },
+        {
+          "letra": "C",
+          "texto": "O coeficiente de seguranca seja sempre igual a 1,0"
+        },
+        {
+          "letra": "D",
+          "texto": "A tensao admissivel seja igual a tensao de escoamento do aco"
+        },
+        {
+          "letra": "E",
+          "texto": "O peso proprio da estrutura seja desprezado no dimensionamento"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O metodo dos estados-limites exige Sd menor ou igual a Rd, ou seja, que os efeitos das acoes majoradas nao superem a resistencia minorada do elemento."
+    },
+    {
+      "id": "especificos041",
+      "tema": "lei-federal-10257-2001",
+      "temaNome": "Lei Federal 10.257/2001",
+      "tipo": "multipla",
+      "enunciado": "Nos termos da Lei Federal no 10.257/2001 (Estatuto da Cidade), o instrumento que possibilita ao Poder Publico Municipal exigir a utilizacao compulsoria do solo urbano nao edificado, subutilizado ou nao utilizado, sob pena de aplicacao sucessiva de outras sancoes, e:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O direito de preempcao"
+        },
+        {
+          "letra": "B",
+          "texto": "A outorga onerosa do direito de construir"
+        },
+        {
+          "letra": "C",
+          "texto": "O parcelamento, edificacao ou utilizacao compulsorios"
+        },
+        {
+          "letra": "D",
+          "texto": "A operacao urbana consorciada"
+        },
+        {
+          "letra": "E",
+          "texto": "O estudo de impacto de vizinhanca"
+        }
+      ],
+      "correta": "C",
+      "comentario": "O parcelamento, edificacao ou utilizacao compulsorios (PEUC) e o instrumento que obriga o proprietario a dar destinacao adequada ao imovel urbano ocioso, sob pena de aplicacao sucessiva de IPTU progressivo no tempo e, em ultimo caso, desapropriacao com pagamento em titulos."
+    },
+    {
+      "id": "especificos042",
+      "tema": "lei-federal-10257-2001",
+      "temaNome": "Lei Federal 10.257/2001",
+      "tipo": "multipla",
+      "enunciado": "Segundo a Lei Federal no 10.257/2001, o instrumento pelo qual o Municipio pode autorizar o proprietario de imovel urbano a exercer em outro local, ou alienar mediante escritura publica, o direito de construir previsto no plano diretor, quando o imovel for necessario para fins de interesse publico ou preservacao, denomina-se:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Transferencia do direito de construir"
+        },
+        {
+          "letra": "B",
+          "texto": "Usucapiao especial de imovel urbano"
+        },
+        {
+          "letra": "C",
+          "texto": "Consorcio imobiliario"
+        },
+        {
+          "letra": "D",
+          "texto": "Direito de superficie"
+        },
+        {
+          "letra": "E",
+          "texto": "IPTU progressivo no tempo"
+        }
+      ],
+      "correta": "A",
+      "comentario": "A transferencia do direito de construir permite ao proprietario exercer em outro local ou alienar o potencial construtivo do imovel, quando este for necessario para fins de interesse publico, preservacao ambiental, historica ou para programas de regularizacao fundiaria."
+    },
+    {
+      "id": "especificos049",
+      "tema": "lei-federal-14133-2021",
+      "temaNome": "Lei Federal 14.133/2021",
+      "tipo": "multipla",
+      "enunciado": "De acordo com a Lei Federal no 14.133/2021, sao modalidades de licitacao, EXCETO:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Pregao"
+        },
+        {
+          "letra": "B",
+          "texto": "Concorrencia"
+        },
+        {
+          "letra": "C",
+          "texto": "Dialogo competitivo"
+        },
+        {
+          "letra": "D",
+          "texto": "Tomada de precos"
+        },
+        {
+          "letra": "E",
+          "texto": "Leilao"
+        }
+      ],
+      "correta": "D",
+      "comentario": "A Lei no 14.133/2021 extinguiu as modalidades \"tomada de precos\" e \"convite\", da revogada Lei no 8.666/1993, mantendo/instituindo as modalidades pregao, concorrencia, concurso, leilao e dialogo competitivo."
+    },
+    {
+      "id": "especificos050",
+      "tema": "lei-federal-14133-2021",
+      "temaNome": "Lei Federal 14.133/2021",
+      "tipo": "multipla",
+      "enunciado": "Nos termos da Lei Federal no 14.133/2021, o criterio de julgamento das propostas que considera, alem do preco, aspectos de qualidade, metodologia, experiencia e outros fatores objetivamente definidos no edital e denominado julgamento por:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Menor preco"
+        },
+        {
+          "letra": "B",
+          "texto": "Maior desconto"
+        },
+        {
+          "letra": "C",
+          "texto": "Tecnica e preco"
+        },
+        {
+          "letra": "D",
+          "texto": "Maior lance, na modalidade leilao"
+        },
+        {
+          "letra": "E",
+          "texto": "Menor preco global, obrigatorio em toda licitacao"
+        }
+      ],
+      "correta": "C",
+      "comentario": "O criterio de julgamento \"tecnica e preco\" combina a avaliacao de aspectos tecnicos e qualitativos da proposta com o preco ofertado, sendo indicado para objetos de natureza predominantemente intelectual ou de maior complexidade tecnica."
+    },
+    {
+      "id": "especificos051",
+      "tema": "lei-federal-14133-2021",
+      "temaNome": "Lei Federal 14.133/2021",
+      "tipo": "multipla",
+      "enunciado": "Segundo a Lei Federal no 14.133/2021, antes da fase de selecao do fornecedor, a Administracao deve, em regra, elaborar documento que demonstre a viabilidade tecnica e economica da contratacao e fundamente a escolha da solucao, denominado:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Termo de Referencia, exclusivamente"
+        },
+        {
+          "letra": "B",
+          "texto": "Estudo Tecnico Preliminar (ETP)"
+        },
+        {
+          "letra": "C",
+          "texto": "Ata de Registro de Precos"
+        },
+        {
+          "letra": "D",
+          "texto": "Parecer Juridico final"
+        },
+        {
+          "letra": "E",
+          "texto": "Relatorio de Impacto Ambiental (RIMA)"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O Estudo Tecnico Preliminar (ETP) e o documento que caracteriza o interesse publico e a viabilidade tecnica e economica da contratacao, subsidiando a elaboracao do Termo de Referencia ou Projeto Basico."
+    },
+    {
+      "id": "especificos043",
+      "tema": "lei-federal-6766-1979",
+      "temaNome": "Lei Federal 6.766/1979",
+      "tipo": "multipla",
+      "enunciado": "De acordo com a Lei Federal no 6.766/1979 (Parcelamento do Solo Urbano), a modalidade de parcelamento do solo que consiste na subdivisao de gleba em lotes destinados a edificacao, com abertura de novas vias de circulacao, denomina-se:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Desmembramento"
+        },
+        {
+          "letra": "B",
+          "texto": "Loteamento"
+        },
+        {
+          "letra": "C",
+          "texto": "Remembramento"
+        },
+        {
+          "letra": "D",
+          "texto": "Condominio de lotes, exclusivamente"
+        },
+        {
+          "letra": "E",
+          "texto": "Arruamento sem lotes"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O loteamento e a subdivisao de gleba em lotes destinados a edificacao, com abertura de novas vias de circulacao, logradouros publicos ou prolongamento/modificacao das vias existentes."
+    },
+    {
+      "id": "especificos044",
+      "tema": "lei-federal-6766-1979",
+      "temaNome": "Lei Federal 6.766/1979",
+      "tipo": "multipla",
+      "enunciado": "Ainda conforme a Lei Federal no 6.766/1979, o desmembramento se distingue do loteamento, principalmente, por:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Exigir sempre a abertura de novas vias de circulacao"
+        },
+        {
+          "letra": "B",
+          "texto": "Aproveitar o sistema viario oficial ja existente, sem abertura de novas vias ou logradouros publicos"
+        },
+        {
+          "letra": "C",
+          "texto": "Ser aplicavel exclusivamente a areas rurais"
+        },
+        {
+          "letra": "D",
+          "texto": "Dispensar qualquer aprovacao do Municipio"
+        },
+        {
+          "letra": "E",
+          "texto": "Ser sinonimo do mesmo instituto, sem qualquer distincao legal"
+        }
+      ],
+      "correta": "B",
+      "comentario": "No desmembramento, a subdivisao da gleba em lotes aproveita o sistema viario oficial existente, sem implicar abertura de novas vias ou logradouros publicos, o que o diferencia do loteamento."
+    },
+    {
+      "id": "cgm005",
+      "tema": "lei-organica-do-municipio-de-contagem-mg",
+      "temaNome": "Lei Organica do Municipio de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Sao considerados simbolos oficiais de um Municipio, em regra, com adocao disciplinada na respectiva Lei Organica:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas a bandeira"
+        },
+        {
+          "letra": "B",
+          "texto": "Apenas o hino"
+        },
+        {
+          "letra": "C",
+          "texto": "Bandeira, brasao (armas) e hino"
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas o brasao"
+        },
+        {
+          "letra": "E",
+          "texto": "Somente o slogan turistico oficial"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Os simbolos municipais classicos sao bandeira, brasao/armas e hino."
+    },
+    {
+      "id": "cgm009",
+      "tema": "lei-organica-do-municipio-de-contagem-mg",
+      "temaNome": "Lei Organica do Municipio de Contagem/MG",
+      "tipo": "multipla",
+      "enunciado": "Em regra, a Lei Organica de um Municipio brasileiro, a luz do principio da simetria constitucional, deve prever a organizacao dos Poderes municipais entre:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Executivo e Legislativo, apenas, pois o Poder Judiciario nao e organizado em ambito municipal"
+        },
+        {
+          "letra": "B",
+          "texto": "Executivo, Legislativo e Judiciario, todos exercidos em ambito municipal"
+        },
+        {
+          "letra": "C",
+          "texto": "Executivo, Legislativo e o Tribunal de Contas Municipal, quando existente"
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas o Poder Executivo, exercido pelo Prefeito Municipal"
+        },
+        {
+          "letra": "E",
+          "texto": "Executivo, Legislativo e Ministerio Publico Municipal"
+        }
+      ],
+      "correta": "A",
+      "comentario": "O Municipio, na organizacao politico-administrativa brasileira, nao possui Poder Judiciario proprio; sua estrutura de poderes se limita ao Executivo (Prefeito) e ao Legislativo (Camara Municipal)."
+    }
+  ]
+}
