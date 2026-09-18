@@ -2,7 +2,7 @@
   "lbl": "Leis & NBRs",
   "pt": "Leis e Normas",
   "color": "#F2C572",
-  "desc": "Legislacao federal (Licitacoes, Parcelamento do Solo, Estatuto da Cidade, Saneamento, Residuos Solidos, Meio Ambiente, Defesa Civil), normas ABNT tecnicas e Lei Organica/Plano Diretor de Contagem/MG, com artigos e citacoes reais.",
+  "desc": "Legislacao federal (Licitacoes, Parcelamento do Solo, Estatuto da Cidade, Saneamento, Residuos Solidos, Meio Ambiente, Defesa Civil), normas ABNT tecnicas, e legislacao municipal de Contagem/MG (Lei Organica, Plano Diretor, Codigo de Obras, Codigo de Posturas, Uso e Ocupacao do Solo), com artigos e citacoes reais.",
   "temas": [
     {
       "id": "abnt-nbr-15575-desempenho-de-edificacoes",
@@ -31,6 +31,14 @@
     {
       "id": "abnt-nbr-9050-acessibilidade",
       "nome": "ABNT NBR 9050 (Acessibilidade)"
+    },
+    {
+      "id": "codigo-de-obras-de-contagem-mg-lc-396-2025",
+      "nome": "Codigo de Obras de Contagem/MG (LC 396/2025)"
+    },
+    {
+      "id": "codigo-de-posturas-de-contagem-mg-lc-394-2025",
+      "nome": "Codigo de Posturas de Contagem/MG (LC 394/2025)"
     },
     {
       "id": "lei-federal-10257-2001-estatuto-da-cidade",
@@ -67,6 +75,10 @@
     {
       "id": "plano-diretor-de-contagem-mg-lc-362-2023",
       "nome": "Plano Diretor de Contagem/MG (LC 362/2023)"
+    },
+    {
+      "id": "uso-e-ocupacao-do-solo-de-contagem-mg-plano-diretor-decreto-1837-2026",
+      "nome": "Uso e Ocupacao do Solo de Contagem/MG (Plano Diretor + Decreto 1837/2026)"
     }
   ],
   "cards": [
@@ -2394,6 +2406,564 @@
       ],
       "correta": "B",
       "comentario": "Art. 41: as ADE incidem sobre o território municipal e se SOBREPÕEM às Macrozonas e às Zonas, com o objetivo de identificar espaços que demandam políticas e normas específicas complementares; suas normas prevalecem sobre as das Macrozonas/Zonas subjacentes (art. 41, §1º)."
+    },
+    {
+      "id": "leismun076",
+      "tema": "codigo-de-obras-de-contagem-mg-lc-396-2025",
+      "temaNome": "Codigo de Obras de Contagem/MG (LC 396/2025)",
+      "tipo": "multipla",
+      "enunciado": "Segundo o Código de Obras do Município de Contagem/MG (Lei Complementar nº 396/2025, art. 15), o Alvará de Construção terá validade de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2 (dois) anos, contados da data de sua emissão"
+        },
+        {
+          "letra": "B",
+          "texto": "3 (três) anos, contados da data de sua emissão"
+        },
+        {
+          "letra": "C",
+          "texto": "5 (cinco) anos, contados da data de sua emissão"
+        },
+        {
+          "letra": "D",
+          "texto": "10 (dez) anos, contados da data de sua emissão"
+        },
+        {
+          "letra": "E",
+          "texto": "Prazo indeterminado, enquanto perdurar o projeto aprovado"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Art. 15 da LC 396/2025: o Alvará de Construção tem validade de 5 (cinco) anos contados da emissão. Não confundir com o prazo do §1º do art. 13 (2 anos para requerer o Alvará quando o projeto foi aprovado com condicionantes, sob pena de caducidade) nem com a licença de demolição autônoma (art. 23: validade de 24 meses)."
+    },
+    {
+      "id": "leismun077",
+      "tema": "codigo-de-obras-de-contagem-mg-lc-396-2025",
+      "temaNome": "Codigo de Obras de Contagem/MG (LC 396/2025)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com o Código de Obras do Município de Contagem/MG (art. 23), a licença de demolição, quando solicitada em processo autônomo, desvinculado do licenciamento de edificação, terá validade de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6 (seis) meses"
+        },
+        {
+          "letra": "B",
+          "texto": "12 (doze) meses"
+        },
+        {
+          "letra": "C",
+          "texto": "18 (dezoito) meses"
+        },
+        {
+          "letra": "D",
+          "texto": "24 (vinte e quatro) meses"
+        },
+        {
+          "letra": "E",
+          "texto": "36 (trinta e seis) meses"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Art. 23: a licença de demolição autônoma (não vinculada a um licenciamento de edificação) tem validade de 24 meses, após a qual, se não executada, perde a validade."
+    },
+    {
+      "id": "leismun078",
+      "tema": "codigo-de-obras-de-contagem-mg-lc-396-2025",
+      "temaNome": "Codigo de Obras de Contagem/MG (LC 396/2025)",
+      "tipo": "multipla",
+      "enunciado": "Segundo o Código de Obras de Contagem/MG (art. 13, §1º), quando o projeto for aprovado com condicionantes para a execução da obra, será emitida apenas a Certidão de Aprovação, dispondo o requerente do prazo de ____ para comprovar o cumprimento das exigências e requerer o Alvará de Construção, sob pena de caducidade:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "6 (seis) meses"
+        },
+        {
+          "letra": "B",
+          "texto": "1 (um) ano"
+        },
+        {
+          "letra": "C",
+          "texto": "2 (dois) anos"
+        },
+        {
+          "letra": "D",
+          "texto": "3 (três) anos"
+        },
+        {
+          "letra": "E",
+          "texto": "5 (cinco) anos"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Art. 13, §1º: o requerente tem o prazo de 2 (dois) anos, contados da emissão da Certidão de Aprovação, para comprovar o cumprimento das exigências e requerer o Alvará de Construção, sob pena de caducidade da aprovação."
+    },
+    {
+      "id": "leismun079",
+      "tema": "codigo-de-obras-de-contagem-mg-lc-396-2025",
+      "temaNome": "Codigo de Obras de Contagem/MG (LC 396/2025)",
+      "tipo": "multipla",
+      "enunciado": "Nos termos do Código de Obras de Contagem/MG (art. 37), todo compartimento deve dispor, no mínimo, de abertura para o exterior, para áreas comuns das edificações ou para uma área de iluminação e ventilação. São consideradas áreas de iluminação e ventilação para esse fim, EXCETO:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Fosso, entendido como área descoberta confinada"
+        },
+        {
+          "letra": "B",
+          "texto": "Reentrância, abrangendo área descoberta recuada do plano da fachada"
+        },
+        {
+          "letra": "C",
+          "texto": "Poço de ventilação exclusivo para áreas técnicas, sem qualquer limite dimensional"
+        },
+        {
+          "letra": "D",
+          "texto": "Áreas descobertas cobertas, respeitada a distância máxima estabelecida em lei para os vãos"
+        },
+        {
+          "letra": "E",
+          "texto": "Iluminação zenital, nos casos admitidos pela norma"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Art. 37, §1º: as áreas de iluminação e ventilação admitidas são o fosso e a reentrância, sempre atendendo parâmetros dimensionais definidos em anexo específico (Anexo V) — não existe \"poço de ventilação sem limite dimensional\" como categoria aceita pela norma; todo caso exige atendimento a parâmetros mínimos regulamentados."
+    },
+    {
+      "id": "leismun080",
+      "tema": "codigo-de-obras-de-contagem-mg-lc-396-2025",
+      "temaNome": "Codigo de Obras de Contagem/MG (LC 396/2025)",
+      "tipo": "multipla",
+      "enunciado": "Segundo o Código de Obras de Contagem/MG (art. 38, §2º), quando o compartimento for iluminado e ventilado por meio de área aberta coberta, os vãos de iluminação e ventilação deverão observar distância máxima, em relação à face externa da área coberta, de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1,5 metros"
+        },
+        {
+          "letra": "B",
+          "texto": "2,0 metros"
+        },
+        {
+          "letra": "C",
+          "texto": "3,0 metros"
+        },
+        {
+          "letra": "D",
+          "texto": "4,5 metros"
+        },
+        {
+          "letra": "E",
+          "texto": "6,0 metros"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Art. 38, §2º: a distância máxima é de 3,0 metros da face externa da área coberta, para que essa configuração ainda seja considerada válida como fonte de iluminação e ventilação do compartimento."
+    },
+    {
+      "id": "leismun081",
+      "tema": "codigo-de-obras-de-contagem-mg-lc-396-2025",
+      "temaNome": "Codigo de Obras de Contagem/MG (LC 396/2025)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com o Código de Obras de Contagem/MG (art. 69), o infrator poderá interpor recurso à Junta de Julgamento competente no prazo de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "5 (cinco) dias"
+        },
+        {
+          "letra": "B",
+          "texto": "10 (dez) dias"
+        },
+        {
+          "letra": "C",
+          "texto": "15 (quinze) dias"
+        },
+        {
+          "letra": "D",
+          "texto": "20 (vinte) dias"
+        },
+        {
+          "letra": "E",
+          "texto": "30 (trinta) dias"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Art. 69: o prazo para recurso administrativo à Junta de Julgamento é de 15 dias. Além disso, o §2º do mesmo artigo prevê desconto de 50% do valor da multa para o infrator que renunciar ao direito de defesa e recolher o valor no prazo de 30 dias."
+    },
+    {
+      "id": "leismun082",
+      "tema": "codigo-de-posturas-de-contagem-mg-lc-394-2025",
+      "temaNome": "Codigo de Posturas de Contagem/MG (LC 394/2025)",
+      "tipo": "multipla",
+      "enunciado": "Segundo o Código de Posturas do Município de Contagem/MG (Lei Complementar nº 394/2025, art. 34), considera-se terreno ou lote vago, para os fins dessa Lei:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Somente o terreno já registrado em cartório como área urbana"
+        },
+        {
+          "letra": "B",
+          "texto": "Aquele que se encontre integralmente destituído de edificação permanente, ainda que loteado ou não"
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas as glebas rurais sem qualquer benfeitoria"
+        },
+        {
+          "letra": "D",
+          "texto": "Exclusivamente terrenos de propriedade do Município"
+        },
+        {
+          "letra": "E",
+          "texto": "Terrenos com edificação em ruínas, independentemente do estado de conservação"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 34: terreno ou lote vago é aquele integralmente destituído de edificação permanente, esteja ele loteado ou não — definição ampla que abrange tanto lotes urbanos regularizados quanto glebas sem parcelamento formal."
+    },
+    {
+      "id": "leismun083",
+      "tema": "codigo-de-posturas-de-contagem-mg-lc-394-2025",
+      "temaNome": "Codigo de Posturas de Contagem/MG (LC 394/2025)",
+      "tipo": "multipla",
+      "enunciado": "Nos termos do Código de Posturas de Contagem/MG (arts. 35 e 36), o proprietário de terreno vago situado em via pública pavimentada e dotada de meio-fio tem a obrigação de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Manter o terreno fechado nas divisas e construir, manter e conservar em perfeito estado a calçada em frente à sua testada"
+        },
+        {
+          "letra": "B",
+          "texto": "Pavimentar integralmente o terreno com concreto, independentemente do uso futuro"
+        },
+        {
+          "letra": "C",
+          "texto": "Doar o terreno ao Município caso permaneça vago por mais de 1 ano"
+        },
+        {
+          "letra": "D",
+          "texto": "Instalar iluminação pública às suas próprias custas"
+        },
+        {
+          "letra": "E",
+          "texto": "Autorizar o uso do terreno para estacionamento público gratuito"
+        }
+      ],
+      "correta": "A",
+      "comentario": "Art. 35: os terrenos vagos devem ser mantidos fechados nas divisas. Art. 36: em via pavimentada com meio-fio, o proprietário deve construir, manter e conservar em perfeito estado a calçada em frente à testada do seu terreno."
+    },
+    {
+      "id": "leismun084",
+      "tema": "codigo-de-posturas-de-contagem-mg-lc-394-2025",
+      "temaNome": "Codigo de Posturas de Contagem/MG (LC 394/2025)",
+      "tipo": "multipla",
+      "enunciado": "Segundo o Código de Posturas de Contagem/MG (art. 111), cada engenho de publicidade instalado em terreno ou lote vago, ou nos demais locais permitidos, deve observar o limite máximo de área de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "9 m²"
+        },
+        {
+          "letra": "B",
+          "texto": "18 m²"
+        },
+        {
+          "letra": "C",
+          "texto": "27 m²"
+        },
+        {
+          "letra": "D",
+          "texto": "36 m²"
+        },
+        {
+          "letra": "E",
+          "texto": "45 m²"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Art. 111: o limite máximo é de 27 m² (vinte e sete metros quadrados) de área por engenho de publicidade instalado em terreno vago ou local permitido."
+    },
+    {
+      "id": "leismun085",
+      "tema": "codigo-de-posturas-de-contagem-mg-lc-394-2025",
+      "temaNome": "Codigo de Posturas de Contagem/MG (LC 394/2025)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com o Código de Posturas de Contagem/MG, o não cumprimento da obrigação de inscrição no Cadastro Mobiliário Municipal, no prazo de ____ contados do início das atividades, sujeitará o interessado à suspensão do exercício da atividade:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10 (dez) dias"
+        },
+        {
+          "letra": "B",
+          "texto": "15 (quinze) dias"
+        },
+        {
+          "letra": "C",
+          "texto": "30 (trinta) dias"
+        },
+        {
+          "letra": "D",
+          "texto": "60 (sessenta) dias"
+        },
+        {
+          "letra": "E",
+          "texto": "90 (noventa) dias"
+        }
+      ],
+      "correta": "C",
+      "comentario": "A inscrição no Cadastro Mobiliário Municipal deve ocorrer no prazo de 30 dias do início das atividades; o descumprimento sujeita o interessado à suspensão do exercício da atividade."
+    },
+    {
+      "id": "leismun086",
+      "tema": "codigo-de-posturas-de-contagem-mg-lc-394-2025",
+      "temaNome": "Codigo de Posturas de Contagem/MG (LC 394/2025)",
+      "tipo": "multipla",
+      "enunciado": "Segundo o Código de Posturas de Contagem/MG (art. 7º, §2º), os dispositivos de segurança instalados em propriedades lindeiras ao logradouro público, tais como cercas elétricas e similares, devem observar altura mínima de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "1,80 metro"
+        },
+        {
+          "letra": "B",
+          "texto": "2,00 metros"
+        },
+        {
+          "letra": "C",
+          "texto": "2,20 metros"
+        },
+        {
+          "letra": "D",
+          "texto": "2,50 metros"
+        },
+        {
+          "letra": "E",
+          "texto": "3,00 metros"
+        }
+      ],
+      "correta": "D",
+      "comentario": "Art. 7º, §2º: a altura mínima exigida para instalação de cercas elétricas e dispositivos de segurança similares em propriedades lindeiras ao logradouro público é de 2,50 metros, medida em relação ao nível do passeio, visando à segurança de pedestres."
+    },
+    {
+      "id": "leismun087",
+      "tema": "codigo-de-posturas-de-contagem-mg-lc-394-2025",
+      "temaNome": "Codigo de Posturas de Contagem/MG (LC 394/2025)",
+      "tipo": "multipla",
+      "enunciado": "Nos termos do Código de Posturas de Contagem/MG, o infrator que concordar com a penalidade imposta, renunciando ao direito de impugnação administrativa e judicial, poderá requerer desconto sobre o valor da multa de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "10% (dez por cento)"
+        },
+        {
+          "letra": "B",
+          "texto": "20% (vinte por cento)"
+        },
+        {
+          "letra": "C",
+          "texto": "30% (trinta por cento)"
+        },
+        {
+          "letra": "D",
+          "texto": "50% (cinquenta por cento)"
+        },
+        {
+          "letra": "E",
+          "texto": "70% (setenta por cento)"
+        }
+      ],
+      "correta": "D",
+      "comentario": "O desconto de 50% (cinquenta por cento) do valor da multa é concedido ao infrator que renunciar ao direito de defesa, desde que o valor com desconto seja recolhido no prazo de 30 dias contados da ciência do auto de infração — a mesma lógica de desconto de 50%/prazo de 30 dias também aparece no Código de Obras (LC 396/2025), reforçando um padrão comum na legislação municipal de Contagem."
+    },
+    {
+      "id": "leismun088",
+      "tema": "uso-e-ocupacao-do-solo-de-contagem-mg-plano-diretor-decreto-1837-2026",
+      "temaNome": "Uso e Ocupacao do Solo de Contagem/MG (Plano Diretor + Decreto 1837/2026)",
+      "tipo": "multipla",
+      "enunciado": "Segundo o Plano Diretor de Contagem/MG (art. 122), a ocupação de gleba situada na Macrozona Urbana depende, cumulativamente, de que a gleba tenha área máxima de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "30.000 m² para uso residencial e 45.000 m² para uso não residencial"
+        },
+        {
+          "letra": "B",
+          "texto": "60.000 m² para uso residencial e 90.000 m² para uso não residencial"
+        },
+        {
+          "letra": "C",
+          "texto": "45.000 m² para uso residencial e 60.000 m² para uso não residencial"
+        },
+        {
+          "letra": "D",
+          "texto": "90.000 m² para uso residencial e 120.000 m² para uso não residencial"
+        },
+        {
+          "letra": "E",
+          "texto": "20.000 m², independentemente do uso"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 122, I: a gleba deve ter no máximo 60.000 m² (uso residencial) ou 90.000 m² (uso não residencial), além de testada mínima de 15 metros e razão testada/profundidade não superior a 6, entre outras condições cumulativas."
+    },
+    {
+      "id": "leismun089",
+      "tema": "uso-e-ocupacao-do-solo-de-contagem-mg-plano-diretor-decreto-1837-2026",
+      "temaNome": "Uso e Ocupacao do Solo de Contagem/MG (Plano Diretor + Decreto 1837/2026)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com o Plano Diretor de Contagem/MG (art. 130), NÃO são computáveis no Cálculo do Coeficiente de Aproveitamento (CA), EXCETO:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O pilotis em edificação total ou parcialmente destinada a residência multifamiliar"
+        },
+        {
+          "letra": "B",
+          "texto": "As áreas de circulação horizontal coletiva em edificação destinada ao uso residencial"
+        },
+        {
+          "letra": "C",
+          "texto": "A área do pavimento de cobertura que exceda 50% da área bruta edificada do pavimento pelo qual tenha acesso"
+        },
+        {
+          "letra": "D",
+          "texto": "A área de circulação vertical em edificação destinada a serviços de uso coletivo"
+        },
+        {
+          "letra": "E",
+          "texto": "As áreas de circulação horizontal coletiva limitadas ao dobro da largura mínima exigida pelo Código de Obras, em uso não residencial"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Art. 130, XV e parágrafo único: a área do pavimento de cobertura que NÃO exceda 50% da área bruta edificada do pavimento de acesso é que fica isenta de cômputo no CA; a parcela que EXCEDER esse limite de 50% é justamente a que passa a ser computada no Coeficiente de Aproveitamento — é a única alternativa que descreve uma área COMPUTÁVEL, não isenta."
+    },
+    {
+      "id": "leismun090",
+      "tema": "uso-e-ocupacao-do-solo-de-contagem-mg-plano-diretor-decreto-1837-2026",
+      "temaNome": "Uso e Ocupacao do Solo de Contagem/MG (Plano Diretor + Decreto 1837/2026)",
+      "tipo": "multipla",
+      "enunciado": "Segundo o Plano Diretor de Contagem/MG (art. 131), o pavimento com pé direito superior a ____ terá sua área computada em dobro para efeito do cálculo do Coeficiente de Aproveitamento, salvo exceções previstas na própria lei (uso residencial unifamiliar, primeiro pavimento não residencial com pé direito de até 6m, edificação industrial, entre outras):",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "2,50 metros"
+        },
+        {
+          "letra": "B",
+          "texto": "3,00 metros"
+        },
+        {
+          "letra": "C",
+          "texto": "3,50 metros"
+        },
+        {
+          "letra": "D",
+          "texto": "4,00 metros"
+        },
+        {
+          "letra": "E",
+          "texto": "5,00 metros"
+        }
+      ],
+      "correta": "C",
+      "comentario": "Art. 131: pavimentos com pé direito SUPERIOR a 3,50 metros têm sua área computada em dobro no CA, salvo as exceções do §1º (ex.: residência unifamiliar, primeiro pavimento não residencial até 6m de pé direito, indústria) — regra pensada para desestimular pés direitos excessivamente altos sem correspondência real de área útil."
+    },
+    {
+      "id": "leismun091",
+      "tema": "uso-e-ocupacao-do-solo-de-contagem-mg-plano-diretor-decreto-1837-2026",
+      "temaNome": "Uso e Ocupacao do Solo de Contagem/MG (Plano Diretor + Decreto 1837/2026)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com o Plano Diretor de Contagem/MG (art. 133), a Taxa de Permeabilidade exigida em qualquer terreno do Município é definida em função de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas da renda média do bairro onde se situa o terreno"
+        },
+        {
+          "letra": "B",
+          "texto": "Zoneamento e bacia hidrográfica onde o terreno estiver situado"
+        },
+        {
+          "letra": "C",
+          "texto": "Exclusivamente da área total do terreno, independente da localização"
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas do uso residencial ou não residencial da edificação"
+        },
+        {
+          "letra": "E",
+          "texto": "Decisão discricionária do órgão ambiental, sem parâmetro legal pré-definido"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 133: a Taxa de Permeabilidade é definida por zoneamento e bacia hidrográfica onde o terreno estiver situado (conforme Anexo VIII da LC 362/2023), podendo, em alguns casos, ser substituída por caixa de retenção e/ou piso drenante."
+    },
+    {
+      "id": "leismun092",
+      "tema": "uso-e-ocupacao-do-solo-de-contagem-mg-plano-diretor-decreto-1837-2026",
+      "temaNome": "Uso e Ocupacao do Solo de Contagem/MG (Plano Diretor + Decreto 1837/2026)",
+      "tipo": "multipla",
+      "enunciado": "Segundo o Decreto nº 1.837/2026, que regulamenta a ocupação do solo prevista no Plano Diretor de Contagem/MG, para o cálculo do Coeficiente de Aproveitamento em edificação situada sobre conjunto de lotes ou glebas contíguos em zonas distintas, o Coeficiente de Aproveitamento UTILIZADO (CA) do conjunto é obtido:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Multiplicando a área de cada lote pelo CA máximo de sua respectiva zona"
+        },
+        {
+          "letra": "B",
+          "texto": "Dividindo a área líquida da edificação pela área total do conjunto de lotes ou glebas envolvidos"
+        },
+        {
+          "letra": "C",
+          "texto": "Somando os CAs máximos de todas as zonas envolvidas, sem ponderação por área"
+        },
+        {
+          "letra": "D",
+          "texto": "Adotando sempre o menor CA entre as zonas envolvidas, independentemente da área de cada lote"
+        },
+        {
+          "letra": "E",
+          "texto": "Multiplicando a área construída total pela taxa de permeabilidade da zona predominante"
+        }
+      ],
+      "correta": "B",
+      "comentario": "O Decreto 1.837/2026 estabelece que o CA utilizado do conjunto de lotes/glebas em zonas distintas é calculado dividindo-se a área líquida da edificação pela área total do conjunto envolvido — diferente do cálculo do CAMin, CAB e CAM do conjunto, que são obtidos multiplicando a área de cada lote pelo respectivo coeficiente (mínimo, básico ou máximo) da zona em que estiver situado, e somando os resultados."
+    },
+    {
+      "id": "leismun093",
+      "tema": "uso-e-ocupacao-do-solo-de-contagem-mg-plano-diretor-decreto-1837-2026",
+      "temaNome": "Uso e Ocupacao do Solo de Contagem/MG (Plano Diretor + Decreto 1837/2026)",
+      "tipo": "multipla",
+      "enunciado": "De acordo com o Decreto nº 1.837/2026 (Contagem/MG), o Licenciamento de Edificações (LE) pode ser efetuado de duas formas, sendo elas:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Presencial e digital, apenas"
+        },
+        {
+          "letra": "B",
+          "texto": "Declaratória ou integral"
+        },
+        {
+          "letra": "C",
+          "texto": "Simplificada e complexa"
+        },
+        {
+          "letra": "D",
+          "texto": "Provisória e definitiva, apenas"
+        },
+        {
+          "letra": "E",
+          "texto": "Municipal e estadual"
+        }
+      ],
+      "correta": "B",
+      "comentario": "Art. 6º do Decreto 1.837/2026: o LE poderá ser efetuado de forma declaratória ou integral, conforme as condições e requisitos definidos nos artigos seguintes do próprio decreto — a via declaratória é mais simplificada, tipicamente aplicável a casos de menor complexidade/risco urbanístico."
     }
   ]
 }
